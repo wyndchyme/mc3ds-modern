@@ -16,6 +16,7 @@ _This pack contains the following community-made mods from talented modders in t
 _Mods made specifically for this pack are made by wyndchyme (Dale)._
 
 This pack was compiled and is updated by wyndchyme (Dale). Please contact the owner of this repository before sharing for permission.
+
 ![2024-08-19_21-34-57 656_top](https://github.com/user-attachments/assets/665acb65-448f-42da-ba05-9b2726f312c9)
 ![2024-08-19_21-35-04 481_top](https://github.com/user-attachments/assets/3cb09855-6b4b-472c-9044-0825b12b523b)
 ![2024-08-31_00-17-30 084_top](https://github.com/user-attachments/assets/ea324208-11ed-41db-ad55-e900e3aab1be)
