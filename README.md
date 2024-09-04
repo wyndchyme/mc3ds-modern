@@ -1,4 +1,4 @@
-![03fbe15c-21e4-4b5f-b317-57274c1a1de1-1](https://github.com/user-attachments/assets/c487d411-4f34-4491-8b00-d6680ca647b9)
+![mmp png-autosave](https://github.com/user-attachments/assets/c5fc8eae-5deb-448c-b36d-5cfb0f46c74c)
 A MODPACK FOR MINECRAFT: NEW NINTENDO 3DS EDITION
 
   This pack endeavors to raise MC3DS to the standards of Mojang today. This includes a full replacement of all vanilla textures with the textures introduced in 1.14, a darker, cleaner UI, a new font, parity changes, fixes, and much, much more. 
