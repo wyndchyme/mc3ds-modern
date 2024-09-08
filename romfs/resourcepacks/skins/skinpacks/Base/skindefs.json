@@ -1,0 +1,26 @@
+{
+  "geometry": "skinpacks/skins.json",
+  "skins": [
+    {
+      "name": "Alex",
+      "id": "skinpacks/Base/alex",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skinpacks/Base/alex",
+      "type": "Free"
+    },
+    {
+      "name": "Steve",
+      "id": "skinpacks/Base/steve",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "skinpacks/Base/steve",
+      "type": "Free"
+    },
+    {
+      "name": "Dummy",
+      "id": "skinpacks/Base/dummy",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "skinpacks/Base/dummy",
+      "type": "Custom"
+    }
+  ]
+}
