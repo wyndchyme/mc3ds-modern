@@ -1,7 +1,7 @@
 ![mmp png-autosave](https://github.com/user-attachments/assets/c5fc8eae-5deb-448c-b36d-5cfb0f46c74c)
 A MODPACK FOR MINECRAFT: NEW NINTENDO 3DS EDITION
 
-  This pack endeavors to raise MC3DS to the standards of Mojang today. This includes a full replacement of all vanilla textures with the textures introduced in 1.14, a darker, cleaner UI, a new font, parity changes, fixes, and much, much more. 
+  This pack endeavors to raise MC3DS to the standards of Mojang today. This includes a full replacement of all vanilla textures with the textures introduced in 1.14, a darker, cleaner UI, new water colors, a new font, parity changes, fixes, and much, much more. 
 
 _This pack contains the following community-made mods from talented modders in the MC3DS community, as well as mods made specifically for this pack:_
   - Cracko298's Enhanced Particles patch
@@ -17,11 +17,13 @@ _Mods made specifically for this pack are made by wyndchyme (Dale)._
 
 This pack was compiled and is updated by wyndchyme (Dale). Please contact the owner of this repository before sharing for permission.
 
-![2024-08-19_21-34-57 656_top](https://github.com/user-attachments/assets/665acb65-448f-42da-ba05-9b2726f312c9)
-![2024-08-19_21-35-04 481_top](https://github.com/user-attachments/assets/3cb09855-6b4b-472c-9044-0825b12b523b)
-![2024-08-31_00-17-30 084_top](https://github.com/user-attachments/assets/ea324208-11ed-41db-ad55-e900e3aab1be)
-![2024-08-31_00-17-30 084_bot](https://github.com/user-attachments/assets/88033442-953c-4c18-8236-87e416875eb2)
-![2024-08-31_00-19-53 192_bot](https://github.com/user-attachments/assets/02327589-eb22-46e1-aa59-2a24ebd42fad)
-![2024-08-31_00-19-53 192_top](https://github.com/user-attachments/assets/5920a0ae-593b-476e-aa8f-de126584d0ff)
-![2024-08-31_00-21-04 405_bot](https://github.com/user-attachments/assets/1037f369-ea66-432c-b6a2-706dd5c2b36a)
-![2024-08-31_00-21-04 405_top](https://github.com/user-attachments/assets/1cc84961-2272-4f20-a2d6-d8885d226975)
+![2024-09-08_11-35-57 158_top](https://github.com/user-attachments/assets/59f9e4e1-d041-4db4-ac67-1bbe55446720)
+![2024-09-08_11-35-57 158_bot](https://github.com/user-attachments/assets/c69118c4-b303-4156-bd40-e0e4aa8e2b4b)
+![2024-09-08_11-36-52 990_top](https://github.com/user-attachments/assets/7ed1508a-efe1-4eb3-b482-bb8e54ff96d1)
+![2024-09-08_11-36-07 656_bot](https://github.com/user-attachments/assets/d1f73393-59f8-4f07-9dde-514847c8d47b)
+![2024-09-08_11-37-21 202_top](https://github.com/user-attachments/assets/94ec9c2b-ff32-46ed-a5ac-2ab36685d9bc)
+![2024-09-08_11-37-21 202_bot](https://github.com/user-attachments/assets/1b4bad92-8102-4bcf-adfd-3b0f5650c674)
+![2024-09-08_11-37-48 764_top](https://github.com/user-attachments/assets/28c26512-cb3e-4285-b669-4d3b073f2211)
+![2024-09-08_11-39-20 789_bot](https://github.com/user-attachments/assets/8aa9d75c-fc80-4371-ada5-bfafa33d4e31)
+![2024-09-08_11-39-11 162_top](https://github.com/user-attachments/assets/1f80d61a-b79e-4504-a91c-869f08cc2a72)
+![2024-09-08_11-39-11 162_bot](https://github.com/user-attachments/assets/597f798f-560e-4c4a-8d57-6389ba9e8f14)
