@@ -6,7 +6,6 @@ Welcome to Modernization MegaPack 1.4.0!| #de59dc
 - Added Modernization MegaPack logo to top of in-game credits| h26
 - Adjusted text colors for Modernization MegaPack credits to match logo| h26
 - Installed Modernization MegaPack version is now displayed next to "Patch Notes" text in Options menu| h26
-- Auto save warning text is now more concise| h26
 - Sugar cane has again been adjusted to be more vibrant in color| h26
 - "Done!" text at completion of world load has been changed to "Let's Go!" for parity with Bedrock Edition| h26
 - Slightly adjusted pause icon on pause menu to appear more 3D| h26
