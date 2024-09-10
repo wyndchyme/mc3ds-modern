@@ -7,7 +7,7 @@ Welcome to Modernization MegaPack 1.5.0!| #40eb3d
 - Removed a variety of redundant files| h26
 
 | h32
-Welcome to Modernization MegaPack 1.4.0!| #de59dc
+Welcome to Modernization MegaPack 1.4.0!| #f5aa42
 | h22
 - Water now is now more teal in color to match post-Update Aquatic water| h26
 - All blocks now use proper, correct mipmapping| h26
