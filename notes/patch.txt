@@ -4,6 +4,7 @@ Welcome to Modernization MegaPack 1.5.0!| #40eb3d
 - Added ability to swap between original Minecraft font and Unicode font in Languages menu (overwrites Russian language file)| h26
 - Fixed a bug where bat textures would display incorrectly in texture packs other than the default pack| h26
 - "Elytra Wings" has been renamed to "Elytra" for parity with other Minecraft versions| h26
+- "Cooked Beef" has been renamed to "Steak" for parity with Bedrock Edition 1.21.30| h26
 - Removed a variety of redundant files| h26
 - Removed errors in 1.4.0 and 1.3.0 patch notes| h26
 
