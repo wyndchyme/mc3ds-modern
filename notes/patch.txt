@@ -1,7 +1,7 @@
 Welcome to Modernization MegaPack 1.5.0!| #40eb3d
 | h22
 - Added Classic texture pack, which implements Java Edition Alpha-esque textures (overwrites Candy texture pack)| h26
-- Updated default pack icon| h26
+- Added ability to swap between original Minecraft font and Unicode font in Languages menu (overwrites Russian language file)| h26
 - Fixed a bug where bat textures would display incorrectly in texture packs other than the default pack| h26
 - "Elytra Wings" has been renamed to "Elytra" for parity with other Minecraft versions| h26
 - Removed a variety of redundant files| h26
