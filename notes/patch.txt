@@ -5,6 +5,7 @@ Welcome to Modernization MegaPack 1.5.0!| #40eb3d
 - Fixed a bug where bat textures would display incorrectly in texture packs other than the default pack| h26
 - "Elytra Wings" has been renamed to "Elytra" for parity with other Minecraft versions| h26
 - Removed a variety of redundant files| h26
+- Removed an error in 1.4.0 patch notes| h26
 
 | h32
 Welcome to Modernization MegaPack 1.4.0!| #f5aa42
