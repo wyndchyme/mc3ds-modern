@@ -9,7 +9,6 @@ _This pack contains the following community-made mods from talented modders in t
   - TheRustico36's Cleann'slick GUI (v3.1) with adjustments made for this pack
   - TheRustico36's port of the post-Java 1.19.3 Steve and Alex skins
   - Zexlo's port of the post-Java 1.14 villager models and textures
-  - susbaconhairman's new microSD texture from Vanilla Remastered
   - STBUniverse's ports of the Caves & Cliffs Part II and Nether Update panoramas
   - STBUniverse's port of the new bat model and textures introduced in Java 1.20.3
     
