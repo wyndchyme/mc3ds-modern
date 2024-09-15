@@ -3,6 +3,8 @@ A MODPACK FOR MINECRAFT: NEW NINTENDO 3DS EDITION
 
   This pack endeavors to raise MC3DS to the standards of Mojang today. This includes a full replacement of all vanilla textures with the textures introduced in 1.14, a darker, cleaner UI, new water colors, a new font, parity changes, fixes, and much, much more. 
 
+  This pack now includes the Classic texture pack, which replicates the look of Java Edition Alpha!
+
 _This pack contains the following community-made mods from talented modders in the MC3DS community, as well as mods made specifically for this pack:_
   - Cracko298's Enhanced Particles patch
   - Cracko298's port of the Mojangles (default Minecraft & MC3DS 1.0) font
