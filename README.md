@@ -1,6 +1,36 @@
 ![mmp png-autosave](https://github.com/user-attachments/assets/c5fc8eae-5deb-448c-b36d-5cfb0f46c74c)
-# A MODPACK FOR MINECRAFT: NEW NINTENDO 3DS EDITION
+
+# Table of Contents
+- [Overview](#overview)
+  * [Mods](#mods)
+- [Screenshots](#screenshots)
+
 # Overview
+This is a modpack for Minecraft: New Nintendo 3DS Edition that aims to modernize the game. This pack adds new texture packs (including a 100% conversion of the post-1.14 textures), a new look for the game's user interface and icons, the original Minecraft font, patches to improve the game's performance and the ability to swap between fonts at will in the Language menu.
+
+## Mods
+
+_This pack contains the following community-made mods from talented modders:_
+|Mod   |Creator   |Description   |Modified for this pack?   |Version (if applicable)   |
+|---|---|---|---|---|
+|1.14 Textures   |wyndchyme   |The new textures introduced starting in Java Edition 1.14. Overwrites default texture pack.  |Made for this pack   |N/A   |
+|Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |N/A   |
+|Cleann'slick GUI   |TheRustico36   |Adds a darker, cleaner UI and new icons.   |✓   |3.1/MMP   |
+|New Water Colors   |wyndchyme   |Adjusts the water color in the default texture pack to appear more similar to the post-Update Aquatic water.   |Made for this pack   |N/A   |
+|New Base Skins   |TheRustico36   |Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.   |✕   |1   |
+|New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |N/A   |
+|Enhanced Particles   |Cracko298   |Fixes a memory leak problem in vanilla related to particles.   |✕   |1   |
+|New Comparison Art   |wyndchyme   |Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.   |Made for this pack   |N/A   |
+|Mojangles Font   |Cracko298   |The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.   |✕   |1.0.1   |
+|Swappable Fonts   |wyndchyme   |Allows the font to be swapped to the Unicode font in the Language menu.   |Made for this pack   |N/A   |
+|New Background and Loading Animation   |wyndchyme   |Makes the dirt background completely black and replaces the stone breaking loading animation with a new animation inspired by Legacy Console Edition.   |Made for this pack   |N/A   |
+|1.20 Mob Textures   |Zexlo   |Ports (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.   |✓   |1/MMP   |
+|New Panoramas   |STBUniverse   |Adds new panoramas from Caves and Cliffs Part II and the Nether Update.   |✕   |N/A   |
+|Bat 1.20.3 Model   |STBUniverse   |Replaces the original bat model with the new model and textures introduced in Java Edition 1.20.3.   |✓   |v1.1.1/MMP   |
+|Font-friendly Credits   |wyndchyme   |Adjusts the credits and End Poem text files for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
+|Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Monster Egg -> Infested   |Made for this pack   |N/A   |
+|Font-compatible language files   |wyndchyme  |Replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
+
 _This pack contains the following community-made mods from talented modders in the MC3DS community, as well as mods made specifically for this pack:_
   - Cracko298's Enhanced Particles patch
   - Cracko298's port of the Mojangles (default Minecraft & MC3DS 1.0) font
@@ -14,7 +44,7 @@ _Mods made specifically for this pack are made by wyndchyme (Dale)._
 
 This pack was compiled and is updated by wyndchyme (Dale). Please contact the owner of this repository before sharing for permission.
 
-## Lorem ipsum
+# Screenshots
 
 ![2024-09-08_11-35-57 158_top](https://github.com/user-attachments/assets/59f9e4e1-d041-4db4-ac67-1bbe55446720)
 ![2024-09-08_11-35-57 158_bot](https://github.com/user-attachments/assets/c69118c4-b303-4156-bd40-e0e4aa8e2b4b)
