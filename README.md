@@ -28,7 +28,7 @@ _This pack contains the following community-made mods from talented modders:_
 |New Panoramas   |STBUniverse   |Adds new panoramas from Caves and Cliffs Part II and the Nether Update.   |✕   |N/A   |
 |Bat 1.20.3 Model   |STBUniverse   |Replaces the original bat model with the new model and textures introduced in Java Edition 1.20.3.   |✓   |v1.1.1/MMP   |
 |Font-friendly Credits   |wyndchyme   |Adjusts the credits and End Poem text files for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
-|Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Monster Egg -> Infested   |Made for this pack   |N/A   |
+|Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
 |Font-compatible language files   |wyndchyme  |Replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 
 _This pack contains the following community-made mods from talented modders in the MC3DS community, as well as mods made specifically for this pack:_
