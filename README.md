@@ -1,16 +1,6 @@
 ![mmp png-autosave](https://github.com/user-attachments/assets/c5fc8eae-5deb-448c-b36d-5cfb0f46c74c)
 # A MODPACK FOR MINECRAFT: NEW NINTENDO 3DS EDITION
-- [A MODPACK FOR MINECRAFT: NEW NINTENDO 3DS EDITION](#a-modpack-for-minecraft--new-nintendo-3ds-edition)
-  * [Overview](#overview)
-  * [Lorem ipsum](#lorem-ipsum)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-## Overview
-  This pack endeavors to raise MC3DS to the standards of Mojang today. This includes a full replacement of all vanilla textures with the textures introduced in 1.14, a darker, cleaner UI, new water colors, a new font, parity changes, fixes, and much, much more. 
-
-  This pack now includes the Classic texture pack, which replicates the look of Java Edition Alpha!
-
+# Overview
 _This pack contains the following community-made mods from talented modders in the MC3DS community, as well as mods made specifically for this pack:_
   - Cracko298's Enhanced Particles patch
   - Cracko298's port of the Mojangles (default Minecraft & MC3DS 1.0) font
@@ -36,3 +26,5 @@ This pack was compiled and is updated by wyndchyme (Dale). Please contact the ow
 ![2024-09-08_11-39-20 789_bot](https://github.com/user-attachments/assets/8aa9d75c-fc80-4371-ada5-bfafa33d4e31)
 ![2024-09-08_11-39-11 162_top](https://github.com/user-attachments/assets/1f80d61a-b79e-4504-a91c-869f08cc2a72)
 ![2024-09-08_11-39-11 162_bot](https://github.com/user-attachments/assets/597f798f-560e-4c4a-8d57-6389ba9e8f14)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
