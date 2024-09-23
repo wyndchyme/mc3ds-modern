@@ -24,7 +24,7 @@ _This pack contains the following community-made mods from talented modders:_
 |---|---|---|---|---|
 |1.14 Textures   |wyndchyme   |The new textures introduced starting in Java Edition 1.14. Overwrites default texture pack.  |Made for this pack   |N/A   |
 |Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |N/A   |
-|Cleann'slick GUI   |TheRustico36   |Adds a darker, cleaner UI and new icons.   |✓   |3.1/MMP   |
+|Cleann'slick GUI   |TheRustico36   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
 |New Water Colors   |wyndchyme   |Adjusts the water color in the default texture pack to appear more similar to the post-Update Aquatic water.   |Made for this pack   |N/A   |
 |New Base Skins   |TheRustico36   |Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.   |✕   |1   |
 |New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |N/A   |
@@ -33,9 +33,9 @@ _This pack contains the following community-made mods from talented modders:_
 |Mojangles Font   |Cracko298   |The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.   |✕   |1.0.1   |
 |Swappable Fonts   |wyndchyme   |Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.   |Made for this pack   |N/A   |
 |New Background and Loading Animation   |wyndchyme   |Makes the dirt background completely black and replaces the stone breaking loading animation with a new animation inspired by Legacy Console Edition.   |Made for this pack   |N/A   |
-|1.20 Mob Textures   |Zexlo   |Ports (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.   |✓   |1/MMP   |
+|1.20 Mob Textures   |Zexlo   |Ports (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.   |✓   |1-MMP   |
 |New Panoramas   |STBUniverse   |Adds new panoramas from Caves and Cliffs Part II and the Nether Update.   |✕   |N/A   |
-|Bat 1.20.3 Model   |STBUniverse   |Replaces the original bat model with the new model and textures introduced in Java Edition 1.20.3.   |✓   |v1.1.1/MMP   |
+|Bat 1.20.3 Model   |STBUniverse   |Replaces the original bat model with the new model and textures introduced in Java Edition 1.20.3.   |✓   |v1.1.1-MMP   |
 |Font-friendly Credits   |wyndchyme   |Adjusts the credits and End Poem text files for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
 |Font-compatible language files   |wyndchyme  |Replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
