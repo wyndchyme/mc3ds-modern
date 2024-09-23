@@ -48,7 +48,7 @@ _This pack contains the following community-made mods from talented modders:_
 _Requires access to a microSD card reader_ **OR** _an FTP client._
 
 1. Ensure that you have game patching enabled in your Luma settings by holding the Select button on startup. **If there is an '(x)' to the left of 'Enable game patching' in your Luma settings, then game patching is enabled.**
-2. Download the latest release of Modernization MegaPack **for your region** from the [releases page](https://github.com/wyndchyme/mc3ds-modern/releases.
+2. Download the latest release of Modernization MegaPack **for your region** from the [releases page](https://github.com/wyndchyme/mc3ds-modern/releases).
 3. Extract the .zip file you downloaded and look for a folder that starts with **'0004'.** This is the folder you will move onto your console.
 4. Open your console's microSD card using a microSD card reader or an FTP client.
 5. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
