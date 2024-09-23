@@ -9,6 +9,7 @@
     + [UPDATING MODERNIZATION MEGAPACK WITH UNIVERSAL-UPDATER](#updating-modernization-megapack-with-universal-updater)
   * [Method 3: Source Files (Not Recommended)](#method-3)
     + [UPDATING MODERNIZATION MEGAPACK FROM SOURCE FILES (NOT RECOMMENDED)](#updating-modernization-megapack-from-source-files)
+- [Frequently Asked Questions](#frequently-asked-questions)
 - [Screenshots](#screenshots)
 
 # Overview
@@ -104,8 +105,29 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 **NOT RECOMMENDED**
 
 Delete the folder beginning with **'0004'** from the 'titles' directory and repeat the above process.
-# Screenshots
+# Frequently Asked Questions
 
+**Q: Does Modernization MegaPack affect world generation?**
+
+_A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game._
+
+**Q: Can Modernizaton MegaPack cause my game to crash?**
+
+_A: Extremely unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is likely an issue with that world, your microSD card, or your console. You can also try deleting the code.ips file in your mods folder and see if that helps._
+
+**Q: Why does installation on the UniStore take so long?**
+
+_A: The way the UniStore works is that it downloads the Modernization MegaPack .zip file and extracts each directory into its correct spot. The 3DS takes a long time to extract archived files, so this obviously takes longer than just moving the already extracted files onto your microSD card._
+
+**Q: On the UniStore, downloading Modernization MegaPack causes the download to fail, or the changes aren't showing even though I have game patching enabled!**
+
+_A: Ensure that your internet connection is working correctly. If it is, then this is likely an issue on the UniStore's end. File an issue on the [UniStore's GitHub repository.](https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/issues)_
+
+**Q: I have a suggestion for Modernization MegaPack! Where can I put it?**
+
+_A: File an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
+
+# Screenshots
 ![2024-09-08_11-35-57 158_top](https://github.com/user-attachments/assets/59f9e4e1-d041-4db4-ac67-1bbe55446720)
 ![2024-09-08_11-35-57 158_bot](https://github.com/user-attachments/assets/c69118c4-b303-4156-bd40-e0e4aa8e2b4b)
 ![2024-09-08_11-36-52 990_top](https://github.com/user-attachments/assets/7ed1508a-efe1-4eb3-b482-bb8e54ff96d1)
