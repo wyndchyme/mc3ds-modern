@@ -86,7 +86,7 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern).
 3. Select 'Code' and 'Download ZIP'.
 4. Extract the .zip file you downloaded.
-5. Create a folder called 'romfs'. Move all folders (not all files) that were in the zip you downloaded into this folder.
+5. Create a folder called 'romfs'. Move all folders (excluding screenshots folder) that were in the zip you downloaded into this folder.
 6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID. These title IDs are:
    - For USA:
    00040000001B8700
@@ -128,15 +128,14 @@ _A: Ensure that your internet connection is working correctly. If it is, then th
 _A: File an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
 
 # Screenshots
-![2024-09-08_11-35-57 158_top](https://github.com/user-attachments/assets/59f9e4e1-d041-4db4-ac67-1bbe55446720)
-![2024-09-08_11-35-57 158_bot](https://github.com/user-attachments/assets/c69118c4-b303-4156-bd40-e0e4aa8e2b4b)
-![2024-09-08_11-36-52 990_top](https://github.com/user-attachments/assets/7ed1508a-efe1-4eb3-b482-bb8e54ff96d1)
-![2024-09-08_11-36-07 656_bot](https://github.com/user-attachments/assets/d1f73393-59f8-4f07-9dde-514847c8d47b)
-![2024-09-08_11-37-21 202_top](https://github.com/user-attachments/assets/94ec9c2b-ff32-46ed-a5ac-2ab36685d9bc)
-![2024-09-08_11-37-21 202_bot](https://github.com/user-attachments/assets/1b4bad92-8102-4bcf-adfd-3b0f5650c674)
-![2024-09-08_11-37-48 764_top](https://github.com/user-attachments/assets/28c26512-cb3e-4285-b669-4d3b073f2211)
-![2024-09-08_11-39-20 789_bot](https://github.com/user-attachments/assets/8aa9d75c-fc80-4371-ada5-bfafa33d4e31)
-![2024-09-08_11-39-11 162_top](https://github.com/user-attachments/assets/1f80d61a-b79e-4504-a91c-869f08cc2a72)
-![2024-09-08_11-39-11 162_bot](https://github.com/user-attachments/assets/597f798f-560e-4c4a-8d57-6389ba9e8f14)
+![mc3ds-modern-6](https://github.com/user-attachments/assets/736c081e-613b-4001-9766-38b2657d10ac)
+![mc3ds-classic-textures-1](https://github.com/user-attachments/assets/a3ae2e36-708d-4b5c-8429-0a1b6687c67f)
+![mc3ds-modern-5](https://github.com/user-attachments/assets/84ce88fe-69de-4528-8453-728a0dc12d6e)
+![mc3ds-modern-4](https://github.com/user-attachments/assets/07b0b12f-e500-416b-829b-d1a432673d75)
+![mc3ds-modern-2](https://github.com/user-attachments/assets/4b878960-bf88-4430-99df-f3366253c59d)
+![mc3ds-modern-1](https://github.com/user-attachments/assets/ecd74084-e090-4ec6-8ca4-a46b44ecf1cc)
+![mc3ds-classic-textures-3](https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f)
+![mc3ds-classic-textures-2](https://github.com/user-attachments/assets/1fc05969-28f1-401c-b411-be07abb7b64f)
+![mc3ds-modern-3](https://github.com/user-attachments/assets/e998519c-58a8-48a5-9b5d-56f9db6b9dc3)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
