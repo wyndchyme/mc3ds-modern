@@ -129,7 +129,7 @@ _A: Contributions are welcome! Fork the repository, make your changes, and then 
 
 **Q: I have a suggestion for Modernization MegaPack! Where can I put it?**
 
-_A: File an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
+_A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
 
 # Screenshots
 ![mc3ds-modern-6](https://github.com/user-attachments/assets/736c081e-613b-4001-9766-38b2657d10ac)
