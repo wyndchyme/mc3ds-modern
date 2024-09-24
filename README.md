@@ -107,6 +107,10 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 Delete the folder beginning with **'0004'** from the 'titles' directory and repeat the above process.
 # Frequently Asked Questions
 
+**Q: How large is Modernization MegaPack?**
+
+_A: As of v1.5.1, the extracted files amount to 30.8 MB._
+
 **Q: Does Modernization MegaPack affect world generation?**
 
 _A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game._
