@@ -123,6 +123,10 @@ _A: The way the UniStore works is that it downloads the Modernization MegaPack .
 
 _A: Ensure that your internet connection is working correctly. If it is, then this is likely an issue on the UniStore's end. File an issue on the [UniStore's GitHub repository.](https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/issues)_
 
+**Q: I have a contribution for Modernization MegaPack! Where can I put it?**
+
+_A: Contributions are welcome! Fork the repository, make your changes, and then file a pull request._
+
 **Q: I have a suggestion for Modernization MegaPack! Where can I put it?**
 
 _A: File an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
