@@ -1,5 +1,4 @@
 ![mmp png-autosave](https://github.com/user-attachments/assets/c5fc8eae-5deb-448c-b36d-5cfb0f46c74c)
-![Static Badge](https://img.shields.io/badge/release-1.5.1-blue)
 # Table of Contents 
 - [Overview](#overview)
   * [Mods](#mods)
