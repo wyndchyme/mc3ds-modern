@@ -77,7 +77,7 @@ _Requires internet access on your New Nintendo 3DS system and Universal-Updater.
 
 ### UPDATING MODERNIZATION MEGAPACK WITH UNIVERSAL-UPDATER
 
-In the Minecraft 3DS Community Unistore, navigate to 'Customization Removal' and press 'A' while you have it selected. Note that this will delete all mods you have installed. Reinstall Modernization MegaPack by repeating steps 5-10 above. Note that the UniStore may take some time to the latest version of Modernization MegaPack.
+In the Minecraft 3DS Community Unistore, navigate to 'Customization Removal' and press 'A' while you have it selected. Note that this will delete all mods you have installed. Reinstall Modernization MegaPack by repeating steps 5-10 above. Note that the UniStore may take some time to add the latest version of Modernization MegaPack.
 
 ## Method 3
 ### Source Files (Not Recommended)
