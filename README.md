@@ -117,7 +117,7 @@ _A: No, world generation is not affected so the pack retains 100% compatibility 
 
 **Q: Can Modernizaton MegaPack cause my game to crash?**
 
-_A: Extremely unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is likely an issue with that world, your microSD card, or your console. You can also try deleting the "sd:/luma/titles/0004.../code.ips" file in your mods folder and see if that helps. (USA only)_
+_A: Extremely unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is likely an issue with that world, your microSD card, or your console._
 
 **Q: Why does installation on the UniStore take so long?**
 
