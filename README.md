@@ -28,7 +28,6 @@ _This pack contains the following community-made mods from talented modders:_
 |New Water Colors   |wyndchyme   |Adjusts the water color in the default texture pack to appear more similar to the post-Update Aquatic water.   |Made for this pack   |N/A   |
 |New Base Skins   |TheRustico36   |Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.   |✕   |1   |
 |New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |N/A   |
-|Enhanced Particles   |Cracko298   |Fixes a memory leak problem in vanilla related to particles.   |✕   |1   |
 |New Comparison Art   |wyndchyme   |Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.   |Made for this pack   |N/A   |
 |Mojangles Font   |Cracko298   |The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.   |✕   |1.0.1   |
 |Swappable Fonts   |wyndchyme   |Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.   |Made for this pack   |N/A   |
