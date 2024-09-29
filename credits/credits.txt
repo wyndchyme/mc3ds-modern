@@ -3,7 +3,6 @@ textures/gui/icons/Nintendo-Logo.png| tImage s1 iw128 ih32 iu0 iv0 isu128 isv32
 Modders| #eb9534
 |h20
 Cracko298| #ebcf34
-Enhanced Particles| #b88d39
 Mojangles Font| #b88d39
 |h20
 TheRustico36| #ebcf34
