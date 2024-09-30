@@ -1,5 +1,5 @@
 ![logo](https://github.com/user-attachments/assets/9b35ec40-3680-4586-939b-3c0dbbdb585e)
-![Static Badge](https://img.shields.io/badge/release-1.5.2-green)
+![Static Badge](https://img.shields.io/badge/release-1.5.2-darkgreen)
 ![Static Badge](https://img.shields.io/badge/for-1.9.19-purple)
 ![Static Badge](https://img.shields.io/badge/size-31%20MB-red)
 ![Static Badge](https://img.shields.io/badge/avaliable%20on-UniStore-blue)
