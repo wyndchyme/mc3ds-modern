@@ -20,7 +20,7 @@
 # Overview
 This is a modpack for Minecraft: New Nintendo 3DS Edition that aims to modernize the game. This pack adds new texture packs (including a 100% conversion of the post-1.14 textures), a new look for the game's user interface and icons, the original Minecraft font, the ability to swap between fonts at will in the Language menu, and more.
 
-__This pack only officially supports English (US) and English (UK). Other languages can be used but will have lesser compatibility with Modernization MegaPack.__
+__This pack only officially supports English (US) and English (UK). Other languages can be used but will have lesser compatibility with Modernization MegaPack and the larger font.__
 
 ## Mods
 
