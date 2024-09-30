@@ -1,4 +1,9 @@
 ![mmp png-autosave](https://github.com/user-attachments/assets/c5fc8eae-5deb-448c-b36d-5cfb0f46c74c)
+![Static Badge](https://img.shields.io/badge/release-1.5.2-green)
+![Static Badge](https://img.shields.io/badge/for-1.9.19-purple)
+![Static Badge](https://img.shields.io/badge/size-31%20MB-red)
+![Static Badge](https://img.shields.io/badge/avaliable%20on-UniStore-blue)
+![Static Badge](https://img.shields.io/badge/avaliable%20on-GitHub-yellow)
 # Table of Contents 
 - [Overview](#overview)
   * [Mods](#mods)
@@ -109,7 +114,7 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 
 **Q: How large is Modernization MegaPack?**
 
-_A: As of v1.5.1, the extracted files amount to 30.8 MB._
+_A: As of v1.5.2, the extracted files amount to around 31 MB._
 
 **Q: Does Modernization MegaPack affect world generation?**
 
