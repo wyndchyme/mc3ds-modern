@@ -11,6 +11,7 @@
 # Table of Contents 
 - [Overview](#overview)
   * [Mods](#mods)
+- [Requirements](#requirements)
 - [Installation](#installation)
   * [Method 1: Manual (Fastest)](#method-1)
     + [MANUALLY UPDATING MODERNIZATION MEGAPACK](#manually-updating-modernization-megapack)
@@ -50,6 +51,13 @@ _This pack contains the following community-made mods from talented modders:_
 |New Mojang/Other Ocean logos   |wyndchyme   |Replaces the Mojang and Other Ocean logos that appear on game start with their newer equivalents.   |Made for this pack   |N/A   |
 
 **Pack compiled and maintained by wyndchyme.**
+
+# Requirements
+- A physical/digital copy of Minecraft: New Nintendo 3DS Edition
+- Update 1.9.19 installed on your console
+- Purchased DLC (for access to Classic texture pack)
+
+_DLC for Minecraft: New Nintendo 3DS Edition is no longer avaliable for download as of 27 March 2023, apart from using third-party tools found on the internet to activate the full set of DLC released over the game's lifespan. The use of these tools can be considered piracy and is not endorsed by Modernization MegaPack._
 
 # Installation
 ## Method 1
