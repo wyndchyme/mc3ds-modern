@@ -142,7 +142,7 @@ _A: The way the UniStore works is that it downloads the Modernization MegaPack a
 
 **Q: On the UniStore, downloading Modernization MegaPack causes the download to fail, or the changes aren't showing even though I have game patching enabled!**
 
-_A: Ensure that your internet connection is working correctly. If it is, then this is likely an issue on the UniStore's end. File an issue on the [UniStore's GitHub repository.](https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/issues)_
+_A: Ensure that your internet connection is working correctly. If it is, then this is likely an issue on the UniStore's end. File an issue on the [UniStore's GitHub repository.](https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/issues) In the meantime, please refer to Method 1._
 
 **Q: I have a contribution for Modernization MegaPack! Where can I put it?**
 
