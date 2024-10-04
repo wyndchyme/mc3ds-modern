@@ -132,7 +132,7 @@ _A: As of v1.5.2, the extracted files amount to around 31 MB._
 
 _A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game._
 
-**Q: Can Modernizaton MegaPack cause my game to crash?**
+**Q: Can Modernization MegaPack cause my game to crash?**
 
 _A: Extremely unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is likely an issue with that world, your microSD card, or your console._
 
