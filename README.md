@@ -21,6 +21,7 @@
     + [UPDATING MODERNIZATION MEGAPACK FROM SOURCE FILES (NOT RECOMMENDED)](#updating-modernization-megapack-from-source-files)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Screenshots](#screenshots)
+- [Legal](#legal)
 
 # Overview
 This is a modpack for Minecraft: New Nintendo 3DS Edition that aims to modernize the game. This pack adds new texture packs (including a 100% conversion of the post-1.14 textures), a new look for the game's user interface and icons, the original Minecraft font, the ability to swap between fonts at will in the Language menu, and more.
@@ -162,5 +163,9 @@ _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issue
 ![mc3ds-classic-textures-3](https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f)
 ![mc3ds-classic-textures-2](https://github.com/user-attachments/assets/1fc05969-28f1-401c-b411-be07abb7b64f)
 ![mc3ds-modern-3](https://github.com/user-attachments/assets/e998519c-58a8-48a5-9b5d-56f9db6b9dc3)
+
+# Legal
+
+This project is published without a license file attached and therefore defaults to all rights reserved by the repository owner, including copyright. Do not distribute this pack or modified versions of this pack without explicit permission.
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
