@@ -102,7 +102,7 @@ In the Minecraft 3DS Community Unistore, navigate to 'Customization Removal' and
 _Prerelease builds may be unstable or contain unfinished features. Not recommended for general use, please refer to Method 1 or 2._
 
 1. Ensure that you have game patching enabled in your Luma settings by holding the Select button on startup. **If there is an '(x)' to the left of 'Enable game patching' in your Luma settings, then game patching is enabled.**
-2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern).
+2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern)
 3. Select 'Code' and 'Download ZIP'.
 4. Extract the .zip file you downloaded.
 5. Create a folder called 'romfs'. Move all folders (excluding screenshots and icons folders) that were in the zip you downloaded into this folder.
