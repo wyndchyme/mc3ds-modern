@@ -56,6 +56,7 @@ _This pack contains the following community-made mods from talented modders:_
 # Requirements
 - A physical/digital copy of Minecraft: New Nintendo 3DS Edition
 - Update 1.9.19 installed on your console
+- Custom firmware (Luma)
 - Purchased DLC (for access to Classic texture pack)
 
 _DLC for Minecraft: New Nintendo 3DS Edition is no longer avaliable for download as of 27 March 2023, apart from using third-party tools found on the internet to activate the full set of DLC released over the game's lifespan. The use of these tools can be considered piracy and is not endorsed by Modernization MegaPack._
