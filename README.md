@@ -167,6 +167,6 @@ _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issue
 
 # Legal
 
-This project is published without a license file attached and therefore defaults to all rights reserved by the repository owner, including copyright. Do not distribute this pack or modified versions of this pack without explicit permission.
+This project is published without a license file attached and therefore defaults to all rights reserved by the repository owner, including copyright. Do not distribute this pack (or modified versions) of this pack without explicit permission.
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
