@@ -3,7 +3,7 @@
  
  ![GitHub Release](https://img.shields.io/github/v/release/wyndchyme/mc3ds-modern?color=darkgreen)
  ![Static Badge](https://img.shields.io/badge/for-1.9.19-purple)
- ![Static Badge](https://img.shields.io/badge/size-31%20MB-red)
+ ![GitHub repo size](https://img.shields.io/github/repo-size/wyndchyme/mc3ds-modern?color=red)
  ![Static Badge](https://img.shields.io/badge/avaliable%20on-UniStore-blue)
  ![Static Badge](https://img.shields.io/badge/avaliable%20on-GitHub-yellow)
 </div>
