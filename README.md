@@ -21,6 +21,7 @@
     + [UPDATING MODERNIZATION MEGAPACK FROM SOURCE FILES (NOT RECOMMENDED)](#updating-modernization-megapack-from-source-files)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Screenshots](#screenshots)
+- [Personnel](#personnel)
 - [Legal](#legal)
 
 # Overview
@@ -164,6 +165,25 @@ _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issue
 ![mc3ds-classic-textures-3](https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f)
 ![mc3ds-classic-textures-2](https://github.com/user-attachments/assets/1fc05969-28f1-401c-b411-be07abb7b64f)
 ![mc3ds-modern-3](https://github.com/user-attachments/assets/e998519c-58a8-48a5-9b5d-56f9db6b9dc3)
+
+# Personnel 
+### Modders
+Cracko298
+TheRustico36
+STBUniverse
+wyndchyme
+Zexlo
+
+### Distribution
+Nawrek
+
+### Compiled by
+wyndchyme
+
+### Thanks to
+Cracko298
+STBUniverse
+Nawrek
 
 # Legal
 
