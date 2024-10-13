@@ -168,22 +168,30 @@ _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issue
 
 # Personnel 
 ### Modders
-Cracko298
-TheRustico36
-STBUniverse
-wyndchyme
-Zexlo
+_Modders who chose to include their work in Modernization MegaPack._
+
+- Cracko298
+- TheRustico36
+- STBUniverse
+- wyndchyme
+- Zexlo
 
 ### Distribution
-Nawrek
+_Those involved in the distribution of Modernization MegaPack on the Minecraft 3DS UniStore._
+
+- Nawrek
 
 ### Compiled by
-wyndchyme
+_Those involved in the creation and continued maintence of Modernization MegaPack._
+
+- wyndchyme
 
 ### Thanks to
-Cracko298
-STBUniverse
-Nawrek
+_Those who helped greatly in the development of Modernization MegaPack._
+
+- Cracko298
+- STBUniverse
+- Nawrek
 
 # Legal
 
