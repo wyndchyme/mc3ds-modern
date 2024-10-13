@@ -167,8 +167,9 @@ _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issue
 ![mc3ds-modern-3](https://github.com/user-attachments/assets/e998519c-58a8-48a5-9b5d-56f9db6b9dc3)
 
 # Personnel 
-### Modders
-_Modders who chose to include their work in Modernization MegaPack._
+<ins>__MODDERS__</ins>
+
+_Those who chose to include their work in Modernization MegaPack._
 
 - Cracko298
 - TheRustico36
@@ -176,17 +177,20 @@ _Modders who chose to include their work in Modernization MegaPack._
 - wyndchyme
 - Zexlo
 
-### Distribution
+<ins>__DISTRIBUTION__</ins>
+
 _Those involved in the distribution of Modernization MegaPack on the Minecraft 3DS UniStore._
 
 - Nawrek
 
-### Compiled by
-_Those involved in the creation and continued maintence of Modernization MegaPack._
+<ins>__COMPILED BY__</ins>
+
+_Those involved in the curation and continued maintence of Modernization MegaPack._
 
 - wyndchyme
 
-### Thanks to
+<ins>__THANKS TO__</ins>
+
 _Those who helped greatly in the development of Modernization MegaPack._
 
 - Cracko298
