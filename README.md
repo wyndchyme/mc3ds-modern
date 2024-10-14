@@ -115,11 +115,10 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
    - For JPN:
    000400000017FD00
 7. Move the 'romfs' folder you created earlier into the folder you created in step 6.
-8. If you are in the USA region, move the file named 'code.ips' into the folder you created in step 6 as well. If you are in EUR or JPN, skip this step.
-9. Open your console's microSD card using a microSD card reader or an FTP client.
-10. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
-11. Enter 'titles' and move the folder beginning with **'0004'** from step 6 into the 'titles' directory.
-12. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
+8. Open your console's microSD card using a microSD card reader or an FTP client.
+9. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
+10. Enter 'titles' and move the folder beginning with **'0004'** from step 6 into the 'titles' directory.
+11. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
 
 ### UPDATING MODERNIZATION MEGAPACK FROM SOURCE FILES
 **NOT RECOMMENDED**
