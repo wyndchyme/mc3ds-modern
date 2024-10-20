@@ -23,6 +23,7 @@
 - [Screenshots](#screenshots)
 - [Personnel](#personnel)
 - [Legal](#legal)
+  * [Standalone Packs](#standalone-packs)
 
 # Overview
 This is a modpack for Minecraft: New Nintendo 3DS Edition that aims to modernize the game. This pack adds new texture packs (including a 100% conversion of the post-1.14 textures), a new look for the game's user interface and icons, the original Minecraft font, the ability to swap between fonts at will in the Language menu, and more.
@@ -199,5 +200,14 @@ _Those who helped greatly in the development of Modernization MegaPack._
 # Legal
 
 This project is published without a license file attached and therefore defaults to all rights reserved by the repository owner, including copyright. Do not distribute this pack or modified versions of this pack without explicit permission.
+
+## Standalone Packs
+
+_Certain mods developed specifically for Modernization MegaPack have also been released as standalone mods, licensable under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0) for modification and use in modpacks. Links for these standalone packs can be found below:_ 
+
+- [Classic Textures](https://github.com/wyndchyme/mc3ds-classic-textures)
+- [New Achievement Art](https://github.com/wyndchyme/mc3ds-achievements)
+
+_You can request for a mod to be released as a standalone pack [here.](https://github.com/wyndchyme/mc3ds-achievements/issues)_
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
