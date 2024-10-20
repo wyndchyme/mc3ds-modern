@@ -125,6 +125,10 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 **NOT RECOMMENDED**
 
 Delete the folder beginning with **'0004'** from the 'titles' directory and repeat the above process.
+
+<br>
+
+
 # Frequently Asked Questions
 
 **Q: How large is Modernization MegaPack?**
@@ -155,6 +159,8 @@ _A: Contributions are welcome! Fork the repository, make your changes, and then 
 
 _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
 
+<br>
+
 # Screenshots
 ![mc3ds-modern-6](https://github.com/user-attachments/assets/736c081e-613b-4001-9766-38b2657d10ac)
 ![mc3ds-classic-textures-1](https://github.com/user-attachments/assets/a3ae2e36-708d-4b5c-8429-0a1b6687c67f)
@@ -165,6 +171,8 @@ _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issue
 ![mc3ds-classic-textures-3](https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f)
 ![mc3ds-classic-textures-2](https://github.com/user-attachments/assets/1fc05969-28f1-401c-b411-be07abb7b64f)
 ![mc3ds-modern-3](https://github.com/user-attachments/assets/e998519c-58a8-48a5-9b5d-56f9db6b9dc3)
+
+<br>
 
 # Personnel 
 <ins>__MODDERS__</ins>
@@ -196,6 +204,8 @@ _Those who helped greatly in the development of Modernization MegaPack._
 - Cracko298
 - STBUniverse
 - Nawrek
+
+<br>
 
 # Legal
 
