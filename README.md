@@ -25,6 +25,8 @@
 - [Legal](#legal)
   * [Standalone Packs](#standalone-packs)
 
+<br>
+
 # Overview
 This is a modpack for Minecraft: New Nintendo 3DS Edition that aims to modernize the game. This pack adds new texture packs (including a 100% conversion of the post-1.14 textures), a new look for the game's user interface and icons, the original Minecraft font, the ability to swap between fonts at will in the Language menu, and more.
 
@@ -55,6 +57,8 @@ _This pack contains the following community-made mods from talented modders:_
 
 **Pack compiled and maintained by wyndchyme.**
 
+<br>
+
 # Requirements
 - A physical/digital copy of Minecraft: New Nintendo 3DS Edition
 - Update 1.9.19 installed on your console
@@ -62,6 +66,8 @@ _This pack contains the following community-made mods from talented modders:_
 - Purchased DLC (for access to Classic texture pack)
 
 _DLC for Minecraft: New Nintendo 3DS Edition is no longer avaliable for download as of 27 March 2023, apart from using third-party tools found on the internet to activate the full set of DLC released over the game's lifespan. The use of these tools can be considered piracy and is not endorsed by Modernization MegaPack._
+
+<br>
 
 # Installation
 ## Method 1
