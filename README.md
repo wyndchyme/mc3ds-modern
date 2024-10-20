@@ -208,6 +208,6 @@ _Certain mods developed specifically for Modernization MegaPack have also been r
 - [Classic Textures](https://github.com/wyndchyme/mc3ds-classic-textures)
 - [New Achievement Art](https://github.com/wyndchyme/mc3ds-achievements)
 
-_You can request for a mod to be released as a standalone pack [here.](https://github.com/wyndchyme/mc3ds-achievements/issues)_
+_You can request for a mod to be released as a standalone pack [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
