@@ -200,7 +200,7 @@ _Those involved in the distribution of Modernization MegaPack on the Minecraft 3
 
 <ins>__COMPILED BY__</ins>
 
-_Those involved in the curation and continued maintence of Modernization MegaPack._
+_Those involved in the curation and continued maintenance of Modernization MegaPack._
 
 - wyndchyme
 
