@@ -139,7 +139,7 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 
 **Q: How large is Modernization MegaPack?**
 
-_A: As of 1.5.4, the extracted files amount to around 31.1 MB._
+_A: As of release 1.5.4, the extracted files amount to around 31.1 MB._
 
 **Q: Does Modernization MegaPack affect world generation?**
 
