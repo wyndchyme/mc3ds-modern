@@ -137,6 +137,12 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 
 # Frequently Asked Questions
 
+<details>
+ 
+<summary>Click to show/hide FAQs</summary>
+
+<br>
+
 **Q: How large is Modernization MegaPack?**
 
 _A: As of release 1.5.6, the extracted files amount to around 31.1 MB._
@@ -164,6 +170,9 @@ _A: Contributions are welcome! Fork the repository, make your changes, and then 
 **Q: I have a suggestion for Modernization MegaPack! Where can I put it?**
 
 _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
+
+ 
+</details>
 
 <br>
 
