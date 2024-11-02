@@ -34,6 +34,11 @@ __This pack only officially supports English (US) and English (UK). Other langua
 
 ## Mods
 
+<details>
+<summary>Click to show/hide mod list</summary>
+
+<br>
+
 _This pack contains the following community-made mods from talented modders:_
 |Mod   |Creator   |Description   |Modified for this pack?   |Version (if applicable)   |
 |---|---|---|---|---|
@@ -56,6 +61,8 @@ _This pack contains the following community-made mods from talented modders:_
 |New Mojang/Other Ocean logos   |wyndchyme   |Replaces the Mojang and Other Ocean logos that appear on game start with their newer equivalents.   |Made for this pack   |N/A   |
 
 **Pack compiled and maintained by wyndchyme.**
+ 
+</details>
 
 <br>
 
