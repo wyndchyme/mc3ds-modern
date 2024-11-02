@@ -3,7 +3,7 @@
 
 ; Handcoded by ENDERMANYK
 ; Edited by bomba-cat
-; Edited for Modernization MegaPack by wyndchyme
+; Edited by wyndchyme
 
 ; Uniforms
 .fvec WORLDVIEWPROJ[4]
