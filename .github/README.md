@@ -76,7 +76,7 @@ _Requires access to a microSD card reader_ **OR** _an FTP client._
 
 1. Ensure that you have game patching enabled in your Luma settings by holding the Select button on startup. **If there is an '(x)' to the left of 'Enable game patching' in your Luma settings, then game patching is enabled.**
 2. Download the latest release of Modernization MegaPack **for your region** from the [releases page](https://github.com/wyndchyme/mc3ds-modern/releases).
-3. Extract the .zip file you downloaded and look for a folder that starts with **'0004'.** This is the folder you will move onto your console.
+3. Extract the .ZIP file you downloaded and look for a folder that starts with **'0004'.** This is the folder you will move onto your console.
 4. Open your console's microSD card using a microSD card reader or an FTP client.
 5. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
 6. Enter 'titles' and move the folder beginning with **'0004'** from step 3 into the 'titles' directory.
@@ -112,8 +112,8 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 1. Ensure that you have game patching enabled in your Luma settings by holding the Select button on startup. **If there is an '(x)' to the left of 'Enable game patching' in your Luma settings, then game patching is enabled.**
 2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern)
 3. Select 'Code' and 'Download ZIP'.
-4. Extract the .zip file you downloaded.
-5. Create a folder called 'romfs'. Move all folders (excluding screenshots and icons folders) that were in the zip you downloaded into this folder.
+4. Extract the .ZIP file you downloaded.
+5. Create a folder called 'romfs'. Move all folders (excluding .github folder) that were in the ZIP you downloaded into this folder.
 6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID. These title IDs are:
    - For USA:
    00040000001B8700
