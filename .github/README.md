@@ -218,6 +218,10 @@ _Those who helped greatly in the development of Modernization MegaPack._
 
 This project is published without a license file attached and therefore defaults to all rights reserved by the repository owner, including copyright. Do not distribute this pack or modified versions of this pack without explicit permission.
 
+Modernization MegaPack (mc3ds-modern) © 2024 wyndchyme
+
+All Rights Reserved.
+
 ## Standalone Packs
 
 _Certain mods developed specifically for Modernization MegaPack have also been released as standalone mods, licensable under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0) for modification and use in modpacks. Links for these standalone packs can be found below:_ 
