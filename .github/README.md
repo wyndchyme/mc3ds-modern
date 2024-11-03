@@ -233,6 +233,8 @@ _Those who helped greatly in the development of Modernization MegaPack._
 - Cracko298
 - STBUniverse
 - Nawrek
+- ENDERMANYK
+- bomba.cat
 
 <br>
 
