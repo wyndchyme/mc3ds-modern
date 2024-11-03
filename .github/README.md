@@ -8,6 +8,8 @@
  [![Static Badge](https://img.shields.io/badge/avaliable%20on-GitHub-yellow)](https://github.com/wyndchyme/mc3ds-modern/releases/latest)
 </div>
 
+<br>
+
 # Table of Contents 
 - [Overview](#overview)
   * [Mods](#mods)
