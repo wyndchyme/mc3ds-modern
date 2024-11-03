@@ -20,7 +20,7 @@
 .constf const0(1.000000, -1.000000, 1.000000, 1.000000)
 .constf const1(0.003922, 0.003922, 0.003922, 0.003922)
 .constf const2(0.000000, 0.000000, 0.250000, 0.022346)
-.constf color(0.8, 0.8, 0.8, 0.65) ;Background Color and loading bar Color
+.constf color(0.0, 0.0, 0.0, 0.75) ;Background Color and loading bar Color
 
 ; normalizedepth
 .proc normalizedepth
