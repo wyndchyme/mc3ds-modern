@@ -216,7 +216,7 @@ _Those who chose to include their work in Modernization MegaPack._
 
 <ins>__DISTRIBUTION__</ins>
 
-_Those involved in the distribution of Modernization MegaPack on the Minecraft 3DS UniStore._
+_Those involved in the distribution of Modernization MegaPack on the Minecraft 3DS Community UniStore._
 
 - Nawrek
 
