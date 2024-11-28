@@ -80,6 +80,13 @@ _DLC for Minecraft: New Nintendo 3DS Edition is no longer avaliable for download
 <br>
 
 # Installation
+
+<details>
+
+<summary>Click to show/hide installation instructions</summary>
+
+<br>
+
 ## Method 1
 ### Manual (Fastest) 
 _Requires access to a microSD card reader_ **OR** _an FTP client._
@@ -146,8 +153,9 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 
 Delete the folder beginning with **'0004'** from the 'titles' directory and repeat the above process.
 
-<br>
+</details>
 
+<br>
 
 # Frequently Asked Questions
 
