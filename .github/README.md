@@ -11,6 +11,7 @@
 <br>
 
 # Table of Contents 
+
 - [Overview](#overview)
   * [Mods](#mods)
 - [Requirements](#requirements)
@@ -204,7 +205,14 @@ _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issue
 <br>
 
 # Personnel 
-<ins>__MODDERS__</ins>
+
+<details>
+
+<summary>Click to show/hide personnel</summary>
+
+<br>
+
+ <ins>__MODDERS__</ins>
 
 _Those who chose to include their work in Modernization MegaPack._
 
@@ -235,6 +243,8 @@ _Those who helped greatly in the development of Modernization MegaPack._
 - Nawrek
 - ENDERMANYK
 - bomba.cat
+
+</details>
 
 <br>
 
