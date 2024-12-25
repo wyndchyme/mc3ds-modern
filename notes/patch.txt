@@ -1,4 +1,4 @@
-Welcome to Modernization MegaPack 1.6.0!| #9d00ff
+Welcome to Modernization MegaPack 1.6.0!| #cf82ff
 | h22
 - Added Zexlo's Bedrock Wither mod| h26
 - Certain inventory/crafting and HUD icons in default and Classic texture packs have been redone, thanks to Zexlo| h26
