@@ -1,6 +1,6 @@
 Welcome to Modernization MegaPack 1.5.7!| #40eb3d
 | h22
-- Certain inventory/crafting icons in default texture pack have been redone, thanks to Zexlo| h26
+- Certain inventory/crafting and HUD icons in default texture pack have been redone, thanks to Zexlo| h26
 
 | h32
 Welcome to Modernization MegaPack 1.5.6!| #40eb3d
