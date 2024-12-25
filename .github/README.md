@@ -47,7 +47,7 @@ _This pack contains the following community-made mods from talented modders:_
 |---|---|---|---|---|
 |1.14 Textures   |wyndchyme   |The new textures introduced starting in Java Edition 1.14. Overwrites default texture pack.  |Made for this pack   |N/A   |
 |Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |N/A   |
-|Cleann'slick GUI   |TheRustico36, Zexlo   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
+|Cleann'slick GUI   |TheRustico36   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
 |New Water Colors   |wyndchyme   |Adjusts the water color in the default texture pack to appear more similar to the post-Update Aquatic water.   |Made for this pack   |N/A   |
 |New Base Skins   |TheRustico36   |Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.   |✕   |1   |
 |New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |N/A   |
