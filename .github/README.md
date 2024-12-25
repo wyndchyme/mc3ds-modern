@@ -62,6 +62,7 @@ _This pack contains the following community-made mods from talented modders:_
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
 |Font-compatible language files   |wyndchyme  |Replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |New Mojang/Other Ocean logos   |wyndchyme   |Replaces the Mojang and Other Ocean logos that appear on game start with their newer equivalents.   |Made for this pack   |N/A   |
+|Bedrock Wither    |Zexlo   |Replicates the Bedrock Edition Wither   |✕   |N/A
 
 **Pack compiled and maintained by wyndchyme.**
  
