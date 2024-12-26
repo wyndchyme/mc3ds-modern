@@ -1,3 +1,8 @@
+Welcome to Modernization MegaPack 1.7.0!| #ff70ff
+| h22
+- Lorem ipsum dolor sit amet| h26
+
+| h32
 Welcome to Modernization MegaPack 1.6.0!| #c46de5
 | h22
 - Added Zexlo's Bedrock Wither mod| h26
