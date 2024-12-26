@@ -6,8 +6,9 @@
  [![GitHub repo size](https://img.shields.io/github/repo-size/wyndchyme/mc3ds-modern?color=red)](https://github.com/wyndchyme/mc3ds-modern/commits/main/)
  [![Static Badge](https://img.shields.io/badge/avaliable%20on-UniStore-blue)](https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore)
  [![Static Badge](https://img.shields.io/badge/avaliable%20on-GitHub-yellow)](https://github.com/wyndchyme/mc3ds-modern/releases/latest)
-</div>
+
 
 <br>
 
 # THIS BRANCH HAS BEEN MERGED TO MAIN
+</div>
