@@ -1,10 +1,5 @@
 Welcome to Modernization MegaPack 1.7.0!| #ff70ff
 | h22
-- Lorem ipsum dolor sit amet| h26
-
-| h32
-Welcome to Modernization MegaPack 1.6.1!| #c46de5
-| h22
 - The color of arrows in the default texture pack spritesheet have been adjusted to appear more yellow| h26 
 
 | h32
