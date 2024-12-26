@@ -1,6 +1,7 @@
 Welcome to Modernization MegaPack 1.6.1!| #c46de5
 | h22
-- The color of arrows in the default texture pack spritesheet have been adjusted to appear more yellow| h26 
+- The color of arrows in the default texture pack spritesheet have been adjusted to appear more yellow| h26
+- "Welcome to..." headers in Patch Notes menu are now centered| h26
 
 | h32
 Welcome to Modernization MegaPack 1.6.0!| #c46de5
