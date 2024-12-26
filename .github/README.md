@@ -63,6 +63,7 @@ _This pack contains the following community-made mods from talented modders:_
 |Font-compatible language files   |wyndchyme  |Replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |New Mojang/Other Ocean logos   |wyndchyme   |Replaces the Mojang and Other Ocean logos that appear on game start with their newer equivalents.   |Made for this pack   |N/A   |
 |Bedrock Wither    |Zexlo   |Replicates the Bedrock Edition Wither, complete with spawning Wither Skeletons.   |✕   |N/A
+|Java Zombies and Husks   |Zexlo   |Allows Zombies and Husks to summon 'backup,' similar to Java Edition.   |✕   |N/A
 
 **Pack compiled and maintained by wyndchyme.**
  
