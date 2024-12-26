@@ -47,7 +47,7 @@ _This pack contains the following community-made mods from talented modders:_
 |---|---|---|---|---|
 |1.14 Textures   |wyndchyme   |The new textures introduced starting in Java Edition 1.14. Overwrites default texture pack.  |Made for this pack   |N/A   |
 |Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |N/A   |
-|Cleann'slick GUI   |TheRustico36, Zexlo   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
+|Cleann'slick GUI   |TheRustico36   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
 |New Water Colors   |wyndchyme   |Adjusts the water color in the default texture pack to appear more similar to the post-Update Aquatic water.   |Made for this pack   |N/A   |
 |New Base Skins   |TheRustico36   |Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.   |✕   |1   |
 |New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |N/A   |
@@ -62,6 +62,8 @@ _This pack contains the following community-made mods from talented modders:_
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
 |Font-compatible language files   |wyndchyme  |Replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |New Mojang/Other Ocean logos   |wyndchyme   |Replaces the Mojang and Other Ocean logos that appear on game start with their newer equivalents.   |Made for this pack   |N/A   |
+|Bedrock Wither    |Zexlo   |Replicates the Bedrock Edition Wither, complete with spawning Wither Skeletons.   |✕   |N/A
+|Java Zombies and Husks   |Zexlo   |Allows Zombies and Husks to summon 'backup,' similar to Java Edition.   |✕   |N/A
 
 **Pack compiled and maintained by wyndchyme.**
  
@@ -159,7 +161,7 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 
 **Q: How large is Modernization MegaPack?**
 
-_A: As of release 1.5.6, the extracted files amount to around 31.1 MB._
+_A: As of release 1.6.0, the extracted files amount to around 31.2 MB._
 
 **Q: Does Modernization MegaPack affect world generation?**
 

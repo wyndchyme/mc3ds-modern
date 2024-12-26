@@ -34,6 +34,8 @@ New Logos| #b88d39
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw48 ih17 iu156 iv81 isu48 isv17
 | h20
 1.20 Mob Textures| #b88d39
+Bedrock Wither| #b88d39
+Java Zombies and Husks| #b88d39
 |h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw97 ih11 iu97 iv98 isu97 isv11
 | h20
@@ -45,15 +47,17 @@ textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu82 iv81 isu74 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw97 ih11 iu97 iv109 isu97 isv11
 | h20
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw68 ih17 iu127 iv137 isu68 isv17
+| h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu69 iv64 isu74 isv17
+| h20
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw79 ih17 iu127 iv120 isu79 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw82 ih17 iu0 iv81 isu82 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw56 ih17 iu0 iv64 isu56 isv17
 | h20
-textures/gui/icons/Nintendo-Logo.png| tImage s2 iw79 ih17 iu127 iv120 isu79 isv17
-| h20
-textures/gui/icons/Nintendo-Logo.png| tImage s2 iw68 ih17 iu127 iv137 isu68 isv17
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw48 ih17 iu156 iv81 isu48 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s1 iw119 ih104 iu3 iv120 isu119 isv104
 | h20

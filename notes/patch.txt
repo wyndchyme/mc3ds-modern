@@ -1,5 +1,7 @@
-Welcome to Modernization MegaPack 1.5.7!| #40eb3d
+Welcome to Modernization MegaPack 1.6.0!| #c46de5
 | h22
+- Added Zexlo's Bedrock Wither mod| h26
+- Added Zexlo's Java Zombies and Husks mod| h26
 - Certain inventory/crafting and HUD icons in default and Classic texture packs have been redone, thanks to Zexlo| h26
 - Added bomba.cat, ENDERMANYK, and Zexlo to Special Thanks section within in-game credits| h26
 - Alphabetized names within in-game credits| h26
