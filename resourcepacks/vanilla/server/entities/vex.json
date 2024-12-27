@@ -1,0 +1,78 @@
+{
+  "minecraft:entity": {
+    "format_version": 0.1,
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:vex"
+      },
+
+      "minecraft:type_family": {
+        "family": [ "vex", "monster" ]
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/entities/vex_gear.json"
+      },
+      "minecraft:health": {
+        "value": 14,
+        "max": 14
+      },
+      "minecraft:attack": {
+        "damage": 3
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 1.2
+      },
+      "minecraft:movement": {
+        "value": 1.0
+      },
+        "minecraft:scale": {
+          "value": 1.5
+        },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/endermite.json"
+      }, 
+	  
+      "minecraft:navigation.walk": {
+        "can_float": true
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.charge_attack": {
+        "priority": 4
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "entity_types": [
+          {
+            "filters": { "other_with_families": [ "player", "villager", "irongolem" ] },
+            "max_dist": 70
+          }
+        ],
+        "must_see": true
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 9,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.look_at_entity": {
+        "priority": 9,
+        "look_distance": 6.0,
+        "probability": 0.02,
+        "filters": { "other_with_families": "mob" }
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      }
+    }
+  }
+}
