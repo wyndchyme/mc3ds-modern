@@ -1,5 +1,9 @@
 Welcome to Modernization MegaPack 1.6.1!| #c46de5
 | h22
+- Baby zombies now burn in sunlight, for parity with post-Java Edition 1.13 functionality| h26
+- Zombies will no longer attempt to break down doors in Normal and Easy difficulties| h26
+- Changed breaking down doors to be a rare trait only adult zombies can spawn with| h26
+- Added the ability for baby zombies to piggyback on adult zombies for parity with Bedrock Edition| h26
 - The color of arrows in the default texture pack spritesheet have been adjusted to appear more yellow| h26
 - "Welcome to..." headers in Patch Notes menu are now centered| h26
 
