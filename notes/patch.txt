@@ -1,15 +1,17 @@
-Welcome to Modernization MegaPack 1.6.1!| #c46de5
+Modernization MegaPack 1.6.1 "Canaletto"| #c46de5
 | h22
 - Baby zombies now burn in sunlight, for parity with post-Java Edition 1.13 functionality| h26
 - Zombies will no longer attempt to break down doors in Normal and Easy difficulties| h26
 - Changed breaking down doors to be a rare trait only adult zombies can spawn with| h26
 - Added the ability for baby zombies to piggyback on adult zombies for parity with Bedrock Edition| h26
 - The color of arrows in the default texture pack spritesheet have been adjusted to appear more yellow| h26
-- "Welcome to..." headers in Patch Notes menu are now centered| h26
+- Update codenames introduced starting in 1.6.0 "Rococo" will now be displayed in the Patch Notes menu| h26
+- Version headers in Patch Notes menu have been condensed| h26
+- Added 1.0.0 patch notes to in-game Patch Notes menu| h26
 - Added contributing guidelines to GitHub repository| h26
 
 | h32
-Welcome to Modernization MegaPack 1.6.0!| #c46de5
+Modernization MegaPack 1.6.0 "Rococo"| #c46de5
 | h22
 - Added Zexlo's Bedrock Wither mod| h26
 - Added Zexlo's Java Zombies and Husks mod| h26
@@ -18,18 +20,18 @@ Welcome to Modernization MegaPack 1.6.0!| #c46de5
 - Alphabetized names within in-game credits| h26
 
 | h32
-Welcome to Modernization MegaPack 1.5.6!| #40eb3d
+Modernization MegaPack 1.5.6| #40eb3d
 | h22
 - Fixed incorrect grass side texture for snow in Classic pack as well| h26
 - Added new textures for Nether Bricks and Red Nether Bricks in Classic pack| h26
 
 | h32
-Welcome to Modernization MegaPack 1.5.5!| #40eb3d
+Modernization MegaPack 1.5.5| #40eb3d
 | h22
 - Fixed incorrect grass side texture for snow| h26
 
 | h32
-Welcome to Modernization MegaPack 1.5.4!| #40eb3d
+Modernization MegaPack 1.5.4| #40eb3d
 | h22
 - Changed certain aspects of Classic pack GUI for more of a classic Minecraft feel| h26
 - Added outlines to more Classic food items| h26
@@ -42,7 +44,7 @@ Welcome to Modernization MegaPack 1.5.4!| #40eb3d
 - Version naming scheme in Patch Notes and GitHub repository is now consistent| h26
 
 | h32
-Welcome to Modernization MegaPack 1.5.3!| #40eb3d
+Modernization MegaPack 1.5.3| #40eb3d
 | h22
 - Completely revamped in-game credits, with new graphics, all mods included, and a "Thanks for Downloading" note at the end| h26
 - GUI has been tweaked to be cleaner| h26
@@ -58,7 +60,7 @@ Welcome to Modernization MegaPack 1.5.3!| #40eb3d
 - Added personnel to GitHub repository README| h26
 
 | h32
-Welcome to Modernization MegaPack 1.5.2!| #40eb3d
+Modernization MegaPack 1.5.2| #40eb3d
 | h22
 - Water in Classic texture pack is now bluer| h26
 - "Sea" and "Stage" paintings in Classic texture pack now use pre-Alpha v1.1.1 equivalents |h26
@@ -66,7 +68,7 @@ Welcome to Modernization MegaPack 1.5.2!| #40eb3d
 - Removed Enhanced Particles mod due to crashing issues reported by some users| h26
 
 | h32
-Welcome to Modernization MegaPack 1.5.1!| #40eb3d
+Modernization MegaPack 1.5.1| #40eb3d
 | h22
 - Updated crafting icon on bottom screen for default pack| h26
 - Button prompt icons have been tweaked and some are now more vibrant| h26
@@ -82,7 +84,7 @@ Welcome to Modernization MegaPack 1.5.1!| #40eb3d
 - Added Code of Conduct to GitHub repository| h26
 
 | h32
-Welcome to Modernization MegaPack 1.5.0!| #40eb3d
+Modernization MegaPack 1.5.0| #40eb3d
 | h22
 - Added Classic texture pack, which implements Java Edition Alpha-esque textures (overwrites Candy texture pack)| h26
 - Added ability to swap between original Minecraft font and Unicode font in Languages menu (overwrites Russian language file)| h26
@@ -97,7 +99,7 @@ Welcome to Modernization MegaPack 1.5.0!| #40eb3d
 - Removed errors in 1.4.0 and 1.3.0 patch notes| h26
 
 | h32
-Welcome to Modernization MegaPack 1.4.0!| #f5aa42
+Modernization MegaPack 1.4.0| #f5aa42
 | h22
 - Water now is now more teal in color to match post-Update Aquatic water| h26
 - All blocks now use proper, correct mipmapping| h26
@@ -111,7 +113,7 @@ Welcome to Modernization MegaPack 1.4.0!| #f5aa42
 - Prerelease builds can now be downloaded from GitHub repository| h26
 
 | h32
-Welcome to Modernization MegaPack 1.3.0!| #ffb469
+Modernization MegaPack 1.3.0| #ffb469
 | h22
 - Replaced world thumbnail texture with Caves and Cliffs Part II screenshot| h26
 - Replaced three inventory icons with new icons that use 1.14 block textures| h26
@@ -143,12 +145,12 @@ Welcome to Modernization MegaPack 1.3.0!| #ffb469
 - Fixed a typo in 1.2.0 patch notes| h26
 
 | h32
-Welcome to Modernization MegaPack 1.2.1!| #f76f65
+Modernization MegaPack 1.2.1| #f76f65
 | h22
 - Added downloads for versions without Mojangles font| h26
 
 | h32
-Welcome to Modernization MegaPack 1.2.0!| #f76f65
+Modernization MegaPack 1.2.0| #f76f65
 | h22
 - Ported pack to EUR and JPN regions| h26
 - Retouched Minecraft: Super Mario Edition logo for consistency with modern Bedrock Edition logo| h26
@@ -160,7 +162,7 @@ Welcome to Modernization MegaPack 1.2.0!| #f76f65
 - Added Modernization MegaPack credits to in-game credits| h26
 
 | h32
-Welcome to Modernization MegaPack 1.1.0!| #d6fffb
+Modernization MegaPack 1.1.0| #d6fffb
 | h22
 - Replaced Minecraft: New Nintendo 3DS Edition logo with modern Bedrock Edition logo| h26
 - New loading animation that replaces old block breaking save/load animation| h26
@@ -169,6 +171,11 @@ Welcome to Modernization MegaPack 1.1.0!| #d6fffb
 - Retouched inventory category icons to match post-Java 1.14 textures| h26
 - Replaced and retouched various main menu icons| h26
 - Added new section to Patch Notes menu for Modernization MegaPack patchnotes| h26
+
+| h32
+Modernization MegaPack 1.0.0| #ffffff
+| h22
+- Initial release| h26
 
 | h32
 ---------------| h26
