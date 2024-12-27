@@ -119,7 +119,7 @@
            "zombie"
         ],
         "seats": {
-          "position": [0, 1.10, -0.5]
+          "position": [0, 1.1, -0.6]
         }
        }		
       },
@@ -222,7 +222,7 @@
       "minecraft:entity_spawned": {
         "randomize": [
           {
-            "weight": 110,
+            "weight": 120,
             "remove": {
             },
             "add": {
@@ -232,7 +232,7 @@
             }
           },
           {
-            "weight": 70,
+            "weight": 60,
             "remove": {
             },
             "add": {
@@ -257,19 +257,18 @@
             }
           },		  
           {
-            "weight": 17,
+            "weight": 20,
             "remove": {
             },
             "add": {
               "component_groups": [
-                "minecraft:zombie_baby",
-                "minecraft:zombie_jockey"				
+                "minecraft:zombie_baby"			
               ]
 
             }
           },
           {
-            "weight": 17,
+            "weight": 16,
             "remove": {
             },
             "add": {
