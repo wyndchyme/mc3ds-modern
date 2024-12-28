@@ -70,6 +70,9 @@ _This pack contains the following community-made mods from talented modders:_
 ## Compatability
 <details>
 <summary>Click to show/hide Compatibility List</summary>
+
+<br>
+
 | Mod-Name              | Developer     | Type         | Compatability  | Reason              |
 | --------------------- | ------------- | ------------ | -------------- | ------------------- |
 | Skyblock+             | Cracko298     | Map/World    | Fully          | N/A                 |
