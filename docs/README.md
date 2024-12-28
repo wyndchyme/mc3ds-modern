@@ -55,8 +55,8 @@ _This pack contains the following community-made mods from talented modders:_
 |Mojangles Font   |Cracko298   |The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.   |✕   |1.0.1   |
 |Swappable Fonts   |wyndchyme   |Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.   |Made for this pack   |N/A   |
 |1.20 Mob Textures   |Zexlo   |Ports (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.   |✓   |1-MMP   |
-|New Panoramas   |STBUniverse   |Adds new panoramas from Caves and Cliffs Part II and the Nether Update.   |✕   |N/A   |
-|Remodeled Mobs   |STBUniverse   |Updates the appearance of villagers and bats for parity with post-Java Edition 1.14 and 1.20.3 appearances, respectively.   |✓   |N/A   |
+|New Panoramas   |STBrian   |Adds new panoramas from Caves and Cliffs Part II and the Nether Update.   |✕   |N/A   |
+|Remodeled Mobs   |STBrian   |Updates the appearance of villagers and bats for parity with post-Java Edition 1.14 and 1.20.3 appearances, respectively.   |✓   |N/A   |
 |Font Friendliness   |wyndchyme   |Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
 |Mob Parity    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A
@@ -263,7 +263,7 @@ _Those who chose to include their work in Modernization MegaPack._
 
 - Cracko298
 - TheRustico36
-- STBUniverse
+- STBrian
 - wyndchyme
 - Zexlo
 
@@ -286,7 +286,7 @@ _Those who helped greatly in the development of Modernization MegaPack._
 - bomba.cat
 - Cracko298
 - ENDERMANYK
-- STBUniverse
+- STBrian
 - Nawrek
 - Zexlo
 
