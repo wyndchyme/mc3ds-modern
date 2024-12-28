@@ -53,7 +53,6 @@ _This pack contains the following community-made mods from talented modders:_
 |New Comparison Art   |wyndchyme   |Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.   |Made for this pack   |N/A   |
 |Mojangles Font   |Cracko298   |The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.   |✕   |1.0.1   |
 |Swappable Fonts   |wyndchyme   |Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.   |Made for this pack   |N/A   |
-|New Background and Loading Animation   |wyndchyme   |Makes the dirt background completely black and replaces the stone breaking loading animation with a new animation inspired by Legacy Console Edition.   |Made for this pack   |N/A   |
 |1.20 Mob Textures   |Zexlo   |Ports (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.   |✓   |1-MMP   |
 |New Panoramas   |STBUniverse   |Adds new panoramas from Caves and Cliffs Part II and the Nether Update.   |✕   |N/A   |
 |Bat 1.20.3 Model   |STBUniverse   |Replaces the original bat model with the new model and textures introduced in Java Edition 1.20.3.   |✓   |v1.1.1-MMP   |
