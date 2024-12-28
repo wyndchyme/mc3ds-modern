@@ -20,22 +20,18 @@ textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu82 iv81 isu74 isv17
 | h20
 1.14 Textures| #b88d39
 Classic Textures| #b88d39
-New Water Colors| #b88d39
 New Achievement Art| #b88d39
 New Comparison Art| #b88d39
 Swappable Fonts| #b88d39
 New Background| #b88d39
 New Loading Animation| #b88d39
-Font-friendly Credits| #b88d39
+Font Friendliness| #b88d39
 Name Parity| #b88d39
-Font-Compatible Loc Files| #b88d39
-New Logos| #b88d39
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw48 ih17 iu156 iv81 isu48 isv17
 | h20
 1.20 Mob Textures| #b88d39
-Bedrock Wither| #b88d39
-Java Zombies and Husks| #b88d39
+Mob Parity| #b88d39
 |h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw97 ih11 iu97 iv98 isu97 isv11
 | h20
