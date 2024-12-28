@@ -1,5 +1,6 @@
 Modernization MegaPack 1.6.1 "Canaletto"| #c46de5
 | h22
+- Added the proper villager models and textures for parity with post-Java Edition 1.14 appearances, thanks to STBUniverse| h26
 - Baby zombies now burn in sunlight, for parity with post-Java Edition 1.13 functionality| h26
 - Zombies will no longer attempt to break down doors in Normal and Easy difficulties| h26
 - Changed breaking down doors to be a rare trait only adult zombies can spawn with| h26
