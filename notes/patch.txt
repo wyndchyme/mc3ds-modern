@@ -10,6 +10,7 @@ Modernization MegaPack 1.6.1 "Canaletto"| #c46de5
 - Version headers in Patch Notes menu have been condensed| h26
 - Added 1.0.0 patch notes to in-game Patch Notes menu| h26
 - Folder containing documentation is no longer hidden when cloning GitHub repository| h26
+- Added mod compatibility list to GitHub README, thanks to Cracko| h26
 - Added contributing guidelines to GitHub repository| h26
 
 | h32
