@@ -68,6 +68,8 @@ _This pack contains the following community-made mods from talented modders:_
 <br>
 
 ## Compatability
+<details>
+<summary>Click to show/hide Compatibility List</summary>
 | Mod-Name              | Developer     | Type         | Compatability  | Reason              |
 | --------------------- | ------------- | ------------ | -------------- | ------------------- |
 | Skyblock+             | Cracko298     | Map/World    | Fully          | N/A                 |
@@ -104,6 +106,8 @@ _This pack contains the following community-made mods from talented modders:_
 | Block                 | Blocky        | Mod/Skin     | Mostly   (90%) | Text                |
 | The Stalker           | Cracko298     | Mod/Entity   | Fully          | N/A                 |
 | Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included in ModPack |
+
+</details>
 
 <br>
 
