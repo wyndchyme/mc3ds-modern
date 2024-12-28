@@ -14,6 +14,7 @@
 
 - [Overview](#overview)
   * [Mods](#mods)
+  * [Compatibility List](#compatibility)
 - [Requirements](#requirements)
 - [Installation](#installation)
   * [Method 1: Manual (Fastest)](#method-1)
@@ -45,28 +46,70 @@ __This pack only officially supports English (US) and English (UK). Other langua
 _This pack contains the following community-made mods from talented modders:_
 |Mod   |Creator   |Description   |Modified for this pack?   |Version (if applicable)   |
 |---|---|---|---|---|
-|1.14 Textures   |wyndchyme   |The new textures introduced starting in Java Edition 1.14. Overwrites default texture pack.  |Made for this pack   |N/A   |
+|1.14 Textures   |wyndchyme   |The new textures introduced starting in Java Edition 1.14, and replaces the default Mojang and Other Ocean logos with their newer counterparts. Overwrites default texture pack.  |Made for this pack   |N/A   |
 |Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |N/A   |
 |Cleann'slick GUI   |TheRustico36   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
-|New Water Colors   |wyndchyme   |Adjusts the water color in the default texture pack to appear more similar to the post-Update Aquatic water.   |Made for this pack   |N/A   |
 |New Base Skins   |TheRustico36   |Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.   |✕   |1   |
 |New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |N/A   |
 |New Comparison Art   |wyndchyme   |Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.   |Made for this pack   |N/A   |
 |Mojangles Font   |Cracko298   |The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.   |✕   |1.0.1   |
 |Swappable Fonts   |wyndchyme   |Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.   |Made for this pack   |N/A   |
-|New Background and Loading Animation   |wyndchyme   |Makes the dirt background completely black and replaces the stone breaking loading animation with a new animation inspired by Legacy Console Edition.   |Made for this pack   |N/A   |
 |1.20 Mob Textures   |Zexlo   |Ports (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.   |✓   |1-MMP   |
 |New Panoramas   |STBUniverse   |Adds new panoramas from Caves and Cliffs Part II and the Nether Update.   |✕   |N/A   |
-|Bat 1.20.3 Model   |STBUniverse   |Replaces the original bat model with the new model and textures introduced in Java Edition 1.20.3.   |✓   |v1.1.1-MMP   |
-|Font-friendly Credits   |wyndchyme   |Adjusts the credits and End Poem text files for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
+|Remodeled Mobs   |STBUniverse   |Updates the appearance of villagers and bats for parity with post-Java Edition 1.14 and 1.20.3 appearances, respectively.   |✓   |N/A   |
+|Font Friendliness   |wyndchyme   |Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
-|Font-compatible language files   |wyndchyme  |Replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
-|New Mojang/Other Ocean logos   |wyndchyme   |Replaces the Mojang and Other Ocean logos that appear on game start with their newer equivalents.   |Made for this pack   |N/A   |
-|Bedrock Wither    |Zexlo   |Replicates the Bedrock Edition Wither, complete with spawning Wither Skeletons.   |✕   |N/A
-|Java Zombies and Husks   |Zexlo   |Allows Zombies and Husks to summon 'backup,' similar to Java Edition.   |✕   |N/A
+|Mob Parity    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A
 
 **Pack compiled and maintained by wyndchyme.**
  
+</details>
+
+<br>
+
+## Compatibility
+<details>
+<summary>Click to show/hide compatibility list</summary>
+
+<br>
+
+| Mod                   | Developer     | Type         | Compatibility  | Reason              |
+| --------------------- | ------------- | ------------ | -------------- | ------------------- |
+| Skyblock+             | Cracko298     | Map/World    | Fully          | N/A                 |
+| Warden Port           | Cracko298     | Mod/Entity   | Mostly   (95%) | Minor Textures      |
+| Sheeptastic           | Vance         | Mob/Edits    | Fully          | N/A                 |
+| Creaking Port         | Cracko298     | Mod/Entity   | Mostly   (95%) | Minor Textures      |
+| Clean n' Slick GUI    | TheRustico36  | Texture      | Fully          | Included            |
+| Better Creepers       | RetroRemade   | Mob/Entity   | Fully          | N/A                 |
+| Technoblade's Crown   | Vance         | Texture      | Mostly   (95%) | Minor Textures      |
+| Ender Dragon Elytra   | Vance         | Texture      | Fully          | N/A                 |
+| MipMap Patch          | LinuxWizard   | ASM/Patch    | Fully          | N/A                 |
+| IronBrutes            | Cracko298     | Mob/Edits    | Mostly   (95%) | Minor Textures      |
+| BatBombs              | Cracko298     | Mob/Edits    | Fully          | N/A                 |
+| Halloween Mashup      | Nawrek        | Texture      | Unusable (25%) | Major Textures      |
+| Nuclear Creepers      | Cracko298     | Mob/Edits    | Fully          | N/A                 |
+| Giant Baby Zombies    | Vance         | Mob/Edits    | Fully          | N/A                 |
+| TNT Mimics            | Cracko298     | Mob/Edits    | Unusable (30%) | Major Textures      |
+| New Base Skins        | TheRustico36  | Skin/Texture | Fully          | Included            |
+| Cracko's Game Patches | Cracko298     | ASM/Patch    | Fully          | N/A                 |
+| ENDERMANYK's Shaders  | ENDERMANYK    | Shader/GFX   | Fully          | N/A                 |
+| 1.20.X Mob Textures   | Zexlo         | Texture      | Fully          | Included            |
+| New Panoramas         | STBrian       | Texture      | Fully          | Included            |
+| Mob-Cap Remover       | Cracko298     | Gateway/Code | Fully          | N/A                 |
+| Adventure Time Mashup | Skribblr      | Texture      | Unusable (25%) | Major Textures      |
+| Cracko's Experiments  | Cracko298     | Shader/Patch | Fully          | N/A                 |
+| Mob Tower/Castle      | Cracko298     | Structure    | Fully          | N/A                 |
+| 1.20.3 Bat-Model      | STBrian       | Mod/Texture  | Fully          | Included            |
+| Command Block Temple  | Cracko298     | Structure    | Fully          | N/A                 |
+| Stronghold Fix        | Vance         | Game/Fix     | Fully          | N/A                 |
+| Amplified World Gen   | Cracko298     | ASM/World    | Fully          | N/A                 |
+| Mob Parity            | Zexlo         | Mob/Edits    | Fully          | Included            |
+| Farland World Gen     | Cracko298     | ASM/World    | Fully          | N/A                 |
+| FWO Exploit           | Cracko298     | ASM/World    | Works    (75%) | Text/Minor Textures |
+| Block                 | Blocky        | Mod/Skin     | Mostly   (90%) | Text                |
+| The Stalker           | Cracko298     | Mod/Entity   | Fully          | N/A                 |
+| Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included            |
+
 </details>
 
 <br>
