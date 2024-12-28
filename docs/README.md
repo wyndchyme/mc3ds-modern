@@ -14,6 +14,7 @@
 
 - [Overview](#overview)
   * [Mods](#mods)
+  * [Compatibility List](#compatibility)
 - [Requirements](#requirements)
 - [Installation](#installation)
   * [Method 1: Manual (Fastest)](#method-1)
@@ -62,6 +63,53 @@ _This pack contains the following community-made mods from talented modders:_
 
 **Pack compiled and maintained by wyndchyme.**
  
+</details>
+
+<br>
+
+## Compatibility
+<details>
+<summary>Click to show/hide compatibility list</summary>
+
+<br>
+
+| Mod                   | Developer     | Type         | Compatibility  | Reason              |
+| --------------------- | ------------- | ------------ | -------------- | ------------------- |
+| Skyblock+             | Cracko298     | Map/World    | Fully          | N/A                 |
+| Warden Port           | Cracko298     | Mod/Entity   | Mostly   (95%) | Minor Textures      |
+| Sheeptastic           | Vance         | Mob/Edits    | Fully          | N/A                 |
+| Creaking Port         | Cracko298     | Mod/Entity   | Mostly   (95%) | Minor Textures      |
+| Clean n' Slick GUI    | TheRustico36  | Texture      | Fully          | Included            |
+| Better Creepers       | RetroRemade   | Mob/Entity   | Fully          | N/A                 |
+| Technoblade's Crown   | Vance         | Texture      | Mostly   (95%) | Minor Textures      |
+| Ender Dragon Elytra   | Vance         | Texture      | Fully          | N/A                 |
+| MipMap Patch          | LinuxWizard   | ASM/Patch    | Fully          | N/A                 |
+| IronBrutes            | Cracko298     | Mob/Edits    | Mostly   (95%) | Minor Textures      |
+| BatBombs              | Cracko298     | Mob/Edits    | Fully          | N/A                 |
+| Halloween Mashup      | Nawrek        | Texture      | Unusable (25%) | Major Textures      |
+| Nuclear Creepers      | Cracko298     | Mob/Edits    | Fully          | N/A                 |
+| Giant Baby Zombies    | Vance         | Mob/Edits    | Fully          | N/A                 |
+| TNT Mimics            | Cracko298     | Mob/Edits    | Unusable (30%) | Major Textures      |
+| New Base Skins        | TheRustico36  | Skin/Texture | Fully          | Included            |
+| Cracko's Game Patches | Cracko298     | ASM/Patch    | Fully          | N/A                 |
+| ENDERMANYK's Shaders  | ENDERMANYK    | Shader/GFX   | Fully          | N/A                 |
+| 1.20.X Mob Textures   | Zexlo         | Texture      | Fully          | Included            |
+| New Panoramas         | STBrian       | Texture      | Fully          | Included            |
+| Mob-Cap Remover       | Cracko298     | Gateway/Code | Fully          | N/A                 |
+| Adventure Time Mashup | Skribblr      | Texture      | Unusable (25%) | Major Textures      |
+| Cracko's Experiments  | Cracko298     | Shader/Patch | Fully          | N/A                 |
+| Mob Tower/Castle      | Cracko298     | Structure    | Fully          | N/A                 |
+| 1.20.3 Bat-Model      | STBrian       | Mod/Texture  | Fully          | Included            |
+| Command Block Temple  | Cracko298     | Structure    | Fully          | N/A                 |
+| Stronghold Fix        | Vance         | Game/Fix     | Fully          | N/A                 |
+| Amplified World Gen   | Cracko298     | ASM/World    | Fully          | N/A                 |
+| Mob Parity            | Zexlo         | Mob/Edits    | Fully          | Included            |
+| Farland World Gen     | Cracko298     | ASM/World    | Fully          | N/A                 |
+| FWO Exploit           | Cracko298     | ASM/World    | Works    (75%) | Text/Minor Textures |
+| Block                 | Blocky        | Mod/Skin     | Mostly   (90%) | Text                |
+| The Stalker           | Cracko298     | Mod/Entity   | Fully          | N/A                 |
+| Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included            |
+
 </details>
 
 <br>
