@@ -55,8 +55,8 @@ _This pack contains the following community-made mods from talented modders:_
 |Mojangles Font   |Cracko298   |The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.   |✕   |1.0.1   |
 |Swappable Fonts   |wyndchyme   |Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.   |Made for this pack   |N/A   |
 |1.20 Mob Textures   |Zexlo   |Ports (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.   |✓   |1-MMP   |
-|New Panoramas   |STBUniverse   |Adds new panoramas from Caves and Cliffs Part II and the Nether Update.   |✕   |N/A   |
-|Remodeled Mobs   |STBUniverse   |Updates the appearance of villagers and bats for parity with post-Java Edition 1.14 and 1.20.3 appearances, respectively.   |✓   |N/A   |
+|New Panoramas   |STBrian   |Adds new panoramas from Caves and Cliffs Part II and the Nether Update.   |✕   |N/A   |
+|Actual Models   |STBrian   |Updates the appearance of villagers and bats for parity with post-Java Edition 1.14 and 1.20.3 appearances, respectively.   |✕   |1.0.0   |
 |Font Friendliness   |wyndchyme   |Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
 |Mob Parity    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A
@@ -83,7 +83,6 @@ _This pack contains the following community-made mods from talented modders:_
 | Better Creepers       | RetroRemade   | Mob/Entity   | Fully          | N/A                 |
 | Technoblade's Crown   | Vance         | Texture      | Mostly   (95%) | Minor Textures      |
 | Ender Dragon Elytra   | Vance         | Texture      | Fully          | N/A                 |
-| MipMap Patch          | LinuxWizard   | ASM/Patch    | Fully          | N/A                 |
 | IronBrutes            | Cracko298     | Mob/Edits    | Mostly   (95%) | Minor Textures      |
 | BatBombs              | Cracko298     | Mob/Edits    | Fully          | N/A                 |
 | Halloween Mashup      | Nawrek        | Texture      | Unusable (25%) | Major Textures      |
@@ -99,7 +98,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Adventure Time Mashup | Skribblr      | Texture      | Unusable (25%) | Major Textures      |
 | Cracko's Experiments  | Cracko298     | Shader/Patch | Fully          | N/A                 |
 | Mob Tower/Castle      | Cracko298     | Structure    | Fully          | N/A                 |
-| 1.20.3 Bat-Model      | STBrian       | Mod/Texture  | Fully          | Included            |
+| Actual Models         | STBrian       | Mod/Texture  | Fully          | Included            |
 | Command Block Temple  | Cracko298     | Structure    | Fully          | N/A                 |
 | Stronghold Fix        | Vance         | Game/Fix     | Fully          | N/A                 |
 | Amplified World Gen   | Cracko298     | ASM/World    | Fully          | N/A                 |
@@ -204,7 +203,7 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 
 **Q: How large is Modernization MegaPack?**
 
-_A: As of version 1.7.0 "Baroque" the extracted files amount to around 31.2 MB._
+_A: As of version 1.6.0 "Rococo" the extracted files amount to around 31.2 MB._
 
 **Q: Does Modernization MegaPack affect world generation?**
 
@@ -263,7 +262,7 @@ _Those who chose to include their work in Modernization MegaPack._
 
 - Cracko298
 - TheRustico36
-- STBUniverse
+- STBrian
 - wyndchyme
 - Zexlo
 
@@ -286,7 +285,7 @@ _Those who helped greatly in the development of Modernization MegaPack._
 - bomba.cat
 - Cracko298
 - ENDERMANYK
-- STBUniverse
+- STBrian
 - Nawrek
 - Zexlo
 
