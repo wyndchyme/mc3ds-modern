@@ -83,7 +83,6 @@ _This pack contains the following community-made mods from talented modders:_
 | Better Creepers       | RetroRemade   | Mob/Entity   | Fully          | N/A                 |
 | Technoblade's Crown   | Vance         | Texture      | Mostly   (95%) | Minor Textures      |
 | Ender Dragon Elytra   | Vance         | Texture      | Fully          | N/A                 |
-| MipMap Patch          | LinuxWizard   | ASM/Patch    | Fully          | N/A                 |
 | IronBrutes            | Cracko298     | Mob/Edits    | Mostly   (95%) | Minor Textures      |
 | BatBombs              | Cracko298     | Mob/Edits    | Fully          | N/A                 |
 | Halloween Mashup      | Nawrek        | Texture      | Unusable (25%) | Major Textures      |
@@ -100,6 +99,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Cracko's Experiments  | Cracko298     | Shader/Patch | Fully          | N/A                 |
 | Mob Tower/Castle      | Cracko298     | Structure    | Fully          | N/A                 |
 | 1.20.3 Bat-Model      | STBrian       | Mod/Texture  | Fully          | Included            |
+| 1.14 Villagers        | STBrian       | Mod/Texture  | Fully          | Included            |
 | Command Block Temple  | Cracko298     | Structure    | Fully          | N/A                 |
 | Stronghold Fix        | Vance         | Game/Fix     | Fully          | N/A                 |
 | Amplified World Gen   | Cracko298     | ASM/World    | Fully          | N/A                 |
