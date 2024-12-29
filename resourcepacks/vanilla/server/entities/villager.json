@@ -1,0 +1,784 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.1.0",
+  
+    "component_groups": {
+      "become_witch": {
+        "minecraft:transformation": {
+          "into": "minecraft:witch",
+          "delay": 0.5
+        }
+      },
+
+      "become_zombie": {
+        "minecraft:transformation": {
+          "into": "minecraft:zombie_villager"
+        }
+      },
+
+      "behavior_peasant": {
+        "minecraft:shareables": {
+          "items": [
+            {
+              "item": "minecraft:bread",
+              "want_amount": 3,
+              "surplus_amount": 6
+            },
+            {
+              "item": "minecraft:carrot",
+              "want_amount": 60,
+              "surplus_amount": 4
+            },
+            {
+              "item":"minecraft:potato",
+              "want_amount": 60,
+              "surplus_amount": 24
+            },
+            {
+              "item": "minecraft:beetroot",
+              "want_amount": 60,
+              "surplus_amount": 24
+            },
+            {
+              "item": "minecraft:wheat_seeds",
+              "want_amount": 64,
+              "surplus_amount": 64
+            },
+            {
+              "item": "minecraft:beetroot_seeds",
+              "want_amount": 64,
+              "surplus_amount": 64
+            },
+            {
+              "item":"minecraft:wheat",
+              "want_amount": 45,
+              "surplus_amount": 18,
+              "craft_into": "minecraft:bread"
+            }
+          ]
+        },
+        "minecraft:behavior.harvest_farm_block": {
+          "priority": 9,
+          "speed_multiplier": 0.5
+        }
+      },
+
+      "behavior_non_peasant": {
+        "minecraft:shareables": {
+          "items": [
+            {
+              "item": "minecraft:bread",
+              "want_amount": 3,
+              "surplus_amount": 6
+            },
+            {
+              "item": "minecraft:carrot",
+              "want_amount": 12,
+              "surplus_amount": 24
+            },
+            {
+              "item":"minecraft:potato",
+              "want_amount": 12,
+              "surplus_amount": 24
+            },
+            {
+              "item":"minecraft:beetroot",
+              "want_amount": 12,
+              "surplus_amount": 24
+            }
+          ]
+        }
+      },
+
+      "farmer":{
+        "minecraft:type_family": {
+          "family":[ "villager", "peasant", "farmer" ]          
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.farmer",
+          "table": "trading/farmer_trades.json"
+        }
+      },
+
+      "fisherman":{
+        "minecraft:type_family": {
+          "family":[ "villager", "peasant", "fisherman" ]          
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.fisherman",
+          "table": "trading/fisherman_trades.json"
+        }
+      },
+
+      "shepherd":{
+        "minecraft:type_family": {
+          "family":[ "villager", "peasant", "shepherd" ]          
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.shepherd",
+          "table": "trading/shepherd_trades.json"
+        }
+      },
+
+      "fletcher":{
+        "minecraft:type_family": {
+          "family":[ "villager", "peasant", "fletcher" ]          
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.fletcher",
+          "table": "trading/fletcher_trades.json"
+        }
+      },
+
+      "librarian":{
+        "minecraft:type_family": {
+          "family":[ "villager", "librarian" ]          
+        },
+        "minecraft:variant": {
+          "value": 1
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.librarian",
+          "table": "trading/librarian_trades.json"
+        }
+      },
+
+      "cartographer":{
+        "minecraft:type_family": {
+          "family":[ "villager", "cartographer" ]          
+        },
+        "minecraft:variant": {
+          "value": 1
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.cartographer",
+          "table": "trading/cartographer_trades.json"
+        }
+      },
+
+      "cleric":{
+        "minecraft:type_family": {
+          "family":[ "villager", "priest", "cleric" ]          
+        },
+        "minecraft:variant": {
+          "value": 2
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.cleric",
+          "table": "trading/cleric_trades.json"
+        }
+      },
+
+      "armorer":{
+        "minecraft:type_family": {
+          "family":[ "villager", "blacksmith", "armorer" ]          
+        },
+        "minecraft:variant": {
+          "value": 3
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.armor",
+          "table": "trading/armorer_trades.json"
+        }
+      },
+
+      "weaponsmith":{
+        "minecraft:type_family": {
+          "family":[ "villager", "blacksmith", "weaponsmith" ]          
+        },
+        "minecraft:variant": {
+          "value": 3
+        },
+        
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.weapon",
+          "table": "trading/weapon_smith_trades.json"
+        }
+      },
+
+      "toolsmith":{
+        "minecraft:type_family": {
+          "family":[ "villager", "blacksmith", "toolsmith" ]          
+        },
+        "minecraft:variant": {
+          "value": 3
+        },
+        
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.tool",
+          "table": "trading/tool_smith_trades.json"
+        }
+      },
+
+      "mason":{
+        "minecraft:type_family": {
+          "family":[ "villager", "blacksmith", "mason" ]          
+        },
+        "minecraft:variant": {
+          "value": 3
+        },
+        
+        "minecraft:trade_table": {
+          "display_name": "stone mason",
+          "table": "loot_tables/entities/bat.json"
+        }
+      },
+
+      "butcher":{
+        "minecraft:type_family": {
+          "family":[ "villager", "artisan", "butcher" ]          
+        },
+        "minecraft:variant": {
+          "value": 4
+        },
+
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.butcher",
+          "table": "trading/butcher_trades.json"
+        }
+      },
+
+      "leatherworker":{
+        "minecraft:type_family": {
+          "family":[ "villager", "artisan", "leatherworker" ]          
+        },
+        "minecraft:variant": {
+          "value": 4
+        },
+        
+        "minecraft:trade_table": {
+          "display_name": "entity.villager.leather",
+          "table": "trading/leather_worker_trades.json"
+        }
+      },
+
+      "nitwit":{
+        "minecraft:type_family": {
+          "family":[ "villager", "peasant"]          
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+		
+        "minecraft:trade_table": {
+          "display_name": "nitwit",
+          "table": "loot_tables/empty.json"
+        }		
+      },	  
+
+      "baby": {
+        "minecraft:is_baby": {  },
+        "minecraft:scale": {
+          "value":0.5
+        },
+        "minecraft:ageable": {
+          "duration": 1200,
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.take_flower":{
+          "priority": 7
+        },
+        "minecraft:behavior.play": {
+          "priority": 8,
+          "speed_multiplier": 0.32
+        }
+      },
+
+      "adult": {
+        "minecraft:behavior.make_love": {
+          "priority": 6
+        },
+        "minecraft:behavior.receive_love":{
+          "priority": 7
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:villager"
+      },
+
+      "minecraft:type_family": {
+        "family": "villager"
+      },
+
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:movement": {
+        "value": 0.5
+      },
+      "minecraft:navigation.walk": {
+        "can_float": true,
+        "can_pass_doors": true,
+        "can_open_doors": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:inventory": {
+        "inventory_size": 8,
+        "private": true
+      },
+      "minecraft:damage_sensor": [
+        {
+          "on_damage": {
+            "filters": { "other_with_families": "lightning" },
+            "event": "become_witch"
+          },
+          "deals_damage": false
+        },
+        {
+          "on_damage": {
+            "filters": {
+              "other_with_families": [ "zombie", "husk" ],
+              "with_damage_fatal": true
+            },
+            "event": "become_zombie"
+          }
+        }
+      ],
+
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.trade_with_player": {
+        "priority": 1
+      },
+      "minecraft:behavior.look_at_trading_player": {
+        "priority": 2
+      },
+      "minecraft:behavior.panic": {
+        "priority": 3,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 3,
+        "entity_types": [
+          {
+            "filters": {
+              "other_with_families": [
+                "zombie",
+                "zombie_villager",
+				"husk",
+                "zombie_pigman",
+				"illager",
+				"vex"
+              ]
+            },
+            "max_dist": 8,
+            "walk_speed_multiplier": 0.6,
+            "sprint_speed_multiplier": 0.6
+          }
+        ]
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 3,
+        "entity_types": [
+          {
+            "filters": {
+              "other_with_families": [
+				"evocation_illager"
+              ]
+            },
+            "max_dist": 12,
+            "walk_speed_multiplier": 0.6,
+            "sprint_speed_multiplier": 0.6
+          }
+        ]
+      },	  
+      "minecraft:behavior.move_indoors": {
+        "priority": 4,
+        "speed_multiplier": 0.8
+      },
+      "minecraft:behavior.restrict_open_door": {
+        "priority": 5
+      },
+      "minecraft:behavior.open_door": {
+        "priority": 6,
+        "close_door_after": true
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 7,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.share_items": {
+        "priority": 8,
+        "max_dist": 3,
+        "goal_radius":  2.0,
+        "speed_multiplier": 0.5,
+        "entity_types": [
+          {
+            "filters": { "other_with_families": [ "villager" ] }
+          }
+        ]
+      },
+      "minecraft:behavior.pickup_items": {
+        "priority": 9,
+        "max_dist": 3,
+        "goal_radius": 2,
+        "speed_multiplier": 0.5
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 11,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 12,
+        "look_distance": 8,
+        "probability": 0.02
+      }
+    },
+    "events":{
+      "become_witch": {
+        "add": {
+          "component_groups": [
+            "become_witch"
+          ]
+        }
+      },
+      "become_zombie": {
+        "sequence": [
+          {
+            "filters": {
+              "is_world_difficulty": "normal"
+            },
+            "randomize": [
+              {
+                "weight": 50,
+                "add": { "component_groups": [ "become_zombie" ] }
+              },
+              {
+                "weight": 50
+              }
+            ]
+          },
+          {
+            "filters": {
+              "is_world_difficulty": "hard"
+            },
+            "add": {
+              "component_groups": [
+                "become_zombie"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "filters": { "without_components": "minecraft:variant" },
+            "randomize": [
+              {
+                "weight": 5,
+                "add": { "component_groups": [ "baby" ] }
+              },
+              {
+                "weight": 95,
+                "add": { "component_groups": [ "adult" ] }
+              }
+            ]
+          },
+          {
+            "filters": { "without_components": "minecraft:variant" },
+            "randomize": [
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "farmer", "behavior_peasant" ] }
+              },
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "fisherman", "behavior_peasant" ] }
+              },
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "shepherd", "behavior_peasant" ] }
+              },
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "fletcher", "behavior_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "librarian", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "cartographer", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "cleric", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "armorer", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "weaponsmith", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "toolsmith", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "butcher", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "leatherworker", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "mason", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 5,
+                "add": { "component_groups": [ "nitwit", "behavior_peasant" ] }
+              }			  
+            ]
+          }
+        ]
+        
+      },
+
+      "minecraft:entity_transformed": {
+        "sequence": [
+          // Transform baby zombie to baby villager
+          {
+            "filters": { "other_with_components": "minecraft:is_baby" },
+            "add": { "component_groups": [ "baby" ] }
+          },
+          // Transform adult zombie to adult villager
+          {
+            "filters": { "other_without_components": "minecraft:is_baby" },
+            "add": { "component_groups": [ "adult" ] }
+          },
+
+          // Transform farmer zombie to farmer villager
+          {
+            "filters": { "other_with_families": "farmer" },
+            "add": { "component_groups": [ "farmer", "behavior_peasant" ] }
+          },
+          // Transform fisherman zombie to fisherman villager
+          {
+            "filters": { "other_with_families": "fisherman" },
+            "add": { "component_groups": [ "fisherman", "behavior_peasant" ] }
+          },
+          // Transform shepherd zombie to shepherd villager
+          {
+            "filters": { "other_with_families": "shepherd" },
+            "add": { "component_groups": [ "shepherd", "behavior_peasant" ] }
+          },
+          // Transform fletcher zombie to fletcher villager
+          {
+            "filters": { "other_with_families": "fletcher" },
+            "add": { "component_groups": [ "fletcher", "behavior_peasant" ] }
+          },
+          // Transform librarian zombie to librarian villager
+          {
+            "filters": { "other_with_families": "librarian" },
+            "add": { "component_groups": [ "librarian", "behavior_non_peasant" ] }
+          },
+          // Transform cartographer zombie to cartographer villager
+          {
+            "filters": { "other_with_families": "cartographer" },
+            "add": { "component_groups": [ "cartographer", "behavior_non_peasant" ] }
+          },
+          // Transform cleric zombie to cleric villager
+          {
+            "filters": { "other_with_families": "cleric" },
+            "add": { "component_groups": [ "cleric", "behavior_non_peasant" ] }
+          },
+          // Transform armorer zombie to armorer villager
+          {
+            "filters": { "other_with_families": "armorer" },
+            "add": { "component_groups": [ "armorer", "behavior_non_peasant" ] }
+          },
+          // Transform weaponsmith zombie to weaponsmith villager
+          {
+            "filters": { "other_with_families": "weaponsmith" },
+            "add": { "component_groups": [ "weaponsmith", "behavior_non_peasant" ] }
+          },
+          // Transform toolsmith zombie to toolsmith villager
+          {
+            "filters": { "other_with_families": "toolsmith" },
+            "add": { "component_groups": [ "toolsmith", "behavior_non_peasant" ] }
+          },
+          // Transform butcher zombie to butcher villager
+          {
+            "filters": { "other_with_families": "butcher" },
+            "add": { "component_groups": [ "butcher", "behavior_non_peasant" ] }
+          },
+          // Transform leatherworker zombie to leatherworker villager
+          {
+            "filters": { "other_with_families": "leatherworker" },
+            "add": { "component_groups": [ "leatherworker", "behavior_non_peasant" ] }
+          },
+          {
+            "filters": { "other_with_families": "mason" },
+            "add": { "component_groups": [ "mason", "behavior_non_peasant" ] }
+          },
+          {
+            "filters": { "other_with_families": "nitwit" },
+            "add": { "component_groups": [ "nitwit", "behavior_peasant" ] }
+          }		  
+        ]
+      },
+
+      "minecraft:entity_born": {
+        "sequence": [
+          {
+            "add": { "component_groups": [ "baby" ] }
+          },
+          {
+            "randomize": [
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "farmer", "behavior_peasant" ] }
+              },
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "fisherman", "behavior_peasant" ] }
+              },
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "shepherd", "behavior_peasant" ] }
+              },
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "fletcher", "behavior_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "librarian", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "cartographer", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "cleric", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "armorer", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "weaponsmith", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "toolsmith", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "butcher", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "leatherworker", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 8,
+                "add": { "component_groups": [ "mason", "behavior_non_peasant" ] }
+              },
+              {
+                "weight": 5,
+                "add": { "component_groups": [ "nitwit", "behavior_peasant" ] }
+              }			  
+            ]
+          }
+        ]
+      },
+
+      "minecraft:spawn_farmer": {
+        "add": { "component_groups": [ "farmer", "adult", "behavior_peasant" ] },
+        "remove": { "component_groups": [ "baby" ] }
+      },
+
+      "minecraft:spawn_librarian": {
+        "add": { "component_groups": [ "librarian", "adult", "behavior_non_peasant" ] },
+        "remove": { "component_groups": [ "baby" ] }
+      },
+
+      "minecraft:spawn_cartographer": {
+        "add": { "component_groups": [ "cartographer", "adult", "behavior_non_peasant" ] },
+        "remove": { "component_groups": [ "baby" ] }
+      },
+
+      "minecraft:spawn_cleric": {
+        "add": { "component_groups": [ "cleric", "adult", "behavior_non_peasant" ] },
+        "remove": { "component_groups": [ "baby" ] }
+      },
+
+      "minecraft:spawn_armorer": {
+        "add": { "component_groups": [ "armorer", "adult", "behavior_non_peasant" ] },
+        "remove": { "component_groups": [ "baby" ] }
+      },
+
+      "minecraft:spawn_butcher": {
+        "add": { "component_groups": [ "butcher", "adult", "behavior_non_peasant" ] },
+        "remove": { "component_groups": [ "baby" ] }
+      },
+
+      "minecraft:ageable_grow_up": {
+        "sequence": [
+          {
+            "remove": { "component_groups": [ "baby" ] },
+            "add": { "component_groups": [ "adult" ] }
+          }
+        ]
+      },
+
+      "minecraft:become_cleric": {
+        "add": { "component_groups": [ "cleric", "adult", "behavior_non_peasant" ] },
+        "remove": { "component_groups": [ "baby" ] }
+      }
+    }
+  }
+}
