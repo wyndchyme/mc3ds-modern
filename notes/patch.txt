@@ -4,8 +4,11 @@ Modernization MegaPack 1.6.1 "Canaletto"| #c46de5
 - Baby zombies now burn in sunlight, for parity with post-Java Edition 1.13 functionality| h26
 - Zombies will no longer attempt to break down doors in Normal and Easy difficulties| h26
 - Changed breaking down doors to be a rare trait only adult zombies can spawn with| h26
+- Villagers now avoid Husks| h26
+- Villagers now avoid Evokers from a greater distance than in the vanilla game| h26
 - Added the ability for baby zombies to piggyback on adult zombies for parity with Bedrock Edition| h26
 - Modified loot tables for Vexes, Witches, and Vindicators for parity with their updated drops| h26
+- Gravel, terracotta, and concrete now have random texture rotation applied| h26
 - Reverted change to top menu bar brightness from 1.5.2| h26
 - The color of arrows in the default texture pack spritesheet have been adjusted to appear more yellow| h26
 - Condensed certain mod entries in README, UniStore description, and in-game credits| h26
