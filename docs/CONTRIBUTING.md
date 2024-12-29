@@ -1,4 +1,4 @@
-<div align=center><img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/main/.github/icons/logo.png" style="width: 600px"></div>
+<div align=center><img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/main/docs/icons/logo.png" style="width: 600px"></div>
 
 <i><b>Thank you for contributing to Modernization MegaPack! Please read the following before opening a pull request.</b></i>
 
@@ -8,11 +8,15 @@
 
 <br>
 
-2. Pull requests that __tweak existing functionality__ or make updates to content in the <i>mc3ds-modern/.github/</i> directory should target the <i>main</i> branch.
+2. Pull requests that __tweak existing functionality__ or make updates to content in the <i>mc3ds-modern/docs/</i> directory should target the <i>main</i> branch.
 
 <br>
 
 3. Please tag your pull requests with the appropriate milestone (if applicable) and tag.
+
+<br>
+
+4. __Please add any new files introduced in your pull request to the file index in appConfiguration.info!__
 
 <br>
 
