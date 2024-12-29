@@ -5,6 +5,7 @@ Modernization MegaPack 1.6.1 "Canaletto"| #c46de5
 - Zombies will no longer attempt to break down doors in Normal and Easy difficulties| h26
 - Changed breaking down doors to be a rare trait only adult zombies can spawn with| h26
 - Added the ability for baby zombies to piggyback on adult zombies for parity with Bedrock Edition| h26
+- Reverted change to top menu bar brightness from 1.5.2| h26
 - The color of arrows in the default texture pack spritesheet have been adjusted to appear more yellow| h26
 - Condensed certain mod entries in README, UniStore description, and in-game credits| h26
 - Update codenames introduced starting in 1.6.0 "Rococo" will now be displayed in the Patch Notes menu| h26
