@@ -1,10 +1,18 @@
-Modernization MegaPack 1.6.1 "Canaletto"| #c46de5
+Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 | h22
+- Added the Mason villager profession from the Village and Pillage update, along with most of its trades, thanks to Zexlo| h26
+- Added the Nitwit villager profession from the Village and Pillage update| h26
 - Added the proper villager models and textures for parity with post-Java Edition 1.14 appearances, thanks to STBUniverse| h26
 - Baby zombies now burn in sunlight, for parity with post-Java Edition 1.13 functionality| h26
 - Zombies will no longer attempt to break down doors in Normal and Easy difficulties| h26
 - Changed breaking down doors to be a rare trait only adult zombies can spawn with| h26
+- Villagers now avoid Husks| h26
+- Villagers now avoid Evokers from a greater distance than in the vanilla game| h26
 - Added the ability for baby zombies to piggyback on adult zombies for parity with Bedrock Edition| h26
+- Modified loot tables for Vexes, Witches, and Vindicators for parity with their updated drops| h26
+- Gravel, terracotta, and concrete now have random texture rotation applied| h26
+- Reverted change to top menu bar brightness from 1.5.2| h26
+- Reverted changes to D-Pad button prompts from 1.6.0 "Rococo"| h26
 - The color of arrows in the default texture pack spritesheet have been adjusted to appear more yellow| h26
 - Condensed certain mod entries in README, UniStore description, and in-game credits| h26
 - Update codenames introduced starting in 1.6.0 "Rococo" will now be displayed in the Patch Notes menu| h26
