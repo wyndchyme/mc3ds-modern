@@ -16,4 +16,8 @@
 
 <br>
 
+4. __Please add any new files introduced in your pull request to the file index in appConfiguration.info!__
+
+<br>
+
 Lastly, please abide by the terms of the <i>Contributor Covenant Code of Conduct. (CCCoC)</i>
