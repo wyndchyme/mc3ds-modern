@@ -62,6 +62,8 @@
 /resourcepacks/vanilla/server/loot_tables/entities/witch.json
 /resourcepacks/vanilla/server/loot_tables/entities/bat.json
 /resourcepacks/vanilla/server/loot_tables/entities/vindication_illager.json
+/resourcepacks/vanilla/server/loot_tables/gameplay/fishing/junk.json
+/resourcepacks/vanilla/server/loot_tables/gameplay/fishing/treasure.json
 /resourcepacks/vanilla/server/trading/fletcher_trades.json
 /resourcepacks/vanilla/server/trading/cartographer_trades.json
 /resourcepacks/vanilla/server/trading/farmer_trades.json
