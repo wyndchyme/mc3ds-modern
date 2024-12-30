@@ -59,7 +59,7 @@ _This pack contains the following community-made mods from talented modders:_
 |Let's Update Mob Models   |STBrian   |Changes the appearances of villagers, bats, and zombified piglins for parity with their updated looks.   |✕   |v1.1.1   |
 |Font Friendliness   |wyndchyme   |Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
-|Mob Parity    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A
+|Modern Mobs    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A
 
 **Pack compiled and maintained by wyndchyme.**
  
@@ -108,6 +108,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Block                 | Blocky        | Mod/Skin     | Mostly   (90%) | Text                |
 | The Stalker           | Cracko298     | Mod/Entity   | Fully          | N/A                 |
 | Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included            |
+| Modern Mobs           | Zexlo         | Mod/Edits    | Fully          | Included            |
 
 </details>
 
