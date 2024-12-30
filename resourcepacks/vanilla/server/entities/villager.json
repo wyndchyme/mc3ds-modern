@@ -239,7 +239,7 @@
         },
         
         "minecraft:trade_table": {
-          "display_name": "stone mason",
+          "display_name": "Stone Mason",
           "table": "loot_tables/entities/bat.json"
         }
       },
@@ -281,7 +281,7 @@
         },
 		
         "minecraft:trade_table": {
-          "display_name": "nitwit",
+          "display_name": "Nitwit",
           "table": "loot_tables/empty.json"
         }		
       },	  
@@ -523,7 +523,7 @@
             "filters": { "without_components": "minecraft:variant" },
             "randomize": [
               {
-                "weight": 10,
+                "weight": 14,
                 "add": { "component_groups": [ "farmer", "behavior_peasant" ] }
               },
               {
@@ -535,11 +535,11 @@
                 "add": { "component_groups": [ "shepherd", "behavior_peasant" ] }
               },
               {
-                "weight": 10,
+                "weight": 8,
                 "add": { "component_groups": [ "fletcher", "behavior_peasant" ] }
               },
               {
-                "weight": 8,
+                "weight": 10,
                 "add": { "component_groups": [ "librarian", "behavior_non_peasant" ] }
               },
               {
@@ -547,11 +547,11 @@
                 "add": { "component_groups": [ "cartographer", "behavior_non_peasant" ] }
               },
               {
-                "weight": 8,
+                "weight": 10,
                 "add": { "component_groups": [ "cleric", "behavior_non_peasant" ] }
               },
               {
-                "weight": 8,
+                "weight": 9,
                 "add": { "component_groups": [ "armorer", "behavior_non_peasant" ] }
               },
               {
@@ -559,7 +559,7 @@
                 "add": { "component_groups": [ "weaponsmith", "behavior_non_peasant" ] }
               },
               {
-                "weight": 8,
+                "weight": 10,
                 "add": { "component_groups": [ "toolsmith", "behavior_non_peasant" ] }
               },
               {
@@ -571,11 +571,11 @@
                 "add": { "component_groups": [ "leatherworker", "behavior_non_peasant" ] }
               },
               {
-                "weight": 8,
+                "weight": 9,
                 "add": { "component_groups": [ "mason", "behavior_non_peasant" ] }
               },
               {
-                "weight": 5,
+                "weight": 6,
                 "add": { "component_groups": [ "nitwit", "behavior_peasant" ] }
               }			  
             ]
