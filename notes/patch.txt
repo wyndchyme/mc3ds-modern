@@ -2,7 +2,8 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 | h22
 - Added many of the new villager professions introduced in the Village and Pillage update| h26
 - Numerous villager trades have been changed or modified for parity with post-Java Edition 1.14 functionality| h26
-- Added the proper villager models and textures for parity with post-Java Edition 1.14 appearances, thanks to STBUniverse| h26
+- Added the proper villager models and textures for parity with post-Java Edition 1.14 appearances, thanks to STBrian| h26
+- Zombie Pigmen are now Zombified Piglins for parity with the Nether Update, thanks to STBrian| h26
 - Baby zombies now burn in sunlight, for parity with post-Java Edition 1.13 functionality| h26
 - Zombies will no longer attempt to break down doors in Normal and Easy difficulties| h26
 - Changed breaking down doors to be a rare trait only adult zombies can spawn with| h26
