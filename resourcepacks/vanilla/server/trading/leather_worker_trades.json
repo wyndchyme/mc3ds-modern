@@ -1,0 +1,201 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:leather",
+              "quantity": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:leather_leggings"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 7,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:leather_chestplate"
+            }
+          ]
+        }		
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:flint",
+              "quantity": {
+                "min": 26,
+                "max": 34
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 5,
+                "max": 8
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:leather_helmet"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:leather_boots"
+            }
+          ]
+        }		
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:rabbit_hide",
+              "quantity": {
+                "min": 9,
+                "max": 14
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 4
+            },
+            {
+              "item": "minecraft:book"
+            }			
+          ],
+          "gives": [
+            {
+              "item": "minecraft:paper",
+              "quantity": 3			  
+            }			
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:horsearmorleather"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 6,
+                "max": 14
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:saddle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 16,
+                "max": 34
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:cauldron"
+            }
+          ]
+        }
+      ]
+    }	
+  ]
+}

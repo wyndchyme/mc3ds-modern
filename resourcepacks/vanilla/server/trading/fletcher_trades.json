@@ -1,0 +1,251 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": {
+                "min": 32,
+                "max": 40
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow",
+              "quantity": 16
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:gravel",
+			  "quantity": 10
+            },
+            {
+              "item": "minecraft:emerald"
+            }			
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow",
+              "quantity": 16
+            }
+          ]
+        }		
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:flint",
+              "quantity": 26
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:bow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:string",
+              "quantity": 14
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:feather",
+              "quantity": {
+                "min": 24,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 7,
+                "max": 22
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:bow",
+			  "functions": [
+				{
+				  "function": "enchant_with_levels",
+				  "treasure": false,
+				  "levels": {
+					"min": 5,
+					"max": 19
+				 }
+			   }
+			 ]			  
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:tripwire_hook",
+              "quantity": {
+                "min": 8,
+                "max": 12
+              }
+            }			
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        }		
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "item": "minecraft:arrow",
+              "quantity": 5
+            }			
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow:19"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "item": "minecraft:arrow",
+              "quantity": 5
+            }			
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow:28"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "item": "minecraft:arrow",
+              "quantity": 5
+            }			
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow:35"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "item": "minecraft:arrow",
+              "quantity": 5
+            }			
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow:24"
+            }
+          ]
+        }		
+      ]
+    }	
+  ]
+}
