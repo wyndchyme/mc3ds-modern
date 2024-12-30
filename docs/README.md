@@ -98,7 +98,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Adventure Time Mashup | Skribblr      | Texture      | Unusable (25%) | Major Textures      |
 | Cracko's Experiments  | Cracko298     | Shader/Patch | Fully          | N/A                 |
 | Mob Tower/Castle      | Cracko298     | Structure    | Fully          | N/A                 |
-| Actual Models         | STBrian       | Mod/Texture  | Fully          | Included            |
+| Mob Models            | STBrian       | Mod/Texture  | Fully          | Included            |
 | Command Block Temple  | Cracko298     | Structure    | Fully          | N/A                 |
 | Stronghold Fix        | Vance         | Game/Fix     | Fully          | N/A                 |
 | Amplified World Gen   | Cracko298     | ASM/World    | Fully          | N/A                 |
