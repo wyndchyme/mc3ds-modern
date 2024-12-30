@@ -1,5 +1,7 @@
-Modernization MegaPack 1.6.1 "Canaletto"| #c46de5
+Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 | h22
+- Added the Mason villager profession from the Village and Pillage update, along with most of its trades, thanks to Zexlo| h26
+- Added the Nitwit villager profession from the Village and Pillage update| h26
 - Added the proper villager models and textures for parity with post-Java Edition 1.14 appearances, thanks to STBUniverse| h26
 - Baby zombies now burn in sunlight, for parity with post-Java Edition 1.13 functionality| h26
 - Zombies will no longer attempt to break down doors in Normal and Easy difficulties| h26
