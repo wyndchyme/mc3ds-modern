@@ -9,6 +9,7 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - Villagers now avoid Husks| h26
 - Villagers now avoid Evokers from a greater distance than in the vanilla game| h26
 - Added the ability for baby zombies to piggyback on adult zombies for parity with Bedrock Edition| h26
+- Vexes have been doubled in size as a quality of life change| h26
 - Modified loot tables for Vexes, Witches, and Vindicators for parity with their updated drops| h26
 - Gravel, terracotta, and concrete now have random texture rotation applied| h26
 - Reverted change to top menu bar brightness from 1.5.2| h26
