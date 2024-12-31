@@ -17,6 +17,8 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - Fishing junk and treasure loot tables have been modified for parity as well| h26
 - Gravel, terracotta, and concrete now have random texture rotation applied| h26
 - Obsidian no longer has random texture rotation applied| h26
+- "Fish" is now "Cod" for parity with post-Update Aquatic naming| h26
+- "Clownfish" is now "Tropical Fish" for parity with post-Update Aquatic naming| h26
 - Changed panorama and world thumbnail image to that of Java Edition 1.14| h26
 - Certain GUI switches and buttons have been redone for parity with Bedrock Edition, thanks to Zexlo| h26
 - Reverted change to top menu bar brightness from 1.5.2| h26
