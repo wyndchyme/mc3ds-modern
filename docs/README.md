@@ -108,6 +108,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Block                 | Blocky        | Mod/Skin     | Mostly   (90%) | Text                |
 | The Stalker           | Cracko298     | Mod/Entity   | Fully          | N/A                 |
 | Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included            |
+| Pillagers & Outpost   | Cracko298, Zexlo, and Wyndchyme     | Mod/Structure/Port | Fully          | Included            |
 
 </details>
 
