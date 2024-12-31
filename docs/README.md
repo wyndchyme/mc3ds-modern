@@ -47,10 +47,10 @@ _This pack contains the following community-made mods from talented modders:_
 |Mod   |Creator   |Description   |Modified for this pack?   |Version (if applicable)   |
 |---|---|---|---|---|
 |1.14 Textures   |wyndchyme   |The new textures introduced starting in Java Edition 1.14, and replaces the default Mojang and Other Ocean logos with their newer counterparts. Overwrites default texture pack.  |Made for this pack   |N/A   |
-|Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |N/A   |
+|Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |1.0.5   |
 |Cleann'slick GUI   |TheRustico36   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
 |New Base Skins   |TheRustico36   |Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.   |✕   |1   |
-|New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |N/A   |
+|New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |1.0.1   |
 |New Comparison Art   |wyndchyme   |Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.   |Made for this pack   |N/A   |
 |Mojangles Font   |Cracko298   |The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.   |✕   |1.0.1   |
 |Swappable Fonts   |wyndchyme   |Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.   |Made for this pack   |N/A   |
