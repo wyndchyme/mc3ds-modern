@@ -221,7 +221,6 @@
 		"sound": "stone"
 	},
 	"obsidian" : { 
-		"isotropic" : true,
 		"textures" : "obsidian",
 		"brightness_gamma" : 2.00,
 	  "sound": "stone"
