@@ -59,7 +59,6 @@ _This pack contains the following community-made mods from talented modders:_
 |Let's Update Mob Models   |STBrian   |Changes the appearances of villagers, bats, and zombified piglins for parity with their updated looks.   |✕   |v1.1.1   |
 |Font Friendliness   |wyndchyme   |Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
-|Mob Parity    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A   |
 |Modern Mobs    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A
 |Pillagers & Outpost    | Cracko298, Zexlo, & wyndchyme | Adds Pillagers and Pillager Outposts from the Village and Pillage update.  | Made for this pack   | N/A   |
 
@@ -100,18 +99,17 @@ _This pack contains the following community-made mods from talented modders:_
 | Adventure Time Mashup | Skribblr      | Texture      | Unusable (25%) | Major Textures      |
 | Cracko's Experiments  | Cracko298     | Shader/Patch | Fully          | N/A                 |
 | Mob Tower/Castle      | Cracko298     | Structure    | Fully          | N/A                 |
-| Mob Models            | STBrian       | Mod/Texture  | Fully          | Included            |
+| Let's Update Mob Models            | STBrian       | Mod/Texture  | Fully          | Included            |
 | Command Block Temple  | Cracko298     | Structure    | Fully          | N/A                 |
 | Stronghold Fix        | Vance         | Game/Fix     | Fully          | N/A                 |
 | Amplified World Gen   | Cracko298     | ASM/World    | Fully          | N/A                 |
-| Mob Parity            | Zexlo         | Mob/Edits    | Fully          | Included            |
 | Farland World Gen     | Cracko298     | ASM/World    | Fully          | N/A                 |
 | FWO Exploit           | Cracko298     | ASM/World    | Works    (75%) | Text/Minor Textures |
 | Block                 | Blocky        | Mod/Skin     | Mostly   (90%) | Text                |
 | The Stalker           | Cracko298     | Mod/Entity   | Fully          | N/A                 |
 | Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included            |
 | Modern Mobs           | Zexlo         | Mod/Edits    | Fully          | Included            |
-| Pillagers & Outpost   | Cracko298, Zexlo, and Wyndchyme     | Mod/Structure/Port | Fully          | Included            |
+| Pillagers & Outpost   | Cracko298, Zexlo, & wyndchyme     | Mod/Structure/Port | Fully          | Included            |
 
 </details>
 
