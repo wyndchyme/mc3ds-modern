@@ -11,11 +11,11 @@ textures/gui/icons/Nintendo-Logo.png| tImage s2 iw86 ih17 iu143 iv64 isu86 isv17
 Cleann'slick GUI| #b88d39
 New Base Skins| #b88d39
 | h20
-textures/gui/icons/Nintendo-Logo.png| tImage s2 iw82 ih17 iu0 iv81 isu82 isv17
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw58 ih17 iu0 iv81 isu58 isv17
 | h20
 New Panoramas| #b88d39
 Bat 1.20.3 Model| #b88d39
-Actual Models| #b88d39
+Let's Update Mob Models| #b88d39
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu82 iv81 isu74 isv17
 | h20
@@ -50,7 +50,7 @@ textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu69 iv64 isu74 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw79 ih17 iu127 iv120 isu79 isv17
 | h20
-textures/gui/icons/Nintendo-Logo.png| tImage s2 iw82 ih17 iu0 iv81 isu82 isv17
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw58 ih17 iu0 iv81 isu58 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw56 ih17 iu0 iv64 isu56 isv17
 | h20

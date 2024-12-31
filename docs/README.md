@@ -47,10 +47,10 @@ _This pack contains the following community-made mods from talented modders:_
 |Mod   |Creator   |Description   |Modified for this pack?   |Version (if applicable)   |
 |---|---|---|---|---|
 |1.14 Textures   |wyndchyme   |The new textures introduced starting in Java Edition 1.14, and replaces the default Mojang and Other Ocean logos with their newer counterparts. Overwrites default texture pack.  |Made for this pack   |N/A   |
-|Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |N/A   |
+|Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |1.0.5   |
 |Cleann'slick GUI   |TheRustico36   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
 |New Base Skins   |TheRustico36   |Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.   |✕   |1   |
-|New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |N/A   |
+|New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |1.0.1   |
 |New Comparison Art   |wyndchyme   |Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.   |Made for this pack   |N/A   |
 |Mojangles Font   |Cracko298   |The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.   |✕   |1.0.1   |
 |Swappable Fonts   |wyndchyme   |Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.   |Made for this pack   |N/A   |
@@ -60,7 +60,8 @@ _This pack contains the following community-made mods from talented modders:_
 |Font Friendliness   |wyndchyme   |Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
 |Mob Parity    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A   |
-|Pillagers & Outpost    | Cracko298, Zexlo, & Wyndchyme | Adds the Pillagers & Outpost, from Java 1.14.X (Village & Pillage), to Minecraft 3DS. | Made for this pack   | N/A   |
+|Modern Mobs    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A
+|Pillagers & Outpost    | Cracko298, Zexlo, & wyndchyme | Adds Pillagers and Pillager Outposts from the Village and Pillage update.  | Made for this pack   | N/A   |
 
 **Pack compiled and maintained by wyndchyme.**
  
@@ -99,7 +100,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Adventure Time Mashup | Skribblr      | Texture      | Unusable (25%) | Major Textures      |
 | Cracko's Experiments  | Cracko298     | Shader/Patch | Fully          | N/A                 |
 | Mob Tower/Castle      | Cracko298     | Structure    | Fully          | N/A                 |
-| Actual Models         | STBrian       | Mod/Texture  | Fully          | Included            |
+| Mob Models            | STBrian       | Mod/Texture  | Fully          | Included            |
 | Command Block Temple  | Cracko298     | Structure    | Fully          | N/A                 |
 | Stronghold Fix        | Vance         | Game/Fix     | Fully          | N/A                 |
 | Amplified World Gen   | Cracko298     | ASM/World    | Fully          | N/A                 |
@@ -109,6 +110,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Block                 | Blocky        | Mod/Skin     | Mostly   (90%) | Text                |
 | The Stalker           | Cracko298     | Mod/Entity   | Fully          | N/A                 |
 | Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included            |
+| Modern Mobs           | Zexlo         | Mod/Edits    | Fully          | Included            |
 | Pillagers & Outpost   | Cracko298, Zexlo, and Wyndchyme     | Mod/Structure/Port | Fully          | Included            |
 
 </details>

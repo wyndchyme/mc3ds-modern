@@ -1,0 +1,108 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:clay_ball",
+              "quantity": {
+                "min": 10,
+                "max": 14
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:brick",
+              "quantity": {
+                "min": 10,
+                "max": 14
+              }			  
+            }
+          ]
+        }		
+      ]
+    },
+    {
+      "trades":[
+      {
+        "wants": [
+          {
+            "item": "minecraft:stone:0",
+            "quantity": {
+              "min": 20,
+              "max": 20
+            }
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:emerald"
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:emerald"
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:stonebrick:3",
+            "quantity": {
+              "min": 4,
+              "max": 4
+            }			
+          }
+        ]
+      }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:quartz",
+            "quantity": {
+              "min": 12,
+              "max": 16
+            }			  
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:stained_hardened_clay:0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
