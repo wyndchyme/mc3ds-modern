@@ -60,7 +60,7 @@ _This pack contains the following community-made mods from talented modders:_
 |Font Friendliness   |wyndchyme   |Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
 |Mob Parity    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A   |
-|Pillagers & Outpost    | Cracko298, Zexlo, & Wyndchyme | Adds the Pillagers to Minecraft 3DS from Java 1.14.X (Village & Pillage). | Made for this pack   | N/A   |
+|Pillagers & Outpost    | Cracko298, Zexlo, & Wyndchyme | Adds the Pillagers & Outpost, from Java 1.14.X (Village & Pillage), to Minecraft 3DS. | Made for this pack   | N/A   |
 
 **Pack compiled and maintained by wyndchyme.**
  
