@@ -24,7 +24,8 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - Fixed a bug where swamps would use the snowy grass side texture| h26
 - Tweaked swamp grass side texture to better match more vibrant colormaps| h26
 - Edit 'Pencil' icon in the default texture pack spritesheet no longer appears cut off| h26
-- The color of arrows in the default texture pack spritesheet have been adjusted to appear more yellow| h26
+- The color of arrows in the default texture pack inventory have been adjusted to appear more yellow| h26
+- The background of arrow buttons in the default texture pack inventory are now a solid color| h26
 - Enderman Spawn Egg has been brightened slightly for better visibility against black background| h26
 - Changed 'STBUniverse' to 'STBrian' in documentation and in-game credits| h26
 - Condensed certain mod entries in README, UniStore description, and in-game credits| h26
