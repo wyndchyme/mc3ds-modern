@@ -36,6 +36,7 @@ textures/gui/icons/Nintendo-Logo.png| tImage s2 iw48 ih17 iu156 iv81 isu48 isv17
 1.20 Mob Textures| #b88d39
 Modern Mobs| #b88d39
 Pillagers & Outpost| #b88d39
+Cleann'slick GUI| #b88d39
 |h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw97 ih11 iu97 iv98 isu97 isv11
 | h20
