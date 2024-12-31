@@ -12,6 +12,7 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - All potion textures have been changed for parity with post-Java Edition 1.19.4 colors| h26
 - Brewing inventory icon has been changed to match new potions| h26
 - Added the ability for baby zombies to piggyback on adult zombies for parity with Bedrock Edition| h26
+- Vexes have been doubled in size as a quality of life change| h26
 - Modified loot tables for Vexes, Witches, and Vindicators for parity with their updated drops| h26
 - Fishing junk and treasure loot tables have been modified for parity as well| h26
 - Gravel, terracotta, and concrete now have random texture rotation applied| h26
