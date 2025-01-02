@@ -31,6 +31,7 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - The color of arrows in the default texture pack inventory have been adjusted to appear more yellow| h26
 - The background of arrow buttons in the default texture pack inventory are now a solid color| h26
 - Enderman Spawn Egg has been brightened slightly for better visibility against black background| h26
+- Fixed a bug introduced in the vanilla game where bugged map items could spawn in stronghold chests| h26
 - Changed 'STBUniverse' to 'STBrian' in documentation and in-game credits| h26
 - Condensed certain mod entries in README, UniStore description, and in-game credits| h26
 - Update codenames introduced starting in 1.6.0 "Rococo" will now be displayed in the Patch Notes menu| h26
