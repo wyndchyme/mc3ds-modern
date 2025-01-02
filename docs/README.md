@@ -60,6 +60,7 @@ _This pack contains the following community-made mods from talented modders:_
 |Font Friendliness   |wyndchyme   |Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
 |Modern Mobs    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A
+|New Sound Effects   |Zexlo   |Replaces certain sound effects (ex. door opening/closing) with their newer equivalents.   |Made for this pack   |N/A   |
 |Pillagers & Outpost    | Cracko298, Zexlo, & wyndchyme | Adds Pillagers and Pillager Outposts from the Village and Pillage update.  | Made for this pack   | N/A   |
 
 **Pack compiled and maintained by wyndchyme.**
@@ -110,6 +111,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included            |
 | Modern Mobs           | Zexlo         | Mod/Edits    | Fully          | Included            |
 | Pillagers & Outpost   | Cracko298, Zexlo, & wyndchyme     | Mod/Structure/Port | Fully          | Included            |
+| Modern Music Expansion   |Zexlo   | Audio   | Fully   | Plugin   |
 
 </details>
 
