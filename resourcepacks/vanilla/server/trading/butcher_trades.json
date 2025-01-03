@@ -1,0 +1,188 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:porkchop",
+              "quantity": {
+                "min": 4,
+                "max": 14
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:rabbit",
+              "quantity": {
+                "min": 14,
+                "max": 18
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },		
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:rabbit_stew"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:coal:0",
+              "quantity": {
+                "min": 15,
+                "max": 24
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 5
+              }			  
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:cooked_porkchop",
+              "quantity": {
+                "min": 5,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 5,
+                "max": 7
+              }			  
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:cooked_chicken",
+              "quantity": {
+                "min": 6,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:beef",
+              "quantity": {
+                "min": 10,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:muttonRaw",
+              "quantity": {
+                "min": 7,
+                "max": 10
+              }			  
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:apple",
+              "quantity": {
+                "min": 10,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:beetroot",
+              "quantity": {
+                "min": 10,
+                "max": 16
+              }			  
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        }
+      ]
+    }	
+  ]
+}

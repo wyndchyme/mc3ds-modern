@@ -1,0 +1,80 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:paper",
+              "quantity": {
+                "min": 24,
+                "max": 36
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:glass_pane",
+              "quantity": {
+                "min": 11,
+                "max": 20
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:compass"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        }		
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 7,
+                "max": 14
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:frame",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }	
+  ]
+}

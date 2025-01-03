@@ -1,0 +1,80 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion:19",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:name_tag",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:saddle",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.50,
+                                "max": 0.90
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+							 "levels": {
+							"min": 22,
+							"max": 30
+							},
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.50,
+                                "max": 0.90
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+							  "levels": {
+								"min": 22,
+								"max": 30
+							  },
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
