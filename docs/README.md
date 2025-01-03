@@ -110,7 +110,8 @@ _This pack contains the following community-made mods from talented modders:_
 | The Stalker           | Cracko298     | Mod/Entity   | Fully          | N/A                 |
 | Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included            |
 | Modern Mobs           | Zexlo         | Mod/Edits    | Fully          | Included            |
-| Pillagers & Outpost   | Cracko298, Zexlo, & wyndchyme     | Mod/Structure/Port | Fully          | Included            |
+| Pillagers & Outpost   | Cracko298, Zexlo, and Wyndchyme     | Mod/Structure/Port | Fully          | Included            |
+| 3DS Television            | Cracko298     | Mod/Structure | Mostly   (90%) | Structures/Minor Textures                |
 | Modern Music Expansion   |Zexlo   | Audio   | Fully   | Plugin   |
 
 </details>
