@@ -239,15 +239,15 @@ _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issue
 <br>
 
 # Screenshots
-![mc3ds-modern-6](https://github.com/user-attachments/assets/736c081e-613b-4001-9766-38b2657d10ac)
-![mc3ds-classic-textures-1](https://github.com/user-attachments/assets/a3ae2e36-708d-4b5c-8429-0a1b6687c67f)
-![mc3ds-modern-5](https://github.com/user-attachments/assets/84ce88fe-69de-4528-8453-728a0dc12d6e)
-![mc3ds-modern-4](https://github.com/user-attachments/assets/07b0b12f-e500-416b-829b-d1a432673d75)
-![mc3ds-modern-2](https://github.com/user-attachments/assets/4b878960-bf88-4430-99df-f3366253c59d)
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-12.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-13.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-11.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-10.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-8.png"></img>
 ![mc3ds-modern-1](https://github.com/user-attachments/assets/ecd74084-e090-4ec6-8ca4-a46b44ecf1cc)
 ![mc3ds-classic-textures-3](https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f)
 ![mc3ds-classic-textures-2](https://github.com/user-attachments/assets/1fc05969-28f1-401c-b411-be07abb7b64f)
-![mc3ds-modern-3](https://github.com/user-attachments/assets/e998519c-58a8-48a5-9b5d-56f9db6b9dc3)
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-9.png"></img>
 ![mc3ds-modern-7](https://github.com/user-attachments/assets/04fde33d-3498-4d99-94ad-0bff9fe2d8aa)
 
 <br>
