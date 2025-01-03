@@ -112,6 +112,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Mojangles Font        | Cracko298     | Text/Texture | Fully          | Included            |
 | Modern Mobs           | Zexlo         | Mod/Edits    | Fully          | Included            |
 | Pillagers & Outpost   | Cracko298, Zexlo, and Wyndchyme     | Mod/Structure/Port | Fully          | Included            |
+| 3DS Television            | Cracko298     | Mod/Structure | Mostly   (90%) | Structures/Minor Textures                |
 
 </details>
 
