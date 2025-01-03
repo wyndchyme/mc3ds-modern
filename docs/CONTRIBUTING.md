@@ -6,7 +6,7 @@
 
 <br>
 
-1. Pull requests that __add new mods__ to the modpack should not target the <i>main</i> branch. They should instead target the closest pre-release branch. For example, if the latest release is version 1.6.1 "Canaletto," the pull request should target the <i>1.7.0-baroque</i> branch.
+1. Pull requests that __add new mods__ to the modpack should not target the <i>main</i> branch. They should instead target the closest pre-release branch. For example, if the latest release is version 2.0.0 "Romantic," the pull request should target the <i>2.1.0-austen</i> branch.
 
 <br>
 

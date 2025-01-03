@@ -48,7 +48,7 @@ _This pack contains the following community-made mods from talented modders:_
 |---|---|---|---|---|
 |1.14 Textures   |wyndchyme   |The new textures introduced starting in Java Edition 1.14, and replaces the default Mojang and Other Ocean logos with their newer counterparts. Overwrites default texture pack.  |Made for this pack   |N/A   |
 |Classic Textures   |wyndchyme   |Emulates the look of Classic Minecraft. Overwrites Candy texture pack.  |Made for this pack   |1.0.5   |
-|Cleann'slick GUI   |TheRustico36   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
+|Cleann'slick GUI   |TheRustico36 & Zexlo   |Adds a darker, cleaner UI and new icons.   |✓   |3.1-MMP   |
 |New Base Skins   |TheRustico36   |Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.   |✕   |1   |
 |New Achievement Art   |wyndchyme   |Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.   |Made for this pack   |1.0.1   |
 |New Comparison Art   |wyndchyme   |Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.   |Made for this pack   |N/A   |
@@ -59,8 +59,8 @@ _This pack contains the following community-made mods from talented modders:_
 |Let's Update Mob Models   |STBrian   |Changes the appearances of villagers, bats, and zombified piglins for parity with their updated looks.   |✕   |v1.1.1   |
 |Font Friendliness   |wyndchyme   |Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.   |Made for this pack   |N/A   |
 |Name Parity   |wyndchyme   |Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks) |Made for this pack   |N/A   |
-|Mob Parity    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A   |
 |Modern Mobs    |Zexlo   |Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.  |✕   |N/A
+|New Sound Effects   |Zexlo   |Replaces certain sound effects (ex. door opening/closing) with their newer equivalents.   |Made for this pack   |N/A   |
 |Pillagers & Outpost    | Cracko298, Zexlo, & wyndchyme | Adds Pillagers and Pillager Outposts from the Village and Pillage update.  | Made for this pack   | N/A   |
 
 **Pack compiled and maintained by wyndchyme.**
@@ -100,11 +100,10 @@ _This pack contains the following community-made mods from talented modders:_
 | Adventure Time Mashup | Skribblr      | Texture      | Unusable (25%) | Major Textures      |
 | Cracko's Experiments  | Cracko298     | Shader/Patch | Fully          | N/A                 |
 | Mob Tower/Castle      | Cracko298     | Structure    | Fully          | N/A                 |
-| Mob Models            | STBrian       | Mod/Texture  | Fully          | Included            |
+| Let's Update Mob Models            | STBrian       | Mod/Texture  | Fully          | Included            |
 | Command Block Temple  | Cracko298     | Structure    | Fully          | N/A                 |
 | Stronghold Fix        | Vance         | Game/Fix     | Fully          | N/A                 |
 | Amplified World Gen   | Cracko298     | ASM/World    | Fully          | N/A                 |
-| Mob Parity            | Zexlo         | Mob/Edits    | Fully          | Included            |
 | Farland World Gen     | Cracko298     | ASM/World    | Fully          | N/A                 |
 | FWO Exploit           | Cracko298     | ASM/World    | Works    (75%) | Text/Minor Textures |
 | Block                 | Blocky        | Mod/Skin     | Mostly   (90%) | Text                |
@@ -113,6 +112,7 @@ _This pack contains the following community-made mods from talented modders:_
 | Modern Mobs           | Zexlo         | Mod/Edits    | Fully          | Included            |
 | Pillagers & Outpost   | Cracko298, Zexlo, and Wyndchyme     | Mod/Structure/Port | Fully          | Included            |
 | 3DS Television            | Cracko298     | Mod/Structure | Mostly   (90%) | Structures/Minor Textures                |
+| Modern Music Expansion   |Zexlo   | Audio   | Fully   | Plugin   |
 
 </details>
 
@@ -240,15 +240,15 @@ _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issue
 <br>
 
 # Screenshots
-![mc3ds-modern-6](https://github.com/user-attachments/assets/736c081e-613b-4001-9766-38b2657d10ac)
-![mc3ds-classic-textures-1](https://github.com/user-attachments/assets/a3ae2e36-708d-4b5c-8429-0a1b6687c67f)
-![mc3ds-modern-5](https://github.com/user-attachments/assets/84ce88fe-69de-4528-8453-728a0dc12d6e)
-![mc3ds-modern-4](https://github.com/user-attachments/assets/07b0b12f-e500-416b-829b-d1a432673d75)
-![mc3ds-modern-2](https://github.com/user-attachments/assets/4b878960-bf88-4430-99df-f3366253c59d)
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-12.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-13.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-14.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-10.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-8.png"></img>
 ![mc3ds-modern-1](https://github.com/user-attachments/assets/ecd74084-e090-4ec6-8ca4-a46b44ecf1cc)
 ![mc3ds-classic-textures-3](https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f)
 ![mc3ds-classic-textures-2](https://github.com/user-attachments/assets/1fc05969-28f1-401c-b411-be07abb7b64f)
-![mc3ds-modern-3](https://github.com/user-attachments/assets/e998519c-58a8-48a5-9b5d-56f9db6b9dc3)
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/docs/screenshots/mc3ds-modern-9.png"></img>
 ![mc3ds-modern-7](https://github.com/user-attachments/assets/04fde33d-3498-4d99-94ad-0bff9fe2d8aa)
 
 <br>
