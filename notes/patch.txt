@@ -23,6 +23,7 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - "Clownfish" is now "Tropical Fish" for parity with post-Update Aquatic naming| h26
 - Changed panorama and world thumbnail image to that of Java Edition 1.14| h26
 - Certain GUI switches and buttons have been redone for parity with Bedrock Edition, thanks to Zexlo| h26
+- All effect icons have been redone for parity with their new textures| h26
 - Reverted change to top menu bar brightness from 1.5.2| h26
 - Reverted changes to D-Pad button prompts from 1.6.0 "Rococo"| h26
 - Fixed a bug where swamps would use the snowy grass side texture| h26
