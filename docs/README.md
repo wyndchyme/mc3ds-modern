@@ -234,6 +234,10 @@ _A: Contributions are welcome! Fork the repository, make your changes, and then 
 
 _A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
 
+**Q: Is there documentation avaliable for Modernization MegaPack?**
+
+_A: Documentation can be found [here.](https://wyndchyme.github.io/consoles/3ds/docs/mc3ds-modern/)_
+
  
 </details>
 
