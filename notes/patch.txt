@@ -33,6 +33,7 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - Enderman Spawn Egg has been brightened slightly for better visibility against black background| h26
 - Fixed a bug introduced in the vanilla game where bugged map items could spawn in stronghold chests| h26
 - Changed 'STBUniverse' to 'STBrian' in documentation and in-game credits| h26
+- 'ENDERMANYK' is now fully capitalized in in-game credits
 - Condensed certain mod entries in README, UniStore description, and in-game credits| h26
 - Update codenames introduced starting in 1.6.0 "Rococo" will now be displayed in the Patch Notes menu| h26
 - Version headers in Patch Notes menu have been condensed| h26
