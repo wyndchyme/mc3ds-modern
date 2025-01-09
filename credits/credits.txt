@@ -52,7 +52,7 @@ textures/gui/icons/Nintendo-Logo.png| tImage s2 iw68 ih17 iu127 iv137 isu68 isv1
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu69 iv64 isu74 isv17
 | h20
-textures/gui/icons/Nintendo-Logo.png| tImage s2 iw79 ih17 iu127 iv120 isu79 isv17
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw80 ih17 iu127 iv120 isu80 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw58 ih17 iu0 iv81 isu58 isv17
 | h20
