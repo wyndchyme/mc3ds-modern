@@ -232,7 +232,7 @@
             }
           },
           {
-            "weight": 60,
+            "weight": 10,
             "remove": {
             },
             "add": {
