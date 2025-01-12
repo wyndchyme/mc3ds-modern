@@ -244,16 +244,20 @@ _A: Documentation can be found [here.](https://wyndchyme.github.io/consoles/3ds/
 <br>
 
 # Screenshots
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-12.png"></img>
 <img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-13.png"></img>
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-14.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-12.png"></img>
+
 <img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-10.png"></img>
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-8.png"></img>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-14.png"></img>
+
 ![mc3ds-modern-1](https://github.com/user-attachments/assets/ecd74084-e090-4ec6-8ca4-a46b44ecf1cc)
-![mc3ds-classic-textures-3](https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f)
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-8.png"></img>
+
 ![mc3ds-classic-textures-2](https://github.com/user-attachments/assets/1fc05969-28f1-401c-b411-be07abb7b64f)
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-9.png"></img>
+![mc3ds-classic-textures-3](https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f)
+
 ![mc3ds-modern-7](https://github.com/user-attachments/assets/04fde33d-3498-4d99-94ad-0bff9fe2d8aa)
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-9.png"></img>
 
 <br>
 
