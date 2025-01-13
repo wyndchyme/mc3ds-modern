@@ -18,6 +18,7 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - Vexes have been doubled in size as a quality of life change| h26
 - Modified loot tables for Vexes, Witches, and Vindicators for parity with their updated drops| h26
 - Fishing junk and treasure loot tables have been modified for parity as well| h26
+- Water vibrance has been toned down| h26
 - Gravel, terracotta, and concrete now have random texture rotation applied| h26
 - Obsidian no longer has random texture rotation applied| h26
 - "Fish" is now "Cod" for parity with post-Update Aquatic naming| h26
