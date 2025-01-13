@@ -30,6 +30,7 @@ New Loading Animation| #b88d39
 Font Friendliness| #b88d39
 Name Parity| #b88d39
 Pillagers & Outpost| #b88d39
+Cleann'slick GUI| #b88d39
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw48 ih17 iu156 iv81 isu48 isv17
 | h20
