@@ -23,6 +23,7 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - "Fish" is now "Cod" for parity with post-Update Aquatic naming| h26
 - "Clownfish" is now "Tropical Fish" for parity with post-Update Aquatic naming| h26
 - Changed panorama and world thumbnail image to that of Java Edition 1.14| h26
+- Options, Skins and Manual/Patch Notes menu icons have been completely redone| h26
 - Certain GUI switches and buttons have been redone for parity with Bedrock Edition, thanks to Zexlo| h26
 - All effect icons have been redone for parity with their new textures| h26
 - Reverted change to top menu bar brightness from 1.5.2| h26
@@ -32,6 +33,8 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - Edit 'Pencil' icon in the default texture pack spritesheet no longer appears cut off| h26
 - The color of arrows in the default texture pack inventory have been adjusted to appear more yellow| h26
 - The background of arrow buttons in the default texture pack inventory are now a solid color| h26
+- Renamed 'Standard' skin pack to 'Default'| h26
+- Renamed 'Choose Skin' menu to 'Dressing Room' for parity with Bedrock Edition| h26
 - Enderman Spawn Egg has been brightened slightly for better visibility against black background| h26
 - Fixed a bug introduced in the vanilla game where bugged map items could spawn in stronghold chests| h26
 - Changed 'STBUniverse' to 'STBrian' in documentation and in-game credits| h26
