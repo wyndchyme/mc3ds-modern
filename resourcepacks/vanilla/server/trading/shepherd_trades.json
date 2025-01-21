@@ -1,0 +1,160 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:wool:0",
+              "quantity": {
+                "min": 16,
+                "max": 22
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:shears"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:carpet:0",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:dye:2",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:dye:6",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:dye:12",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:dye:13",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:dye:14",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:painting",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

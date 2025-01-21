@@ -1,0 +1,223 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:wheat",
+              "quantity": {
+                "min": 20,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+           {
+              "item": "minecraft:emerald"
+           }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:potato",
+              "quantity": {
+                "min": 26,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:carrot",
+              "quantity": {
+                "min": 22,
+                "max": 30
+              }
+            }
+          ],
+          "gives": [
+            {
+               "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:bread",
+              "quantity": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:pumpkin",
+              "quantity": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:pumpkin_pie",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:apple",
+              "quantity": 4
+            }
+          ]
+        }		
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:melon_block",
+              "quantity": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:cookie",
+              "quantity": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:beetroot",
+              "quantity": {
+                "min": 15,
+                "max": 26
+              }			  
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:cake"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 3,
+                "max": 9
+              }			  
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_carrot",
+              "quantity": 3			  
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 9
+              }			  
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:speckled_melon",
+              "quantity": 3					  
+            }
+          ]
+        }
+      ]
+    }	
+  ]
+}
