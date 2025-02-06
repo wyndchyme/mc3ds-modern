@@ -1,0 +1,322 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:coal:0",
+              "quantity": {
+                "min": 15,
+                "max": 24
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 5,
+                "max": 9
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_helmet"
+            }
+          ]
+        },
+		{
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 9,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_chestplate"
+            }
+          ]
+        },
+		{
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 7,
+                "max": 12
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_leggings"
+            }
+          ]
+        },
+		{
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 9
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_boots"
+            }
+          ]
+        }		
+      ]
+    },
+    {
+      "trades":[
+      {
+        "wants": [
+          {
+            "item": "minecraft:iron_ingot",
+            "quantity": 4
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:emerald"
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:emerald"
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:gold_ingot",
+			"quantity": 4
+          }
+         ]
+        },
+		{
+        "wants": [
+          {
+            "item": "minecraft:emerald",
+            "quantity": {
+              "min": 3,
+              "max": 8
+            }
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:chainmail_leggings"
+          }
+         ]
+        },
+		{
+        "wants": [
+          {
+            "item": "minecraft:emerald",
+            "quantity": {
+              "min": 1,
+              "max": 4
+            }
+          }
+         ],
+         "gives": [
+          {
+            "item": "minecraft:chainmail_boots"
+          }
+         ]
+        }		
+      ]
+    },
+    {
+      "trades":[
+      {
+        "wants": [
+          {
+            "item": "minecraft:bucket:10"
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:emerald"
+          }
+        ]
+      },
+      {
+        "wants": [
+          {
+            "item": "minecraft:diamond",
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }			
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:emerald"
+          }
+         ]
+        },
+		{
+        "wants": [
+          {
+            "item": "minecraft:emerald",
+            "quantity": {
+              "min": 1,
+              "max": 4
+            }
+          }
+        ],
+        "gives": [
+          {
+            "item": "minecraft:chainmail_helmet"
+          }
+         ]
+        },
+		{
+        "wants": [
+          {
+            "item": "minecraft:emerald",
+            "quantity": {
+              "min": 4,
+              "max": 8
+            }
+          }
+         ],
+         "gives": [
+          {
+            "item": "minecraft:chainmail_chestplate"
+          }
+         ]
+        }		
+      ]
+    },
+    {
+      "trades":[
+		{
+		  "wants": [
+			{
+			  "item": "minecraft:emerald",
+			  "quantity": {
+				"min": 13,
+				"max": 27
+			  }
+			}
+		  ],
+		  "gives": [
+			{
+			  "item": "minecraft:diamond_helmet",
+			  "functions": [
+				{
+				  "function": "enchant_with_levels",
+				  "treasure": false,
+				  "levels": {
+					"min": 5,
+					"max": 19
+				 }
+			   }
+			 ]
+		   }
+		]
+	  },
+		{
+		  "wants": [
+			{
+			  "item": "minecraft:emerald",
+			  "quantity": {
+				"min": 21,
+				"max": 35
+			  }
+			}
+		  ],
+		  "gives": [
+			{
+			  "item": "minecraft:diamond_chestplate",
+			  "functions": [
+				{
+				  "function": "enchant_with_levels",
+				  "treasure": false,
+				  "levels": {
+					"min": 5,
+					"max": 19
+				  }
+				}
+			  ]
+			}
+		  ]
+		},
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 19,
+                "max": 33
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_leggings",
+              "functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 5,
+                    "max": 19
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 13,
+                "max": 27
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_boots",
+              "functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 5,
+                    "max": 19
+                  }
+                }
+              ]
+            }
+          ]
+        }		
+      ]
+    }	
+  ]
+}
