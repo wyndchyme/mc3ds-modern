@@ -43,6 +43,7 @@ Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
 - Condensed certain mod entries in README, UniStore description, and in-game credits| h26
 - Update codenames introduced starting in 1.6.0 "Rococo" will now be displayed in the Patch Notes menu| h26
 - Version headers in Patch Notes menu have been condensed| h26
+- Alphabetized mod names within in-game credits and GitHub README| h26
 - Added 1.0.0 patch notes to in-game Patch Notes menu| h26
 - Added mod compatibility list to GitHub README, thanks to Cracko| h26
 - Added contributing guidelines to GitHub repository| h26
