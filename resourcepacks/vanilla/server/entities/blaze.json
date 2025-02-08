@@ -1,0 +1,105 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.1.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:blaze"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/blaze.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 1.8
+      },
+      "minecraft:attack": {
+        "damage": 6
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:movement": {
+        "value": 0.23
+      },
+      "minecraft:navigation.walk": {
+        "can_float": true
+      },
+      "minecraft:movement.basic": {
+        
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:can_fly": {
+        "value": true
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:follow_range": {
+        "value": 48,
+        "max": 48
+      },
+      "minecraft:hurt_when_wet": {
+        "value": true
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:nameable": {
+
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "broadcastAnger": true,
+        "broadcastRange": 20,        
+        "entity_types": [
+          {
+            "filters": { "other_with_families": "player" },
+            "max_dist": 48
+          }
+        ]
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1,
+        "alert_same_type": true
+      },      
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "max_dist": 3,
+        "speed_multiplier": 1,
+        "random_stop_interval": 2.0,
+        "track_target": true
+      },
+      "minecraft:shooter": {
+        "type": "smallfireball",
+        "def": "minecraft:small_fireball"
+      },
+      "minecraft:behavior.ranged_attack": {
+        "priority": 3,
+        "attack_interval_min": 3,
+        "attack_interval_max": 5,
+        "charge_charged_trigger": 0.0,
+        "charge_shoot_trigger": 4.0,
+        "attack_radius": 48,
+        "burst_shots": 3,
+        "burst_interval": 0.3
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 3,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 4
+      },
+      "minecraft:type_family": {
+        "family": [ "blaze", "monster" ]
+      }
+    },
+
+    "events": {
+
+    }
+  }
+}
