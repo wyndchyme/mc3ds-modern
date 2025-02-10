@@ -311,9 +311,6 @@
       },
       "minecraft:loot": {
         "table": "loot_tables/entities/zombie.json"
-      },
-      "minecraft:equipment": {
-        "table": "loot_tables/entities/zombie_equipment.json"
       },      
       "minecraft:collision_box": {
         "width": 0.6,

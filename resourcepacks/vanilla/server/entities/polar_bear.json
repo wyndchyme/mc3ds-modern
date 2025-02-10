@@ -1,0 +1,256 @@
+{
+  "minecraft:entity": {
+    "version": 0.5,
+
+    "component_groups": {
+      "minecraft:baby": {
+        "minecraft:is_baby": {
+        },
+        "minecraft:scale": {
+          "value": 0.5
+        },
+        "minecraft:ageable": {
+          "duration": 1200,
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up",
+            "target": "self"
+          }
+        },
+
+        "minecraft:behavior.follow_parent": {
+          "priority": 4,
+          "speed_multiplier": 1.25
+        }
+      },
+
+      "minecraft:baby_wild": {
+        "minecraft:on_target_acquired": {
+          "event": "minecraft:on_scared",
+          "target": "self"
+        },
+
+        "minecraft:behavior.panic": {
+          "priority": 1,
+          "speed_multiplier": 2.0
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 4,
+          "entity_types": [
+            {
+              "filters": { "other_with_families": "player" },
+              "max_dist": 16
+            }
+          ],
+          "must_see": false
+        }
+      },
+
+      "minecraft:baby_scared": {
+        "minecraft:angry": {
+          "duration": 1,
+          "broadcastAnger": true,
+          "broadcastRange": 41,
+          "calm_event": {
+            "event": "minecraft:baby_on_calm",
+            "target": "self"
+          }
+        }
+      },
+
+      "minecraft:adult": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/fishing/fish.json"
+        }
+      },
+
+      "minecraft:adult_wild": {
+        "minecraft:on_target_acquired": {
+          "event": "minecraft:on_anger",
+          "target": "self"
+        },
+        "minecraft:on_friendly_anger": {
+          "event": "minecraft:on_anger",
+          "target": "self"
+        }
+      },
+
+      "minecraft:adult_hostile": {
+        "minecraft:attack": {
+          "damage": 6.0
+        },
+        "minecraft:angry": {
+          "duration": 500,
+          "broadcastAnger": false,
+          "broadcastRange": 20,
+          "calm_event": {
+            "event": "minecraft:on_calm",
+            "target": "self"
+          }
+        },
+
+        "minecraft:behavior.stomp_attack": {
+          "priority": 1,
+          "track_target": true
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:polar_bear"
+      },
+      "minecraft:type_family": {
+        "family": [ "polarbear" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:health": {
+        "value": 30
+      },
+      "minecraft:collision_box": {
+        "width": 1.3,
+        "height": 1.4
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:navigation.walk": {
+        "can_float": true
+      },
+      "minecraft:movement.basic": {
+        
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:follow_range": {
+        "value": 48
+      },
+
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 5
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "target_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 9,
+            "add": {
+              "component_groups": [
+                "minecraft:adult",
+                "minecraft:adult_wild"
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "add": {
+              "component_groups": [
+                "minecraft:baby",
+                "minecraft:baby_wild"
+              ]
+            }
+          }
+        ]
+      },
+
+      "minecraft:entity_born": {
+        "add": {
+          "component_groups": [
+            "minecraft:baby",
+            "minecraft:baby_wild"
+          ]
+        }
+      },
+
+      "minecraft:ageable_grow_up": {
+        "remove": {
+          "component_groups": [
+            "minecraft:baby",
+            "minecraft:baby_wild",
+            "minecraft:baby_scared"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:adult",
+            "minecraft:adult_wild"
+          ]
+        }
+      },
+
+      "minecraft:on_calm": {
+        "remove": {
+          "component_groups": [
+            "minecraft:adult_hostile"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:adult_wild"
+          ]
+        }
+      },
+
+      "minecraft:on_anger": {
+        "remove": {
+          "component_groups": [
+            "minecraft:adult_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:adult_hostile"
+          ]
+        }
+      },
+
+      "minecraft:baby_on_calm": {
+        "remove": {
+          "component_groups": [
+            "minecraft:baby_scared"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:baby_wild"
+          ]
+        }
+      },
+
+      "minecraft:on_scared": {
+        "remove": {
+          "component_groups": [
+            "minecraft:baby_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:baby_scared"
+          ]
+        }
+      }
+    }
+  }
+}
