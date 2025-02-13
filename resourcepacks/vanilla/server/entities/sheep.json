@@ -1,0 +1,552 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.1.0",
+
+    "component_groups": {
+      "minecraft:rideable_sheared": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [0.0, 0.9, 0.0]
+          }
+        }
+      },
+      "minecraft:rideable_wooly": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [0.0, 0.975, 0.0]
+          }
+        }
+      },
+      "minecraft:sheep_baby": {
+        "minecraft:is_baby": {
+        },
+        "minecraft:scale": {
+          "value": 0.5
+        },
+        "minecraft:ageable": {
+          "duration": 1200,
+          "feedItems": "wheat",
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.follow_parent": {
+          "priority": 6,
+          "speed_multiplier": 1.1
+        }
+      },
+
+      "minecraft:sheep_adult": {
+        "minecraft:loot": {
+          "table": "loot_tables/entities/sheep.json"
+        },
+        "minecraft:behavior.breed": {
+          "priority": 3,
+          "speed_multiplier": 1.0
+        },
+        "minecraft:breedable": {
+          "requireTame": false,
+          "breedsWith": {
+            "mateType": "minecraft:sheep",
+            "babyType": "minecraft:sheep"
+          },
+          "breedItems": "wheat"
+        }
+      },
+      "minecraft:sheep_dyeable": {
+        "minecraft:is_dyeable": {
+          "interact_text": "action.interact.dye"
+        }
+      },
+      "minecraft:sheep_sheared": {
+        "minecraft:is_sheared": {
+        }
+      },
+      "minecraft:sheep_leashed": {
+        "minecraft:behavior.move_towards_restriction": {
+          "priority": 2,
+          "speed_multiplier": 1.0
+        }
+      },
+      "minecraft:sheep_white": {
+        "minecraft:color": {
+          "value": 0
+        }
+      },
+      "minecraft:sheep_orange": {
+        "minecraft:color": {
+          "value": 1
+        }
+      },
+      "minecraft:sheep_magenta": {
+        "minecraft:color": {
+          "value": 2
+        }
+      }, 
+      "minecraft:sheep_light_blue": {
+        "minecraft:color": {
+          "value": 3
+        }
+      },
+      "minecraft:sheep_yellow": {
+        "minecraft:color": {
+          "value": 4
+        }
+      }, 
+      "minecraft:sheep_lime": {
+        "minecraft:color": {
+          "value": 5
+        }
+      },
+      "minecraft:sheep_pink": {
+        "minecraft:color": {
+          "value": 6
+        }
+      }, 
+      "minecraft:sheep_light_gray": {
+        "minecraft:color": {
+          "value": 8
+        }
+      }, 
+      "minecraft:sheep_gray": {
+        "minecraft:color": {
+          "value": 7
+        }
+      },                
+      "minecraft:sheep_cyan": {
+        "minecraft:color": {
+          "value": 9
+        }
+      }, 
+      "minecraft:sheep_purple": {
+        "minecraft:color": {
+          "value": 10
+        }
+      },
+      "minecraft:sheep_blue": {
+        "minecraft:color": {
+          "value": 11
+        }
+      },                                                 
+      "minecraft:sheep_brown": {
+        "minecraft:color": {
+          "value": 12
+        }
+      },
+      "minecraft:sheep_green": {
+        "minecraft:color": {
+          "value": 13
+        }
+      },
+      "minecraft:sheep_red": {
+        "minecraft:color": {
+          "value": 14
+        }
+      },       
+      "minecraft:sheep_black": {
+        "minecraft:color": {
+          "value": 15
+        }
+      }
+    },
+
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:sheep"
+      },
+      "minecraft:type_family": {
+        "family": [ "sheep" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 1.3
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:health": {
+        "value": 8,
+        "max": 8
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:navigation.walk": {
+        "can_float": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {
+        
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:interact": [
+        {
+          "cooldown": 2.5,
+          "use_item": false,
+          "hurt_item": 1,
+          "spawn_items": { "table": "loot_tables/entities/sheep_shear.json" },
+          "play_sounds": "shear",
+          "interact_text": "action.interact.shear",
+          "on_interact": {
+            "filters": {
+              "other_with_item": "shears",
+              "other_with_families": "player",
+              "with_components": "minecraft:is_dyeable",
+              "without_components": "minecraft:is_baby"
+            },
+            "event": "minecraft:on_sheared",
+            "target": "self"
+          }
+        }
+      ],
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0,
+        "on_leash": {
+          "event": "minecraft:on_leash",
+          "target": "self"
+        },
+        "on_unleash": {
+          "event": "minecraft:on_unleash",
+          "target": "self"
+        }
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 1.25
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 2,
+        "speed_multiplier": 1.5,
+        "target_dist": 0.0,
+        "track_target": true
+      },
+      "minecraft:behavior.tempt": {
+        "priority": 4,
+        "speed_multiplier": 1.25,
+        "items": [
+          "wheat"
+        ]
+      },
+      "minecraft:behavior.follow_parent": {
+        "priority": 5,
+        "speed_multiplier": 1.1
+      },
+      "minecraft:behavior.eat_block": {
+        "priority": 6,
+        "on_eat": {
+          "event": "minecraft:on_eat_block",
+          "target": "self"
+        }
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 7,
+        "speed_multiplier": 0.8
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "randomize": [
+              {
+                "weight": 95,
+                "remove": {
+                },
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_adult",
+                    "minecraft:sheep_dyeable",
+                    "minecraft:rideable_wooly"
+                  ]
+                }
+              },
+              {
+                "weight": 5,
+                "remove": {
+                },
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_baby",
+                    "minecraft:sheep_dyeable",
+                    "rideable_sheared"
+                  ]
+
+                }
+              }
+            ]
+          },
+          {
+            "filters": {
+              "with_environment_any": [ "biome:forest","biome:mushroom_island","biome:river","biome:stone_beach","biome:swamp" ]
+            },             
+            "randomize": [
+              {
+                "weight": 81836,               
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_white"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_light_gray"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_gray"
+                  ]
+                }
+              },
+              {
+                "weight": 3000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_brown"
+                  ]
+                }
+              },
+              {
+                "weight": 164,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_pink"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "filters": {
+              "with_environment_any": ["biome:snow_covered","taiga_hills","taiga","biome:extreme_hills_edge","biome:extreme_hills_plus_trees"]
+            },             
+            "randomize": [
+              {
+                "weight": 81836,               
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_black"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,             
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_blue"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_light_blue"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_cyan"
+                  ]
+                }
+              },
+              {
+                "weight": 3000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_light_gray"
+                  ]
+                }
+              },
+              {
+                "weight": 164,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_pink"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "filters": {
+              "with_environment_any": ["biome:mesa"]
+            },             
+            "randomize": [
+              {
+                "weight": 81836,               
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_brown"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,             
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_orange"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_red"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_gray"
+                  ]
+                }
+              },
+              {
+                "weight": 3000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_yellow"
+                  ]
+                }
+              },
+              {
+                "weight": 164,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_pink"
+                  ]
+                }
+              }
+            ]
+          }                   
+        ]
+      },
+
+      "minecraft:entity_born": {
+        "remove": {
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:sheep_baby",
+            "minecraft:sheep_dyeable",
+            "minecraft:rideable_sheared"
+          ]
+        }
+      },
+
+      "minecraft:ageable_grow_up": {
+        "remove": {
+          "component_groups": [
+            "minecraft:sheep_baby"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:sheep_adult",
+            "minecraft:rideable_wooly"
+          ]
+        }
+      },
+      "minecraft:on_sheared": {
+        "remove": {
+          "component_groups": [
+            "minecraft:sheep_dyeable"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:sheep_sheared",
+            "minecraft:rideable_sheared"
+          ]
+        }
+      },
+      "minecraft:on_eat_block": {
+        "sequence":[
+          {
+            "remove": {
+              "component_groups": [
+                "minecraft:sheep_sheared"
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:sheep_dyeable"
+              ]
+            }
+          },
+          {
+            "filters": { "without_components": "minecraft:is_baby" },
+            "add": {
+              "component_groups": [
+                "minecraft:rideable_wooly"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:on_leash": {
+        "add": {
+          "component_groups": [
+            "minecraft:sheep_leashed"
+          ]
+        }
+      },
+      "minecraft:on_unleash": {
+        "remove": {
+          "component_groups": [
+            "minecraft:sheep_leashed"
+          ]
+        }
+      },
+      "wololo": {
+        "add": {
+          "component_groups": [
+            "minecraft:sheep_red"
+          ]
+        }
+      }
+    }
+  }
+}
