@@ -4,6 +4,7 @@ Modernization MegaPack 2.1.0 "Austen"| #bdffec
 - Zombie villagers can now spawn with armor, for parity with Java Edition| h26
 - Blaze attack range has been tweaked, for parity with Java Edition| h26
 - Guardians now drop cooked fish if burned to death, for parity with Java Edition| h26
+- Implemented a limited version of the forthcoming biome-based sheep color system, thanks to Zexlo| h26
 - Rabbits now drop at least one raw rabbit when killed| h26
 - Fixed bugs involving zombie villagers and 1.14 villager profession changes| h26
 - Fish types now use the correct naming scheme| h26
