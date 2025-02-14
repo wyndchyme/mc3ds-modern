@@ -62,6 +62,7 @@ _This pack contains the following community-made mods from talented modders:_
 | New Sound Effects | Zexlo | Replaces certain sound effects (ex. door opening/closing) with their newer equivalents. | Made for this pack | N/A |
 | Pillagers & Outpost | Cracko298, Zexlo, & wyndchyme | Adds Pillager Outposts from the Village and Pillage update. | Made for this pack | N/A |
 | Swappable Fonts | wyndchyme | Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file. | Made for this pack | N/A |
+| Code Parities | Cracko298 | Increases Game FOV from `70` -> `90`, Improves ViewBobbing (more realism), Increases Block Placing/Breaking from `5.623` -> `8` Blocks Away. | ✓ | N/A
 
 **Pack compiled and maintained by wyndchyme.**
  
