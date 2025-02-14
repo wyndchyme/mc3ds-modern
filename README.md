@@ -116,6 +116,7 @@ _This pack contains the following community-made mods from talented modders:_
 | The Stalker | Cracko298 | Mod/Entity | Fully | N/A |
 | TNT Mimics | Cracko298 | Mob/Edits | Unusable (30%) | Major Textures |
 | Warden Port | Cracko298 | Mod/Entity | Mostly (95%) | Minor Textures |
+| ALL CODE.IPS PATCHES | Various Modders | ASM/Code | Unusable | Major ASM/Code |
 
 </details>
 
