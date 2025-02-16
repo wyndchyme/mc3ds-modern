@@ -45,24 +45,138 @@ __This pack only officially supports English (US) and English (UK). Other langua
 <br>
 
 _This pack contains the following community-made mods from talented modders:_
-|Mod   |Creator   |Description   |Modified for this pack?   |Version (if applicable)   |
-|---|---|---|---|---|
-| 1.14 Textures | wyndchyme | The new textures introduced starting in Java Edition 1.14, and replaces the default Mojang and Other Ocean logos with their newer counterparts. Overwrites default texture pack. | Made for this pack | N/A |
-| 1.20 Mob Textures | Zexlo | Ports (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition. | ✓ | 1-MMP |
-| Classic Textures | wyndchyme | Emulates the look of Classic Minecraft. Overwrites Candy texture pack. | Made for this pack | 1.0.5 |
-| Cleann'slick GUI | TheRustico36, wyndchyme, & Zexlo | Adds a darker, cleaner UI and new icons. | ✓ | 3.1-MMP |
-| Font Friendliness | wyndchyme | Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts. | Made for this pack | N/A |
-| Let's Update Mob Models | STBrian | Changes the appearances of villagers, bats, and zombified piglins for parity with their updated looks. | ✕ | v1.1.1 |
-| Modern Mobs | Zexlo | Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition. | ✕ | N/A |
-| Mojangles Font | Cracko298 | The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition. | ✕ | 1.0.1 |
-| Name Parity | wyndchyme | Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks). | Made for this pack | N/A |
-| New Achievement Art | wyndchyme | Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results. | Made for this pack | 1.0.1 |
-| New Base Skins | TheRustico36 | Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3. | ✕ | 1 |
-| New Comparison Art | wyndchyme | Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack. | Made for this pack | N/A |
-| New Panoramas | STBrian | Adds new panoramas from Caves and Cliffs Part II and the Nether Update. | ✕ | N/A |
-| New Sound Effects | Zexlo | Replaces certain sound effects (ex. door opening/closing) with their newer equivalents. | Made for this pack | N/A |
-| Pillagers & Outpost | Cracko298, Zexlo, & wyndchyme | Adds Pillager Outposts from the Village and Pillage update. | Made for this pack | N/A |
-| Swappable Fonts | wyndchyme | Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file. | Made for this pack | N/A |
+<table>
+    <thead>
+        <tr>
+            <th>Mod</th>
+            <th>Creator</th>
+            <th>Description</th>
+            <th>Modified for this pack?</th>
+            <th>Version (if applicable)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.14 Textures</td>
+            <td>wyndchyme</td>
+            <td>The new textures introduced starting in Java Edition 1.14, and replaces the default Mojang and Other Ocean logos with their newer counterparts. Overwrites default texture pack.</td>
+            <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>1.20 Mob Textures</td>
+            <td>Zexlo</td>
+            <td>Ports (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.</td>
+            <td>&#10003;</td>
+            <td>1-MMP</td>
+        </tr>
+     <tr>
+            <td>Better View Bobbing</td>
+            <td>Cracko298</td>
+            <td>Increases the viewbobbing intensity from 5.0 → 10.0. </td>
+            <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Classic Textures</td>
+            <td>wyndchyme</td>
+            <td>Emulates the look of Classic Minecraft. Overwrites Candy texture pack.</td>
+            <td>Made for this pack</td>
+            <td>1.0.5</td>
+        </tr>
+        <tr>
+            <td>Cleann'slick GUI</td>
+            <td>TheRustico36, wyndchyme, & Zexlo</td>
+            <td>Adds a darker, cleaner UI and new icons.</td>
+            <td>&#10003;</td>
+            <td>3.1-MMP</td>
+        </tr>
+        <tr>
+            <td>Font Friendliness</td>
+            <td>wyndchyme</td>
+            <td>Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.</td>
+            <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Let's Update Mob Models</td>
+            <td>STBrian</td>
+            <td>Changes the appearances of villagers, bats, and zombified piglins for parity with their updated looks.</td>
+            <td>&#10007;</td>
+            <td>v1.1.1</td>
+        </tr>
+        <tr>
+            <td>Modern Mobs</td>
+            <td>Zexlo</td>
+            <td>Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.</td>
+            <td>&#10007;</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Mojangles Font</td>
+            <td>Cracko298</td>
+            <td>The original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.</td>
+            <td>&#10007;</td>
+            <td>1.0.1</td>
+        </tr>
+        <tr>
+            <td>Name Parity</td>
+            <td>wyndchyme</td>
+            <td>Replaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks).</td>
+            <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>New Achievement Art</td>
+            <td>wyndchyme</td>
+            <td>Ports the new Bedrock Edition Achievement art, with adjustments made manually for best results.</td>
+            <td>Made for this pack</td>
+            <td>1.0.1</td>
+        </tr>
+        <tr>
+            <td>New Base Skins</td>
+            <td>TheRustico36</td>
+            <td>Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.</td>
+            <td>&#10007;</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>New Comparison Art</td>
+            <td>wyndchyme</td>
+            <td>Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.</td>
+            <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>New Panoramas</td>
+            <td>STBrian</td>
+            <td>Adds new panoramas from Caves and Cliffs Part II and the Nether Update.</td>
+            <td>&#10007;</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>New Sound Effects</td>
+            <td>Zexlo</td>
+            <td>Replaces certain sound effects (ex. door opening/closing) with their newer equivalents.</td>
+            <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Pillagers & Outpost</td>
+            <td>Cracko298, Zexlo, & wyndchyme</td>
+            <td>Adds Pillager Outposts from the Village and Pillage update.</td>
+            <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Swappable Fonts</td>
+            <td>wyndchyme</td>
+            <td>Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.</td>
+            <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+    </tbody>
+</table>
 
 **Pack compiled and maintained by wyndchyme.**
  
@@ -76,46 +190,57 @@ _This pack contains the following community-made mods from talented modders:_
 
 <br>
 
-| Mod                   | Developer     | Type         | Compatibility  | Notes              |
-|---|---|---|---|---|
-| 1.20.X Mob Textures | Zexlo | Texture | Fully | Included |
-| 3DS Television | Cracko298 | Mod/Structure | Mostly (90%) | Structures/Minor Textures |
-| Adventure Time Mashup | Skribblr | Texture | Unusable (25%) | Major Textures |
-| Amplified World Gen | Cracko298 | ASM/World | Fully | N/A |
-| Autumnal | wyndchyme | Texture | Fully | N/A |
-| BatBombs | Cracko298 | Mob/Edits | Fully | N/A |
-| Better Creepers | RetroRemade | Mob/Entity | Fully | N/A |
-| Block | Blocky | Mod/Skin | Mostly (90%) | Text |
-| Clean n' Slick GUI | TheRustico36 | Texture | Fully | Included |
-| Command Block Temple | Cracko298 | Structure | Fully | N/A |
-| Creaking Port | Cracko298 | Mod/Entity | Mostly (95%) | Minor Textures |
-| Cracko's Experiments | Cracko298 | Shader/Patch | Fully | N/A |
-| Cracko's Game Patches | Cracko298 | ASM/Patch | Fully | N/A |
-| ENDERMANYK's Shaders | ENDERMANYK | Shader/GFX | Fully | N/A |
-| Ender Dragon Elytra | Vance | Texture | Fully | N/A |
-| Farland World Gen | Cracko298 | ASM/World | Fully | N/A |
-| FWO Exploit | Cracko298 | ASM/World | Works (75%) | Text/Minor Textures |
-| Giant Baby Zombies | Vance | Mob/Edits | Fully | N/A |
-| Halloween Mashup | Nawrek | Texture | Unusable (25%) | Major Textures |
-| IronBrutes | Cracko298 | Mob/Edits | Mostly (95%) | Minor Textures |
-| Let's Update Mob Models | STBrian | Mod/Texture | Fully | Included |
-| Mob Tower/Castle | Cracko298 | Structure | Fully | N/A |
-| Mob-Cap Remover | Cracko298 | Gateway/Code | Fully | N/A |
-| Modern Mobs | Zexlo | Mod/Edits | Fully | Included |
-| Modern Music Expansion | Zexlo | Audio | Fully | Plugin |
-| Mojangles Font | Cracko298 | Text/Texture | Fully | Included |
-| New Base Skins | TheRustico36 | Skin/Texture | Fully | Included |
-| New Panoramas | STBrian | Texture | Fully | Included |
-| Nuclear Creepers | Cracko298 | Mob/Edits | Fully | N/A |
-| Pink Floyd Painting Pack | wyndchyme | Texture | Fully | N/A |
-| Pillagers & Outpost | Cracko298, Zexlo, & wyndchyme | Mod/Structure/Port | Fully | Included |
-| Sheeptastic | Vance | Mob/Edits | Fully | N/A |
-| Skyblock+ | Cracko298 | Map/World | Fully | N/A |
-| Stronghold Fix | Vance | Game/Fix | Fully | N/A |
-| Technoblade's Crown | Vance | Texture | Mostly (95%) | Minor Textures |
-| The Stalker | Cracko298 | Mod/Entity | Fully | N/A |
-| TNT Mimics | Cracko298 | Mob/Edits | Unusable (30%) | Major Textures |
-| Warden Port | Cracko298 | Mod/Entity | Mostly (95%) | Minor Textures |
+<table>
+    <thead>
+        <tr>
+            <th>Mod</th>
+            <th>Developer</th>
+            <th>Type</th>
+            <th>Compatibility</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>1.20.X Mob Textures</td><td>Zexlo</td><td>Texture</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>3DS Television</td><td>Cracko298</td><td>Mod/Structure</td><td>Mostly (90%)</td><td>Structures/Minor Textures</td></tr>
+        <tr><td>Adventure Time Mashup</td><td>Skribblr</td><td>Texture</td><td>Unusable (25%)</td><td>Major Textures</td></tr>
+        <tr><td>Amplified World Gen</td><td>Cracko298</td><td>ASM/World</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Autumnal</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>BatBombs</td><td>Cracko298</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Better Creepers</td><td>RetroRemade</td><td>Mob/Entity</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Block</td><td>Blocky</td><td>Mod/Skin</td><td>Mostly (90%)</td><td>Text</td></tr>
+        <tr><td>Clean n' Slick GUI</td><td>TheRustico36</td><td>Texture</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>Command Block Temple</td><td>Cracko298</td><td>Structure</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Creaking Port</td><td>Cracko298</td><td>Mod/Entity</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
+        <tr><td>Cracko's Experiments</td><td>Cracko298</td><td>Shader/Patch</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Cracko's Game Patches</td><td>Cracko298</td><td>ASM/Patch</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>ENDERMANYK's Shaders</td><td>ENDERMANYK</td><td>Shader/GFX</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Ender Dragon Elytra</td><td>Vance</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Farland World Gen</td><td>Cracko298</td><td>ASM/World</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>FWO Exploit</td><td>Cracko298</td><td>ASM/World</td><td>Works (75%)</td><td>Text/Minor Textures</td></tr>
+        <tr><td>Giant Baby Zombies</td><td>Vance</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Halloween Mashup</td><td>Nawrek</td><td>Texture</td><td>Unusable (25%)</td><td>Major Textures</td></tr>
+        <tr><td>IronBrutes</td><td>Cracko298</td><td>Mob/Edits</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
+        <tr><td>Let's Update Mob Models</td><td>STBrian</td><td>Mod/Texture</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>Mob Tower/Castle</td><td>Cracko298</td><td>Structure</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Mob-Cap Remover</td><td>Cracko298</td><td>Gateway/Code</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Modern Mobs</td><td>Zexlo</td><td>Mod/Edits</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>Modern Music Expansion</td><td>Zexlo</td><td>Audio</td><td>Fully</td><td>Plugin</td></tr>
+        <tr><td>Mojangles Font</td><td>Cracko298</td><td>Text/Texture</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>New Base Skins</td><td>TheRustico36</td><td>Skin/Texture</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>New Panoramas</td><td>STBrian</td><td>Texture</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>Nuclear Creepers</td><td>Cracko298</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Pink Floyd Painting Pack</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Pillagers & Outpost</td><td>Cracko298, Zexlo, & wyndchyme</td><td>Mod/Structure/Port</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>Sheeptastic</td><td>Vance</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Skyblock+</td><td>Cracko298</td><td>Map/World</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Stronghold Fix</td><td>Vance</td><td>Game/Fix</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Technoblade's Crown</td><td>Vance</td><td>Texture</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
+        <tr><td>The Stalker</td><td>Cracko298</td><td>Mod/Entity</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>TNT Mimics</td><td>Cracko298</td><td>Mob/Edits</td><td>Unusable (30%)</td><td>Major Textures</td></tr>
+        <tr><td>Warden Port</td><td>Cracko298</td><td>Mod/Entity</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
+    </tbody>
+</table>
 
 </details>
 
@@ -209,37 +334,29 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 
 <br>
 
-**Q: How large is Modernization MegaPack?**
+<h2>Q: How large is Modernization MegaPack?</h2>
+<p>A: As of version 1.6.0 "Rococo" the extracted files amount to around 31.2 MB.</p>
 
-_A: As of version 1.6.0 "Rococo" the extracted files amount to around 31.2 MB._
+<h2>Q: Does Modernization MegaPack affect world generation?</h2>
+<p>A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game.</p>
 
-**Q: Does Modernization MegaPack affect world generation?**
+<h2>Q: Can Modernization MegaPack cause my game to crash?</h2>
+<p>A: Extremely unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is likely an issue with that world, your microSD card, or your console.</p>
 
-_A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game._
+<h2>Q: Why does installation on the UniStore take so long?</h2>
+<p>A: The way the UniStore works is that it downloads the Modernization MegaPack archive file and extracts each directory into its correct spot. The 3DS takes a long time to extract archived files, so this obviously takes longer than just moving the already extracted files onto your microSD card.</p>
 
-**Q: Can Modernization MegaPack cause my game to crash?**
+<h2>Q: On the UniStore, downloading Modernization MegaPack causes the download to fail, or the changes aren't showing even though I have game patching enabled!</h2>
+<p>A: Ensure that your internet connection is working correctly. If it is, then this is likely an issue on the UniStore's end. File an issue on the <a href="https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/issues">UniStore's GitHub repository</a>. In the meantime, please refer to Method 1.</p>
 
-_A: Extremely unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is likely an issue with that world, your microSD card, or your console._
+<h2>Q: I have a contribution for Modernization MegaPack! Where can I put it?</h2>
+<p>A: Contributions are welcome! Fork the repository, make your changes, and then file a pull request.</p>
 
-**Q: Why does installation on the UniStore take so long?**
+<h2>Q: I have a suggestion for Modernization MegaPack! Where can I put it?</h2>
+<p>A: Please file an issue <a href="https://github.com/wyndchyme/mc3ds-modern/issues">here</a>.</p>
 
-_A: The way the UniStore works is that it downloads the Modernization MegaPack archive file and extracts each directory into its correct spot. The 3DS takes a long time to extract archived files, so this obviously takes longer than just moving the already extracted files onto your microSD card._
-
-**Q: On the UniStore, downloading Modernization MegaPack causes the download to fail, or the changes aren't showing even though I have game patching enabled!**
-
-_A: Ensure that your internet connection is working correctly. If it is, then this is likely an issue on the UniStore's end. File an issue on the [UniStore's GitHub repository.](https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/issues) In the meantime, please refer to Method 1._
-
-**Q: I have a contribution for Modernization MegaPack! Where can I put it?**
-
-_A: Contributions are welcome! Fork the repository, make your changes, and then file a pull request._
-
-**Q: I have a suggestion for Modernization MegaPack! Where can I put it?**
-
-_A: Please file an issue [here.](https://github.com/wyndchyme/mc3ds-modern/issues)_
-
-**Q: Is there documentation avaliable for Modernization MegaPack?**
-
-_A: Documentation can be found [here.](https://wyndchyme.github.io/consoles/3ds/docs/mc3ds-modern/)_
+<h2>Q: Is there documentation available for Modernization MegaPack?</h2>
+<p>A: Documentation can be found <a href="https://wyndchyme.github.io/consoles/3ds/docs/mc3ds-modern/">here</a>.</p>
 
  
 </details>
@@ -282,38 +399,39 @@ _A: Documentation can be found [here.](https://wyndchyme.github.io/consoles/3ds/
 
 <br>
 
- <ins>__MODDERS__</ins>
+<h2><ins>MODDERS</ins></h2>
+<p><em>Those who chose to include their work in Modernization MegaPack.</em></p>
+<ul>
+<li>Cracko298</li>
+<li>TheRustico36</li>
+<li>STBrian</li>
+<li>wyndchyme</li>
+<li>Zexlo</li>
+</ul>
 
-_Those who chose to include their work in Modernization MegaPack._
+<h2><ins>DISTRIBUTION</ins></h2>
+<p><em>Those involved in the distribution of Modernization MegaPack on the Minecraft 3DS Community UniStore.</em></p>
+<ul>
+<li>Nawrek</li>
+</ul>
 
-- Cracko298
-- TheRustico36
-- STBrian
-- wyndchyme
-- Zexlo
+<h2><ins>COMPILED BY</ins></h2>
+<p><em>Those involved in the curation and continued maintenance of Modernization MegaPack.</em></p>
+<ul>
+<li>wyndchyme</li>
+</ul>
 
-<ins>__DISTRIBUTION__</ins>
+<h2><ins>THANKS TO</ins></h2>
+<p><em>Those who helped greatly in the development of Modernization MegaPack.</em></p>
+<ul>
+<li>bomba.cat</li>
+<li>Cracko298</li>
+<li>ENDERMANYK</li>
+<li>STBrian</li>
+<li>Nawrek</li>
+<li>Zexlo</li>
+</ul>
 
-_Those involved in the distribution of Modernization MegaPack on the Minecraft 3DS Community UniStore._
-
-- Nawrek
-
-<ins>__COMPILED BY__</ins>
-
-_Those involved in the curation and continued maintenance of Modernization MegaPack._
-
-- wyndchyme
-
-<ins>__THANKS TO__</ins>
-
-_Those who helped greatly in the development of Modernization MegaPack._
-
-- bomba.cat
-- Cracko298
-- ENDERMANYK
-- STBrian
-- Nawrek
-- Zexlo
 
 </details>
 
