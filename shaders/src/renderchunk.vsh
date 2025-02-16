@@ -37,9 +37,7 @@
 .constf const2(0.00001525, 0.00001525, 0.00001525, 0.00001525)
 .constf const3(0.000000, 0.000000, 0.000000, 0.000000)
 .constf const4(0.000000, 1.000000, 0.025000, 0.022346)
-
-; Red fog color constant
-.constf FOG_COLOR_RED(1.000000, 0.000000, 0.000000, 1.000000)  ; Red fog color
+.constf FOG_COLOR(1.000000, 0.000000, 0.000000, 1.000000)
 
 ; normalizedepth
 .proc normalizedepth
