@@ -1,11 +1,12 @@
 ![logo](https://github.com/user-attachments/assets/9b35ec40-3680-4586-939b-3c0dbbdb585e)
 <div align="center">
  
- <a href="https://github.com/wyndchyme/mc3ds-modern/releases/latest"><img src="https://img.shields.io/github/v/release/wyndchyme/mc3ds-modern?color=darkgreen"></img></a>
- <a href="https://minecraft.wiki/w/New_Nintendo_3DS_Edition_1.9.19"><img src="https://img.shields.io/badge/for-1.9.19-purple"></img></a>
- <a href="https://github.com/wyndchyme/mc3ds-modern/commits/main/"><img src="https://img.shields.io/github/repo-size/wyndchyme/mc3ds-modern?color=red"></img></a>
- <a href="https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore"><img src="https://img.shields.io/badge/avaliable%20on-UniStore-blue"></img></a>
- <a href="https://github.com/wyndchyme/mc3ds-modern/releases/latest"><img src="https://img.shields.io/badge/avaliable%20on-GitHub-yellow"></img></a>
+ <a href="https://github.com/wyndchyme/mc3ds-modern/releases/latest">
+ <img src="https://img.shields.io/github/v/release/wyndchyme/mc3ds-modern?color=darkgreen"></a>
+ <a href="https://minecraft.wiki/w/New_Nintendo_3DS_Edition_1.9.19"><img src="https://img.shields.io/badge/for-1.9.19-purple"></a>
+ <a href="https://github.com/wyndchyme/mc3ds-modern/commits/main/"><img src="https://img.shields.io/github/repo-size/wyndchyme/mc3ds-modern?color=red"></a>
+ <a href="https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore"><img src="https://img.shields.io/badge/avaliable%20on-UniStore-blue"></a>
+ <a href="https://github.com/wyndchyme/mc3ds-modern/releases/latest"><img src="https://img.shields.io/badge/avaliable%20on-GitHub-yellow"></a>
 </div>
 
 <br>
@@ -246,20 +247,30 @@ _A: Documentation can be found [here.](https://wyndchyme.github.io/consoles/3ds/
 <br>
 
 # Screenshots
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-13.png"></img>
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-12.png"></img>
-
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-10.png"></img>
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-14.png"></img>
-
-<img src="https://github.com/user-attachments/assets/ecd74084-e090-4ec6-8ca4-a46b44ecf1cc"></img>
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-8.png"></img>
-
-<img src="https://github.com/user-attachments/assets/1fc05969-28f1-401c-b411-be07abb7b64f"></img>
-<img src="https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f"></img>
-
-<img src="https://github.com/user-attachments/assets/04fde33d-3498-4d99-94ad-0bff9fe2d8aa"></img>
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-9.png"></img>
+<p>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-13.png">
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-12.png">
+</p>
+<br>
+<p>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-10.png">
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-14.png">
+</p>
+<br>
+<p>
+<img src="https://github.com/user-attachments/assets/ecd74084-e090-4ec6-8ca4-a46b44ecf1cc">
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-8.png">
+</p>
+<br>
+<p>
+<img src="https://github.com/user-attachments/assets/1fc05969-28f1-401c-b411-be07abb7b64f">
+<img src="https://github.com/user-attachments/assets/616cc2fe-1a98-4d84-86d6-af5a82838d1f">
+</p>
+<br>
+<p>
+<img src="https://github.com/user-attachments/assets/04fde33d-3498-4d99-94ad-0bff9fe2d8aa">
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-9.png">
+</p>
 
 <br>
 
