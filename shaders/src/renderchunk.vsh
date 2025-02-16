@@ -46,6 +46,8 @@
 
 ; main
 .proc main
+    mov FOG_COLOR, (1.000000, 0.000000, 0.000000, 1.000000)  ; Set the fog color to red
+
     mul r0.xyz, CHUNK_ORIGIN_AND_SCALE.wwww, aPosition.xyzz    ;worldPos.xyz = (POSITION.xyz * CHUNK_ORIGIN_AND_SCALE.w) + CHUNK_ORIGIN_AND_SCALE.xyz
     add r1.xyz, CHUNK_ORIGIN_AND_SCALE.xyzz, r0.xyzz           ;r1 = worldPos
     mov r1.w, const0.xxxx                                      ;worldPos.w = 1.0
@@ -71,5 +73,4 @@
     slti r1, r0, const3
     add r2, r0, r1
     mov outCoord1, r2                                          ;uv1 = TEXCOORD_1
-    end
 .end
