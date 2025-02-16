@@ -44,7 +44,7 @@ __This pack only officially supports English (US) and English (UK). Other langua
 
 <br>
 
-_This pack contains the following community-made mods from talented modders:_
+<i>This pack contains the following community-made mods from talented modders:</i>
 <table>
     <thead>
         <tr>
@@ -178,7 +178,7 @@ _This pack contains the following community-made mods from talented modders:_
     </tbody>
 </table>
 
-**Pack compiled and maintained by wyndchyme.**
+<b>Pack compiled and maintained by wyndchyme.</b>
  
 </details>
 
