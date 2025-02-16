@@ -1,5 +1,6 @@
 Modernization MegaPack 2.1.0 "Austen"| #bdffec
 | h22
+- Added Cracko298's Better View Bobbing patch| h26
 - Creepers can now be ignited using fire charges, for parity with Java Edition| h26
 - Zombie villagers can now spawn with armor, for parity with Java Edition| h26
 - Blaze attack range has been tweaked, for parity with Java Edition| h26
