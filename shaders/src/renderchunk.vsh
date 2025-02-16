@@ -65,7 +65,7 @@
     mov r0.xyz, r0.yxzz
     mul outPos, const0, r0                                     ;gl_Position = pos
     mul outColor, const1, aColor                               ;color = COLOR
-    add outColor, outColor, FOG_COLOR_RED                      ; add red fog color to the color
+    add outColor, outColor, FOG_COLOR                      
     mul r0, const2, aTexCoord
     slti r1, r0, const3
     add r2, r0, r1
