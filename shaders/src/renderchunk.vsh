@@ -2,7 +2,6 @@
 ; renderchunk.shbin
 
 ; Handcoded by ENDERMANYK
-; Modified by wyndchyme
 
 ; Uniforms
 .fvec WORLDVIEWPROJ[4], WORLDVIEW[4], PROJ[4]  ;uniform MAT4 WORLDVIEWPROJ, uniform MAT4 WORLDVIEW, uniform MAT4 PROJ
@@ -37,7 +36,6 @@
 .constf const2(0.00001525, 0.00001525, 0.00001525, 0.00001525)
 .constf const3(0.000000, 0.000000, 0.000000, 0.000000)
 .constf const4(0.000000, 1.000000, 0.025000, 0.022346)
-.constf FOG_COLOR(1.000000, 0.000000, 0.000000, 1.000000)
 
 ; normalizedepth
 .proc normalizedepth
@@ -65,7 +63,6 @@
     mov r0.xyz, r0.yxzz
     mul outPos, const0, r0                                     ;gl_Position = pos
     mul outColor, const1, aColor                               ;color = COLOR
-    add outColor, outColor, FOG_COLOR                      
     mul r0, const2, aTexCoord
     slti r1, r0, const3
     add r2, r0, r1
@@ -74,4 +71,5 @@
     slti r1, r0, const3
     add r2, r0, r1
     mov outCoord1, r2                                          ;uv1 = TEXCOORD_1
+    end
 .end
