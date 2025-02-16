@@ -71,9 +71,9 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>1-MMP</td>
         </tr>
      <tr>
-            <td>Better View Bobbing</td>
+            <td>Better View Bobbing & Aquatic Swimming</td>
             <td>Cracko298</td>
-            <td>Increases the viewbobbing intensity from 5.0 → 10.0. </td>
+            <td>Increases the viewbobbing intensity from 5.0 → 10.0, and increases swimming speed for parity with the Update Aquatic. </td>
             <td>Made for this pack</td>
             <td>N/A</td>
         </tr>
