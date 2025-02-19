@@ -368,7 +368,7 @@
                 "weight": 5000,             
                 "add": {
                   "component_groups": [
-                    "minecraft:sheep_blue"
+                    "minecraft:sheep_brown"
                   ]
                 }
               },
@@ -376,7 +376,7 @@
                 "weight": 5000,
                 "add": {
                   "component_groups": [
-                    "minecraft:sheep_light_blue"
+                    "minecraft:sheep_white"
                   ]
                 }
               },
@@ -384,7 +384,7 @@
                 "weight": 5000,
                 "add": {
                   "component_groups": [
-                    "minecraft:sheep_cyan"
+                    "minecraft:sheep_gray"
                   ]
                 }
               },
@@ -423,23 +423,23 @@
                 "weight": 5000,             
                 "add": {
                   "component_groups": [
-                    "minecraft:sheep_orange"
-                  ]
-                }
-              },
-              {
-                "weight": 5000,
-                "add": {
-                  "component_groups": [
-                    "minecraft:sheep_red"
-                  ]
-                }
-              },
-              {
-                "weight": 5000,
-                "add": {
-                  "component_groups": [
                     "minecraft:sheep_gray"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_light_gray"
+                  ]
+                }
+              },
+              {
+                "weight": 5000,
+                "add": {
+                  "component_groups": [
+                    "minecraft:sheep_white"
                   ]
                 }
               },
@@ -447,7 +447,7 @@
                 "weight": 3000,
                 "add": {
                   "component_groups": [
-                    "minecraft:sheep_yellow"
+                    "minecraft:sheep_black"
                   ]
                 }
               },
