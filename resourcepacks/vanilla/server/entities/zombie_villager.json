@@ -253,6 +253,15 @@
         }
       },
 
+      "mason": {
+        "minecraft:type_family": {
+          "family": [ "mason", "zombie_villager", "zombie", "undead", "monster" ]
+        },
+        "minecraft:variant": {
+          "value": 3
+        }
+      },      
+
       "butcher": {
         "minecraft:type_family": {
           "family": [ "butcher", "zombie_villager", "zombie", "undead", "monster" ]
@@ -267,6 +276,14 @@
         },
         "minecraft:variant": {
           "value": 4
+        }
+      },
+      "nitwit": {
+        "minecraft:type_family": {
+          "family": [ "nitwit", "zombie_villager", "zombie", "undead", "monster" ]
+        },
+        "minecraft:variant": {
+          "value": 0
         }
       }
     },
@@ -294,7 +311,7 @@
       },
       "minecraft:loot": {
         "table": "loot_tables/entities/zombie.json"
-      },
+      },      
       "minecraft:collision_box": {
         "width": 0.6,
         "height": 1.8
@@ -490,7 +507,15 @@
               {
                 "weight": 10,
                 "add": { "component_groups": [ "leatherworker" ] }
-              }
+              },
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "mason" ] }
+              },
+              {
+                "weight": 10,
+                "add": { "component_groups": [ "nitwit" ] }
+              }                            
             ]
           }
         ]
@@ -568,7 +593,15 @@
           {
             "filters": { "other_with_families": "leatherworker" },
             "add": { "component_groups": [ "leatherworker" ] }
-          }
+          },
+          {
+            "filters": { "other_with_families": "mason" },
+            "add": { "component_groups": [ "mason" ] }
+          },
+          {
+            "filters": { "other_with_families": "nitwit" },
+            "add": { "component_groups": [ "nitwit" ] }
+          }                    
         ]
       },
 
