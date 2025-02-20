@@ -304,8 +304,8 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern)
 3. Select 'Code' and 'Download ZIP'.
 4. Extract the .ZIP file you downloaded.
-5. Create a folder called 'romfs'. Move all folders that were in the ZIP you downloaded (excluding the '_scripts' directory) into this folder.
-6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID. These title IDs are:
+5. Create a folder called 'romfs'. Move all folders (not 'code.bps') that were in the ZIP you downloaded (excluding the '_scripts' directory) into this folder.
+6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID, and move 'code.bps' into this folder. These title IDs are:
    - For USA:
    00040000001B8700
    - For EUR:
@@ -341,7 +341,7 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 <p>A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game.</p>
 
 <h2>Q: Can Modernization MegaPack cause my game to crash?</h2>
-<p>A: Extremely unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is likely an issue with that world, your microSD card, or your console.</p>
+<p>A: Extremely unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is likely an issue with that world, your microSD card, or your console. If you are experiencing crashing issues traceable to Modernization MegaPack, a common troubledshooting method is deleting 'code.bps' from the title directory.</p>
 
 <h2>Q: Why does installation on the UniStore take so long?</h2>
 <p>A: The way the UniStore works is that it downloads the Modernization MegaPack archive file and extracts each directory into its correct spot. The 3DS takes a long time to extract archived files, so this obviously takes longer than just moving the already extracted files onto your microSD card.</p>
