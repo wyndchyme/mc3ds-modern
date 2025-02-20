@@ -13,6 +13,7 @@ Modernization MegaPack 2.1.0 "Austen"| #bdffec
 - Fish types now use the correct naming scheme| h26
 - Zombie villagers will no longer spawn with armor, due to visual bugs| h26
 - Fixed slime texture not displaying correctly, thanks to Zexlo| h26
+- GitHub docs now deploy to a GitHub Pages website| h26
 
 | h32
 Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
