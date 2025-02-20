@@ -9,6 +9,7 @@ Modernization MegaPack 2.1.0 "Austen"| #bdffec
 - Guardians now drop cooked fish if burned to death, for parity with Java Edition| h26
 - Implemented a limited version of the biome-based sheep color system for parity with Java Edition 25w08a, thanks to Zexlo| h26
 - Rabbits now drop at least one raw rabbit when killed| h26
+- All texture packs now use new UI icons introduced in 2.0.0 "Romantic"| h26
 - Fixed bugs involving zombie villagers and 1.14 villager profession changes| h26
 - Fish types now use the correct naming scheme| h26
 - Zombie villagers will no longer spawn with armor, due to visual bugs| h26
