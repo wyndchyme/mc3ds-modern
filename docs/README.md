@@ -335,7 +335,7 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 <br>
 
 <h2>Q: How large is Modernization MegaPack?</h2>
-<p>A: As of version 1.6.0 "Rococo" the extracted files amount to around 31.2 MB.</p>
+<p>A: As of version 2.1.0 "Austen" the extracted files amount to around 31.9 MB.</p>
 
 <h2>Q: Does Modernization MegaPack affect world generation?</h2>
 <p>A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game.</p>
