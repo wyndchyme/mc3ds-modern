@@ -1,3 +1,8 @@
+Modernization MegaPack 2.2.0 "Byron"| #c2c8ff
+| h22
+- Fixed a typo in 2.1.0 "Austen" patch notes| h26
+
+| h32
 Modernization MegaPack 2.1.0 "Austen"| #bdffec
 | h22
 - Increased swimming speed for parity with the Update Aquatic, thanks to Cracko298| h26
