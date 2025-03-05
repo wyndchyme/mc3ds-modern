@@ -285,7 +285,104 @@
           "table": "loot_tables/empty.json"
         }		
       },	  
-
+      "trader":{
+        "minecraft:type_family": {
+          "family":[ "villager", "trader"]          
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+		
+        "minecraft:trade_table": {
+          "display_name": "Wandering Trader",
+          "table": "loot_tables/entities/llama.json"
+        },
+        "minecraft:behavior.summon_entity": {
+          "priority": 1,
+  
+          "summon_choices": [
+            {
+              "min_activation_range": 0.0,
+              "max_activation_range": 1000.0,
+              "cooldown_time": 9999.0,
+              "weight": 3,
+              "cast_duration": 0.0,
+              "sequence": [
+                {
+                  "shape": "circle",
+                  "target": "self",
+                  "base_delay": 0.1,
+                  "delay_per_summon": 0.0,
+                  "num_entities_spawned": 2,
+                  "summon_cap": 2,                  
+                  "entity_type": "minecraft:llama",
+                  "size": 1,
+                  "entity_lifespan": 600
+                }
+              ]
+            }
+          ]
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 1,
+          "entity_types": [
+            {
+              "filters": { "other_with_families": [ "player", "cow" ] },
+              "max_dist": 100
+            }
+          ],
+          "must_see": false
+        }                      
+      },
+      "wandering":{
+        "minecraft:type_family": {
+          "family":[ "villager", "wandering"]          
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+		
+        "minecraft:trade_table": {
+          "display_name": "Wandering Trader",
+          "table": "loot_tables/entities/boat.json"
+        },
+        "minecraft:behavior.summon_entity": {
+          "priority": 1,
+  
+          "summon_choices": [
+            {
+              "min_activation_range": 0.0,
+              "max_activation_range": 1000.0,
+              "cooldown_time": 9999.0,
+              "weight": 3,
+              "cast_duration": 0.0,
+              "sequence": [
+                {
+                  "shape": "circle",
+                  "target": "self",
+                  "base_delay": 0.1,
+                  "delay_per_summon": 0.0,
+                  "num_entities_spawned": 2,
+                  "summon_cap": 2,                  
+                  "entity_type": "minecraft:llama",
+                  "size": 1,
+                  "entity_lifespan": 600
+                }
+              ]
+            }
+          ]
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 1,
+          "entity_types": [
+            {
+              "filters": { "other_with_families": [ "player", "cow" ] },
+              "max_dist": 100
+            }
+          ],
+          "must_see": false
+        }                      
+      },	      
       "baby": {
         "minecraft:is_baby": {  },
         "minecraft:scale": {
@@ -586,73 +683,59 @@
 
       "minecraft:entity_transformed": {
         "sequence": [
-          // Transform baby zombie to baby villager
           {
             "filters": { "other_with_components": "minecraft:is_baby" },
             "add": { "component_groups": [ "baby" ] }
           },
-          // Transform adult zombie to adult villager
           {
             "filters": { "other_without_components": "minecraft:is_baby" },
             "add": { "component_groups": [ "adult" ] }
           },
 
-          // Transform farmer zombie to farmer villager
           {
             "filters": { "other_with_families": "farmer" },
             "add": { "component_groups": [ "farmer", "behavior_peasant" ] }
           },
-          // Transform fisherman zombie to fisherman villager
           {
             "filters": { "other_with_families": "fisherman" },
             "add": { "component_groups": [ "fisherman", "behavior_peasant" ] }
           },
-          // Transform shepherd zombie to shepherd villager
           {
             "filters": { "other_with_families": "shepherd" },
             "add": { "component_groups": [ "shepherd", "behavior_peasant" ] }
           },
-          // Transform fletcher zombie to fletcher villager
           {
             "filters": { "other_with_families": "fletcher" },
             "add": { "component_groups": [ "fletcher", "behavior_peasant" ] }
           },
-          // Transform librarian zombie to librarian villager
           {
             "filters": { "other_with_families": "librarian" },
             "add": { "component_groups": [ "librarian", "behavior_non_peasant" ] }
           },
-          // Transform cartographer zombie to cartographer villager
           {
             "filters": { "other_with_families": "cartographer" },
             "add": { "component_groups": [ "cartographer", "behavior_non_peasant" ] }
           },
-          // Transform cleric zombie to cleric villager
           {
             "filters": { "other_with_families": "cleric" },
             "add": { "component_groups": [ "cleric", "behavior_non_peasant" ] }
           },
-          // Transform armorer zombie to armorer villager
           {
             "filters": { "other_with_families": "armorer" },
             "add": { "component_groups": [ "armorer", "behavior_non_peasant" ] }
           },
-          // Transform weaponsmith zombie to weaponsmith villager
           {
             "filters": { "other_with_families": "weaponsmith" },
             "add": { "component_groups": [ "weaponsmith", "behavior_non_peasant" ] }
           },
-          // Transform toolsmith zombie to toolsmith villager
           {
             "filters": { "other_with_families": "toolsmith" },
             "add": { "component_groups": [ "toolsmith", "behavior_non_peasant" ] }
           },
-          // Transform butcher zombie to butcher villager
           {
             "filters": { "other_with_families": "butcher" },
             "add": { "component_groups": [ "butcher", "behavior_non_peasant" ] }
           },
-          // Transform leatherworker zombie to leatherworker villager
           {
             "filters": { "other_with_families": "leatherworker" },
             "add": { "component_groups": [ "leatherworker", "behavior_non_peasant" ] }
@@ -664,7 +747,17 @@
           {
             "filters": { "other_with_families": "nitwit" },
             "add": { "component_groups": [ "nitwit", "behavior_peasant" ] }
-          }		  
+          },
+          {
+            "filters": { "other_with_families": ["trader","sheep"] },
+            "add": { "component_groups": [ "trader","adult" ] },
+            "remove": { "component_groups": [ "baby","sheep" ] }            
+          },
+          {
+            "filters": { "other_with_families": ["wandering","sheep"] },
+            "add": { "component_groups": [ "wandering","adult" ] },
+            "remove": { "component_groups": [ "baby","sheep" ] }            
+          }                      
         ]
       },
 

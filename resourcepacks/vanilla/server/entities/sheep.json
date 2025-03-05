@@ -14,6 +14,22 @@
           }
         }
       },
+      "minecraft:become_trader": {
+        "minecraft:type_family": {
+          "family":["trader"]         
+        },        
+        "minecraft:transformation": {
+          "into": "minecraft:villager"
+        }
+      },
+      "minecraft:become_wandering": {
+        "minecraft:type_family": {
+          "family":[ "wandering"]         
+        },        
+        "minecraft:transformation": {
+          "into": "minecraft:villager"
+        }
+      },           
       "minecraft:rideable_wooly": {
         "minecraft:rideable": {
           "seat_count": 1,
@@ -156,7 +172,7 @@
         "minecraft:color": {
           "value": 15
         }
-      }
+      }     
     },
 
 
@@ -306,7 +322,7 @@
           },
           {
             "filters": {
-              "with_environment_any": [ "biome:forest","biome:mushroom_island","biome:river","biome:stone_beach","biome:swamp" ]
+              "without_environment_any": ["biome:snow_covered","taiga_hills","taiga","biome:extreme_hills_edge","biome:extreme_hills_plus_trees","biome:mesa"]
             },             
             "randomize": [
               {
@@ -348,7 +364,23 @@
                     "minecraft:sheep_pink"
                   ]
                 }
-              }
+              },
+              {
+                "weight": 1000,               
+                "add": {
+                  "component_groups": [
+                    "minecraft:become_trader"
+                  ]
+                }
+              },
+              {
+                "weight": 1000,               
+                "add": {
+                  "component_groups": [
+                    "minecraft:become_wandering"
+                  ]
+                }
+              }                              
             ]
           },
           {
@@ -403,7 +435,23 @@
                     "minecraft:sheep_pink"
                   ]
                 }
-              }
+              },
+              {
+                "weight": 1000,               
+                "add": {
+                  "component_groups": [
+                    "minecraft:become_trader"
+                  ]
+                }
+              },
+              {
+                "weight": 1000,               
+                "add": {
+                  "component_groups": [
+                    "minecraft:become_wandering"
+                  ]
+                }
+              }                            
             ]
           },
           {
@@ -458,7 +506,23 @@
                     "minecraft:sheep_pink"
                   ]
                 }
-              }
+              },
+              {
+                "weight": 1000,               
+                "add": {
+                  "component_groups": [
+                    "minecraft:become_trader"
+                  ]
+                }
+              },
+              {
+                "weight": 1000,               
+                "add": {
+                  "component_groups": [
+                    "minecraft:become_wandering"
+                  ]
+                }
+              }                           
             ]
           }                   
         ]
