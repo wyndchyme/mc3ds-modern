@@ -125,16 +125,16 @@
         "minecraft:is_tamed": {
         },
         "minecraft:health": {
-          "value": 20,
-          "max": 20
+          "value": 40,
+          "max": 40
         },
         "minecraft:color": {
           "value": 14
         },
         "minecraft:behavior.follow_owner": {
-          "priority": 6,
-          "speed_multiplier": 1.0,
-          "start_distance": 10,
+          "priority": 5,
+          "speed_multiplier": 1.1,
+          "start_distance": 6,
           "stop_distance": 2
         },
         "minecraft:attack": {
@@ -226,7 +226,7 @@
       "minecraft:can_climb": {
       },
       "minecraft:attack": {
-        "damage": 3
+        "damage": 4
       },
       "minecraft:healable": {
         "items": [
@@ -324,7 +324,7 @@
         "priority": 5,
         "target_dist": 1.2,
         "track_target": true,
-        "reach_multiplier": 1.0
+        "reach_multiplier": 1.2
       },
       "minecraft:behavior.random_stroll": {
         "priority": 8,
