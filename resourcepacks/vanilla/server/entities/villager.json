@@ -505,12 +505,7 @@
             "max_dist": 8,
             "walk_speed_multiplier": 0.6,
             "sprint_speed_multiplier": 0.6
-          }
-        ]
-      },
-      "minecraft:behavior.avoid_mob_type": {
-        "priority": 3,
-        "entity_types": [
+          },
           {
             "filters": {
               "other_with_families": [
@@ -520,9 +515,9 @@
             "max_dist": 12,
             "walk_speed_multiplier": 0.6,
             "sprint_speed_multiplier": 0.6
-          }
+          }          
         ]
-      },	  
+      },  
       "minecraft:behavior.move_indoors": {
         "priority": 4,
         "speed_multiplier": 0.8
