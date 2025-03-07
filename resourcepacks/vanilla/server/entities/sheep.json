@@ -366,7 +366,7 @@
                 }
               },
               {
-                "weight": 1000,               
+                "weight": 3000,               
                 "add": {
                   "component_groups": [
                     "minecraft:become_trader"
@@ -374,7 +374,7 @@
                 }
               },
               {
-                "weight": 1000,               
+                "weight": 3000,               
                 "add": {
                   "component_groups": [
                     "minecraft:become_wandering"
@@ -437,7 +437,7 @@
                 }
               },
               {
-                "weight": 1000,               
+                "weight": 3000,               
                 "add": {
                   "component_groups": [
                     "minecraft:become_trader"
@@ -445,7 +445,7 @@
                 }
               },
               {
-                "weight": 1000,               
+                "weight": 3000,               
                 "add": {
                   "component_groups": [
                     "minecraft:become_wandering"
@@ -508,7 +508,7 @@
                 }
               },
               {
-                "weight": 1000,               
+                "weight": 3000,               
                 "add": {
                   "component_groups": [
                     "minecraft:become_trader"
@@ -516,7 +516,7 @@
                 }
               },
               {
-                "weight": 1000,               
+                "weight": 3000,               
                 "add": {
                   "component_groups": [
                     "minecraft:become_wandering"
