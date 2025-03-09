@@ -1,0 +1,29 @@
+Author: Cracko298
+
+Version: # Plugin version
+    Major: 1
+    Minor: 0
+    Revision: 0
+
+Targets: 0x00001B87, 0x000017CA, 0x000017FD
+
+Title: Megapack Plugin
+
+Summary: A CTRPF Plugin meant for Working with the Minecraft 3DS Megapack (Modpack).
+
+Description: |
+  Codes for Minecraft 3DS' Modpack; Modernization Megapack.
+
+  Features:
+    - Memory searcher
+    - Hex Editor
+    - Code creator
+    - Code import from file
+    - Action Replay engine with extra capabilities
+    - Super fast screenshot engine
+
+Compatibility: Any
+
+MemorySize: 5MiB
+
+UsePrivateMemory: false
