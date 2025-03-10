@@ -11,5 +11,6 @@ namespace CTRPluginFramework
     void dropEverything(MenuEntry *entry);
     void ninetyFov(MenuEntry *entry);
     void defaultCodes(MenuEntry *entry);
+    void removeMobCap(MenuEntry *entry);
 }
 #endif

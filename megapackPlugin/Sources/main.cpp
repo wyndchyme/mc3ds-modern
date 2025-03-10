@@ -69,8 +69,9 @@ exit:
 
     void InitMenu(PluginMenu &menu)
     {
-        menu += new MenuEntry("Megapack Default Codes", defaultCodes, nullptr);
         menu += new MenuEntry("Drop Everything In-Hand", dropEverything, nullptr);
+        menu += new MenuEntry("Megapack Default Codes", defaultCodes, nullptr);
+        menu += new MenuEntry("Remove Mob Spawn-Cap", removeMobCap, nullptr);
         menu += new MenuEntry("Set FOV to 90", ninetyFov, nullptr);
 
         menu += new MenuEntry("Change FOV", nullptr, [](MenuEntry *entry)
@@ -131,7 +132,7 @@ exit:
 
         // Init our menu entries & folders
         InitMenu(*menu);
-        OSD::Notify("Megapack has Successfully Loaded.");
+        OSD::Notify("Megapack has Successfully Loaded.\nPress 'select' to Open Menu.");
 
         // Launch menu and mainloop
         menu->Run();
