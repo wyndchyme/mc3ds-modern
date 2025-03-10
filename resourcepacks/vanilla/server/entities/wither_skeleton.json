@@ -1,0 +1,86 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.1.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:wither_skeleton"
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:collision_box": {
+        "width": 0.72,
+        "height": 2.0
+      },
+      "minecraft:attack": {
+        "damage": 4,
+        "effect_name": "wither",
+        "effect_duration": 10
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/wither_skeleton.json"
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/entities/wither_skeleton_gear.json"
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:navigation.walk": {
+        "can_float": false
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:scale": {
+        "value": 1.2
+      },
+      "minecraft:fire_immune": true,
+      }.
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "entity_types": [
+          {
+            "filters": { "other_with_families": "player" },
+            "max_dist": 16
+          }
+        ],
+        "must_see": true
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 4,
+        "target_dist": 1.2,
+        "speed_multiplier": 1.25,
+        "track_target": true
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 5,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "look_distance": 8
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 6
+      },
+      "minecraft:type_family": {
+        "family": [ "wither", "monster", "undead" ]
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+
+      }
+    }
+  }
+}

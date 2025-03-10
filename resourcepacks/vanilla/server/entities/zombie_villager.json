@@ -295,7 +295,7 @@
 
       // Zombie_villager Components
       "minecraft:navigation.walk": {
-        "can_float": true,
+        "can_float": false,
         "can_pass_doors": true,
         "can_open_doors": true
       },
