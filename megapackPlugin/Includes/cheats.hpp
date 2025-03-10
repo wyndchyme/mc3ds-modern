@@ -16,5 +16,6 @@ namespace CTRPluginFramework
     void enhancedParticles(MenuEntry *entry);
     void betterMinecartPhysics(MenuEntry *entry);
     void stopMobSpawns(MenuEntry *entry);
+    bool displayPlayerCoordsTopScreen(const Screen& screen);
 }
 #endif

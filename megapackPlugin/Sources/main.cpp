@@ -2,6 +2,7 @@
 #include "csvc.h"
 #include <CTRPluginFramework.hpp>
 #include "cheats.hpp"
+#include <string>
 #include <vector>
 
 namespace CTRPluginFramework
@@ -57,6 +58,9 @@ exit:
     // Useful to do code edits safely
     void    PatchProcess(FwkSettings &settings)
     {
+        settings.AllowActionReplay = false;
+        settings.AllowSearchEngine = false;
+        settings.CloseMenuWithB = true;
         ToggleTouchscreenForceOn();
     }
 
@@ -71,6 +75,7 @@ exit:
     {
         MenuFolder *codesFolder = new MenuFolder("Default Codes");
         codesFolder->Append(new MenuEntry("Megapack Default Codes", defaultCodes));
+        codesFolder->Append(new MenuEntry("Drop Everything In-Hand", dropEverything));
         codesFolder->Append(new MenuEntry("Better Minecart Physics", betterMinecartPhysics));
         codesFolder->Append(new MenuEntry("Disable Ground Item Limit", itemLimit));
         codesFolder->Append(new MenuEntry("Remove Mob Spawn-Cap", removeMobCap));
@@ -78,6 +83,14 @@ exit:
         codesFolder->Append(new MenuEntry("Enhanced Particles", enhancedParticles));
         codesFolder->Append(new MenuEntry("Set FOV to 90", ninetyFov));
         menu += codesFolder;
+
+        menu += new MenuEntry("Display Player Coords (Top-Screen)", nullptr, [](MenuEntry *entry)
+		{
+            if (entry->WasJustActivated())
+                OSD::Stop(displayPlayerCoordsTopScreen);
+            else 
+                OSD::Run(displayPlayerCoordsTopScreen);
+        });
         menu += new MenuEntry("Change ViewBobbing Sensitivity", nullptr, [](MenuEntry *entry)
         {
             float userValue;
@@ -140,10 +153,7 @@ exit:
 
                 OSD::Notify(Utils::Format("Written: %.2f to 0x3CEE80", userValue));
         }
-        });
-
-        MessageBox("MC3DS", "The Megapack has Been Successfully Loaded.", DialogType::DialogOk, ClearScreen::None);
-        
+        });        
     }
 
     int main(void)
@@ -154,15 +164,30 @@ exit:
 
         // Init our menu entries & folders
         InitMenu(*menu);
-        OSD::Notify("Megapack has Successfully Loaded.");
-        OSD::Notify("Press 'select' to Open Menu.");
+        u64 titleID = Process::GetTitleID();
+        OSD::Notify(Utils::Format("TitleID: %llu", titleID));
+        u64 usaTID = 1125899908646656;
+        u64 eurTID = 1125899908401664;
+        u64 jpnTID = 1125899908414720;
 
-        // Launch menu and mainloop
-        menu->Run();
+        if (titleID != usaTID && titleID != eurTID && titleID != jpnTID){
+            OSD::Notify("Plugin should only be running on 'Minecraft: New Nintendo 3DS Edition'.");
+            svcSleepThread(5000000000);
+            delete menu;
+            return (0);
+        } else {
+            OSD::Notify("Megapack has Successfully Loaded.");
+            OSD::Notify("Press 'select' to Open Menu.");
+            svcSleepThread(500000000);
 
-        delete menu;
+            // Launch menu and mainloop
+            menu->Run();
 
-        // Exit plugin
-        return (0);
+            delete menu;
+
+            // Exit plugin
+            return (0);
+        }
+
     }
 }
