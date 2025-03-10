@@ -204,6 +204,7 @@ __This pack only officially supports English (US) and English (UK). Other langua
         <tr><td>1.20.X Mob Textures</td><td>Zexlo</td><td>Texture</td><td>Fully</td><td>Included</td></tr>
         <tr><td>3DS Television</td><td>Cracko298</td><td>Mod/Structure</td><td>Mostly (90%)</td><td>Structures/Minor Textures</td></tr>
         <tr><td>Adventure Time Mashup</td><td>Skribblr</td><td>Texture</td><td>Unusable (25%)</td><td>Major Textures</td></tr>
+        <tr><td>Aero GUI</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>Plugin</td></tr>
         <tr><td>Amplified World Gen</td><td>Cracko298</td><td>ASM/World</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Autumnal</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>BatBombs</td><td>Cracko298</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
