@@ -69,37 +69,25 @@ exit:
 
     void InitMenu(PluginMenu &menu)
     {
-        menu += new MenuEntry("Megapack Default Codes", defaultCodes, nullptr);
-        menu += new MenuEntry("Disable Ground Item Limit", itemLimit, nullptr);
-        menu += new MenuEntry("Remove Mob Spawn-Cap", removeMobCap, nullptr);
-        menu += new MenuEntry("Enhanced Particles", enhancedParticles, nullptr);
-        menu += new MenuEntry("Set FOV to 90", ninetyFov, nullptr);
-
-        menu += new MenuEntry("Change FOV", nullptr, [](MenuEntry *entry)
-        {
-            float userValue;
-            Keyboard kb("Enter a Float Value (Recomended 50-130):");
-            std::string input;
-
-            if (kb.Open(input) != -1)
-            {
-                userValue = std::stof(input);
-
-                Process::WriteFloat(0x3CEE80, userValue);
-
-                OSD::Notify(Utils::Format("Written: %.2f to 0x3CEE80", userValue));
-        }
-        });
+        MenuFolder *codesFolder = new MenuFolder("Default Codes");
+        codesFolder->Append(new MenuEntry("Megapack Default Codes", defaultCodes));
+        codesFolder->Append(new MenuEntry("Better Minecart Physics", betterMinecartPhysics));
+        codesFolder->Append(new MenuEntry("Disable Ground Item Limit", itemLimit));
+        codesFolder->Append(new MenuEntry("Remove Mob Spawn-Cap", removeMobCap));
+        codesFolder->Append(new MenuEntry("Disable Mob-Spawning", stopMobSpawns));
+        codesFolder->Append(new MenuEntry("Enhanced Particles", enhancedParticles));
+        codesFolder->Append(new MenuEntry("Set FOV to 90", ninetyFov));
+        menu += codesFolder;
         menu += new MenuEntry("Change ViewBobbing Sensitivity", nullptr, [](MenuEntry *entry)
         {
             float userValue;
 
-            Keyboard kb("Enter a Float Value (Recomended 0-30):");
-            std::string input;
+            Keyboard kb("Enter a Float Value (Recomended 0->30):");
+            float input;
 
             if (kb.Open(input) != -1)
             {
-                userValue = std::stof(input);
+                float userValue = input;
 
                 Process::WriteFloat(0x3CF2A0, userValue);
 
@@ -110,12 +98,12 @@ exit:
         {
             float userValue;
 
-            Keyboard kb("Enter a Float Value (Recomended 0-5):");
-            std::string input;
+            Keyboard kb("Enter a Float Value (Recomended 0->5):");
+            float input;
 
             if (kb.Open(input) != -1)
             {
-                userValue = std::stof(input);
+                float userValue = input;
 
                 Process::WriteFloat(0x10B4D4, userValue);
 
@@ -126,18 +114,35 @@ exit:
         {
             float userValue;
 
-            Keyboard kb("Enter a Float Value (Recomended (-80)-2):");
-            std::string input;
+            Keyboard kb("Enter a Float Value (Recomended (-80)->2):");
+            float input;
 
             if (kb.Open(input) != -1)
             {
-                userValue = std::stof(input);
+                float userValue = input;
 
                 Process::WriteFloat(0x3C5398, userValue);
 
                 OSD::Notify(Utils::Format("Written: %.2f to 0x3C5398", userValue));
         }
         });
+        menu += new MenuEntry("Change FOV", nullptr, [](MenuEntry *entry)
+        {
+            float userValue;
+            Keyboard kb("Enter a Float Value (Recomended 50->130):");
+            float input;
+
+            if (kb.Open(input) != -1)
+            {
+                float userValue = input;
+
+                Process::WriteFloat(0x3CEE80, userValue);
+
+                OSD::Notify(Utils::Format("Written: %.2f to 0x3CEE80", userValue));
+        }
+        });
+
+        MessageBox("MC3DS", "The Megapack has Been Successfully Loaded.", DialogType::DialogOk, ClearScreen::None);
         
     }
 
@@ -149,7 +154,8 @@ exit:
 
         // Init our menu entries & folders
         InitMenu(*menu);
-        OSD::Notify("Megapack has Successfully Loaded.\nPress 'select' to Open Menu.");
+        OSD::Notify("Megapack has Successfully Loaded.");
+        OSD::Notify("Press 'select' to Open Menu.");
 
         // Launch menu and mainloop
         menu->Run();
