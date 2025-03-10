@@ -1,5 +1,4 @@
 #include "cheats.hpp"
-#include "3ds.h"
 #include "types.h"
 
 namespace CTRPluginFramework
@@ -14,43 +13,25 @@ void dropEverything(MenuEntry *entry){
     if (hidKeysDown() & (KEY_ZL | KEY_ZR))
     {
         Process::Write32(0xB329E8, 0x02);
-        svcSleepThread(16666);
-        Process::Write32(0xB329E8, 0x00);
-        svcSleepThread(16666);
         Process::Write32(0xB32948, 0x02);
-        svcSleepThread(16666);
-        Process::Write32(0xB32948, 0x00);
-        svcSleepThread(16666);
         Process::Write32(0xB32A00, 0x02);
-        svcSleepThread(16666);
-        Process::Write32(0xB32A00, 0x00);
-        svcSleepThread(16666);
         Process::Write32(0xB32A18, 0x02);
-        svcSleepThread(16666);
-        Process::Write32(0xB32A18, 0x00);
-        svcSleepThread(16666);
         Process::Write32(0xB32A30, 0x02);
-        svcSleepThread(16666);
-        Process::Write32(0xB32A30, 0x00);
-        svcSleepThread(16666);
         Process::Write32(0xB32A48, 0x02);
-        svcSleepThread(16666);
-        Process::Write32(0xB32A48, 0x00);
-        svcSleepThread(16666);
         Process::Write32(0xB32A60, 0x02);
-        svcSleepThread(16666);
-        Process::Write32(0xB32A60, 0x00);
-        svcSleepThread(16666);
         Process::Write32(0xB32A78, 0x02);
-        svcSleepThread(16666);
-        Process::Write32(0xB32A78, 0x00);
-        svcSleepThread(16666);
         Process::Write32(0xB32A90, 0x02);
-        svcSleepThread(16666);
-        Process::Write32(0xB32A90, 0x00);
-        svcSleepThread(16666);
         Process::Write32(0xB32AB0, 0x02);
         svcSleepThread(16666);
+        Process::Write32(0xB329E8, 0x00);
+        Process::Write32(0xB32948, 0x00);
+        Process::Write32(0xB32A00, 0x00);
+        Process::Write32(0xB32A18, 0x00);
+        Process::Write32(0xB32A30, 0x00);
+        Process::Write32(0xB32A48, 0x00);
+        Process::Write32(0xB32A60, 0x00);
+        Process::Write32(0xB32A78, 0x00);
+        Process::Write32(0xB32A90, 0x00);
         Process::Write32(0xB32AB0, 0x00);
         svcSleepThread(16666);
     }
@@ -138,5 +119,17 @@ void betterMinecartPhysics(MenuEntry *entry){
     Process::WriteFloat(0x659B54, 0.0050);
 }
 
-
+bool displayPlayerCoordsTopScreen(const Screen& screen)
+	{
+		if (!screen.IsTop) return false;
+		static float x, y, z;
+		Process::ReadFloat(0xAC1E48, x);
+		Process::ReadFloat(0xAC1E4C, y);
+		Process::ReadFloat(0xAC1E50, z);
+		screen.Draw("Player.X: " + Utils::Format("%.2f", x), 10, 30, Color::White, Color::Black); // x, y, color, background_color  +
+        screen.Draw("Player.Y: " + Utils::Format("%.2f", y), 10, 40, Color::White, Color::Black);
+        screen.Draw("Player.Z: " + Utils::Format("%.2f", z), 10, 50, Color::White, Color::Black);
+		return true;
+		
+	}
 }
