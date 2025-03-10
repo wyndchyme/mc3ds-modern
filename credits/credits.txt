@@ -7,17 +7,22 @@ textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu69 iv64 isu74 isv17
 Mojangles Font| #b88d39
 Better View Bobbing| #b88d39
 Aquatic Swimming| #b88d39
+MegaPack Plugin| #b88d39
 | h20
-textures/gui/icons/Nintendo-Logo.png| tImage s2 iw86 ih17 iu143 iv64 isu86 isv17
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw77 ih17 iu127 iv154 isu77 isv17
 | h20
-Cleann'slick GUI| #b88d39
-New Base Skins| #b88d39
+Sink Don't Swim| #b88d39
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw58 ih17 iu0 iv81 isu58 isv17
 | h20
 Actual Models| #b88d39
 Bat 1.20.3 Model| #b88d39
 New Panoramas| #b88d39
+| h20
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw86 ih17 iu143 iv64 isu86 isv17
+| h20
+Cleann'slick GUI| #b88d39
+New Base Skins| #b88d39
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu82 iv81 isu74 isv17
 | h20
@@ -52,9 +57,11 @@ textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu69 iv64 isu74 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw80 ih17 iu127 iv120 isu80 isv17
 | h20
-textures/gui/icons/Nintendo-Logo.png| tImage s2 iw82 ih17 iu0 iv81 isu82 isv17
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw58 ih17 iu0 iv81 isu58 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw56 ih17 iu0 iv64 isu56 isv17
+| h20
+textures/gui/icons/Nintendo-Logo.png| tImage s2 iw79 ih17 iu127 iv171 isu79 isv17
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw48 ih17 iu156 iv81 isu48 isv17
 | h20
