@@ -14,5 +14,7 @@ namespace CTRPluginFramework
     void removeMobCap(MenuEntry *entry);
     void itemLimit(MenuEntry *entry);
     void enhancedParticles(MenuEntry *entry);
+    void betterMinecartPhysics(MenuEntry *entry);
+    void stopMobSpawns(MenuEntry *entry);
 }
 #endif

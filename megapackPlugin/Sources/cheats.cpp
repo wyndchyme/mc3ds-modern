@@ -1,5 +1,6 @@
 #include "cheats.hpp"
 #include "3ds.h"
+#include "types.h"
 
 namespace CTRPluginFramework
 {
@@ -93,6 +94,22 @@ void removeMobCap(MenuEntry *entry){
     Process::Write32(0xA338C0, 0x00);
 }
 
+void stopMobSpawns(MenuEntry *entry){
+    static int myInt = 1;
+    if (myInt == 1){
+        OSD::Notify("Disabled Mob-Spawning.");
+        myInt++;
+    }
+    Process::Write32(0xA33898, 0xB0);
+    Process::Write32(0xA338A8, 0xB0);
+    Process::Write32(0xA338AC, 0xB0);
+    Process::Write32(0xA338B0, 0xB0);
+    Process::Write32(0xA338B4, 0xB0);
+    Process::Write32(0xA338B8, 0xB0);
+    Process::Write32(0xA338BC, 0xB0);
+    Process::Write32(0xA338C0, 0xB0);
+}
+
 void itemLimit(MenuEntry *entry){
     static int myInt = 1;
     if (myInt == 1){
@@ -110,5 +127,16 @@ void enhancedParticles(MenuEntry *entry){
     }
     Process::Write8(0x14A4F, 0xE2);
 }
+
+void betterMinecartPhysics(MenuEntry *entry){
+    static int myInt = 1;
+    if (myInt == 1){
+        OSD::Notify("Configured Better Minecart Physics.");
+        myInt++;
+    }
+    Process::WriteFloat(0x659B48, 0.0);
+    Process::WriteFloat(0x659B54, 0.0050);
+}
+
 
 }
