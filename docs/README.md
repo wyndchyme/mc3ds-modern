@@ -169,6 +169,13 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>N/A</td>
         </tr>
         <tr>
+            <td>Sink, Don't Swim</td>
+            <td>Nikki (Swapdoodle)</td>
+            <td>Prevents undead mobs from swimming for parity with newer versions of Minecraft.</td>
+            <td>&#10003;</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
             <td>Swappable Fonts</td>
             <td>wyndchyme</td>
             <td>Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.</td>
@@ -234,6 +241,7 @@ __This pack only officially supports English (US) and English (UK). Other langua
         <tr><td>Pink Floyd Painting Pack</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Pillagers & Outpost</td><td>Cracko298, Zexlo, & wyndchyme</td><td>Mod/Structure/Port</td><td>Fully</td><td>Included</td></tr>
         <tr><td>Sheeptastic</td><td>Vance</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Sink, Don't Swim</td><td>Nikki (Swapdoodle)</td><td>Mob/Edits</td><td>Fully</td><td>Included</td></tr>
         <tr><td>Skyblock+</td><td>Cracko298</td><td>Map/World</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Stronghold Fix</td><td>Vance</td><td>Game/Fix</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Technoblade's Crown</td><td>Vance</td><td>Texture</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
@@ -404,8 +412,9 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 <p><em>Those who chose to include their work in Modernization MegaPack.</em></p>
 <ul>
 <li>Cracko298</li>
-<li>TheRustico36</li>
+<li>Nikki (Swapdoodle)</li>
 <li>STBrian</li>
+<li>TheRustico36</li>
 <li>wyndchyme</li>
 <li>Zexlo</li>
 </ul>
