@@ -106,6 +106,13 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>v1.1.1</td>
         </tr>
         <tr>
+            <td>MegaPack Plugin</td>
+            <td>Cracko298</td>
+            <td>A CTRPF plugin included with Modernization MegaPack that allows game patches and custom configurations.</td>
+            <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
             <td>Modern Mobs</td>
             <td>Zexlo</td>
             <td>Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.</td>
