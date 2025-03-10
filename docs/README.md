@@ -304,7 +304,7 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern)
 3. Select 'Code' and 'Download ZIP'.
 4. Extract the .ZIP file you downloaded.
-5. Create a folder called 'romfs'. Move all folders (not 'code.bps') that were in the ZIP you downloaded (excluding the '_scripts' directory) into this folder.
+5. Create a folder called 'romfs'. Move all folders that were in the ZIP you downloaded (excluding the 'megapackPlugin' directory) into this folder.
 6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID, and move 'code.bps' into this folder. These title IDs are:
    - For USA:
    00040000001B8700
