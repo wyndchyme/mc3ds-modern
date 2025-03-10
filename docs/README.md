@@ -162,13 +162,6 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>N/A</td>
         </tr>
         <tr>
-            <td>New Sound Effects</td>
-            <td>Zexlo</td>
-            <td>Replaces certain sound effects (ex. door opening/closing) with their newer equivalents.</td>
-            <td>Made for this pack</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
             <td>Pillagers & Outpost</td>
             <td>Cracko298, Zexlo, & wyndchyme</td>
             <td>Adds Pillager Outposts from the Village and Pillage update.</td>
