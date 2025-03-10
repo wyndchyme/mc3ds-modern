@@ -78,6 +78,11 @@ void defaultCodes(MenuEntry *entry){
 }
 
 void removeMobCap(MenuEntry *entry){
+    static int myInt = 1;
+    if (myInt == 1){
+        OSD::Notify("Removed the Mob Spawn-Limit.");
+        myInt++;
+    }
     Process::Write32(0xA33898, 0x00);
     Process::Write32(0xA338A8, 0x00);
     Process::Write32(0xA338AC, 0x00);
@@ -86,6 +91,24 @@ void removeMobCap(MenuEntry *entry){
     Process::Write32(0xA338B8, 0x00);
     Process::Write32(0xA338BC, 0x00);
     Process::Write32(0xA338C0, 0x00);
+}
+
+void itemLimit(MenuEntry *entry){
+    static int myInt = 1;
+    if (myInt == 1){
+        OSD::Notify("Removed Ground-Item Limit.");
+        myInt++;
+    }
+    Process::Write32(0xA339C0, 0x00);
+}
+
+void enhancedParticles(MenuEntry *entry){
+    static int myInt = 1;
+    if (myInt == 1){
+        OSD::Notify("Fixed Write32 Panic.");
+        myInt++;
+    }
+    Process::Write8(0x14A4F, 0xE2);
 }
 
 }

@@ -12,5 +12,7 @@ namespace CTRPluginFramework
     void ninetyFov(MenuEntry *entry);
     void defaultCodes(MenuEntry *entry);
     void removeMobCap(MenuEntry *entry);
+    void itemLimit(MenuEntry *entry);
+    void enhancedParticles(MenuEntry *entry);
 }
 #endif
