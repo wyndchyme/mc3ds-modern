@@ -134,7 +134,7 @@
         "value": 2
       },
       "minecraft:navigation.walk": {
-        "can_float": true,
+        "can_float": false,
         "can_pass_doors": true,
         "can_open_doors": true,
         "avoid_water": false,
@@ -149,9 +149,6 @@
       },
 
       // Zombie_husk Behaviors
-      "minecraft:behavior.float": {
-        "priority": 0
-      },
       "minecraft:behavior.melee_attack": {
         "priority": 3,
         "speed_multiplier": 1,
