@@ -69,15 +69,16 @@ exit:
 
     void InitMenu(PluginMenu &menu)
     {
-        menu += new MenuEntry("Drop Everything In-Hand", dropEverything, nullptr);
         menu += new MenuEntry("Megapack Default Codes", defaultCodes, nullptr);
+        menu += new MenuEntry("Disable Ground Item Limit", itemLimit, nullptr);
         menu += new MenuEntry("Remove Mob Spawn-Cap", removeMobCap, nullptr);
+        menu += new MenuEntry("Enhanced Particles", enhancedParticles, nullptr);
         menu += new MenuEntry("Set FOV to 90", ninetyFov, nullptr);
 
         menu += new MenuEntry("Change FOV", nullptr, [](MenuEntry *entry)
         {
             float userValue;
-            Keyboard kb("Enter a float value:");
+            Keyboard kb("Enter a Float Value (Recomended 50-130):");
             std::string input;
 
             if (kb.Open(input) != -1)
@@ -93,7 +94,7 @@ exit:
         {
             float userValue;
 
-            Keyboard kb("Enter a float value:");
+            Keyboard kb("Enter a Float Value (Recomended 0-30):");
             std::string input;
 
             if (kb.Open(input) != -1)
@@ -109,7 +110,7 @@ exit:
         {
             float userValue;
 
-            Keyboard kb("Enter a float value:");
+            Keyboard kb("Enter a Float Value (Recomended 0-5):");
             std::string input;
 
             if (kb.Open(input) != -1)
@@ -119,6 +120,22 @@ exit:
                 Process::WriteFloat(0x10B4D4, userValue);
 
                 OSD::Notify(Utils::Format("Written: %.2f to 0x10B4D4", userValue));
+        }
+        });
+        menu += new MenuEntry("Change Cloud Heightmap", nullptr, [](MenuEntry *entry)
+        {
+            float userValue;
+
+            Keyboard kb("Enter a Float Value (Recomended (-80)-2):");
+            std::string input;
+
+            if (kb.Open(input) != -1)
+            {
+                userValue = std::stof(input);
+
+                Process::WriteFloat(0x3C5398, userValue);
+
+                OSD::Notify(Utils::Format("Written: %.2f to 0x3C5398", userValue));
         }
         });
         
