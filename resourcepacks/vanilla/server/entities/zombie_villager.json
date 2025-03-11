@@ -311,6 +311,9 @@
       },
       "minecraft:loot": {
         "table": "loot_tables/entities/zombie.json"
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/entities/zombie_equipment.json"
       },      
       "minecraft:collision_box": {
         "width": 0.6,
@@ -342,9 +345,6 @@
       },
 
       // Zombie_villager Behaviors
-      "minecraft:behavior.float": {
-        "priority": 0
-      },
         "minecraft:burns_in_daylight": { 
 	  },
       "minecraft:behavior.melee_attack": {
