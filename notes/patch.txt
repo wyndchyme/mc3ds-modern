@@ -7,6 +7,7 @@ Modernization MegaPack 2.2.0 "Byron"| #c2c8ff
 - Wolf health and attack damage have been increased for parity with the Armored Paws drop update| h26
 - Wolves have been updated to follow from a greater distance and attack from a greater range| h26
 - Game patches like Better View Bobbing and Aquatic Swimming are now applied using a 3GX plugin for better compatibility and more features, thanks to Cracko298| h26
+- Background panorama resolution has been increased, thanks to Zexlo| h26
 - Fixed display bugs within in-game credits| h26
 - Fixed a typo in 2.1.0 "Austen" patch notes| h26
 - JSON structures have been cleaned up, thanks to Pizzaleader| h26
