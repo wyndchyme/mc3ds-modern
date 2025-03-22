@@ -1,8 +1,3 @@
-## Building:
-- Download/Install Devkitpro.
-- Open Powershell and type:
-```
-pacman -S libctrpf
-```
-- In the CWD of the Source type: `make`.
-- Should generate a `.3gx` file, and `.elf` executable.
+# megapackPlugin
+- A 3GX Plugin for Minecraft 3DS' Modpack (Modernization Megapack)
+- Tools, fun codes, configs, and hidden settings for mc3ds.

@@ -19,7 +19,7 @@ SOURCES 	:= 	Sources
 #---------------------------------------------------------------------------------
 # options for code generation
 #---------------------------------------------------------------------------------
-ARCH		:=	-march=armv6k -mtune=mpcore -mfloat-abi=hard -mtp=soft
+ARCH		:=	-march=armv6k -mtune=mpcore -mfloat-abi=hard -mtp=soft 
 
 CFLAGS		:=	$(ARCH) -Os -mword-relocations \
 				-fomit-frame-pointer -ffunction-sections -fno-strict-aliasing
