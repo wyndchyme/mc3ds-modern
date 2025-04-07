@@ -1,7 +1,7 @@
 Modernization MegaPack 2.2.0 "Byron"| #c2c8ff
 | h22
-- Added the Wandering Trader, thanks to Zexlo| h26
 - Added Cracko298's MegaPack Plugin, which adds numerous game patches and custom configuration settings| h26
+- Added the Wandering Trader, thanks to Zexlo| h26
 - Added Nikki (Swapdoodle)'s "Sink, Don't Swim"| h26
 - Iron Golems can now be healed/repaired with iron ingots, for parity with post-Java Edition 1.15 functionality| h26
 - Wolf health and attack damage have been increased for parity with the Armored Paws drop update| h26
