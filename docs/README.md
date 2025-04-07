@@ -110,7 +110,7 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>Cracko298</td>
             <td>A CTRPF plugin included with Modernization MegaPack that allows game patches and custom configurations.</td>
             <td>Made for this pack</td>
-            <td>N/A</td>
+            <td>1.0.0-pluginFix</td>
         </tr>
         <tr>
             <td>Modern Mobs</td>
