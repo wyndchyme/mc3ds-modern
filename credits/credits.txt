@@ -7,6 +7,7 @@ textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu69 iv64 isu74 isv17
 Mojangles Font| #b88d39
 Better View Bobbing| #b88d39
 Aquatic Swimming| #b88d39
+MegaPack Game Configurations| #b88d39
 MegaPack Plugin| #b88d39
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw77 ih17 iu127 iv154 isu77 isv17
