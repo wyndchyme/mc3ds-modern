@@ -106,6 +106,13 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>v1.1.1</td>
         </tr>
         <tr>
+            <td>MegaPack Game Configurations</td>
+            <td>Cracko298</td>
+            <td>World configurations, hidden settings, and more.</td>
+            <td>Made for this pack</td>
+            <td>1.0.0</td>
+        </tr>
+        <tr>
             <td>MegaPack Plugin</td>
             <td>Cracko298</td>
             <td>A CTRPF plugin included with Modernization MegaPack that allows game patches and custom configurations.</td>
@@ -181,13 +188,6 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.</td>
             <td>Made for this pack</td>
             <td>N/A</td>
-        </tr>
-        <tr>
-            <td>MegaPack Game Configurations</td>
-            <td>Cracko298</td>
-            <td>World configurations, hidden settings, and more.</td>
-            <td>Made for this pack</td>
-            <td>1.0.0</td>
         </tr>
     </tbody>
 </table>
