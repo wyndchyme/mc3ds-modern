@@ -183,9 +183,9 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>N/A</td>
         </tr>
         <tr>
-            <td>Megapack Game Configurations</td>
+            <td>MegaPack Game Configurations</td>
             <td>Cracko298</td>
-            <td>World Configurations, adds hidden settings, and more.</td>
+            <td>World configurations, hidden settings, and more.</td>
             <td>Made for this pack</td>
             <td>1.0.0</td>
         </tr>
