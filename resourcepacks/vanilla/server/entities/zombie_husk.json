@@ -57,6 +57,47 @@
 				"sound_event": "prepare.summon"			
               }
             ]
+          },
+          {
+            "min_activation_range": 2.0,
+            "weight": 6,
+            "cooldown_time": 30.0,
+            "cast_duration": 0.2,
+            "particle_color": "#00664D59",
+            "start_sound_event": "cast.spell",
+            "sequence": [
+              {
+                "shape": "line",
+                "target": "self",
+                "base_delay": 0.1,
+                "delay_per_summon": 0.1,
+                "num_entities_spawned": 1,
+                "entity_type": "minecraft:husk",
+				"summon_cap": 2,	
+                "size": 1,
+                "summon_cap_radius": 40.0,				
+				"sound_event": "prepare.summon"	
+              }
+            ]
+          },
+          {
+            "weight": 5,
+            "cooldown_time": 35.0,
+            "cast_duration": 0.1,
+            "particle_color": "#00B3B3CC",
+            "sequence": [
+              {
+                "shape": "circle",
+                "target": "self",
+                "base_delay": 5.0,
+                "num_entities_spawned": 1,
+                "entity_type": "minecraft:husk",
+                "summon_cap": 2,
+                "summon_cap_radius": 40.0,
+                "size": 1,
+                "sound_event": "prepare.summon"
+              }
+            ]
           }
         ]
       }			  
@@ -134,7 +175,7 @@
         "value": 2
       },
       "minecraft:navigation.walk": {
-        "can_float": true,
+        "can_float": false,
         "can_pass_doors": true,
         "can_open_doors": true,
         "avoid_water": false,
@@ -149,9 +190,6 @@
       },
 
       // Zombie_husk Behaviors
-      "minecraft:behavior.float": {
-        "priority": 0
-      },
       "minecraft:behavior.melee_attack": {
         "priority": 3,
         "speed_multiplier": 1,
@@ -202,7 +240,7 @@
             }
           },
           {
-            "weight": 5,
+            "weight": 10,
             "remove": {
             },
             "add": {
