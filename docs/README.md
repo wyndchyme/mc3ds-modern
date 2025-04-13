@@ -287,7 +287,8 @@ _Requires access to a microSD card reader_ **OR** _an FTP client._
 6. Enter 'titles' and move the folder beginning with **'0004'** from step 3 into the 'titles' directory.
 7. In the .ZIP folder you downloaded in step 2, enter the 'plugins' directory. Move the folder beginning with **'0004'** into the 'plugins' directory found within the 'luma' directory from step 5. If the 'plugins' directory is not present, create it.
 8. Ensure you have the latest version of Luma3DS installed.
-9. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
+9. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
+10. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
 
 ### MANUALLY UPDATING MODERNIZATION MEGAPACK
 
@@ -309,11 +310,12 @@ _Requires internet access on your New Nintendo 3DS system and Universal-Updater.
 8. Press 'Accept' when prompted.
 9. Wait for Modernization MegaPack installation to complete. This may take a long time.
 10. Ensure you have the latest version of Luma3DS installed.
-11. After installation is complete, quit Universal-Updater and launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
+11. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
+12. After installation is complete, quit Universal-Updater and launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
 
 ### UPDATING MODERNIZATION MEGAPACK WITH UNIVERSAL-UPDATER
 
-In the Minecraft 3DS Community Unistore, navigate to 'Customization Removal' and remove all mods intalled. Reinstall Modernization MegaPack by repeating steps 5-11 above. Note that the UniStore may take some time to add the latest version of Modernization MegaPack.
+In the Minecraft 3DS Community Unistore, navigate to 'Customization Removal' and remove all mods intalled. Reinstall Modernization MegaPack by repeating steps 5-12 above. Note that the UniStore may take some time to add the latest version of Modernization MegaPack.
 
 <br>
 
@@ -339,7 +341,8 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 10. Enter 'titles' and move the folder beginning with **'0004'** from step 6 into the 'titles' directory.
 11. Return to the 'luma' directory and enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Create another folder using the same title ID you used in step 6. Move the 'megapackPlugin.3gx' file into this directory.
 12. Ensure you have the latest version of Luma installed.
-13. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
+13. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
+14. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
 
 ### UPDATING MODERNIZATION MEGAPACK FROM SOURCE FILES
 **NOT RECOMMENDED**
