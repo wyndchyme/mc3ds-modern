@@ -37,7 +37,7 @@
         "value": 0.2
       },
       "minecraft:navigation.walk": {
-        "can_float": true,
+        "can_float": false,
         "avoid_water": true
       },
       "minecraft:movement.basic": {
@@ -66,9 +66,6 @@
           "event": "minecraft:on_unleash",
           "target": "self"
         }
-      },
-      "minecraft:behavior.float": {
-        "priority": 0
       },
       "minecraft:behavior.panic": {
         "priority": 1,

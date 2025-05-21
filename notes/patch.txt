@@ -1,3 +1,19 @@
+Modernization MegaPack 2.2.0 "Byron"| #c2c8ff
+| h22
+- Added Cracko298's MegaPack Plugin, which adds numerous game patches and custom configuration settings| h26
+- Added the Wandering Trader, thanks to Zexlo| h26
+- Added Nikki (Swapdoodle)'s "Sink, Don't Swim"| h26
+- Iron Golems can now be healed/repaired with iron ingots, for parity with post-Java Edition 1.15 functionality| h26
+- Wolf health and attack damage have been increased for parity with the Armored Paws drop update| h26
+- Wolves have been updated to follow from a greater distance and attack from a greater range| h26
+- Game patches like Better View Bobbing and Aquatic Swimming are now applied using a 3GX plugin for better compatibility and more features, thanks to Cracko298| h26
+- Background panorama resolution has been increased, thanks to Zexlo| h26
+- Fixed display bugs within in-game credits| h26
+- Fixed a typo in 2.1.0 "Austen" patch notes| h26
+- JSON structures have been cleaned up, thanks to Pizzaleader| h26
+- Added Pizzaleader to Special Thanks section within in-game credits| h26
+
+| h32
 Modernization MegaPack 2.1.0 "Austen"| #bdffec
 | h22
 - Increased swimming speed for parity with the Update Aquatic, thanks to Cracko298| h26

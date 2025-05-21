@@ -37,6 +37,8 @@ This is a modpack for Minecraft: New Nintendo 3DS Edition that aims to modernize
 
 __This pack only officially supports English (US) and English (UK). Other languages can be used but will have lesser compatibility with Modernization MegaPack and the larger font.__
 
+__This pack comes with a CTRPF plugin. Please ensure you read the [requirements.](#requirements)__
+
 ## Mods
 
 <details>
@@ -106,6 +108,20 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>v1.1.1</td>
         </tr>
         <tr>
+            <td>MegaPack Game Configurations</td>
+            <td>Cracko298</td>
+            <td>World configurations, hidden settings, and more.</td>
+            <td>Made for this pack</td>
+            <td>1.0.0</td>
+        </tr>
+        <tr>
+            <td>MegaPack Plugin</td>
+            <td>Cracko298</td>
+            <td>A CTRPF plugin included with Modernization MegaPack that allows game patches and custom configurations.</td>
+            <td>Made for this pack</td>
+            <td>1.0.0-pluginFix</td>
+        </tr>
+        <tr>
             <td>Modern Mobs</td>
             <td>Zexlo</td>
             <td>Makes changes to various mob behaviors (ex. Wither difficulty and zombie spawning behavior) for parity with Bedrock and Java Edition.</td>
@@ -155,17 +171,17 @@ __This pack only officially supports English (US) and English (UK). Other langua
             <td>N/A</td>
         </tr>
         <tr>
-            <td>New Sound Effects</td>
-            <td>Zexlo</td>
-            <td>Replaces certain sound effects (ex. door opening/closing) with their newer equivalents.</td>
-            <td>Made for this pack</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
             <td>Pillagers & Outpost</td>
             <td>Cracko298, Zexlo, & wyndchyme</td>
             <td>Adds Pillager Outposts from the Village and Pillage update.</td>
             <td>Made for this pack</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Sink, Don't Swim</td>
+            <td>Nikki (Swapdoodle)</td>
+            <td>Prevents undead mobs from swimming for parity with newer versions of Minecraft.</td>
+            <td>&#10003;</td>
             <td>N/A</td>
         </tr>
         <tr>
@@ -204,6 +220,7 @@ __This pack only officially supports English (US) and English (UK). Other langua
         <tr><td>1.20.X Mob Textures</td><td>Zexlo</td><td>Texture</td><td>Fully</td><td>Included</td></tr>
         <tr><td>3DS Television</td><td>Cracko298</td><td>Mod/Structure</td><td>Mostly (90%)</td><td>Structures/Minor Textures</td></tr>
         <tr><td>Adventure Time Mashup</td><td>Skribblr</td><td>Texture</td><td>Unusable (25%)</td><td>Major Textures</td></tr>
+        <tr><td>Aero GUI</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>Plugin</td></tr>
         <tr><td>Amplified World Gen</td><td>Cracko298</td><td>ASM/World</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Autumnal</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>BatBombs</td><td>Cracko298</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
@@ -233,6 +250,7 @@ __This pack only officially supports English (US) and English (UK). Other langua
         <tr><td>Pink Floyd Painting Pack</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Pillagers & Outpost</td><td>Cracko298, Zexlo, & wyndchyme</td><td>Mod/Structure/Port</td><td>Fully</td><td>Included</td></tr>
         <tr><td>Sheeptastic</td><td>Vance</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Sink, Don't Swim</td><td>Nikki (Swapdoodle)</td><td>Mob/Edits</td><td>Fully</td><td>Included</td></tr>
         <tr><td>Skyblock+</td><td>Cracko298</td><td>Map/World</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Stronghold Fix</td><td>Vance</td><td>Game/Fix</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Technoblade's Crown</td><td>Vance</td><td>Texture</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
@@ -249,7 +267,7 @@ __This pack only officially supports English (US) and English (UK). Other langua
 # Requirements
 - A physical/digital copy of Minecraft: New Nintendo 3DS Edition
 - Update 1.9.19 installed on your console
-- Custom firmware (Luma)
+- The <b>LATEST</b> version of Luma
 - Purchased DLC (for access to Classic texture pack)
 
 _DLC for Minecraft: New Nintendo 3DS Edition is no longer avaliable for download as of 27 March 2023, apart from using third-party tools found on the internet to activate the full set of DLC released over the game's lifespan. The use of these tools can be considered piracy and is not endorsed by Modernization MegaPack._
@@ -263,15 +281,18 @@ _Requires access to a microSD card reader_ **OR** _an FTP client._
 
 1. Ensure that you have game patching enabled in your Luma settings by holding the Select button on startup. **If there is an '(x)' to the left of 'Enable game patching' in your Luma settings, then game patching is enabled.**
 2. Download the latest release of Modernization MegaPack **for your region** from the [releases page](https://github.com/wyndchyme/mc3ds-modern/releases).
-3. Extract the .ZIP file you downloaded and look for a folder that starts with **'0004'.** This is the folder you will move onto your console.
+3. Extract the .ZIP file you downloaded and open the 'titles' directory. Look for the folder starting with **'0004'.** This is the folder you will move onto your console.
 4. Open your console's microSD card using a microSD card reader or an FTP client.
 5. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
 6. Enter 'titles' and move the folder beginning with **'0004'** from step 3 into the 'titles' directory.
-7. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
+7. In the .ZIP folder you downloaded in step 2, enter the 'plugins' directory. Move the folder beginning with **'0004'** into the 'plugins' directory found within the 'luma' directory from step 5. If the 'plugins' directory is not present, create it.
+8. Ensure you have the latest version of Luma3DS installed.
+9. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
+10. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
 
 ### MANUALLY UPDATING MODERNIZATION MEGAPACK
 
-Delete the folder beginning with **'0004'** from the 'titles' directory and repeat the process above using the latest release. 
+Delete the folders beginning with **'0004'** from the 'titles' and 'plugins' directories and repeat the process above using the latest release. 
 
 <br>
 
@@ -288,11 +309,13 @@ _Requires internet access on your New Nintendo 3DS system and Universal-Updater.
 7. Press the 'Queue' button on the touch screen (directly above the search button) and press 'Action required!'
 8. Press 'Accept' when prompted.
 9. Wait for Modernization MegaPack installation to complete. This may take a long time.
-10. After installation is complete, quit Universal-Updater and launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
+10. Ensure you have the latest version of Luma3DS installed.
+11. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
+12. After installation is complete, quit Universal-Updater and launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
 
 ### UPDATING MODERNIZATION MEGAPACK WITH UNIVERSAL-UPDATER
 
-In the Minecraft 3DS Community Unistore, navigate to 'Customization Removal' and press 'A' while you have it selected. Note that this will delete all mods you have installed. Reinstall Modernization MegaPack by repeating steps 5-10 above. Note that the UniStore may take some time to add the latest version of Modernization MegaPack.
+In the Minecraft 3DS Community Unistore, navigate to 'Customization Removal' and remove all mods intalled. Reinstall Modernization MegaPack by repeating steps 5-12 above. Note that the UniStore may take some time to add the latest version of Modernization MegaPack.
 
 <br>
 
@@ -304,7 +327,7 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern)
 3. Select 'Code' and 'Download ZIP'.
 4. Extract the .ZIP file you downloaded.
-5. Create a folder called 'romfs'. Move all folders (not 'code.bps') that were in the ZIP you downloaded (excluding the '_scripts' directory) into this folder.
+5. Create a folder called 'romfs'. Move all folders that were in the ZIP you downloaded (excluding the 'megapackPlugin' and 'docs' directories) into this folder.
 6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID, and move 'code.bps' into this folder. These title IDs are:
    - For USA:
    00040000001B8700
@@ -316,12 +339,15 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 8. Open your console's microSD card using a microSD card reader or an FTP client.
 9. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
 10. Enter 'titles' and move the folder beginning with **'0004'** from step 6 into the 'titles' directory.
-11. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
+11. Return to the 'luma' directory and enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Create another folder using the same title ID you used in step 6. Move the 'megapackPlugin.3gx' file into this directory.
+12. Ensure you have the latest version of Luma installed.
+13. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
+14. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
 
 ### UPDATING MODERNIZATION MEGAPACK FROM SOURCE FILES
 **NOT RECOMMENDED**
 
-Delete the folder beginning with **'0004'** from the 'titles' directory and repeat the above process.
+Delete the folders beginning with **'0004'** from the 'titles' and 'plugins directories and repeat the above process.
 
 <br>
 
@@ -334,8 +360,11 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 
 <br>
 
+<h2>Q: Moving the camera using the C-Stick doesn't seem to be working!</h2>
+<p>A: Try pressing 'Start InputRedirection' in the Rosalina menu's miscellaneous section..</p>
+
 <h2>Q: How large is Modernization MegaPack?</h2>
-<p>A: As of version 2.1.0 "Austen" the extracted files amount to around 31.9 MB.</p>
+<p>A: As of version 2.2.0 "Byron" the extracted files amount to around 34.1 MB.</p>
 
 <h2>Q: Does Modernization MegaPack affect world generation?</h2>
 <p>A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game.</p>
@@ -375,6 +404,11 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 </p>
 
 <p>
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/main/docs/screenshots/mc3ds-modern-15.png">
+<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/main/docs/screenshots/mc3ds-modern-16.png">
+</p>
+
+<p>
 <img src="https://github.com/user-attachments/assets/ecd74084-e090-4ec6-8ca4-a46b44ecf1cc">
 <img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-8.png">
 </p>
@@ -403,8 +437,9 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 <p><em>Those who chose to include their work in Modernization MegaPack.</em></p>
 <ul>
 <li>Cracko298</li>
-<li>TheRustico36</li>
+<li>Nikki (Swapdoodle)</li>
 <li>STBrian</li>
+<li>TheRustico36</li>
 <li>wyndchyme</li>
 <li>Zexlo</li>
 </ul>
@@ -429,6 +464,7 @@ Delete the folder beginning with **'0004'** from the 'titles' directory and repe
 <li>ENDERMANYK</li>
 <li>STBrian</li>
 <li>Nawrek</li>
+<li>Pizzaleader</li>
 <li>Zexlo</li>
 </ul>
 

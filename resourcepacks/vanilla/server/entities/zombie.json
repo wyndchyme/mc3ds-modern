@@ -153,7 +153,7 @@
         "table": "loot_tables/entities/zombie_equipment.json"
       },
       "minecraft:navigation.walk": {
-        "can_float": true,
+        "can_float": false,
         "can_pass_doors": true,
         "can_open_doors": true
       },
@@ -179,9 +179,6 @@
       },
 
       // Zombie Behaviors
-      "minecraft:behavior.float": {
-        "priority": 0
-      },
       "minecraft:behavior.melee_attack": {
         "priority": 3,
         "speed_multiplier": 1,

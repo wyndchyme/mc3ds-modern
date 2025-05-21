@@ -1,0 +1,237 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.1.0",
+
+    "component_groups": {
+      "minecraft:skeleton_horse_adult": {
+        "minecraft:loot": {
+          "table": "loot_tables/entities/skeleton_horse.json"
+        },
+        "minecraft:collision_box": {
+          "width": 1.4,
+          "height": 1.6
+        },
+        //allow for the the handling of taming but only through code
+        "minecraft:tamemount": {
+          "minTemper": 100,
+          "maxTemper": 101,
+          "feed_text": "action.interact.feed",
+          "ride_text": "action.interact.mount",
+          "feedItems": [
+          ],
+          "autoRejectItems": [
+            {
+              "item": "horsearmorleather"
+            },
+            {
+              "item": "horsearmoriron"
+            },
+            {
+              "item": "horsearmorgold"
+            },
+            {
+              "item": "horsearmordiamond"
+            },
+            {
+              "item": "saddle"
+            }
+          ],
+          "tame_event": {
+            "event": "minecraft:on_tame",
+            "target": "self"
+          }
+        }
+      },
+
+      "minecraft:skeleton_horse_tamed": {
+        "minecraft:inventory": {
+          "inventory_size": 2,
+          "container_type": "horse"
+        },
+        "minecraft:equippable": {
+          "slots": [
+            {
+              "item": "saddle",
+			  "accepted_items": ["saddle"],
+              "on_equip": {
+                "event": "minecraft:skeleton_horse_saddled"
+              }
+            }
+          ]
+        }
+      },
+
+      "minecraft:skeleton_horse_saddled": {
+        "minecraft:is_tamed": {
+        },
+        "minecraft:behavior.player_ride_tamed": {
+        },
+        "minecraft:inventory": {
+          "inventory_size": 2,
+          "container_type": "horse"
+        }
+      },
+
+      "minecraft:skeleton_horse_leashed": {
+        "minecraft:behavior.move_towards_restriction": {
+          "priority": 2,
+          "speed_multiplier": 1.0
+        }
+      },
+
+      "minecraft:skeleton_trap": {
+        "minecraft:behavior.skeleton_horse_trap": {
+          "within_radius": 10.0,
+          "duration": 900.0,
+          "priority": 2
+        }
+      },
+
+      "minecraft:lightning_immune": {
+        "minecraft:damage_sensor": [
+          {
+            "on_damage": { "filters": { "other_with_families": "lightning" } },
+            "deals_damage": false
+          }
+        ]
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:skeleton_horse"
+      },
+      "minecraft:type_family": {
+        "family": [ "skeletonhorse", "undead" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:health": {
+        "value": 15,
+        "max": 15
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:navigation.walk": {
+        "can_float": false,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:horse.jump_strength": {
+        "value": {
+          "range_min": 0.4,
+          "range_max": 1.0
+        }
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0,
+        "on_leash": {
+          "event": "minecraft:on_leash",
+          "target": "self"
+        },
+        "on_unleash": {
+          "event": "minecraft:on_unleash",
+          "target": "self"
+        }
+      },
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 1.2
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.7
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:rideable": {
+        "priority": 0,
+        "seat_count": 1,
+        "family_types": [
+          "player",
+          "skeleton"
+        ],
+        "interact_text": "action.interact.ride.horse",
+        "seats": {
+          "position": [ 0.0, 1.2, -0.2 ]
+        }
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 2,
+        "speed_multiplier": 1.5,
+        "target_dist": 4.0,
+        "track_target": true
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:skeleton_horse_adult"
+          ]
+        }
+      },
+
+      "minecraft:on_tame": {
+        "remove": {
+          "component_groups": [
+            "minecraft:skeleton_horse_adult"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:skeleton_horse_tamed"
+          ]
+        }
+      },
+
+      "minecraft:skeleton_horse_saddled": {
+        "add": {
+          "component_groups": [
+            "minecraft:skeleton_horse_saddled"
+          ]
+        }
+      },
+
+      "minecraft:on_leash": {
+        "add": {
+          "component_groups": [
+            "minecraft:skeleton_horse_leashed"
+          ]
+        }
+      },
+      "minecraft:on_unleash": {
+        "remove": {
+          "component_groups": [
+            "minecraft:skeleton_horse_leashed"
+          ]
+        }
+      },
+
+      "minecraft:set_trap": {
+        "add": { "component_groups": [ "minecraft:skeleton_trap", "minecraft:lightning_immune" ] }
+      },
+
+      "minecraft:spring_trap": {
+        "add": { "component_groups": [ "minecraft:lightning_immune" ] }
+      }
+    }
+  }
+}
