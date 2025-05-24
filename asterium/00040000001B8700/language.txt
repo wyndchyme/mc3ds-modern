@@ -1,0 +1,169 @@
+#\f::nameJP::noteJP::nameEN::noteEN
+#\e::nameJP::noteJP::nameEN::noteEN
+#\k::nameJP::nameEN
+
+
+\fムーブメントコード::移動コードフォルダー::Movement Codes::Movement Codes Folder
+\fプレイヤーコード::プレイヤーコードフォルダー::Player Codes::Player Codes Folder
+\fコンバットコード::戦闘コードフォルダー::Combat Codes::Battle Codes Folder
+\fアイテムコード::アイテムコードフォルダー::Item Codes::Item Codes Folder
+\fワールドコード::ワールドコードフォルダー::World Codes::World Codes Folder
+\fカメラコード::レンダーコードフォルダー::Render Codes::Render Codes Folder
+\fネタコード::お遊びコードフォルダー::Fun Codes::Fun Codes Folder
+\fその他::その他コードフォルダー::Miscellaneous::Miscellaneous Codes Folder
+\fツール::ツールコードフォルダー::Tool::Tool Codes Folder
+\fブロックコード::ブロックコードフォルダー::Block Codes::Block Codes Folder
+
+\kVhopモード::Vhop Mode
+\kテレポート::Teleport
+
+\kズーム::Zoom
+
+\e言語設定｜Language settings::::Language settings｜言語設定::
+\eCスティック修正::::C-Stick Fix::
+
+\eテレポート::::Teleport::
+\eクリエイティブフライ::::Creative Fly::
+\eウォーターフライ::::Water Fly::
+\eエンティティフライ::ボートや馬などの乗れるエンティティで飛べます。::Entity Fly::Fly with boats, horses, and other rideable entities
+\e空中ジャンプ::::Air Jump::
+\eスピードハック V1::::Speed Hack V1::
+\eスピードハック V2::::Speed Hack V2::
+\eスピードハック V3::::Speed Hack V3::
+\eオートダッシュ::前に歩くと自動でダッシュになります。::Auto Sprint::You will automatically dash when moving forward.
+\eダッシュキープ::ダッシュ中に壁に当たってもダッシュが途切れないようになります。::Keep Sprint :: Your dash will not be interrupted when hitting a wall.
+\eダッシュスピードハック::::Sprint Speed Hack::
+\eBhop::空中での移動速度が上がります。::Bhop::It increases the speed of movement in the air. 
+\eストレイフBhop::空中での移動速度が上がります。::Strafe Bhop::It increases the speed of movement in the air.
+\eファーストストップ::移動をやめたときに一瞬で止まれます。::Fast stop::You can stop moving instantly.
+\eオートホップ::歩くと自動でジャンプします。::Auto hop::It automatically jumps when you walk.
+\e馬ジャンプゲージマックス::馬のジャンプゲージが常に最大になります。::Horse Jump Gauge Max::Your horse's jump gauge will always be full.
+\e跳躍力上昇::跳躍のポーションと同じ効果を得られます。::Jumping Power Up::It has the same effect as a potion of leaping.
+\eブロック貫通::ブロックを貫通できます。::No clip::You can clip through blocks.
+\eスニークスピードダウン無効 ::スニークで移動速度が落ちません。 ::Sneak Speed Down Disabled :: Your movement speed will not decrease when sneaking.  
+\e蜘蛛の巣無効::蜘蛛の巣で移動速度が落ちません。::No Web::Your movement speed will not decrease when in a spider web.
+\eスパイダー::壁をよじ登れます。::Spider::You can climb walls.
+\eステップ V1::壁を一瞬で登れます。\n(注意)\n岩盤近くで使うと奈落に落ちます。::Step V1::You can climb walls instantly.\n(Warning)\nIf used near bedrock, it will fall into the abyss.
+\eステップ V2::1 ~ 2ブロックの高さの壁を一瞬で登れます。::Step V2::You can climb a 1 ~ 2 block high wall in an instant.
+\eリバースステップ::一瞬で降りれます。::Reverse Step::You can descend instantly.
+\e落下速度低下::落下速度が低下します。::Glide::Your falling speed will decrease.
+\e水上歩行::水、溶岩、草などの貫通できるブロックに判定を追加します。::Walking On Water::You can walk on water, lava, and other blocks that can be clipped through.
+\eスペクテイター::スペクテイターモードみたいになります。\n(多分没データ)::Spectator::You will be in spectator mode.
+\eタッチテレポート::見てるブロックにテレポートできます。::Touch Teleport::You can teleport to the block you are looking at.
+\eエリトラフライ::ずっとエリトラ飛行します。::Elytra Fly::Always flying with elytra.
+\eエリトラ不要::エリトラ以外の胸装備を着けていても飛行可能になります。::No Need Elytra::It will be possible to fly even if wearing chest equipment other than elytra.
+\eジェットパック::自由な飛行ができます。::Jetpack::Free flight is possible.
+
+\eHP無限::体力が減らなくなります。::Infinite Health::Your health will not decrease.
+\e空腹度無限::空腹度が減らなくなります。::Infinite Hunger::Your hunger will not decrease.
+\e落下ダメージ無効::落下ダメージを無効化します。::No Fall Damage::You will not take fall damage.
+\eモブ爆発ダメージ無効::クリーパーからの爆発ダメージが受けなくなります。\n副作用で一部のダメージが減ります。::Mob Explosion Damage Nullification::Explosion damage from creepers will be eliminated.\nSide effect: Some damage is reduced.
+\e無敵::ダメージを無効化します。::Invincibility::You will not take damage.
+\e延焼無効::延焼ダメージが続かなくなります。::No Fire::The fire will not last long.
+\e酸素無限::酸素が減らなくなります。::Infinite Oxygen::Your oxygen will not decrease.
+\e攻撃不可::モブに攻撃ができなくなります。::Cannot Attack::You will not be able to attack mobs.
+\eレベル変更::レベルを好きな値に変更できます。::Level Change::You can change your level.
+\eキルコマンド::::Kill Command::
+
+\eコンボ::ダメージ間隔がなくなります。::Combo::Damage intervals are eliminated.
+\e弓連射::常に弓の引きが最大になります。::Fast Bow::The bow pull is always maximized.
+\eワンパン::自分と敵の攻撃がワンパンになります。(ポーション例外)::One-punch::The attack on you and your enemy will be a one-punch attack. (Potion exception)
+
+\e防具付与::防具を付与します。::Armor Give::Give yourself armor.
+\eオートアーマー::自動で防具を装備します。::Auto Armor::Automatically equips armor.
+\eアイテム無限::アイテムが無限になります。::Infinite Items::Items will not be consumed when used.
+\e耐久値無限::耐久値が減らなくなります。::Infinite Durability::Items will not lose durability when used
+\e耐久値回復::インベントリにあるアイテムの耐久値を全回復します。::Heal Durability::Heal the durability of items in your inventory.
+\eトーテム無限::トーテムが消費されなくなります。::Infinite Totems::Totems will no longer be consumed.
+\eフリークラフト::素材がなくてもクラフトできます。\nインベントリに素材がある場合消費してしまいます。::Free Craft::You can craft items without materials.\nThis may consume materials if you have them in your inventory.
+\eアイテムコピー::スロット1にコピーしたいアイテムをセットし、\n別のスロットを選択してRまたはLボタンを押したらコピーできます。::Item Copy::Place the item you want to copy in slot 1, then select another slot and press the R or L button to 
+copy it.
+
+\eクールダウン無効::エンダーパールなどのクールダウンをなくせます。::No Cooldown::Items will not have a cooldown when used.
+\e自動スタック無効::アイテムを拾ったときに自動でスタックされなくなります。::No Auto Stack::Items will not auto-stack when picked up.
+\eファストイート::食べ物、飲み物を一瞬で摂取できます。::Fast Eat::You can eat food and drink potions quickly.
+\eアイテムを頭にかぶる::手に持ってるアイテムをLで頭に装備できます。::Head Item::Equip the item you are holding to your head.
+\e装備制限解除::なんでも装備できるようになります。\nカボチャ判定を付けるとブロックの見た目も反映されます。\n\n(注意)\n防具を頭につけた状態でカボチャ判定を付けるとバグります。::Equipment restrictions disabled::You will be able to equip anything.\nIf you add the pumpkin effect, the block's appearance will also be reflected.\n\n(Warning)\nIf you add the pumpkin effect while wearing armor on your head, a bug will occur.
+
+\eツール不要::対応ツールを持っていなくてもドロップします。\n(シルクタッチを除く)::No Tool::You can break blocks without a tool.\nThis does not work for silk touch.
+\e高速精錬::かまどでの精錬を一瞬で終わらせます。::Fast Furnace::Furnace smelting will be instant.
+\eカスタムスポーンエッグ::クリエイティブメニューの卵を改造卵にします。::Mod Spawn Egg::Creative menu eggs will be modded.
+\eカスタムクリエイティブメニュー::クリエイティブメニューの回路関連に改造アイテムを追加します。\n\n(注意)\n「ポータル」はcitra環境以外で出すとフリーズします。::Mod Menu::Add modded items to the creative menu.\n\n(Warning)\nUsing the 'Portal' item may cause the game to freeze on non-Citra environments.
+
+\e最大スタック数変更::255個スタック::Change maximum num stacks::Stack of 255
+\eスタックドロップ::1個ずつではなくすべてドロップするようになります。::Stack drop::It will drop all items instead of one at a time.
+\eキープインベントリ::死んでもアイテムを落とさないようになります。::Keep Inventory::It will not drop items when you die.
+
+\eシード値変更::シード値を変更できます。\n変更後にワールドに入りなおすと地形生成も変わります。::Change Seed Value::You can change the seed value. \nIf you re-enter the world after changing the seed value, the terrain generation will also change.
+
+\eスポーン地点変更::スポーン地点を変更できます。::Change spawn coordinates::Spawn coordinates can be changed.
+\e昼夜判定変更::昼夜判定を変更できます。::Day and Night judgment change::Day/night determination can be changed.
+\e天気変更::天気を変更できます。::Weather change::You can change the weather.
+\eデススポーンアンカー::死んだ場所にリスポーンするようになります。::Death spawn anchor::It will respawn where you died.
+\eモブスポーン上限解放::モブのスポーン上限を解放します。::Remove mob spawn limit::Remove mob spawn restrictions.
+\eオーバーワールドにネザー生成::オンにしてからワールド生成設定で世界のタイプをフラットにするとオーバーワールドにネザーが生成されます。::Nether generation in the overworld::If you turn it on and then set the world type to flat in the world generation settings, the nether will be generated in the overworld.
+
+\eズーム::遠くのものを見れます。::Zoom::You can see things in the distance.
+\eレインボーXP::経験値の数字が虹色になります。::Rainbow XP::The numbers of experience will be rainbow-colored.
+\e座標表示::ネザーとオーバーワールドの座標を表示します。\n(多少のずれがあります。)::Coordinates::Displays the coordinates of the nether and overworld.\n(with some deviations)
+\eアイテムカウント::トーテムと矢の数を表示します。::Item Count::Displays the number of totems and arrows.
+\eエンティティ発光::エンティティが発光し、暗くても見やすくなります。\n副作用で一部のアイテムの色がバグります。::Entity shining::Entities emit light and are easier to see in the dark.\nside effect is that the color of some items is buggy.
+
+\eノーハートカム::ダメージを受けたときの視点の揺れがなくなります。::No heart cam::The viewpoint will no longer sway when damage is taken.
+\e360°カメラ::視点を360°動かせるようになります。::360° Camera::The viewpoint can be moved 360°.
+\e天気非表示::雨などを非表示にします。::No Weather::Hide rain, etc.
+\eネザーゲートエフェクト::ネザーゲートのエフェクトを付与します。::Nethergate effect::Grant nether gate effects.
+\eビューモデル::手の位置を変えます。::View Model::Change the position of the hands.
+\eスモールアイテム::手持ちアイテムが小さくなります。::Small Items::The items on hand are smaller.
+\e腕の動作減少::攻撃時やブロック設置時の腕の動作が小さくなります。::Decreased arm movement::Arm movements during attacks and block placement are reduced.
+\e食べる動作減少::食べるときの腕の動作が小さくなります。::Eating arm movement decrease::The arm movements when eating are smaller.
+\e視野変更::視野角を変更します。::Fov change::Change the viewing angle.
+\e軽量化Mod::エフェクトなどを消して少し軽量化します。::Lightweight mod::Remove effects, etc. to make it a little lighter.
+\eX-RAY::ブロックを透過します。::X-RAY::Transparent block.
+\e液体X-RAY::液体を透過します。::Liquid X-RAY::Permeable through liquids.
+\eスムースライティング無効::影をブロック単位の表示に変更します。::Smooth Lighting Disabled::Change the shadow to a block-by-block display.
+\e早歩き動作::三人称視点での移動動作が早歩きのようになります。::Fast walk motion::The movement behavior in the third-person perspective is like a fast walk.
+\e破壊エフェクト削除::ブロック破壊時のエフェクトを消します。::Destructive effects removed::Eliminates the effect of block destruction.
+\eフルブライト::暗視のポーションと同じ効果を得られます。::Fullbright::It has the same effect as a night vision potion.
+\eエリトラ破壊::エリトラのテクスチャが壊れたエリトラになります。::Elytra destruction::The texture of the elytra becomes a broken elytra.
+\eJAVAアニメーション::動き方やグラフィックをJava版に近づけます。::Java animation::The movement animations and graphics will be close to the Java version.
+\eノートーテムアニメーション::トーテム使用時に出てくるトーテムアニメーションを非表示にします。::No Totem Animation::Hides the totem animation that appears when the totem is used.
+\eクリアウォーター::水の中が綺麗になります。::Clear Water::The water is clean.
+\eカメラノークリップ::三人称視点でのカメラがブロック貫通します。::Camera No clip::Camera in third-person view penetrates the wall.
+
+\e焼き鳥::見たモブが焼き鳥になります。::Yakitori::The mobs you see will be roasted.
+\e水MOD::水の中で泳げます。::Swim Mod::You can swim in the water.
+\e高速屈伸::スニーク状態と通常状態を連続的に切り替えます。::Fast bending and stretching::Continuously switches back and forth between sneak and normal states at high speed.
+\e影MOD::影をリアルにします。\n適用されないときは\nオプション/グラフィック/明るさ\nを1度変更してください。適用されたら明るさを最大に変更してください。::Shader Mod::Makes shadows realistic.\nIf it does not apply, change\nOptions/Graphics/Brightness\napplied, change the brightness to maximum.
+\eエリトラプラス::エリトラの初速と速度制限が上昇します。::ElytraPlus::The initial speed and speed limit of elytra is increased.
+\e釣り針プラス::釣り針の飛ぶ距離が増加し、落下速度が低下します。::FishingHookPlus::The flying distance of the hook increases and the fall speed decreases.
+\eグラップラー::釣り竿がグラップラーになります。::Grappler::The fishing rod becomes the grappler.
+\eクリスタルエンチャントエフェクト::エンドクリスタルにエンチャントエフェクトを付与します。::Crystal Enchant Effect::End crystals are given enchanted effects.
+
+
+\eセーブまでの時間を短縮::セーブまでの時間を短縮します。::Reduced time to save::Reduce time to save.
+\eワールド選択軽量化::遊ぶワールドを選択するときに重くなるのをなくします。::World Selection Lightweight::Eliminate heavy weight when selecting a world to play in.
+\eオートセーブ無効化::オートセーブを無効化します。::Auto save Disabled::Disable auto save.
+\eID表示::アイテムやUIのIDのようなものを表示します。::ID display::Display something like the ID of the item or UI.
+\eクリエイティブで敵に見つかる::クリエイティブでもモブに攻撃されます。::Creative and the enemy will find you::Even creatives are attacked by mobs.
+\eゲームモード変更::ゲームモードを変更できます。::Game Mode Change::You can change the game mode.
+\eゲームスピード変更::ゲームスピードを変更できます。::Game Speed Change::Game speed can be changed.
+\e00TP::X:0 Y:0 Z:0 にテレポートします。::00TP::Teleports to X:0 Y:0 Z:0.
+
+\eタイトルID取得::::Title ID Acquisition::
+\eプロセスID取得::::Process ID Acquisition::
+\eホーム画面に戻る::::Return to Home Screen::
+\eCTRPFの色変更::::CTRPF Color Change::
+\eスタートセレクトボタン無効::::Start and select button Disabled::
+
+\e足元設置::足元にブロックを設置できます。::Foot Place::You can place blocks at your feet.
+\e即破壊::ブロックを一瞬で壊せます。::Instant break::You can break blocks instantly.
+\e破壊連打::即破壊と一緒に使うとブロックを連続で壊せます。::Fast break::You can break blocks quickly.
+\eNuker V1::まわりのブロックを壊せます。\nRでオン、Lでオフ。::Nuker V1::You can break blocks around you.\n\nUse R to turn on and L to turn off.
+\eNuker V2::まわりのブロックを壊せます。::Nuker V2::You can break blocks around you.
+\e高速設置::ブロックを連続で設置できます。::Fast place::You can place blocks quickly.
+\e液体破壊::液体にヒットボックス判定を追加します。::Water Break::You can break water blocks.
+\eXPドロップ::ブロックから経験値がドロップします。::XP Drop::Blocks will drop experience points when broken.
+\eリーチ変更::ブロックを設置、破壊できるリーチが伸びます。::Reach Change::The reach to place and destroy blocks is extended.
+\eドロップ数変更::ブロックのドロップ数を変更します。::Drop Count::Change the number of items dropped when breaking blocks.
+\e更新ブロック変更::設置、破壊、生成で更新されるブロックを変更します。::Block Change::Change the blocks that are updated by installation, destruction, and generation.
