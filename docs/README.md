@@ -232,8 +232,11 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
         <tr><td>Halloween Mashup</td><td>Nawrek</td><td>Texture</td><td>Unusable (25%)</td><td>Major Textures</td></tr>
         <tr><td>IronBrutes</td><td>Cracko298</td><td>Mob/Edits</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
         <tr><td>Let's Update Mob Models</td><td>STBrian</td><td>Mod/Texture</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>Minecon Earth 2017 Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Language files</td></tr>
+        <tr><td>Minecraft: Storymode Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Language files</td></tr>
+        <tr><td>Mob Cap Remover</td><td>Cracko298</td><td>Gateway/Code</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Mob Loot Randomizer</td><td>Zexlo</td><td>Mob/Entity</td><td>Mostly (90%)</td><td>N/A</td></tr>
         <tr><td>Mob Tower/Castle</td><td>Cracko298</td><td>Structure</td><td>Fully</td><td>N/A</td></tr>
-        <tr><td>Mob-Cap Remover</td><td>Cracko298</td><td>Gateway/Code</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Modern Mobs</td><td>Zexlo</td><td>Mod/Edits</td><td>Fully</td><td>Included</td></tr>
         <tr><td>Modern Music Expansion</td><td>Zexlo</td><td>Audio</td><td>Fully</td><td>Plugin</td></tr>
         <tr><td>Mojangles Font</td><td>Cracko298</td><td>Text/Texture</td><td>Fully</td><td>Included</td></tr>
@@ -242,6 +245,7 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
         <tr><td>Nuclear Creepers</td><td>Cracko298</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Pink Floyd Painting Pack</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Pillagers & Outpost</td><td>Cracko298, Zexlo, & wyndchyme</td><td>Mod/Structure/Port</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>Rainbow EXP Bar/Alternate Crosshairs</td><td>Zexlo</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Sheeptastic</td><td>Vance</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Sink, Don't Swim</td><td>Nikki (Swapdoodle)</td><td>Mob/Edits</td><td>Fully</td><td>Included</td></tr>
         <tr><td>Skyblock+</td><td>Cracko298</td><td>Map/World</td><td>Fully</td><td>N/A</td></tr>
@@ -251,10 +255,6 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
         <tr><td>TNT Mimics</td><td>Cracko298</td><td>Mob/Edits</td><td>Unusable (30%)</td><td>Major Textures</td></tr>
         <tr><td>Warden Port</td><td>Cracko298</td><td>Mod/Entity</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
         <tr><td>Windows 98 GUI</td><td>Zexlo</td><td>Mod/Texture</td><td>Fully</td><td>N/A</td></tr>
-        <tr><td>Mob loot Randomizer</td><td>Zexlo</td><td>Mob/Entity</td><td>Mostly (90%)</td><td>N/A</td></tr>
-        <tr><td>Rainbow EXP bar/alternate cross-hairs</td><td>Zexlo</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
-        <tr><td>Minecon Earth 2017 Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Language files</td></tr>
-        <tr><td>Minecraft: Storymode Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Language files</td></tr>
     </tbody>
 </table>
 
