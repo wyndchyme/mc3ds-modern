@@ -72,12 +72,12 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>&#10003;</td>
             <td>1-MMP</td>
         </tr>
-     <tr>
-            <td>Better View Bobbing & Aquatic Swimming</td>
-            <td>Cracko298</td>
-            <td>Increases the viewbobbing intensity from 5.0 → 10.0, and increases swimming speed for parity with the Update Aquatic. </td>
-            <td>Made for this pack</td>
-            <td>N/A</td>
+        <tr>
+            <td>Asterium Plugin</td>
+            <td>rairai6895</td>
+            <td>A CTRPF plugin included with Modernization MegaPack that allows for game patches, custom configurations, cheats and more.</td>
+            <td>&#10007;</td>
+            <td>1.8.6</td>
         </tr>
         <tr>
             <td>Classic Textures</td>
@@ -113,13 +113,6 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>World configurations, hidden settings, and more.</td>
             <td>Made for this pack</td>
             <td>1.0.0</td>
-        </tr>
-        <tr>
-            <td>Asterium Plugin</td>
-            <td>rairai6895</td>
-            <td>A CTRPF plugin included with Modernization MegaPack that allows for game patches, custom configurations, cheats and more.</td>
-            <td>&#10007;</td>
-            <td>1.8.6</td>
         </tr>
         <tr>
             <td>Modern Mobs</td>
@@ -257,11 +250,11 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
         <tr><td>The Stalker</td><td>Cracko298</td><td>Mod/Entity</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>TNT Mimics</td><td>Cracko298</td><td>Mob/Edits</td><td>Unusable (30%)</td><td>Major Textures</td></tr>
         <tr><td>Warden Port</td><td>Cracko298</td><td>Mod/Entity</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
-        <tr><td>Windows 98 GUI</td><td>Zexlo</td><td>Mod/Texture</td><td>Fully</td><td>Both schemes are fully supported.</td></tr>
-        <tr><td>Mob loot Randomizer</td><td>Zexlo</td><td>Mob/Entity</td><td>Mostly (90%)</td><td>Vanilla mob loot files and an unused json are edited</td></tr>
-        <tr><td>Rainbow EXP bar/alternate cross-hairs</td><td>Zexlo</td><td>Texture</td><td>Fully</td><td>Edits the HUD</td></tr>
-        <tr><td>Minecon Earth 2017 Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Replaces Skinpack text</td></tr>
-        <tr><td>Minecraft: Storymode Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Replaces Skinpack text</td></tr>
+        <tr><td>Windows 98 GUI</td><td>Zexlo</td><td>Mod/Texture</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Mob loot Randomizer</td><td>Zexlo</td><td>Mob/Entity</td><td>Mostly (90%)</td><td>N/A</td></tr>
+        <tr><td>Rainbow EXP bar/alternate cross-hairs</td><td>Zexlo</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Minecon Earth 2017 Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Language files</td></tr>
+        <tr><td>Minecraft: Storymode Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Language files</td></tr>
     </tbody>
 </table>
 
