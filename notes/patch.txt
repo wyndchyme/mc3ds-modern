@@ -1,6 +1,8 @@
 Modernization MegaPack 2.3.0 "Shelley"| #c2c8ff
 | h22
 - Added Asterium 3GX plugin, which adds numerous new features including true sprint swimming, cheats, and more; see Asterium Discord server for full feature list| h26
+- Carrots are now valid items for healing and growing horses and donkeys, for parity with new Java Edition changes, thanks to Zexlo| h26
+- Cloud textures have been updated for parity with new appearance changes, thanks to Zexlo| h26
 - Removed MegaPack Plugin due to deprecation| h26
 
 Modernization MegaPack 2.2.0 "Byron"| #c2c8ff
