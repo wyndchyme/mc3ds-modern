@@ -37,7 +37,7 @@ This is a modpack for Minecraft: New Nintendo 3DS Edition that aims to modernize
 
 __This pack only officially supports English (US) and English (UK). Other languages can be used but will have lesser compatibility with Modernization MegaPack and the larger font.__
 
-__This pack comes with a CTRPF plugin. Please ensure you read the [requirements.](#requirements)
+__This pack comes with a CTRPF plugin. Please ensure you read the [requirements.](#requirements)__
 
 ## Mods
 
