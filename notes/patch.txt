@@ -10,7 +10,6 @@ Modernization MegaPack 2.2.0 "Byron"| #c2c8ff
 - Background panorama resolution has been increased, thanks to Zexlo| h26
 - Fixed display bugs within in-game credits| h26
 - Fixed a typo in 2.1.0 "Austen" patch notes| h26
-- JSON structures have been cleaned up, thanks to Pizzaleader| h26
 - Added Pizzaleader to Special Thanks section within in-game credits| h26
 
 | h32
