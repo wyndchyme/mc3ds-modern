@@ -1,4 +1,6 @@
-![logo](https://github.com/user-attachments/assets/9b35ec40-3680-4586-939b-3c0dbbdb585e)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/9b35ec40-3680-4586-939b-3c0dbbdb585e" style="width:450px;">
+</div>
 <div align="center">
  
  <a href="https://github.com/wyndchyme/mc3ds-modern/releases/latest">
