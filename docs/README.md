@@ -327,7 +327,7 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern)
 3. Select 'Code' and 'Download ZIP'.
 4. Extract the .ZIP file you downloaded.
-5. Create a folder called 'romfs'. Move all folders that were in the ZIP you downloaded (excluding the 'megapackPlugin' and 'docs' directories) into this folder.
+5. Create a folder called 'romfs'. Move all folders that were in the ZIP you downloaded (excluding the 'asterium' and 'docs' directories) into this folder.
 6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID, and move 'code.bps' into this folder. These title IDs are:
    - For USA:
    00040000001B8700
@@ -339,7 +339,7 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 8. Open your console's microSD card using a microSD card reader or an FTP client.
 9. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
 10. Enter 'titles' and move the folder beginning with **'0004'** from step 6 into the 'titles' directory.
-11. Return to the 'luma' directory and enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Create another folder using the same title ID you used in step 6. Move the 'megapackPlugin.3gx' file into this directory.
+11. Return to the 'luma' directory and enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Create another folder using the same title ID you used in step 6. Move everything from the 'asterium' folder into this directory.
 12. Ensure you have the latest version of Luma installed.
 13. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
 14. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
@@ -401,11 +401,6 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <p>
 <img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-10.png">
 <img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-14.png">
-</p>
-
-<p>
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/main/docs/screenshots/mc3ds-modern-15.png">
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/main/docs/screenshots/mc3ds-modern-16.png">
 </p>
 
 <p>
