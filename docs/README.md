@@ -1,4 +1,6 @@
-![logo](https://github.com/user-attachments/assets/9b35ec40-3680-4586-939b-3c0dbbdb585e)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/9b35ec40-3680-4586-939b-3c0dbbdb585e" style="width:450px;">
+</div>
 <div align="center">
  
  <a href="https://github.com/wyndchyme/mc3ds-modern/releases/latest">
@@ -72,12 +74,12 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>&#10003;</td>
             <td>1-MMP</td>
         </tr>
-     <tr>
-            <td>Better View Bobbing & Aquatic Swimming</td>
-            <td>Cracko298</td>
-            <td>Increases the viewbobbing intensity from 5.0 → 10.0, and increases swimming speed for parity with the Update Aquatic. </td>
-            <td>Made for this pack</td>
-            <td>N/A</td>
+        <tr>
+            <td>Asterium Plugin</td>
+            <td>rairai6895</td>
+            <td>A CTRPF plugin included with Modernization MegaPack that allows for game patches, custom configurations, cheats and more.</td>
+            <td>&#10007;</td>
+            <td>1.8.6</td>
         </tr>
         <tr>
             <td>Classic Textures</td>
@@ -113,13 +115,6 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>World configurations, hidden settings, and more.</td>
             <td>Made for this pack</td>
             <td>1.0.0</td>
-        </tr>
-        <tr>
-            <td>MegaPack Plugin</td>
-            <td>Cracko298</td>
-            <td>A CTRPF plugin included with Modernization MegaPack that allows game patches and custom configurations.</td>
-            <td>Made for this pack</td>
-            <td>1.0.0-pluginFix</td>
         </tr>
         <tr>
             <td>Modern Mobs</td>
@@ -239,8 +234,11 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
         <tr><td>Halloween Mashup</td><td>Nawrek</td><td>Texture</td><td>Unusable (25%)</td><td>Major Textures</td></tr>
         <tr><td>IronBrutes</td><td>Cracko298</td><td>Mob/Edits</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
         <tr><td>Let's Update Mob Models</td><td>STBrian</td><td>Mod/Texture</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>Minecon Earth 2017 Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Language files</td></tr>
+        <tr><td>Minecraft: Storymode Skinpack</td><td>Zexlo</td><td>Mod/Skin</td><td>Mostly (95%)</td><td>Language files</td></tr>
+        <tr><td>Mob Cap Remover</td><td>Cracko298</td><td>Gateway/Code</td><td>Fully</td><td>N/A</td></tr>
+        <tr><td>Mob Loot Randomizer</td><td>Zexlo</td><td>Mob/Entity</td><td>Mostly (90%)</td><td>N/A</td></tr>
         <tr><td>Mob Tower/Castle</td><td>Cracko298</td><td>Structure</td><td>Fully</td><td>N/A</td></tr>
-        <tr><td>Mob-Cap Remover</td><td>Cracko298</td><td>Gateway/Code</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Modern Mobs</td><td>Zexlo</td><td>Mod/Edits</td><td>Fully</td><td>Included</td></tr>
         <tr><td>Modern Music Expansion</td><td>Zexlo</td><td>Audio</td><td>Fully</td><td>Plugin</td></tr>
         <tr><td>Mojangles Font</td><td>Cracko298</td><td>Text/Texture</td><td>Fully</td><td>Included</td></tr>
@@ -249,6 +247,7 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
         <tr><td>Nuclear Creepers</td><td>Cracko298</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Pink Floyd Painting Pack</td><td>wyndchyme</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Pillagers & Outpost</td><td>Cracko298, Zexlo, & wyndchyme</td><td>Mod/Structure/Port</td><td>Fully</td><td>Included</td></tr>
+        <tr><td>Rainbow EXP Bar/Alternate Crosshairs</td><td>Zexlo</td><td>Texture</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Sheeptastic</td><td>Vance</td><td>Mob/Edits</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>Sink, Don't Swim</td><td>Nikki (Swapdoodle)</td><td>Mob/Edits</td><td>Fully</td><td>Included</td></tr>
         <tr><td>Skyblock+</td><td>Cracko298</td><td>Map/World</td><td>Fully</td><td>N/A</td></tr>
@@ -257,6 +256,7 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
         <tr><td>The Stalker</td><td>Cracko298</td><td>Mod/Entity</td><td>Fully</td><td>N/A</td></tr>
         <tr><td>TNT Mimics</td><td>Cracko298</td><td>Mob/Edits</td><td>Unusable (30%)</td><td>Major Textures</td></tr>
         <tr><td>Warden Port</td><td>Cracko298</td><td>Mod/Entity</td><td>Mostly (95%)</td><td>Minor Textures</td></tr>
+        <tr><td>Windows 98 GUI</td><td>Zexlo</td><td>Mod/Texture</td><td>Fully</td><td>N/A</td></tr>
     </tbody>
 </table>
 
@@ -327,8 +327,8 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern)
 3. Select 'Code' and 'Download ZIP'.
 4. Extract the .ZIP file you downloaded.
-5. Create a folder called 'romfs'. Move all folders that were in the ZIP you downloaded (excluding the 'megapackPlugin' and 'docs' directories) into this folder.
-6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID, and move 'code.bps' into this folder. These title IDs are:
+5. Create a folder called 'romfs'. Move all folders that were in the ZIP you downloaded (excluding the 'asterium' and 'docs' directories) into this folder.
+6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID. These title IDs are:
    - For USA:
    00040000001B8700
    - For EUR:
@@ -339,7 +339,7 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 8. Open your console's microSD card using a microSD card reader or an FTP client.
 9. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
 10. Enter 'titles' and move the folder beginning with **'0004'** from step 6 into the 'titles' directory.
-11. Return to the 'luma' directory and enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Create another folder using the same title ID you used in step 6. Move the 'megapackPlugin.3gx' file into this directory.
+11. Return to the 'luma' directory and enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Create another folder using the same title ID you used in step 6. Move everything from the 'asterium' folder into this directory.
 12. Ensure you have the latest version of Luma installed.
 13. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
 14. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
@@ -401,11 +401,6 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <p>
 <img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-10.png">
 <img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/2.0.0-romantic/.github/screenshots/mc3ds-modern-14.png">
-</p>
-
-<p>
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/main/docs/screenshots/mc3ds-modern-15.png">
-<img src="https://raw.githubusercontent.com/wyndchyme/mc3ds-modern/refs/heads/main/docs/screenshots/mc3ds-modern-16.png">
 </p>
 
 <p>

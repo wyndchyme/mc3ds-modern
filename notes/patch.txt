@@ -1,3 +1,12 @@
+Modernization MegaPack 2.3.0 "Shelley"| #c2c8ff
+| h22
+- Added Asterium 3GX plugin, which adds numerous new features including true sprint swimming, cheats, and more; see Asterium Discord server for full feature list| h26
+- Carrots are now valid items for healing and growing horses and donkeys, for parity with new Java Edition changes, thanks to Zexlo| h26
+- Cloud textures have been updated for parity with new appearance changes, thanks to Zexlo| h26
+- A vanilla bug involving cloud faces sometimes having incorrect colors has been fixed, thanks to Zexlo| h26
+- Removed MegaPack Plugin due to deprecation| h26
+- Edited 2.2.0 "Byron" patch notes to better reflect changes| h26
+
 Modernization MegaPack 2.2.0 "Byron"| #c2c8ff
 | h22
 - Added Cracko298's MegaPack Plugin, which adds numerous game patches and custom configuration settings| h26
@@ -10,7 +19,6 @@ Modernization MegaPack 2.2.0 "Byron"| #c2c8ff
 - Background panorama resolution has been increased, thanks to Zexlo| h26
 - Fixed display bugs within in-game credits| h26
 - Fixed a typo in 2.1.0 "Austen" patch notes| h26
-- JSON structures have been cleaned up, thanks to Pizzaleader| h26
 - Added Pizzaleader to Special Thanks section within in-game credits| h26
 
 | h32
