@@ -2,6 +2,10 @@ textures/gui/icons/Nintendo-Logo.png| tImage s1 iw256 ih64 iu0 iv0 isu256 isv64
 | h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw97 ih11 iu0 iv98 isu97 isv11
 | h20
+Asterium Team| #e3aa39
+| h20
+Asterium | #b88d39
+| h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw74 ih17 iu69 iv64 isu74 isv17
 | h20
 Mojangles Font| #b88d39
