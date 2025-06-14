@@ -41,7 +41,6 @@
         "value": 1.2
       },
       "minecraft:fire_immune": true,
-      }.
       "minecraft:behavior.hurt_by_target": {
         "priority": 1
       },
