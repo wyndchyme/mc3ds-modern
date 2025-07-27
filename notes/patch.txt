@@ -1,7 +1,7 @@
 Modernization MegaPack 2.4.0 "Gabriel"| #e1ffc2
 | h22
 - 2.3.0 "Shelley" patch notes header now has a unique color| h26
-- Added the new dye sprites from the latest Bedrock preview version| h26
+- Added the new dye sprites from the latest Bedrock preview version, thanks to Zexlo| h26
 
 Modernization MegaPack 2.3.1 "Frankenstein"| #c2ffe4
 | h22
