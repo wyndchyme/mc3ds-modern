@@ -1,8 +1,13 @@
-Modernization MegaPack 2.3.1 "Frankenstein"| #c2c8ff
+Modernization MegaPack 2.4.0 "Gabriel"| #e1ffc2
+| h22
+- 2.3.0 "Shelley" patch notes header now has a unique color| h26
+- Added the new dye sprites from the latest Bedrock preview version, thanks to Zexlo| h26
+
+Modernization MegaPack 2.3.1 "Frankenstein"| #c2ffe4
 | h22
 - Fixed a bug where Wither Skeletons would not move| h26
 
-Modernization MegaPack 2.3.0 "Shelley"| #c2c8ff
+Modernization MegaPack 2.3.0 "Shelley"| #c2ffe4
 | h22
 - Added Asterium 3GX plugin, which adds numerous new features including true sprint swimming, cheats, and more; see Asterium Discord server for full feature list| h26
 - Carrots are now valid items for healing and growing horses and donkeys, for parity with new Java Edition changes, thanks to Zexlo| h26
