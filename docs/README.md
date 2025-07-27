@@ -364,7 +364,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <p>A: Try pressing 'Start InputRedirection' in the Rosalina menu's miscellaneous section..</p>
 
 <h2>Q: How large is Modernization MegaPack?</h2>
-<p>A: As of version 2.2.0 "Byron" the extracted files amount to around 34.1 MB.</p>
+<p>A: As of version 2.4.0 "Gabriel" the extracted files amount to around 34.1 MB.</p>
 
 <h2>Q: Does Modernization MegaPack affect world generation?</h2>
 <p>A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game.</p>
