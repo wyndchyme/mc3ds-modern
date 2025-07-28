@@ -385,7 +385,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <p>A: Please file an issue <a href="https://github.com/wyndchyme/mc3ds-modern/issues">here</a>.</p>
 
 <h2>Q: Is there documentation available for Modernization MegaPack?</h2>
-<p>A: Documentation can be found <a href="https://wyndchyme.github.io/consoles/3ds/docs/mc3ds-modern/">here</a>.</p>
+<p>A: Documentation can be found <a href="https://wyndchyme.github.io/docs/3ds/mc3ds-modern/">here</a>.</p>
 
  
 </details>
