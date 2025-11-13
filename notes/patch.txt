@@ -1,5 +1,10 @@
 Modernization MegaPack 3.0.0 "Mistletoe"| #edeb5f
 | h22
+- Added parts of Deepslate and Mud block sets, thanks to Zexlo| h26
+- Tameable, ridable Zombie Horses will now spawn at night in plains and savanna biomes| h26
+- Adult zombies will now sometimes spawn with the ability to mount zombie horses| h26
+- Carrots can now again be used to heal and grow horses| h26
+- Mason villagers now offer polished deepslate| h26
 - Ghast texture changes are now reflected in 2.4.0 "Gabriel" patch notes| h26
 
 Modernization MegaPack 2.4.0 "Gabriel"| #e1ffc2
