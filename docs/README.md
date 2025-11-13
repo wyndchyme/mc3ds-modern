@@ -6,8 +6,8 @@
  <a href="https://github.com/wyndchyme/mc3ds-modern/releases/latest">
  <img src="https://img.shields.io/github/v/release/wyndchyme/mc3ds-modern?color=darkgreen"></a>
  <a href="https://minecraft.wiki/w/New_Nintendo_3DS_Edition_1.9.19"><img src="https://img.shields.io/badge/for-1.9.19-purple"></a>
- <a href="https://github.com/wyndchyme/mc3ds-modern/commits/main/"><img src="https://img.shields.io/github/repo-size/wyndchyme/mc3ds-modern?color=red"></a>
- <a href="https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore"><img src="https://img.shields.io/badge/avaliable%20on-UniStore-blue"></a>
+ <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/wyndchyme/mc3ds-modern">
+ <a href="https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore"><img src="https://img.shields.io/badge/avaliable%20on-UniStore-red"></a>
  <a href="https://github.com/wyndchyme/mc3ds-modern/releases/latest"><img src="https://img.shields.io/badge/avaliable%20on-GitHub-yellow"></a>
 </div>
 
