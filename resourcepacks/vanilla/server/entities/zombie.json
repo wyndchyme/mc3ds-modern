@@ -10,17 +10,20 @@
         },
         "minecraft:movement": {
           "value": 0.35
-        }
+        },
+      "minecraft:type_family": {
+        "family": [ "zombie", "undead", "monster" ]
+      }     
       },
 
-	  "minecraft:door_smash": {
-		  "minecraft:behavior.break_door": {
-			"priority": 2
-		  }  
-	 },
-	  "minecraft:leader": {
-	   "minecraft:behavior.summon_entity": {
-        "priority": 1,
+      "minecraft:door_smash": {
+        "minecraft:behavior.break_door": {
+        "priority": 2
+        }  
+	    },
+        "minecraft:leader": {
+        "minecraft:behavior.summon_entity": {
+            "priority": 1,
 
         "summon_choices": [
           {
@@ -101,8 +104,7 @@
           }
         ]
       }			  
-	 },
-	 
+	    },
       "minecraft:zombie_adult": {
         "minecraft:movement": {
           "value": 0.23
@@ -113,15 +115,18 @@
           "target_dist": 0.0,
           "track_target": true
         },
-      "minecraft:rideable": {
-        "seat_count": 1,
-        "family_types": [
-           "zombie"
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
         ],
         "seats": {
           "position": [0, 1.1, -0.6]
         }
-       }		
+       },
+      "minecraft:type_family": {
+        "family": [ "zombie_adult", "undead", "monster" ]
+      }       		
       },
 
       "minecraft:zombie_jockey": {
@@ -143,7 +148,7 @@
 
       // Zombie Components
       "minecraft:type_family": {
-        "family": [ "zombie", "undead", "monster" ]
+        "family": ["undead", "monster" ]
       },
       "minecraft:collision_box": {
         "width": 0.6,
@@ -235,7 +240,7 @@
             "add": {
               "component_groups": [
                 "minecraft:zombie_adult",
-				"minecraft:leader"			
+				        "minecraft:leader"			
               ]
             }
           },		  
@@ -249,7 +254,7 @@
             "add": {
               "component_groups": [
                 "minecraft:zombie_adult",
-				"minecraft:door_smash"	
+				        "minecraft:door_smash"	
               ]
             }
           },		  
@@ -274,7 +279,18 @@
                 "minecraft:zombie_jockey"
               ]
             }
-          }
+          },
+          {
+            "weight": 70,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:zombie_adult",
+                "minecraft:zombie_jockey"
+              ]
+            }
+          }          
         ]
       }
     }
