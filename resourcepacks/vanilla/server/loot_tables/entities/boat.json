@@ -5,8 +5,36 @@
         {
           "wants": [
             {
+              "item": "minecraft:bucket:8",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
               "item": "minecraft:emerald",
-              "quantity": 5
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:hay_block",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 3
+            }
+          ]
+        },                 
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 3
             }
           ],
           "gives": [
@@ -28,7 +56,7 @@
           "wants": [
             {
               "item": "minecraft:emerald",
-              "quantity": 3             
+              "quantity": 2             
             }
           ],
           "gives": [
@@ -42,7 +70,7 @@
           "wants": [
             {
               "item": "minecraft:emerald",
-              "quantity": 5
+              "quantity": 3
             }
           ],
           "gives": [
@@ -86,13 +114,39 @@
           "wants": [
             {
               "item": "minecraft:emerald",
-              "quantity": 4              
+              "quantity": {
+                "min": 4,
+                "max": 7
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_pickaxe",
+              "functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 5,
+                    "max": 19
+                  }
+                }
+              ]
+            }
+          ]
+        },        
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2              
             }
           ],
           "gives": [
             {
               "item": "minecraft:slime_ball",
-              "quantity": 3
+              "quantity": 2
             }
           ]
         },
@@ -153,6 +207,28 @@
             }
           ]
         },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+           {
+              "item": "minecraft:log",
+              "functions": [
+                {
+                  "function": "random_aux_value",
+                  "values": {
+                    "min": 0,
+                    "max": 3
+                  }
+                }
+              ]               
+           }
+          ]
+        },        
         {
           "wants": [
             {

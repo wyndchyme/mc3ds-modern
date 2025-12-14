@@ -5,6 +5,34 @@
         {
           "wants": [
             {
+              "item": "minecraft:bucket:1",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ]
+        },   
+        {
+          "wants": [
+            {
+              "item": "minecraft:baked_potato",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },             
+        {
+          "wants": [
+            {
               "item": "minecraft:emerald",
               "quantity": 1
             }
@@ -143,6 +171,28 @@
           "wants": [
             {
               "item": "minecraft:emerald",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:log",
+              "functions": [
+                {
+                  "function": "random_aux_value",
+                  "values": {
+                    "min": 0,
+                    "max": 1
+                  }
+                }
+              ]               
+            }
+          ]
+        },        
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
               "quantity": 2
             }
           ],
@@ -164,7 +214,26 @@
                "item": "minecraft:packed_ice"              
             }
           ]
-        }                                
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:potion",
+              "functions": [
+                {
+                  "function": "set_data",
+                  "data": 7
+                }
+              ]               
+            }
+          ]
+        }                                       
       ]
     }
   ]
