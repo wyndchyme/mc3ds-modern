@@ -361,7 +361,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <br>
 
 <h2>Q: Moving the camera using the C-Stick doesn't seem to be working!</h2>
-<p>A: Try pressing 'Start InputRedirection' in the Rosalina menu's miscellaneous section..</p>
+<p>A: Try pressing 'Start InputRedirection' in the Rosalina menu's miscellaneous section.</p>
 
 <h2>Q: How large is Modernization MegaPack?</h2>
 <p>A: As of version 2.4.0 "Gabriel" the extracted files amount to around 34.1 MB.</p>
