@@ -22,6 +22,11 @@
         }  
 	    },
         "minecraft:leader": {
+          
+          "minecraft:health": {
+          "value": 20,
+          "max": 80
+        },
         "minecraft:behavior.summon_entity": {
             "priority": 1,
 
