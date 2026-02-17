@@ -282,10 +282,10 @@ _Requires access to a microSD card reader_ **OR** _an FTP client._
 1. Ensure that you have game patching enabled in your Luma settings by holding the Select button on startup. **If there is an '(x)' to the left of 'Enable game patching' in your Luma settings, then game patching is enabled.**
 2. Download the latest release of Modernization MegaPack **for your region** from the [releases page](https://github.com/wyndchyme/mc3ds-modern/releases).
 3. Extract the .ZIP file you downloaded and open the 'titles' directory. Look for the folder starting with **'0004'.** This is the folder you will move onto your console.
-4. Open your console's microSD card using a microSD card reader or an FTP client.
+4. Open your console's microSD card using a microSD card reader or an FTP client. Move the folder named 'Minecraft 3DS' to the root (highest level) of your microSD card. 
 5. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
 6. Enter 'titles' and move the folder beginning with **'0004'** from step 3 into the 'titles' directory.
-7. In the .ZIP folder you downloaded in step 2, enter the 'plugins' directory. Move the folder beginning with **'0004'** into the 'plugins' directory found within the 'luma' directory from step 5. If the 'plugins' directory is not present, create it.
+7. In the .ZIP folder you downloaded in step 2, enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Move the folder beginning with **'0004'** into the 'plugins' directory found within the 'luma' directory from step 5. 
 8. Ensure you have the latest version of Luma3DS installed.
 9. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
 10. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
@@ -327,7 +327,7 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 2. Open [Modernization MegaPack's GitHub repository.](https://github.com/wyndchyme/mc3ds-modern)
 3. Select 'Code' and 'Download ZIP'.
 4. Extract the .ZIP file you downloaded.
-5. Create a folder called 'romfs'. Move all folders that were in the ZIP you downloaded (excluding the 'asterium' and 'docs' directories) into this folder.
+5. Create a folder called 'romfs'. Move all folders that were in the ZIP you downloaded (excluding the 'lunacore', 'Minecraft 3DS' and 'docs' directories) into this folder.
 6. Create another folder with a name that corresponds to your region's Minecraft: New Nintendo 3DS Edition title ID. These title IDs are:
    - For USA:
    00040000001B8700
@@ -339,7 +339,7 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 8. Open your console's microSD card using a microSD card reader or an FTP client.
 9. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
 10. Enter 'titles' and move the folder beginning with **'0004'** from step 6 into the 'titles' directory.
-11. Return to the 'luma' directory and enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Create another folder using the same title ID you used in step 6. Move everything from the 'asterium' folder into this directory.
+11. Return to the 'luma' directory and enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Move the folder inside the 'lunacore' folder with the name matching your region's title ID into this directory.
 12. Ensure you have the latest version of Luma installed.
 13. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
 14. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
@@ -347,7 +347,7 @@ _Prerelease builds may be unstable or contain unfinished features. Not recommend
 ### UPDATING MODERNIZATION MEGAPACK FROM SOURCE FILES
 **NOT RECOMMENDED**
 
-Delete the folders beginning with **'0004'** from the 'titles' and 'plugins directories and repeat the above process.
+Delete the folders beginning with **'0004'** from the 'titles' and 'plugins' directories. Delete the folder named 'Minecraft 3DS' from the root. Repeat the above process.
 
 <br>
 
@@ -361,7 +361,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <br>
 
 <h2>Q: Moving the camera using the C-Stick doesn't seem to be working!</h2>
-<p>A: Try pressing 'Start InputRedirection' in the Rosalina menu's miscellaneous section.</p>
+<p>A: Try pressing 'Start InputRedirection' in the Rosalina menu's miscellaneous section..</p>
 
 <h2>Q: How large is Modernization MegaPack?</h2>
 <p>A: As of version 2.4.0 "Gabriel" the extracted files amount to around 34.1 MB.</p>
@@ -370,7 +370,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <p>A: No, world generation is not affected so the pack retains 100% compatibility with the vanilla game.</p>
 
 <h2>Q: Can Modernization MegaPack cause my game to crash?</h2>
-<p>A: Extremely unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is likely an issue with that world, your microSD card, or your console. If you are experiencing crashing issues traceable to Modernization MegaPack, a common troubledshooting method is deleting 'code.bps' from the title directory.</p>
+<p>A: Unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is often an issue with that world, your microSD card, or your console. However, since the addition of CTRPF plugins, the chance of crashes has risen. If you are experiencing crashes, report it to this repository's issues page with instructions on how to replicate it.</p>
 
 <h2>Q: Why does installation on the UniStore take so long?</h2>
 <p>A: The way the UniStore works is that it downloads the Modernization MegaPack archive file and extracts each directory into its correct spot. The 3DS takes a long time to extract archived files, so this obviously takes longer than just moving the already extracted files onto your microSD card.</p>
@@ -386,6 +386,9 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 
 <h2>Q: Is there documentation available for Modernization MegaPack?</h2>
 <p>A: Documentation can be found <a href="https://wyndchyme.github.io/docs/3ds/mc3ds-modern/">here</a>.</p>
+
+<h2>Q: Is there a complete list of features for Modernization MegaPack?</h2>
+<p>A: The <a href="https://github.com/wyndchyme/mc3ds-modern/blob/main/notes/patch.txt">patch.txt</a> file offers the most in-depth list of features.</p>
 
  
 </details>
