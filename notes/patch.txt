@@ -1,3 +1,8 @@
+Modernization MegaPack 3.1.0 "Petrichor"| #c3d0eb
+| h22
+- Fixed new block names and localizations, thanks to Damienne| h26
+- Credits now reflect new additions in 3.0.0 "Cupid"| h26
+
 Modernization MegaPack 3.0.0 "Cupid"| #ffbdf8
 | h22
 - Swapped out Asterium for the LunaCore API, which allows custom Lua scripting for mods, thanks to STBUniverse| h26
