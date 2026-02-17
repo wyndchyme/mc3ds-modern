@@ -75,13 +75,6 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>1-MMP</td>
         </tr>
         <tr>
-            <td>Asterium Plugin</td>
-            <td>rairai6895</td>
-            <td>A CTRPF plugin included with Modernization MegaPack that allows for game patches, custom configurations, cheats and more.</td>
-            <td>&#10007;</td>
-            <td>1.8.6</td>
-        </tr>
-        <tr>
             <td>Classic Textures</td>
             <td>wyndchyme</td>
             <td>Emulates the look of Classic Minecraft. Overwrites Candy texture pack.</td>
@@ -108,6 +101,13 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>Changes the appearances of villagers, bats, and zombified piglins for parity with their updated looks.</td>
             <td>&#10007;</td>
             <td>v1.1.1</td>
+        </tr>
+        <tr>
+            <td>LunaCore</td>
+            <td>STBrian</td>
+            <td>A modding API and CTRPF plugin that allows the use of Lua scripts to modify the game.</td>
+            <td>&#10007;</td>
+            <td>0.14.0</td>
         </tr>
         <tr>
             <td>MegaPack Game Configurations</td>
@@ -189,7 +189,7 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
     </tbody>
 </table>
 
-<b>Pack compiled and maintained by wyndchyme.</b>
+<b>Pack compiled and maintained by The MegaPack Authors.</b>
  
 </details>
 
@@ -432,6 +432,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <p><em>Those who chose to include their work in Modernization MegaPack.</em></p>
 <ul>
 <li>Cracko298</li>
+<li>Damienne</li>
 <li>Nikki (Swapdoodle)</li>
 <li>rairai6895</li>
 <li>STBrian</li>
@@ -444,6 +445,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <p><em>Those involved in the distribution of Modernization MegaPack on the Minecraft 3DS Community UniStore.</em></p>
 <ul>
 <li>Nawrek</li>
+<li>TheGamer</li>
 </ul>
 
 <h2><ins>COMPILED BY</ins></h2>
@@ -462,6 +464,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 <li>Nawrek</li>
 <li>Pizzaleader</li>
 <li>Zexlo</li>
+<li>TheGamer</li>
 </ul>
 
 
@@ -473,7 +476,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins dire
 
 This project is published without a license file attached and therefore defaults to all rights reserved by the repository owner, including copyright. Do not distribute this pack or modified versions of this pack without explicit permission.
 
-Modernization MegaPack (mc3ds-modern) © 2024-2025 wyndchyme
+Modernization MegaPack (mc3ds-modern) © 2024-2026 The MegaPack Authors
 
 All Rights Reserved.
 
