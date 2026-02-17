@@ -7,7 +7,7 @@
  <img src="https://img.shields.io/github/v/release/wyndchyme/mc3ds-modern?color=darkgreen"></a>
  <a href="https://minecraft.wiki/w/New_Nintendo_3DS_Edition_1.9.19"><img src="https://img.shields.io/badge/for-1.9.19-purple"></a>
  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/wyndchyme/mc3ds-modern">
- <a href="https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore"><img src="https://img.shields.io/badge/avaliable%20on-UniStore-red"></a>
+ <a href="https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore"><img src="https://img.shields.io/badge/avaliable%20on-Unistore-red"></a>
  <a href="https://github.com/wyndchyme/mc3ds-modern/releases/latest"><img src="https://img.shields.io/badge/avaliable%20on-GitHub-yellow"></a>
 </div>
 
@@ -22,7 +22,7 @@
 - [Installation](#installation)
   * [Method 1: Manual (Fastest)](#method-1)
     + [MANUALLY UPDATING MODERNIZATION MEGAPACK](#manually-updating-modernization-megapack)
-  * [Method 2: UniStore (Automatic)](#method-2)
+  * [Method 2: Unistore (Automatic)](#method-2)
     + [UPDATING MODERNIZATION MEGAPACK WITH UNIVERSAL-UPDATER](#updating-modernization-megapack-with-universal-updater)
   * [Method 3: Source Files (Not Recommended)](#method-3)
     + [UPDATING MODERNIZATION MEGAPACK FROM SOURCE FILES (NOT RECOMMENDED)](#updating-modernization-megapack-from-source-files)
@@ -297,14 +297,14 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins' dir
 <br>
 
 ## Method 2
-### UniStore (Automatic)
+### Unistore (Automatic)
 _Requires internet access on your New Nintendo 3DS system and Universal-Updater. Installation may take a long time, please be patient._
 
 1. Ensure that you have game patching enabled in your Luma settings by holding the Select button on startup. **If there is an '(x)' to the left of 'Enable game patching' in your Luma settings, then game patching is enabled.**
 2. Ensure that you have **Universal-Updater** installed on your console. [Universal-Updater can be downloaded here.](https://universal-team.net/projects/universal-updater)
-3. Open Universal-Updater and press the Settings icon in the bottom left corner of the touch screen. Press **'Select UniStore...'**
-4. At the bottom of the 'Select a UniStore' screen, press the + button. Select **'Minecraft 3DS Community Unistore'** on the 'Recommended UniStores'.
-5. Return to the 'Select a UniStore' screen and select minecraft-3ds-community.unistore.
+3. Open Universal-Updater and press the Settings icon in the bottom left corner of the touch screen. Press **'Select Unistore...'**
+4. At the bottom of the 'Select a Unistore' screen, press the + button. Select **'Minecraft 3DS Community Unistore'** on the 'Recommended Unistores'.
+5. Return to the 'Select a Unistore' screen and select minecraft-3ds-community.unistore.
 6. Find or search for Modernization MegaPack. Press 'A' while you have it selected. Select the correct download for your region from the 'Avaliable Downloads' screen.
 7. Press the 'Queue' button on the touch screen (directly above the search button) and press 'Action required!'
 8. Press 'Accept' when prompted.
@@ -315,7 +315,7 @@ _Requires internet access on your New Nintendo 3DS system and Universal-Updater.
 
 ### UPDATING MODERNIZATION MEGAPACK WITH UNIVERSAL-UPDATER
 
-In the Minecraft 3DS Community Unistore, navigate to 'Customization Removal' and remove all mods intalled. Reinstall Modernization MegaPack by repeating steps 5-12 above. Note that the UniStore may take some time to add the latest version of Modernization MegaPack.
+In the Minecraft 3DS Community Unistore, navigate to 'Customization Removal' and remove all mods intalled. Reinstall Modernization MegaPack by repeating steps 5-12 above. Note that the Unistore may take some time to add the latest version of Modernization MegaPack.
 
 <br>
 
@@ -372,11 +372,11 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins' dir
 <h2>Q: Can Modernization MegaPack cause my game to crash?</h2>
 <p>A: Unlikely – the way LayeredFS works and the current extent of Modernization MegaPack's changes mean that causing game crashes or performance issues is almost impossible. If you are having issues with the game repeatedly crashing on certain worlds, it is often an issue with that world, your microSD card, or your console. However, since the addition of CTRPF plugins, the chance of crashes has risen. If you are experiencing crashes, report it to this repository's issues page with instructions on how to replicate it.</p>
 
-<h2>Q: Why does installation on the UniStore take so long?</h2>
-<p>A: The way the UniStore works is that it downloads the Modernization MegaPack archive file and extracts each directory into its correct spot. The 3DS takes a long time to extract archived files, so this obviously takes longer than just moving the already extracted files onto your microSD card.</p>
+<h2>Q: Why does installation on the Unistore take so long?</h2>
+<p>A: The way the Unistore works is that it downloads the Modernization MegaPack archive file and extracts each directory into its correct spot. The 3DS takes a long time to extract archived files, so this obviously takes longer than just moving the already extracted files onto your microSD card.</p>
 
-<h2>Q: On the UniStore, downloading Modernization MegaPack causes the download to fail, or the changes aren't showing even though I have game patching enabled!</h2>
-<p>A: Ensure that your internet connection is working correctly. If it is, then this is likely an issue on the UniStore's end. File an issue on the <a href="https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/issues">UniStore's GitHub repository</a>. In the meantime, please refer to Method 1.</p>
+<h2>Q: On the Unistore, downloading Modernization MegaPack causes the download to fail, or the changes aren't showing even though I have game patching enabled!</h2>
+<p>A: Ensure that your internet connection is working correctly. If it is, then this is likely an issue on the Unistore's end. File an issue on the <a href="https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/issues">Unistore's GitHub repository</a>. In the meantime, please refer to Method 1.</p>
 
 <h2>Q: I have a contribution for Modernization MegaPack! Where can I put it?</h2>
 <p>A: Contributions are welcome! Fork the repository, make your changes, and then file a pull request.</p>
@@ -445,7 +445,7 @@ Delete the folders beginning with **'0004'** from the 'titles' and 'plugins' dir
 </ul>
 
 <h2><ins>DISTRIBUTION</ins></h2>
-<p><em>Those involved in the distribution of Modernization MegaPack on the Minecraft 3DS Community UniStore.</em></p>
+<p><em>Those involved in the distribution of Modernization MegaPack on the Minecraft 3DS Community Unistore.</em></p>
 <ul>
 <li>Nawrek</li>
 <li>TheGamer</li>
