@@ -285,7 +285,7 @@ _Requires access to a microSD card reader_ **OR** _an FTP client._
 4. Open your console's microSD card using a microSD card reader or an FTP client. Move the folder named 'Minecraft 3DS' to the root (highest level) of your microSD card. 
 5. On the root (highest level) of your microSD card, there should be a directory named 'luma'. Enter that directory and look for a directory named 'titles'. If the 'titles' directory is not present, create it.
 6. Enter 'titles' and move the folder beginning with **'0004'** from step 3 into the 'titles' directory.
-7. In the .ZIP folder you downloaded in step 2, enter the 'plugins' directory. If the 'plugins' directory is not present, create it. Move the folder beginning with **'0004'** into the 'plugins' directory found within the 'luma' directory from step 5. 
+7. In the .ZIP folder you downloaded in step 2, enter the 'plugins' directory. Move the folder beginning with **'0004'** into the 'plugins' directory found within the 'luma' directory from step 5. Delete any files, if present, that were already in the 'plugins' directory.
 8. Ensure you have the latest version of Luma3DS installed.
 9. Enable the Plugin Loader and Input Redirection (in the miscellaneous section) of the Rosalina menu.
 10. Launch Minecraft: New Nintendo 3DS Edition. If the game displays the new Mojang Studios logo (**not** the default black and red Mojang logo from the vanilla game) then the modpack has been applied successfully.
