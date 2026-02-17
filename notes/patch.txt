@@ -1,7 +1,26 @@
+Modernization MegaPack 3.0.0 "Cupid"| #ffbdf8
+| h22
+- Swapped out Asterium for the LunaCore API, which allows custom Lua scripting for mods, thanks to STBUniverse| h26
+- Improved sprint swimming functionality, thanks to Zexlo| h26
+- Added parts of Deepslate and Mud block sets, which can be accessed through villager trades, crafting recipes, and the creative inventory, thanks to Zexlo and Damienne| h26
+- Tameable, ridable Zombie Horses will now spawn at night in plains and savanna biomes| h26
+- Adult zombies will now sometimes spawn with the ability to mount zombie horses| h26
+- Carrots can now again be used to heal and grow horses| h26
+- Mason villagers now offer polished deepslate| h26
+- Wandering Trader loot tables have been updated to match 1.20.2| h26
+- Spawn egg textures have been updated to include the fixed zombie horse, mooshroom, and blaze eggs| h26
+- Zombie horse texture has been updated
+- Leader zombies now have the same health range as in other versions| h26
+- Vex loot table has been updated, as vexes no longer drop loot in the latest versions| h26
+- Fixed Enderman spawn egg texture not having a transparent background, thanks to TheGamer| h26
+- Off-center GUI textures have been improved, thanks to TheGamer| h26
+- Ghast texture changes are now reflected in 2.4.0 "Gabriel" patch notes| h26
+
 Modernization MegaPack 2.4.0 "Gabriel"| #e1ffc2
 | h22
 - 2.3.0 "Shelley" patch notes header now has a unique color| h26
 - Added the new dye sprites from the latest Bedrock preview version, thanks to Zexlo| h26
+- Ported new Ghast texture (downscaled to 16x16), thanks to Zexlo| h26
 
 Modernization MegaPack 2.3.1 "Frankenstein"| #c2ffe4
 | h22

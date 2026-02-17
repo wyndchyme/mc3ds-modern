@@ -915,25 +915,25 @@
 		"sound": "wood"
 	},
 	"stonecutter" : { 
-		"textures" : { "up" : "stonecutter_top", "down" : "stonecutter_bottom", "north" : "stonecutter_side",  "south" : "stonecutter_side", "west" : "stonecutter_other_side",  "east" : "stonecutter_other_side"},
+		"textures" : "stonecutter_top",
 		"sound": "stone"
 	},
-	"glowingobsidian" : { 
+	"glowingobsidian" : { 	
 		"textures" : "glowing_obsidian",
-		"brightness_gamma" : 0.80,
+		"brightness_gamma" : 1.20,
+		"sound": "glass"
+	},
+	"netherreactor" : {
+		"textures" : "stonecutter_side",
 		"sound": "stone"
 	},
-	"netherreactor" : { 
-		"textures" : "reactor_core",
-		"sound": "metal"
-	},
-	"info_update" : { 
-		"textures" : "missing_tile", 
-		"sound": "gravel"
+	"info_update" : {
+		"textures" : "stonecutter_bottom", 
+		"sound": "stone"
 	},
 	"info_update2" : { 
-		"textures" : "missing_tile", 
-		"sound": "gravel"
+		"textures" : "build_deny", 
+		"sound": "stone"
 	},
 	"movingBlock": {
 		"blockshape": "invisible",
@@ -945,7 +945,8 @@
 		"sound": "metal" 
 	}, 
 	"reserved6" : { 
-		"textures" : "missing_tile"
+		"textures" : "build_allow",
+		"sound": "gravel"		
 	},
   "fire": {
     "blockshape": "fire",

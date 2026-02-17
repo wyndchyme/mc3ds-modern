@@ -29,10 +29,6 @@
         "minecraft:scale": {
           "value": 1.5
         },
-      "minecraft:loot": {
-        "table": "loot_tables/entities/endermite.json"
-      }, 
-	  
       "minecraft:navigation.walk": {
         "can_float": true
       },
@@ -76,3 +72,4 @@
     }
   }
 }
+
