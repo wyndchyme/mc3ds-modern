@@ -14,6 +14,10 @@ Aquatic Swimming| #b88d39
 MegaPack Game Configurations| #b88d39
 MegaPack Plugin| #b88d39
 | h20
+Damienne
+| h20
+CrafTR Cheat Console| #b88d39
+| h20
 textures/gui/icons/Nintendo-Logo.png| tImage s2 iw77 ih17 iu127 iv154 isu77 isv17
 | h20
 Sink Don't Swim| #b88d39
