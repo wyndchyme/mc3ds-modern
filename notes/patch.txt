@@ -1,6 +1,8 @@
 Modernization MegaPack 3.2.0 "Lanquorwine"| #db3535
 | h22
 - Installed MegaPack version is now displayed on the top screen in the patch notes menu, thanks to Cracko298| h26
+- In-game credits now reflect new additions in 3.1.0 "Petrichor"| h26
+- Fixed a typo in 3.1.0 "Petrichor" patch notes| h26
 
 Modernization MegaPack 3.1.2 "Omelette"| #f2ed85
 | h22
@@ -15,7 +17,7 @@ Modernization MegaPack 3.1.0 "Petrichor"| #c3d0eb
 | h22
 - Added the CrafTR Cheat Console mod, which restores functionality that was previously in Asterium, thanks to Damienne| h26
 - Fixed new block names and localizations, thanks to Damienne| h26
-- Credits now reflect new additions in 3.0.0 "Cupid"| h26
+- In-game credits now reflect new additions in 3.0.0 "Cupid"| h26
 
 Modernization MegaPack 3.0.0 "Cupid"| #ffbdf8
 | h22
@@ -86,55 +88,4 @@ Modernization MegaPack 2.1.0 "Austen"| #bdffec
 - Zombie villagers will no longer spawn with armor, due to visual bugs| h26
 - Fixed slime texture not displaying correctly, thanks to Zexlo| h26
 - GitHub docs now deploy to a GitHub Pages website| h26
-
-| h32
-Modernization MegaPack 2.0.0 "Romantic"| #f1c9ff
-| h22
-- Added Pillager Outposts| h26
-- Added many of the new villager professions introduced in the Village and Pillage update| h26
-- Numerous villager trades have been changed or modified for parity with post-Java Edition 1.14 functionality| h26
-- Added the proper villager models and textures for parity with post-Java Edition 1.14 appearances, thanks to STBrian| h26
-- Zombie Pigmen are now Zombified Piglins for parity with the Nether Update, thanks to STBrian| h26
-- Baby zombies now burn in sunlight, for parity with post-Java Edition 1.13 functionality| h26
-- Zombies will no longer attempt to break down doors in Normal and Easy difficulties| h26
-- Changed breaking down doors to be a rare trait only adult zombies can spawn with| h26
-- Zombie leader spawning has been reduced to fix balancing| h26
-- Villagers now avoid Husks| h26
-- Villagers now avoid Evokers from a greater distance than in the vanilla game| h26
-- All potion textures have been changed for parity with post-Java Edition 1.19.4 colors| h26
-- Brewing inventory icon has been changed to match new potions| h26
-- Added the ability for baby zombies to piggyback on adult zombies for parity with Bedrock Edition| h26
-- Added support for Zexlo's music plugin| h26
-- Vexes have been doubled in size as a quality of life change| h26
-- Modified loot tables for Vexes, Witches, and Vindicators for parity with their updated drops| h26
-- Fishing junk and treasure loot tables have been modified for parity as well| h26
-- Water vibrance has been toned down| h26
-- Gravel, terracotta, and concrete now have random texture rotation applied| h26
-- Obsidian no longer has random texture rotation applied| h26
-- "Fish" is now "Cod" for parity with post-Update Aquatic naming| h26
-- "Clownfish" is now "Tropical Fish" for parity with post-Update Aquatic naming| h26
-- Changed panorama and world thumbnail image to that of Java Edition 1.14| h26
-- Options, Skins and Manual/Patch Notes menu icons have been completely redone| h26
-- Certain GUI switches and buttons have been redone for parity with Bedrock Edition, thanks to Zexlo| h26
-- All effect icons have been redone for parity with their new textures| h26
-- Reverted change to top menu bar brightness from 1.5.2| h26
-- Reverted changes to D-Pad button prompts from 1.6.0 "Rococo"| h26
-- Fixed a bug where swamps would use the snowy grass side texture| h26
-- Tweaked swamp grass side texture to better match more vibrant colormaps| h26
-- Edit 'Pencil' icon in the default texture pack spritesheet no longer appears cut off| h26
-- The color of arrows in the default texture pack inventory have been adjusted to appear more yellow| h26
-- The background of arrow buttons in the default texture pack inventory are now a solid color| h26
-- Renamed 'Standard' skin pack to 'Default'| h26
-- Renamed 'Choose Skin' menu to 'Select Skin'| h26
-- Enderman Spawn Egg has been brightened slightly for better visibility against black background| h26
-- Fixed a bug introduced in the vanilla game where bugged map items could spawn in stronghold chests| h26
-- Changed 'STBUniverse' to 'STBrian' in documentation and in-game credits| h26
-- 'ENDERMANYK' is now fully capitalized in in-game credits| h26
-- Condensed certain mod entries in README, UniStore description, and in-game credits| h26
-- Update codenames introduced starting in 1.6.0 "Rococo" will now be displayed in the Patch Notes menu| h26
-- Version headers in Patch Notes menu have been condensed| h26
-- Alphabetized mod names within in-game credits and GitHub README| h26
-- Added 1.0.0 patch notes to in-game Patch Notes menu| h26
-- Added mod compatibility list to GitHub README, thanks to Cracko| h26
-- Added contributing guidelines to GitHub repository| h26
 
