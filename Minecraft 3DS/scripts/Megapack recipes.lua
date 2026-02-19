@@ -20,7 +20,7 @@ Game.Recipes.OnRegisterRecipes:Connect(function (recipesTable)
         Game.Recipes.registerShapedRecipe(recipesTable, mudbrick, 1, 2049, "XX", "XX", " ", {{"X", mud}})
     end
     local tuffy = Game.Items.findItemByName("tile.info_update")
-    local tpolish = Game.Items.findItemByName("tile.netherreactor")
+    local tpolish = Game.Items.findItemByName("tile.stonecutter")
     if tuffy and tpolish  then -- Check for 2x2 polished tuff recipe
 
         local tuffpolish = Game.Items.getItemInstance(tpolish, 4, 0)
@@ -28,13 +28,5 @@ Game.Recipes.OnRegisterRecipes:Connect(function (recipesTable)
         
         Game.Recipes.registerShapedRecipe(recipesTable, tuffpolish, 1, 2050, "XX", "XX", " ", {{"X", tuff}})
     end
-    local polish = Game.Items.findItemByName("tile.netherreactor")
-    local tbrick = Game.Items.findItemByName("tile.stonecutter")
-    if polish and tbrick  then -- Check for 2x2 tuff brick recipe
-
-        local polished = Game.Items.getItemInstance(polish, 4, 0)
-        local tuffbrick = Game.Items.getItemInstance(tbrick, 4, 0)
-        
-        Game.Recipes.registerShapedRecipe(recipesTable, tuffbrick, 1, 2051, "XX", "XX", " ", {{"X", polished}})
-    end
+    -- r.i.p. nether reactor core / deepslate bricks. gone but not forgotten. 3.0 - 3.1.0
 end)
