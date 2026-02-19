@@ -1,5 +1,6 @@
 Modernization MegaPack 3.1.0 "Petrichor"| #c3d0eb
 | h22
+- Added the CrafTR Cheat Console mod, which restores functionality that was previously in Asterium, thanks to Damienne| h26
 - Fixed new block names and localizations, thanks to Damienne| h26
 - Credits now reflect new additions in 3.0.0 "Cupid"| h26
 
