@@ -1,3 +1,7 @@
+Modernization MegaPack 3.2.0 "Lanquorwine"| #db3535
+| h22
+- Installed MegaPack version is now displayed on the top screen in the patch notes menu, thanks to Cracko298| h26
+
 Modernization MegaPack 3.1.2 "Omelette"| #f2ed85
 | h22
 - Fixed a bug where opening the Patch Notes menu would lock up the system| h26
