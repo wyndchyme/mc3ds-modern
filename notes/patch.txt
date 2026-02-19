@@ -1,3 +1,8 @@
+Modernization MegaPack 3.1.1 "i dont know what wyndchyme wants to call the update yet this is a placeholder"| #c3d0eb
+| h22
+- Fixed a crash caused by broken localization| h26
+- Removed Deepslate Bricks due to a loot table problem| h26
+
 Modernization MegaPack 3.1.0 "Petrichor"| #c3d0eb
 | h22
 - Added the CrafTR Cheat Console mod, which restores functionality that was previously in Asterium, thanks to Damienne| h26
