@@ -89,6 +89,13 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>3.1-MMP</td>
         </tr>
         <tr>
+            <td>CrafTR Cheat Console</td>
+            <td>Damienne</td>
+            <td>Allows switching game modes, changing weather, and item manipulation</td>
+            <td>&#10003;</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
             <td>Font Friendliness</td>
             <td>wyndchyme</td>
             <td>Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.</td>
