@@ -1,3 +1,8 @@
+Modernization MegaPack 3.1.1 "Eggshell"| #f5e8c4
+| h22
+- Fixed broken language files| h26
+- Removed crafting recipe for Deepslate Bricks| h26
+
 Modernization MegaPack 3.1.0 "Petrichor"| #c3d0eb
 | h22
 - Added the CrafTR Cheat Console mod, which restores functionality that was previously in Asterium, thanks to Damienne| h26
