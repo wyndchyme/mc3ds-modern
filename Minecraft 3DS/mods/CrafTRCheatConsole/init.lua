@@ -205,7 +205,7 @@ cheatFolder:newEntry("Boost Speed", function ()
 end)
 cheatFolder:newEntry("Change Max Health", function ()
     if Game.World.Loaded then
-			local newmaxhealth = math.min(1,Keyboard.getNumber("Max Health:")) --please dont give yourself negative health
+			local newmaxhealth = math.max(1,Keyboard.getNumber("Max Health:")) --please dont give yourself negative health
 			player.MaxHP = newmaxhealth
 			if newmaxhealth == 20 then
 				Core.Menu.showMessageBox("Set max health to default!")
