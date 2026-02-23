@@ -44,7 +44,7 @@ end)
 gamemodesFolder:newEntry("The secret 4th one", function ()
     if Game.World.Loaded then
         if not Core.Graphics.isOpen() then
-	    	player.Gamemode = 6
+	    	player.Gamemode = 9
 			Core.Menu.showMessageBox("Changed gamemode to ???!")
 		end
 	else
