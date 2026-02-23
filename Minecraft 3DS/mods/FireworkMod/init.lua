@@ -41,7 +41,7 @@ Game.World.OnWorldJoin:Connect(function ()
                 if gamepad.isDown(gamepad.KeyCodes.L) then
                     local playerHand = player.Inventory.Slots["hand"]
                     local playerChest = player.Inventory.ArmorSlots["chestplate"]
-                    if not playerHand:isEmpty() and playerHand.Item == fwItem and playerChest.Item == elytraItem then
+                    if not playerHand:isEmpty() and playerHand.Item == fwItem and playerChest.Item == elytraItem and not player.OnGround then
                         local elyDir = angToVec(Game.LocalPlayer.Camera.Pitch, Game.LocalPlayer.Camera.Yaw)
                         Game.LocalPlayer.Velocity.set(elyDir.x, elyDir.y, elyDir.z)
                         if player.Gamemode ~= 1 then
