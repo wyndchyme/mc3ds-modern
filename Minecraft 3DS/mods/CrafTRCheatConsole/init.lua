@@ -250,7 +250,7 @@ movementFolder:newEntry("Teleport To Coordinates", function ()
 		local teley = Keyboard.getNumber("Y coordinate:")
 		local telez = Keyboard.getNumber("Z coordinate:")
 		if telex == nil or teley == nil or telez == nil then
-			cheatAndGameLog("Invalid coords, will not teleport")
+			Core.Menu.showMessageBox("Invalid coords, will not teleport")
 			return
 		end
 		player.Position.set(telex, teley, telez)
@@ -266,7 +266,7 @@ movementFolder:newEntry("Teleport Relative to Player", function ()
 		local teley = Keyboard.getNumber("Y coordinate:")
 		local telez = Keyboard.getNumber("Z coordinate:")
 		if telex == nil or teley == nil or telez == nil then
-			cheatAndGameLog("Invalid coords, will not teleport")
+			Core.Menu.showMessageBox("Invalid coords, will not teleport")
 			return
 		end
 		player.Position.set(currentx+telex, currenty+teley, currentz+telez)
