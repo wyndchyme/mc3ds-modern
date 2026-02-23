@@ -4,6 +4,10 @@ Modernization MegaPack 3.2.0 "Lanquorwine"| #db3535
 - In-game credits now reflect new additions in 3.1.0 "Petrichor"| h26
 - Fixed a typo in 3.1.0 "Petrichor" patch notes| h26
 
+Modernization MegaPack 3.1.3 "Scramble"| #fff1a1
+| h22
+- Actually fixed a bug where opening the Patch Notes menu would lock up the system| h26
+
 Modernization MegaPack 3.1.2 "Omelette"| #f2ed85
 | h22
 - Fixed a bug where opening the Patch Notes menu would lock up the system| h26
@@ -30,7 +34,7 @@ Modernization MegaPack 3.0.0 "Cupid"| #ffbdf8
 - Mason villagers now offer polished deepslate| h26
 - Wandering Trader loot tables have been updated to match 1.20.2| h26
 - Spawn egg textures have been updated to include the fixed zombie horse, mooshroom, and blaze eggs| h26
-- Zombie horse texture has been updated
+- Zombie horse texture has been updated| h26
 - Leader zombies now have the same health range as in other versions| h26
 - Vex loot table has been updated, as vexes no longer drop loot in the latest versions| h26
 - Fixed Enderman spawn egg texture not having a transparent background, thanks to TheGamer| h26
