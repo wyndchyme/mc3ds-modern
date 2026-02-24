@@ -11,6 +11,9 @@ local logger = CoreAPI.Utils.Logger.newLogger("craftrcheatmenu")
 local mainFolder = Core.Menu.getMenuFolder()
 local CTRCCfolder = mainFolder:newFolder("CrafTRCheatConsole")
 local gamemodesFolder = CTRCCfolder:newFolder("Gamemodes")
+
+disableMobCap = false
+
 gamemodesFolder:newEntry("Survival", function ()
     if Game.World.Loaded then
         if not Core.Graphics.isOpen() then
@@ -275,6 +278,19 @@ movementFolder:newEntry("Teleport Relative to Player", function ()
 		Core.Menu.showMessageBox("First enter a world!")
 	end
 end)
+local worldFolder = CTRCCfolder:newFolder("World Utilities")
+worldFolder:newEntry("Remove Mob Spawn Cap", function ()
+    if Game.World.Loaded then
+        disableMobCap = not disableMobCap
+        if disableMobCap then
+            Core.Menu.showMessageBox("Mob cap disabled!")
+        else
+            Core.Menu.showMessageBox("Mob cap enabled!")
+        end
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
 
 Game.World.OnWorldJoin:Connect(function ()
 	fovFile = Core.Filesystem.open("sdmc:/Minecraft 3DS/mods/CrafTRCheatConsole/fov.txt", "r")
@@ -284,4 +300,19 @@ Game.World.OnWorldJoin:Connect(function ()
 		else
 			player.Camera.FOV = 70
 		end 
+        Async.run(function()
+            while Async.wait(0.05) and Game.World.Loaded do
+                if disableMobCap == true then
+                    --thank you to the goat Cracko298's megapackPlugin, would not be possible without him
+                    Core.Memory.writeU32(0xA33898, 0x00)
+                    Core.Memory.writeU32(0xA338A8, 0x00)
+                    Core.Memory.writeU32(0xA338AC, 0x00)
+                    Core.Memory.writeU32(0xA338B0, 0x00)
+                    Core.Memory.writeU32(0xA338B4, 0x00)
+                    Core.Memory.writeU32(0xA338B8, 0x00)
+                    Core.Memory.writeU32(0xA338BC, 0x00)
+                    Core.Memory.writeU32(0xA338C0, 0x00)
+                end
+             end
+        end)
 end)
