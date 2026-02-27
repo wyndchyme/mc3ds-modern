@@ -665,6 +665,14 @@ worldFolder:newEntry("Remove Mob Spawn Cap", function ()
 		Core.Menu.showMessageBox("First enter a world!")
 	end
 end)
+worldFolder:newEntry("Change Gravity", function ()
+    if Game.World.Loaded then
+		Core.Memory.writeFloat(0x4ED468, Keyboard.getNumber("Gravity (~0.08 default):"))
+		Core.Menu.showMessageBox("Changed gravity!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
 
 Game.World.OnWorldJoin:Connect(function ()
 	fovFile = Core.Filesystem.open("sdmc:/Minecraft 3DS/mods/CrafTRCheatConsole/fov.txt", "r")
