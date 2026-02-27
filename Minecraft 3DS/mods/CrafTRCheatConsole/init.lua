@@ -14,6 +14,23 @@ local gamemodesFolder = CTRCCfolder:newFolder("Gamemodes")
 
 disableMobCap = false
 
+function writeScale(scale)
+	-- thanks Cracko
+    Core.Memory.writeFloat(0x600BF0, 1.6200000047684*scale)
+    Core.Memory.writeFloat(0x60370C, 1.6200001239777*scale)
+    Core.Memory.writeFloat(0x607270, 1.6200000047684*scale)
+    Core.Memory.writeFloat(0x607274, 1.7999999523163*scale)
+    Core.Memory.writeFloat(0x60804C, 1.6200000047684*scale)
+    Core.Memory.writeFloat(0x7218F4, 1.6200000047684*scale)
+    Core.Memory.writeFloat(0x735020, 1.6200000047684*scale)
+    Core.Memory.writeFloat(0x988BB8, 1.6200000047684*scale)
+end
+
+function writeMobToPlayer(mob)
+	baseAddr = Core.Memory.readU32(0xFFFDF74)
+	Core.Memory.writeU8(baseAddr+0x278, mob)
+end
+
 gamemodesFolder:newEntry("Survival", function ()
     if Game.World.Loaded then
         if not Core.Graphics.isOpen() then
@@ -103,6 +120,41 @@ itemsFolder:newEntry("Modify Held Item Data", function ()
 		Core.Menu.showMessageBox("First enter a world!")
 	end
 end)
+itemsFolder:newEntry("Give Item (numerical ID, best for blocks)", function ()
+    if Game.World.Loaded then
+		local tempItemID = Keyboard.getNumber("Item ID:")
+		if tempItemID == nil then
+			Core.Menu.showMessageBox("No text input.")
+			return
+		end
+		tryItem = Game.Items.findItemByID(tempItemID)
+		if tryItem == nil then
+			Core.Menu.showMessageBox("Invalid item ID!")
+			return
+		end
+		itemCount = Keyboard.getNumber("Count:")
+		if itemCount == nil then
+			Core.Menu.showMessageBox("No item quantity provided!")
+			return
+		elseif itemCount == 0 then
+			Core.Menu.showMessageBox("Cannot give 0 of an item!")
+			return
+		end
+		itemData = Keyboard.getNumber("Data (optional):")
+		if itemData ~= nil then
+			player.Inventory.Slots["hand"].Item = tryItem
+			player.Inventory.Slots["hand"].ItemCount = itemCount
+			player.Inventory.Slots["hand"].ItemData = itemData
+		else
+			player.Inventory.Slots["hand"].Item = tryItem
+			player.Inventory.Slots["hand"].ItemCount = itemCount
+			player.Inventory.Slots["hand"].ItemData = 0
+		end
+		Core.Menu.showMessageBox("Item given\n(may need relog to render properly)")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
 itemsFolder:newEntry("Swap held item to head (DELETES HELMETS)", function ()
     if Game.World.Loaded then
 		local tempItem = player.Inventory.Slots["hand"]
@@ -176,7 +228,7 @@ CTRCCfolder:newEntry("FOV Adjust", function ()
 		end
 	end
 end)
-local cheatFolder = CTRCCfolder:newFolder("Cheats")
+local cheatFolder = CTRCCfolder:newFolder("Player Modifiers")
 cheatFolder:newEntry("Toggle Flight", function ()
     if Game.World.Loaded then
 		if not player.CanFly then
@@ -246,6 +298,328 @@ cheatFolder:newEntry("Add XP Levels", function ()
 		Core.Menu.showMessageBox("First enter a world!")
 	end
 end)
+cheatFolder:newEntry("Change Player Scale", function ()
+    if Game.World.Loaded then
+		writeScale(Keyboard.getNumber("Scale multiplier:"))
+		Core.Menu.showMessageBox("Changed player scaling! (Relog might be necessary)")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+local mobMorphFolder = cheatFolder:newFolder("Mob Morphs")
+mobMorphFolder:newEntry("Player (default)", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x1E)
+		Core.Menu.showMessageBox("Reverted player to default!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Chicken", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x05)
+		Core.Menu.showMessageBox("Morphed player into chicken!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Cow", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x06)
+		Core.Menu.showMessageBox("Morphed player into cow!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Mooshroom", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x07)
+		Core.Menu.showMessageBox("Morphed player into mooshroom!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Pig", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x08)
+		Core.Menu.showMessageBox("Morphed player into pig!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Sheep", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x09)
+		Core.Menu.showMessageBox("Morphed player into sheep!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Bat", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x0A)
+		Core.Menu.showMessageBox("Morphed player into bat! (I'd recommend enabling flight next :3)")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Wolf", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x0B)
+		Core.Menu.showMessageBox("Morphed player into wolf!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Ender Dragon (Might be buggy!)", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x0C)
+		Core.Menu.showMessageBox("Morphed player into dragon!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Villager", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x0E)
+		Core.Menu.showMessageBox("Morphed player into villager!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Zombie", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x10)
+		Core.Menu.showMessageBox("Morphed player into zombie!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Zombified Piglin", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x11)
+		Core.Menu.showMessageBox("Morphed player into zombie pigman!") -- i'm playing both sides, so that i always come out on top :100:
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Ghast", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x13)
+		Core.Menu.showMessageBox("Morphed player into ghast!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Silverfish", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x17)
+		Core.Menu.showMessageBox("Morphed player into silverfish!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Creeper", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x18)
+		Core.Menu.showMessageBox("Morphed player into creeper!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Enderman", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x1A)
+		Core.Menu.showMessageBox("Morphed player into enderman!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Shulker Bullet", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x1C)
+		Core.Menu.showMessageBox("Morphed player into shulker bullet!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Iron Golem", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x30)
+		Core.Menu.showMessageBox("Morphed player into iron golem!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Cat", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x31)
+		Core.Menu.showMessageBox("Morphed player into cat!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Snow Golem", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x32)
+		Core.Menu.showMessageBox("Morphed player into snow golem!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Guardian", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x3E)
+		Core.Menu.showMessageBox("Morphed player into guardian!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Wither", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x41)
+		Core.Menu.showMessageBox("Morphed player into wither!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("EXP Orb", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x2E)
+		Core.Menu.showMessageBox("Morphed player into an experience orb! (teeny tiny :3)")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Zombie Villager", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x2D)
+		Core.Menu.showMessageBox("Morphed player into a zombie villager!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Shulker", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x33)
+		Core.Menu.showMessageBox("Morphed player into a shulker!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Rabbit", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x35)
+		Core.Menu.showMessageBox("Morphed player into a rabbit!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Witch", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x36)
+		Core.Menu.showMessageBox("Morphed player into a witch!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Llama", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x38)
+		Core.Menu.showMessageBox("Morphed player into a llama!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Camera (Edu)", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x39)
+		Core.Menu.showMessageBox("Morphed player into a camera!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Husk", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x44)
+		Core.Menu.showMessageBox("Morphed player into a husk!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Stray", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x45)
+		Core.Menu.showMessageBox("Morphed player into a stray!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Skeleton (A)", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x46)
+		Core.Menu.showMessageBox("Morphed player into a skeleton!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Skeleton (B)", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x15)
+		Core.Menu.showMessageBox("Morphed player into a skeleton!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Endermite", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x49)
+		Core.Menu.showMessageBox("Morphed player into an endermite!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Evoker", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x4A)
+		Core.Menu.showMessageBox("Morphed player into an evoker!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Vex", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x4C)
+		Core.Menu.showMessageBox("Morphed player into a vex!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Vindicator", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x4D)
+		Core.Menu.showMessageBox("Morphed player into a vindicator!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Polar Bear", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x0D)
+		Core.Menu.showMessageBox("Morphed player into a polar bear!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+mobMorphFolder:newEntry("Blaze", function ()
+    if Game.World.Loaded then
+		writeMobToPlayer(0x14)
+		Core.Menu.showMessageBox("Morphed player into a blaze!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+
 local movementFolder = CTRCCfolder:newFolder("Movement/Teleport Utilities")
 movementFolder:newEntry("Teleport To Coordinates", function ()
     if Game.World.Loaded then
