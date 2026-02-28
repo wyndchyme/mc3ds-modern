@@ -1,6 +1,0 @@
-{
-    "name": "SuspiciousStewMod",
-    "description": "A backport of (most) suspicious stews!",
-    "version": "0.1.0",
-    "dependencies": ["LunaCoreAPI"]
-}
