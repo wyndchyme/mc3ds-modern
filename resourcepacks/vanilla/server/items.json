@@ -1,0 +1,617 @@
+{
+  "items": {
+    "apple": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 4,
+        "saturation_modifier": "low",
+        "is_meat": false
+      }
+    },
+    "golden_apple": {
+      "stack_by_data": true,
+      "use_duration": 32,
+      "foil": false,
+
+      "food": {
+        "nutrition": 4, //
+        "saturation_modifier": "supernatural",
+        "is_meat": false, //
+        "effects": [
+          {
+            "name": "regeneration",
+            "chance": 1.0,
+            "duration": 5,
+            "amplifier": 1
+          },
+          {
+            "name": "absorption",
+            "chance": 1.0,
+            "duration": 120, // 2 * 60
+            "amplifier": 0
+          }
+        ],
+        "enchanted_effects": [
+          {
+            "name": "regeneration",
+            "chance": 0.66,
+            "duration": 30,
+            "amplifier": 4
+          },
+          {
+            "name": "absorption",
+            "chance": 0.66,
+            "duration": 120, // 2 * 60
+            "amplifier": 0
+          },
+          {
+            "name": "resistance", // damage resistance
+            "chance": 0.66,
+            "duration": 300,
+            "amplifier": 0
+          },
+          {
+            "name": "fire_resistance",
+            "chance": 0.66,
+            "duration": 300,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "appleEnchanted" : {
+      "hand_equipped": false,
+      "stack_by_data": true,
+      "use_duration": 32,
+      "foil": true,
+      "hover_text_color": "light_purple",
+
+      "food": {
+        "nutrition": 4,
+        "saturation_modifier": "supernatural",
+        "is_meat": false,
+        "effects": [
+          {
+            "name": "regeneration",
+            "chance": 1.0,
+            "duration": 30,
+            "amplifier": 4
+          },
+          {
+            "name": "absorption",
+            "chance": 1.0,
+            "duration": 120, // 2 * 60
+            "amplifier": 3
+          },
+          {
+            "name": "resistance", // damage resistance
+            "chance": 1.0,
+            "duration": 300,
+            "amplifier": 0
+          },
+          {
+            "name": "fire_resistance",
+            "chance": 1.0,
+            "duration": 300,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "mushroom_stew": {
+      "use_duration": 32,
+      "max_stack_size": 1,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "is_meat": false,
+        "using_converts_to": "bowl"
+      }
+    },
+    "bread": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 5,
+        "saturation_modifier": "normal",
+        "is_meat": false
+      }
+    },
+    "porkchop": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 3,
+        "saturation_modifier": "low",
+        "is_meat": true
+      }
+    },
+    "cooked_porkchop": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 8,
+        "saturation_modifier": "good",
+        "is_meat": true
+      }
+    },
+    "fish": {
+      "use_duration": 32,
+      "max_damage": 0,
+      "stacked_by_data": true,
+
+      "food": {
+        "nutrition": 2,
+        "saturation_modifier": "poor",
+        "is_meat": true
+      }
+    },
+    "salmon": {
+      "use_duration": 32,
+      "max_damage": 0,
+      "stacked_by_data": true,
+
+      "food": {
+        "nutrition": 2,
+        "saturation_modifier": "poor",
+        "is_meat": true
+      }
+    },
+    "clownfish": {
+      "use_duration": 32,
+      "max_damage": 0,
+      "stacked_by_data": true,
+
+      "food": {
+        "nutrition": 1,
+        "saturation_modifier": "poor",
+        "is_meat": true
+      }
+    },
+    "pufferfish": {
+      "use_duration": 32,
+      "max_damage": 0,
+      "stacked_by_data": true,
+
+      "food": {
+        "nutrition": 1,
+        "saturation_modifier": "poor",
+        "is_meat": true,
+        "effects": [
+          {
+            "name": "poison",
+            "duration": 60,
+            "amplifier": 3
+          },
+          {
+            "name": "nausea", // confusion
+            "duration": 15,
+            "amplifier": 1
+          },
+          {
+            "name": "hunger",
+            "duration": 15,
+            "amplifier": 2
+          }
+        ]
+      }
+    },
+    "cooked_fish" : {
+      "use_duration": 32,
+      "max_damage": 0,
+      "stacked_by_data": true,
+
+      "food": {
+        "nutrition": 5,
+        "saturation_modifier": "normal",
+        "eat_sound": "random.burp",
+        "is_meat": true
+      }
+    },
+    "cooked_salmon" : {
+      "use_duration": 32,
+      "max_damage": 0,
+      "stacked_by_data": true,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "good",
+        "is_meat": true
+      }
+    },
+    "cookie" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 2,
+        "saturation_modifier": "poor",
+        "is_meat": false
+      }
+    },
+    "melon" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 2,
+        "saturation_modifier": "low",
+        "is_meat": false
+      }
+    },
+    "beef": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 3,
+        "saturation_modifier": "low",
+        "is_meat": true
+      }
+    },
+    "cooked_beef": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 8,
+        "saturation_modifier": "good",
+        "is_meat": true
+      }
+    },
+    "chicken" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 2,
+        "saturation_modifier": "low",
+        "is_meat": true,
+        "effects": [
+          {
+            "name": "hunger",
+            "chance": 0.3,
+            "duration": 30,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "cooked_chicken" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "is_meat": true
+      }
+    },
+    "muttonRaw" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 2,
+        "saturation_modifier": "low",
+        "is_meat": true
+      }
+    },
+    "muttonCooked" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "good",
+        "is_meat": true
+      }
+    },
+    "rotten_flesh": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 4,
+        "saturation_modifier": "poor",
+        "is_meat": true,
+        "effects": [
+          {
+            "name": "hunger",
+            "chance": 0.8,
+            "duration": 30,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "spider_eye": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 2,
+        "saturation_modifier": "good",
+        "is_meat": false,
+        "effects": [
+          {
+            "name": "poison",
+            "chance": 1.0,
+            "duration": 5,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "carrot" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 3,
+        "saturation_modifier": "normal",
+        "is_meat": false
+      },
+      "seed": {
+        "crop_result": "carrots",
+        "plant_at": "farmland"
+      }
+    },
+    "potato" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 1,
+        "saturation_modifier": "low",
+        "is_meat": false
+      },
+      "seed": {
+        "crop_result": "potatoes",
+        "plant_at": "farmland"
+      }
+    },
+    "baked_potato" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 5,
+        "saturation_modifier": "normal",
+        "is_meat": false
+      }
+    },
+    "poisonous_potato" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 2,
+        "saturation_modifier": "low",
+        "is_meat": false,
+        "effects": [
+          {
+            "name": "poison",
+            "chance": 0.6,
+            "duration": 5,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "golden_carrot" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "supernatural",
+        "is_meat": false
+      }
+    },
+    "pumpkin_pie" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 8,
+        "saturation_modifier": "low",
+        "is_meat": false
+      }
+    },
+    "rabbit" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 3,
+        "saturation_modifier": "low",
+        "is_meat": true
+      }
+    },
+    "cooked_rabbit": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 5,
+        "saturation_modifier": "normal",
+        "is_meat": true
+      }
+    },
+    "rabbit_stew": {
+      "use_duration": 32,
+      "max_stack_size": 1,
+
+      "food": {
+        "nutrition": 10,
+        "saturation_modifier": "normal",
+        "using_converts_to": "bowl",
+        "is_meat": true
+      }
+    },
+    "beetroot" : {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 1,
+        "saturation_modifier": "normal",
+        "is_meat": false
+      }
+    },
+    "beetroot_soup": {
+      "id": 203,
+      "use_duration": 32,
+      "max_stack_size": 1,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "using_converts_to": "bowl",
+        "is_meat": false
+      }
+    },
+    "wheat_seeds" : {
+      "seed": {
+        "crop_result": "wheat", // wheatCrops
+        "plant_at": "farmland"
+      }
+    },
+    "pumpkin_seeds": {
+      "seed": {
+        "crop_result": "pumpkin_stem",
+        "plant_at": "farmland"
+      }
+    },
+    "melon_seeds" : {
+
+      "seed": {
+        "crop_result": "melon_stem",
+        "plant_at": "farmland"
+      }
+    },
+    "nether_wart" : {
+
+      "seed": {
+        "crop_result": "nether_wart",
+        "plant_at": "soul_sand"
+      }
+    },
+    "beetroot_seeds" : {
+      "seed": {
+        "crop_result": "beetroot",
+        "plant_at": "farmland"
+      }
+    },
+    "suspiciousstewmod_dandelion": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "is_meat": false,
+        "using_converts_to": "bowl",
+        "effects": [
+          {
+            "name": "saturation",
+            "chance": 1.0,
+            "duration": 1,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "suspiciousstewmod_poppy": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "is_meat": false,
+        "using_converts_to": "bowl",
+        "effects": [
+          {
+            "name": "night_vision",
+            "chance": 1.0,
+            "duration": 4,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "suspiciousstewmod_allium": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "is_meat": false,
+        "using_converts_to": "bowl",
+        "effects": [
+          {
+            "name": "fire_resistance",
+            "chance": 1.0,
+            "duration": 2,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "suspiciousstewmod_azure_bluet": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "is_meat": false,
+        "using_converts_to": "bowl",
+        "effects": [
+          {
+            "name": "blindness",
+            "chance": 1.0,
+            "duration": 6,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "suspiciousstewmod_blue_orchid": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "is_meat": false,
+        "using_converts_to": "bowl",
+        "effects": [
+          {
+            "name": "saturation",
+            "chance": 1.0,
+            "duration": 1,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "suspiciousstewmod_oxeye_daisy": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "is_meat": false,
+        "using_converts_to": "bowl",
+        "effects": [
+          {
+            "name": "regeneration",
+            "chance": 1.0,
+            "duration": 6,
+            "amplifier": 0
+          }
+        ]
+      }
+    },
+    "suspiciousstewmod_tulips": {
+      "use_duration": 32,
+
+      "food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "is_meat": false,
+        "using_converts_to": "bowl",
+        "effects": [
+          {
+            "name": "weakness",
+            "chance": 1.0,
+            "duration": 7,
+            "amplifier": 0
+          }
+        ]
+      }
+    }
+  }
+}

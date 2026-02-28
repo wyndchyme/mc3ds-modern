@@ -13,6 +13,7 @@ local CTRCCfolder = mainFolder:newFolder("CrafTRCheatConsole")
 local gamemodesFolder = CTRCCfolder:newFolder("Gamemodes")
 
 disableMobCap = false
+particlePatch = true
 
 function writeScale(scale)
 	-- thanks Cracko
@@ -273,10 +274,39 @@ cheatFolder:newEntry("Change Max Health", function ()
 		Core.Menu.showMessageBox("First enter a world!")
 	end
 end)
+cheatFolder:newEntry("Set Health", function ()
+    if Game.World.Loaded then
+		player.CurrentHP = Keyboard.getNumber("Health:")
+		Core.Menu.showMessageBox("Set health!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+cheatFolder:newEntry("Change Max Hunger", function ()
+    if Game.World.Loaded then
+			local newmaxhealth = math.max(1,Keyboard.getNumber("Max Hunger:")) --please dont give yourself negative health
+			player.MaxHunger = newmaxhealth
+			if newmaxhealth == 20 then
+				Core.Menu.showMessageBox("Set max hunger to default!")
+			else
+				Core.Menu.showMessageBox("Set max hunger to "..newmaxhealth)
+			end
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+cheatFolder:newEntry("Set Hunger", function ()
+    if Game.World.Loaded then
+		player.CurrentHunger = Keyboard.getNumber("Hunger:")
+		Core.Menu.showMessageBox("Set hunger!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
 cheatFolder:newEntry("Full Heal", function ()
     if Game.World.Loaded then
 		player.CurrentHP = player.MaxHP
-		player.CurrentHunger = 20
+		player.CurrentHunger = player.MaxHunger
 		Core.Menu.showMessageBox("Player fully healed!")
 	else
 		Core.Menu.showMessageBox("First enter a world!")
@@ -673,6 +703,19 @@ worldFolder:newEntry("Change Gravity", function ()
 		Core.Menu.showMessageBox("First enter a world!")
 	end
 end)
+worldFolder:newEntry("Enhanced Particles (Cracko298)", function ()
+    if Game.World.Loaded then
+        particlePatch = not particlePatch
+        if particlePatch then
+            Core.Menu.showMessageBox("Particle patch enabled!")
+        else
+            Core.Menu.showMessageBox("Particle patch disabled!")
+        end
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+
 
 Game.World.OnWorldJoin:Connect(function ()
 	fovFile = Core.Filesystem.open("sdmc:/Minecraft 3DS/mods/CrafTRCheatConsole/fov.txt", "r")
@@ -694,6 +737,9 @@ Game.World.OnWorldJoin:Connect(function ()
                     Core.Memory.writeU32(0xA338B8, 0x00)
                     Core.Memory.writeU32(0xA338BC, 0x00)
                     Core.Memory.writeU32(0xA338C0, 0x00)
+                end
+                if particlePatch == true then
+                    Core.Memory.writeU8(0x14A4F, 0xE2)
                 end
              end
         end)
