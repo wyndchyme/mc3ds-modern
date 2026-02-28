@@ -1,0 +1,200 @@
+{
+  "items": {
+    "apple": {
+      "icon": "apple",
+      "category": "Miscellaneous",
+      "use_animation": "eat"
+    },
+    "golden_apple": {
+      "icon": "apple_golden",
+      "category": "Miscellaneous",
+      "use_animation": "eat",
+      "hover_text_color": "aqua"
+    },
+    "appleEnchanted": {
+      "icon": "apple_golden",
+      "category": "Miscellaneous",
+      "use_animation": "eat",
+      "hover_text_color": "light_purple"
+    },
+    "mushroom_stew": {
+      "icon": "mushroom_stew",
+      "category": "Miscellaneous",
+      "use_animation": "eat"
+    },
+    "bread": {
+      "icon": "bread",
+      "category": "Miscellaneous",
+      "use_animation": "eat"
+    },
+    "porkchop": {
+      "icon": "porkchop_raw",
+      "use_animation": "eat"
+    },
+    "cooked_porkchop": {
+      "icon": "porkchop_cooked",
+      "category": "Miscellaneous",
+      "use_animation": "eat"
+    },
+    "fish": {
+      "icon": "fish",
+      "use_animation": "eat"
+    },
+    "salmon": {
+      "icon": "salmon",
+      "use_animation": "eat"
+    },
+    "clownfish": {
+      "icon": "clownfish",
+      "use_animation": "eat"
+    },
+    "pufferfish": {
+      "icon": "pufferfish",
+      "use_animation": "eat"
+    },
+    "cooked_fish": {
+      "icon": "cooked_fish",
+      "use_animation": "eat"
+    },
+    "cooked_salmon": {
+      "icon": "cooked_salmon",
+      "use_animation": "eat"
+    },
+    "cookie": {
+      "icon": "cookie",
+      "use_animation": "eat"
+    },
+    "melon": {
+      "icon": "melon",
+      "use_animation": "eat"
+    },
+    "beef": {
+      "icon": "beef_raw",
+      "use_animation": "eat"
+    },
+    "cooked_beef": {
+      "icon": "beef_cooked",
+      "use_animation": "eat"
+    },
+    "chicken": {
+      "icon": "chicken_raw",
+      "use_animation": "eat"
+    },
+    "cooked_chicken": {
+      "icon": "chicken_cooked",
+      "use_animation": "eat"
+    },
+    "muttonRaw": {
+      "icon": "mutton_raw",
+      "use_animation": "eat"
+    },
+    "muttonCooked": {
+      "icon": "mutton_cooked",
+      "use_animation": "eat"
+    },
+    "rotten_flesh": {
+      "icon": "rotten_flesh",
+      "use_animation": "eat"
+    },
+    "spider_eye": {
+      "icon": "spider_eye",
+      "use_animation": "eat"
+    },
+    "carrot": {
+      "icon": "carrot",
+      "use_animation": "eat"
+    },
+    "potato": {
+      "icon": "potato",
+      "use_animation": "eat"
+    },
+    "baked_potato": {
+      "icon": "potato_baked",
+      "use_animation": "eat"
+    },
+    "poisonous_potato": {
+      "icon": "potato_poisonous",
+      "use_animation": "eat"
+    },
+    "golden_carrot": {
+      "icon": "carrot_golden",
+      "category": "Miscellaneous",
+      "use_animation": "eat"
+    },
+    "pumpkin_pie": {
+      "icon": "pumpkin_pie",
+      "use_animation": "eat"
+    },
+    "rabbit": {
+      "icon": "rabbit",
+      "category": "Miscellaneous",
+      "use_animation": "eat"
+    },
+    "cooked_rabbit": {
+      "icon": "rabbit_cooked",
+      "category": "Miscellaneous",
+      "use_animation": "eat"
+    },
+    "rabbit_stew": {
+      "icon": "rabbit_stew",
+      "category": "Miscellaneous",
+      "use_animation": "eat"
+    },
+    "beetroot": {
+      "icon": "beetroot",
+      "use_animation": "eat"
+    },
+    "beetroot_soup": {
+      "icon": "beetroot_soup",
+      "use_animation": "eat"
+    },
+    "wheat_seeds": {
+      "icon": "seeds_wheat",
+      "category": "Miscellaneous"
+    },
+    "pumpkin_seeds": {
+      "icon": "seeds_pumpkin",
+      "category": "Miscellaneous"
+    },
+    "melon_seeds": {
+      "icon": "seeds_melon",
+      "category": "Miscellaneous"
+    },
+    "nether_wart": {
+      "icon": "nether_wart",
+      "category": "Miscellaneous"
+    },
+    "beetroot_seeds": {
+      "icon": "seeds_beetroot",
+      "category": "Miscellaneous"
+    },
+    "suspiciousstewmod_dandelion": {
+      "icon": "suspiciousstew",
+      "use_animation": "eat"
+    },
+    "suspiciousstewmod_poppy": {
+      "icon": "suspiciousstew",
+      "use_animation": "eat"
+    },
+    "suspiciousstewmod_blue_orchid": {
+      "icon": "suspiciousstew",
+      "use_animation": "eat"
+    },
+    "suspiciousstewmod_allium": {
+      "icon": "suspiciousstew",
+      "use_animation": "eat"
+    },
+    "suspiciousstewmod_azure_bluet": {
+      "icon": "suspiciousstew",
+      "use_animation": "eat"
+    },
+    "suspiciousstewmod_tulips": {
+      "icon": "suspiciousstew",
+      "use_animation": "eat"
+    },
+    "suspiciousstewmod_oxeye_daisy": {
+      "icon": "suspiciousstew",
+      "use_animation": "eat"
+    }
+  }
+}
