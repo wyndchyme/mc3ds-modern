@@ -14,6 +14,7 @@ local gamemodesFolder = CTRCCfolder:newFolder("Gamemodes")
 
 disableMobCap = false
 particlePatch = true
+noAutoSaves = false
 
 function writeScale(scale)
 	-- thanks Cracko
@@ -433,6 +434,18 @@ worldFolder:newEntry("Enhanced Particles (Cracko298)", function ()
 		Core.Menu.showMessageBox("First enter a world!")
 	end
 end)
+worldFolder:newEntry("Disable Autosaves", function ()
+    if Game.World.Loaded then
+        noAutoSaves = not noAutoSaves
+        if noAutoSaves then
+            Core.Menu.showMessageBox("Autosaves disabled!")
+        else
+            Core.Menu.showMessageBox("Autosaves enabled!")
+        end
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
 
 
 Game.World.OnWorldJoin:Connect(function ()
@@ -458,6 +471,10 @@ Game.World.OnWorldJoin:Connect(function ()
                 end
                 if particlePatch == true then
                     Core.Memory.writeU8(0x14A4F, 0xE2)
+                end
+                if noAutoSaves == true then
+					-- thank you rai :3
+                    Core.Memory.writeU32(0x341E873C, 0x43F3CD6B)
                 end
              end
         end)
