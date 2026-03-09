@@ -14,6 +14,7 @@ local DANDELION_STEW = testModReg:registerItem("dandelion", 253, {
         ru_RU = "Suspicious Stew"
     }
 })
+DANDELION_STEW.StackSize = 1
 local POPPY_STEW = testModReg:registerItem("poppy", 252, {
     texture = "items/suspiciousstew.3dst", 
     locales = {
@@ -22,6 +23,7 @@ local POPPY_STEW = testModReg:registerItem("poppy", 252, {
         ru_RU = "Suspicious Stew"
     }
 })
+POPPY_STEW.StackSize = 1
 local BLUE_ORCHID_STEW = testModReg:registerItem("blue_orchid", 251, {
     texture = "items/suspiciousstew.3dst", 
     locales = {
@@ -30,6 +32,7 @@ local BLUE_ORCHID_STEW = testModReg:registerItem("blue_orchid", 251, {
         ru_RU = "Suspicious Stew"
     }
 })
+BLUE_ORCHID_STEW.StackSize = 1
 local ALLIUM_STEW = testModReg:registerItem("allium", 250, {
     texture = "items/suspiciousstew.3dst", 
     locales = {
@@ -38,6 +41,7 @@ local ALLIUM_STEW = testModReg:registerItem("allium", 250, {
         ru_RU = "Suspicious Stew"
     }
 })
+ALLIUM_STEW.StackSize = 1
 local AZURE_BLUET_STEW = testModReg:registerItem("azure_bluet", 249, {
     texture = "items/suspiciousstew.3dst", 
     locales = {
@@ -46,6 +50,7 @@ local AZURE_BLUET_STEW = testModReg:registerItem("azure_bluet", 249, {
         ru_RU = "Suspicious Stew"
     }
 })
+AZURE_BLUET_STEW.StackSize = 1
 local TULIPS_STEW = testModReg:registerItem("tulips", 248, {
     texture = "items/suspiciousstew.3dst", 
     locales = {
@@ -54,6 +59,7 @@ local TULIPS_STEW = testModReg:registerItem("tulips", 248, {
         ru_RU = "Suspicious Stew"
     }
 })
+TULIPS_STEW.StackSize = 1
 local OXEYE_DAISY_STEW = testModReg:registerItem("oxeye_daisy", 247, {
     texture = "items/suspiciousstew.3dst", 
     locales = {
@@ -62,6 +68,7 @@ local OXEYE_DAISY_STEW = testModReg:registerItem("oxeye_daisy", 247, {
         ru_RU = "Suspicious Stew"
     }
 })
+OXEYE_DAISY_STEW.StackSize = 1
 
 CoreAPI.ItemGroups.registerEntries(CoreAPI.ItemGroups.FOOD_MINERALS, function (entries)
     entries:add(DANDELION_STEW)

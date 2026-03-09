@@ -87,15 +87,8 @@ itemsFolder:newEntry("Give Item (overwrites hand slot)", function ()
 			return
 		end
 		itemData = Keyboard.getNumber("Data (optional):")
-		if itemData ~= nil then
-			player.Inventory.Slots["hand"].Item = tryItem
-			player.Inventory.Slots["hand"].ItemCount = itemCount
-			player.Inventory.Slots["hand"].ItemData = itemData
-		else
-			player.Inventory.Slots["hand"].Item = tryItem
-			player.Inventory.Slots["hand"].ItemCount = itemCount
-			player.Inventory.Slots["hand"].ItemData = 0
-		end
+		player.Inventory.Slots["hand"]:setItem(tryItem, itemData or 0)
+        player.Inventory.Slots["hand"].ItemCount = itemCount
 		Core.Menu.showMessageBox("Item given\n(may need relog to render properly)")
 	else
 		Core.Menu.showMessageBox("First enter a world!")
@@ -135,15 +128,8 @@ itemsFolder:newEntry("Give Item (numerical ID, best for blocks)", function ()
 			return
 		end
 		itemData = Keyboard.getNumber("Data (optional):")
-		if itemData ~= nil then
-			player.Inventory.Slots["hand"].Item = tryItem
-			player.Inventory.Slots["hand"].ItemCount = itemCount
-			player.Inventory.Slots["hand"].ItemData = itemData
-		else
-			player.Inventory.Slots["hand"].Item = tryItem
-			player.Inventory.Slots["hand"].ItemCount = itemCount
-			player.Inventory.Slots["hand"].ItemData = 0
-		end
+		player.Inventory.Slots["hand"]:setItem(tryItem, itemData or 0)
+        player.Inventory.Slots["hand"].ItemCount = itemCount
 		Core.Menu.showMessageBox("Item given\n(may need relog to render properly)")
 	else
 		Core.Menu.showMessageBox("First enter a world!")
