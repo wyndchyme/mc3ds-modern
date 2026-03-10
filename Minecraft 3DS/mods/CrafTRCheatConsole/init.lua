@@ -152,34 +152,6 @@ itemsFolder:newEntry("Swap held item to head (DELETES HELMETS)", function ()
 		Core.Menu.showMessageBox("First enter a world!")
 	end
 end)
-local weatherFolder = CTRCCfolder:newFolder("Weather")
-weatherFolder:newEntry("Clear All Weather", function ()
-    if Game.World.Loaded then
-		Game.World.Raining = false
-		Game.World.Thunderstorm = false
-		Core.Menu.showMessageBox("Weather cleared!")
-	else
-		Core.Menu.showMessageBox("First enter a world!")
-	end
-end)
-weatherFolder:newEntry("Set Weather to Rain", function ()
-    if Game.World.Loaded then
-		Game.World.Raining = true
-		Game.World.Thunderstorm = false
-		Core.Menu.showMessageBox("Weather set to rain!")
-	else
-		Core.Menu.showMessageBox("First enter a world!")
-	end
-end)
-weatherFolder:newEntry("Set Weather to Thunder", function ()
-    if Game.World.Loaded then
-		Game.World.Raining = true
-		Game.World.Thunderstorm = true
-		Core.Menu.showMessageBox("Weather set to thunder!")
-	else
-		Core.Menu.showMessageBox("First enter a world!")
-	end
-end)
 CTRCCfolder:newEntry("FOV Adjust", function ()
     if Game.World.Loaded then
 		player.Camera.FOV = Keyboard.getNumber("FOV:")
@@ -428,6 +400,39 @@ worldFolder:newEntry("Disable Autosaves", function ()
         else
             Core.Menu.showMessageBox("Autosaves enabled!")
         end
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+local weatherFolder = worldFolder:newFolder("Weather")
+weatherFolder:newEntry("Clear All Weather", function ()
+    if Game.World.Loaded then
+		Game.World.Weather = Enums.WeatherType.Clear
+		Core.Menu.showMessageBox("Weather cleared!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+weatherFolder:newEntry("Set Weather to Rain", function ()
+    if Game.World.Loaded then
+		Game.World.Weather = Enums.WeatherType.Rain
+		Core.Menu.showMessageBox("Weather set to rain!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+weatherFolder:newEntry("Set Weather to Thunder", function ()
+    if Game.World.Loaded then
+		Game.World.Weather = Enums.WeatherType.Thunder
+		Core.Menu.showMessageBox("Weather set to thunder!")
+	else
+		Core.Menu.showMessageBox("First enter a world!")
+	end
+end)
+weatherFolder:newEntry("Set Weather to Rain+Thunder", function ()
+    if Game.World.Loaded then
+		Game.World.Weather = Enums.WeatherType.RainThunder
+		Core.Menu.showMessageBox("Weather set to rain and thunder!")
 	else
 		Core.Menu.showMessageBox("First enter a world!")
 	end

@@ -41,7 +41,7 @@ Game.World.OnWorldJoin:Connect(function ()
                 if gamepad.isDown(gamepad.KeyCodes.L) then
                     local playerHand = player.Inventory.Slots["hand"]
                     local playerChest = player.Inventory.ArmorSlots["chestplate"]
-                    if not playerHand:isEmpty() and playerHand.Item == fwItem and playerChest.Item == elytraItem and not player.OnGround then
+                    if not playerHand:isEmpty() and playerHand.Item == fwItem and player.getState("This text is here as a temporary solution to a LunaCore issue!", "Don't look directly at the bugs!", "ElytraFly") then
                         local elyDir = angToVec(Game.LocalPlayer.Camera.Pitch, Game.LocalPlayer.Camera.Yaw)
                         Game.LocalPlayer.Velocity.set(elyDir.x, elyDir.y, elyDir.z)
                         if player.Gamemode ~= 1 then
