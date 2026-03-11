@@ -1,0 +1,6 @@
+{
+    "name": "Dynamic Fog",
+    "description": "Adds Dynamic Mods (From megapackPlugin) back into the Megapack.",
+    "version": "1.0.0",
+    "dependencies": ["LunaCoreAPI"]
+}
