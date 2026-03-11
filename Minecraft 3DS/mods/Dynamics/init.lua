@@ -12,7 +12,7 @@ end
 ---------------------------------------------------------
 local function runDynamicClouds()
     Async.run(function()
-        local timerCount = 980 -- adjusted the timer for both because of Async
+        local timerCount = 1020 -- adjusted the timer for both because of Async
         local timer = 0
         local heightRate = 0.0035
         local thicknessRate = 0.0035
@@ -127,7 +127,6 @@ local function runDynamicFog()
                 end
             end
             
-            -- Set wait timer to 0.02 as requested
             Async.wait(0.02)
         end
     end)
