@@ -92,7 +92,7 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>CrafTR Cheat Console</td>
             <td>Damienne</td>
             <td>Allows switching game modes, changing weather, and item manipulation</td>
-            <td>&#10003;</td>
+            <td>Made for this pack</td>
             <td>N/A</td>
         </tr>
         <tr>
