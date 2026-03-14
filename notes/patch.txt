@@ -1,6 +1,8 @@
 Modernization MegaPack 3.2.0 "Lanquorwine"| #db3535
 | h22
-- Added Suspicious Stew and Firework Rockets| h26
+- Added Suspicious Stew for all available flowers| h26
+- Added Firework Rockets for elytra boosting| h26
+- Added Dynamic Fog and Clouds, thanks to Cracko298| h26
 - CrafTR Cheat Console moved to LunaCore menu, and many new features added| h26
 - Added Creative Mode pickblock, thanks to STBUniverse| h26
 - Updated Zexlo's swimming script for more accurate sprint swimming| h26
