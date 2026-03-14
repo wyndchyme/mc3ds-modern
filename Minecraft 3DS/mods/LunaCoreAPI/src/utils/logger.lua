@@ -35,4 +35,10 @@ function logger:error(msg)
     Core.Debug.log(out, false)
 end
 
+function logger:deprecated(msg)
+    local out = "[WARN] "
+    out = out .. "(" .. self._idname .. ") Deprecation: " .. msg
+    Core.Debug.log(out, false)
+end
+
 return logger

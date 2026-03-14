@@ -9,7 +9,7 @@ local function readString(f, pos)
     while f:byte(pos + idx) ~= 0 do
         idx = idx + 1
     end
-    return f:sub(pos, pos + idx)
+    return f:sub(pos, pos + idx - 1)
 end
 
 ---@class UVsRebuilder
@@ -93,16 +93,20 @@ function uvs_builder.dumpFile(file, uvsDataTbl)
         return
     end
     local keys = {}
+    local stringKeys = {}
     for key, _ in pairs(uvsDataTbl) do
         if type(key) == "number" then
             table.insert(keys, key)
         elseif type(key) == "string" then
             local hash = CoreAPI.Utils.String.hash(key)
-            uvsDataTbl[hash] = uvsDataTbl[key]
+            stringKeys[hash] = uvsDataTbl[key]
             table.insert(keys, hash)
         end
     end
     table.sort(keys)
+    for key, v in pairs(stringKeys) do
+        uvsDataTbl[key] = v
+    end
 
     local indexLength = #keys
     local uvsDataLength = 0

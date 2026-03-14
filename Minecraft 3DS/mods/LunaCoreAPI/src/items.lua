@@ -7,57 +7,17 @@ local function containsInvalidChars(s)
     if string.find(s, "[^%w_]") then return true else return false end
 end
 
---- Backwards compatibility with 0.12.0
-local OnGameRegisterCreativeItems = Game.Items.OnRegisterCreativeItems or Game.Event.OnGameCreativeItemsRegister
-local OnGameRegisterItems = Game.Items.OnRegisterItems or Game.Event.OnGameItemsRegister
-local OnGameRegisterItemsTextures = Game.Items.OnRegisterItemsTextures or Game.Event.OnGameItemsRegisterTexture
+local OnGameRegisterCreativeItems = Game.Items.OnRegisterCreativeItems
+local OnGameRegisterItems = Game.Items.OnRegisterItems
+local OnGameRegisterItemsTextures = Game.Items.OnRegisterItemsTextures
 
----API Utility class for items. Allows to store info about an item that may or may not
----be registered yet
----@class ItemInstance
-local ItemInstance = CoreAPI.Utils.Classic:extend()
-
----@param id string|number
-function ItemInstance:new(id)
-    if type(id) == "string" or type(id) == "number" then
-        self._id = id
-    end
-    self._item = nil
-end
-
-function ItemInstance:_try_get_item()
-    if type(self._id) == "number" then
-        ---@diagnostic disable-next-line: param-type-mismatch
-        self._item = Game.Items.findItemByID(self._id)
-    elseif type(self._id) == "string" then
-        ---@diagnostic disable-next-line: param-type-mismatch
-        self._item = CoreAPI.Items.getItem(self._id)
-    end
-end
-
----@return GameItem?
-function ItemInstance:getItem()
-    if self._item ~= nil then
-        self:_try_get_item()
-    end
-    return self._item
-end
-
----@return integer?
-function ItemInstance:getID()
-    if self:getItem() then
-        return self._item.ID
-    end
-    return nil
-end
-
-CoreAPI.Items.ItemInstance = ItemInstance
+local ItemPlaceholder = CoreAPI.ItemPlaceholder
 
 ---Returns an ItemInstance that can be used when the target item is not registered yet
 ---@param itemid string|number
----@return ItemInstance
-function CoreAPI.Items.newItemInstance(itemid)
-    return ItemInstance(itemid)
+---@return LCAPI_ItemPlaceholder
+function CoreAPI.Items.newItemPlaceholder(itemid)
+    return ItemPlaceholder(itemid)
 end
 
 ---@type ItemRegistry
