@@ -7,10 +7,6 @@ local fovSliderEnabled = true
 local lastSlider = nil
 local lastAppliedFov = nil
 
---------------------------------------------------
--- PATHS
---------------------------------------------------
-
 local function getConfigPaths()
     local modPath = Core.getModpath(MODNAME)
     if modPath == nil then
@@ -39,10 +35,6 @@ local function ensureConfigDir()
 
     return true
 end
-
---------------------------------------------------
--- CONFIG
---------------------------------------------------
 
 local function saveFovSliderSetting()
     local _, configFile = getConfigPaths()
@@ -112,10 +104,6 @@ local function loadFovSliderSetting()
     Core.Debug.log("[FOV] Loaded slider setting: " .. tostring(fovSliderEnabled))
 end
 
---------------------------------------------------
--- FOV HELPERS
---------------------------------------------------
-
 local function clamp(v, minv, maxv)
     if v < minv then return minv end
     if v > maxv then return maxv end
@@ -154,10 +142,6 @@ local function applySliderFovIfNeeded()
     end
 end
 
---------------------------------------------------
--- MENU ACTIONS
---------------------------------------------------
-
 local function showFovSliderStatus()
     Core.Menu.showMessageBox(
         "3D Slider FOV is currently " .. (fovSliderEnabled and "ENABLED" or "DISABLED")
@@ -189,10 +173,6 @@ local function toggleFovSlider()
         "3D Slider FOV " .. (fovSliderEnabled and "enabled." or "disabled.")
     )
 end
-
---------------------------------------------------
--- INIT
---------------------------------------------------
 
 loadFovSliderSetting()
 
