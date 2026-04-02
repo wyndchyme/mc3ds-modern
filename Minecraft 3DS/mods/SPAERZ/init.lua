@@ -286,6 +286,15 @@ local function applyHeldSpearDamage(damageValue)
     return true
 end
 
+local function getVelocityMagnitudeHorizontal()
+    local vx, vy, vz = Game.LocalPlayer.Velocity.get()
+    vx = vx or 0.0
+    vy = vy or 0.0
+    vz = vz or 0.0
+
+    return math.sqrt((vx * vx) + (vz * vz)), vx, vy, vz
+end
+
 local function getVelocityMagnitudeAllDirections()
     local vx, vy, vz = Game.LocalPlayer.Velocity.get()
     vx = vx or 0.0
@@ -313,7 +322,7 @@ local function performDash()
     end
 
     local dashMultiplier, dashCooldown = getDashSettings()
-    local mag, vx, vy, vz = getVelocityMagnitudeAllDirections()
+    local mag, vx, vy, vz = getVelocityMagnitudeHorizontal()
 
     if mag < 0.01 then
         local yaw = Game.LocalPlayer.Camera.Yaw or 0.0
@@ -323,11 +332,7 @@ local function performDash()
         vy = 0.0
     end
 
-    Game.LocalPlayer.Velocity.set(
-        vx * dashMultiplier,
-        vy * dashMultiplier,
-        vz * dashMultiplier
-    )
+    Game.LocalPlayer.Velocity.set(vx * dashMultiplier, vy, vz * dashMultiplier)
 
     SPEAR_RUNTIME.dashActive = true
     SPEAR_RUNTIME.dashEndTime = now + SPEAR_RUNTIME.dashDuration
