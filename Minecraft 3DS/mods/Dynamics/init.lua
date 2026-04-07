@@ -119,6 +119,7 @@ local function runDynamicFog()
                             Core.Debug.message("Danger: Severe-Fog Density.")
                         else
                             Core.Debug.message("Danger: Extreme-Fog Inbound.")
+                        end
                     else
                         timer = 0
                     end
