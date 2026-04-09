@@ -103,6 +103,13 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>N/A</td>
         </tr>
         <tr>
+            <td>FOVSlider</td>
+            <td>Cracko298</td>
+            <td>The 3D-Slider now updates the FOV in real-time.</td>
+            <td>&#10003;</td>
+            <td>1.0.1</td>
+        </tr>
+        <tr>
             <td>Let's Update Mob Models</td>
             <td>STBrian</td>
             <td>Changes the appearances of villagers, bats, and zombified piglins for parity with their updated looks.</td>
@@ -159,6 +166,13 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>1</td>
         </tr>
         <tr>
+            <td>SPAERZ</td>
+            <td>Cracko298</td>
+            <td>Adds the Spear Weapon Type(s) into Minecraft 3DS Edition.</td>
+            <td>&#10003;</td>
+            <td>1.8.4</td>
+        </tr>
+        <tr>
             <td>New Comparison Art</td>
             <td>wyndchyme</td>
             <td>Adds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.</td>
@@ -192,6 +206,13 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.</td>
             <td>Made for this pack</td>
             <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Dynamic(s)</td>
+            <td>Cracko298</td>
+            <td>Adds Dynamic Foggy Weather, and Dynamic Cloud Height(s).</td>
+            <td>Ported from megapackPlugin</td>
+            <td>1.0.X</td>
         </tr>
     </tbody>
 </table>
