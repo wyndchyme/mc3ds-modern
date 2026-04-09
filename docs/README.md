@@ -107,7 +107,7 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>Cracko298</td>
             <td>The 3D-Slider now updates the FOV in real-time.</td>
             <td>&#10003;</td>
-            <td>N/A</td>
+            <td>1.0.1</td>
         </tr>
         <tr>
             <td>Let's Update Mob Models</td>
@@ -170,7 +170,7 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>Cracko298</td>
             <td>Adds the Spear Weapon Type(s) into Minecraft 3DS Edition.</td>
             <td>&#10003;</td>
-            <td>N/A</td>
+            <td>1.8.4</td>
         </tr>
         <tr>
             <td>New Comparison Art</td>
@@ -212,7 +212,7 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>Cracko298</td>
             <td>Adds Dynamic Foggy Weather, and Dynamic Cloud Height(s).</td>
             <td>Ported from megapackPlugin</td>
-            <td>N/A</td>
+            <td>1.0.X</td>
         </tr>
     </tbody>
 </table>
