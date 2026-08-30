@@ -79,7 +79,7 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>wyndchyme</td>
             <td>Emulates the look of Classic Minecraft. Overwrites Candy texture pack.</td>
             <td>Made for this pack</td>
-            <td>1.0.5</td>
+            <td>1.0.6</td>
         </tr>
         <tr>
             <td>Cleann'slick GUI</td>
@@ -101,6 +101,13 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>Adjusts the credits and End Poem text files and replaces certain text strings in-game for better compatibility with replacement fonts.</td>
             <td>Made for this pack</td>
             <td>N/A</td>
+        </tr>
+        <tr>
+            <td>FOVSlider</td>
+            <td>Cracko298</td>
+            <td>Allows FOV adjustment via the 3D slider.</td>
+            <td>&#10003;</td>
+            <td>1.0.1</td>
         </tr>
         <tr>
             <td>Let's Update Mob Models</td>
@@ -152,11 +159,25 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>1.0.1</td>
         </tr>
         <tr>
+            <td>MODLIST</td>
+            <td>Cracko298</td>
+            <td>Lists all the installed LunaCore mods.</td>
+            <td>Made for this pack</td>
+            <td>1.0.0</td>
+        </tr>
+        <tr>
             <td>New Base Skins</td>
             <td>TheRustico36</td>
             <td>Adds the new looks of Steve and Alex introduced in Java Edition 1.19.3.</td>
             <td>&#10007;</td>
             <td>1</td>
+        </tr>
+        <tr>
+            <td>SPAERZ</td>
+            <td>Cracko298</td>
+            <td>Backports the spear weapon type.</td>
+            <td>&#10003;</td>
+            <td>1.8.4</td>
         </tr>
         <tr>
             <td>New Comparison Art</td>
@@ -187,11 +208,25 @@ __This pack comes with a CTRPF plugin. Please ensure you read the [requirements.
             <td>N/A</td>
         </tr>
         <tr>
+            <td>HMR</td>
+            <td>Cracko298</td>
+            <td>Backports the mace.</td>
+            <td>Made for this pack</td>
+            <td>1.0.0</td>
+        </tr>
+        <tr>
             <td>Swappable Fonts</td>
             <td>wyndchyme</td>
             <td>Allows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.</td>
             <td>Made for this pack</td>
             <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Dynamic(s)</td>
+            <td>Cracko298</td>
+            <td>Adds dynamic foggy weather and cloud heights.</td>
+            <td>Ported from megapackPlugin</td>
+            <td>1.0.X</td>
         </tr>
     </tbody>
 </table>

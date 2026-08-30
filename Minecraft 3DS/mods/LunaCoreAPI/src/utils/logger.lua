@@ -17,6 +17,12 @@ function logger.newLogger(idname)
     end
 end
 
+function logger:message(msg)
+    local out = "[INFO] "
+    out = out .. "(" .. self._idname .. ") " .. msg
+    Core.Debug.log(out, true)
+end
+
 function logger:info(msg)
     local out = "[INFO] "
     out = out .. "(" .. self._idname .. ") " .. msg
@@ -32,6 +38,12 @@ end
 function logger:error(msg)
     local out = "[ERROR] "
     out = out .. "(" .. self._idname .. ") " .. msg
+    Core.Debug.log(out, false)
+end
+
+function logger:deprecated(msg)
+    local out = "[WARN] "
+    out = out .. "(" .. self._idname .. ") Deprecation: " .. msg
     Core.Debug.log(out, false)
 end
 

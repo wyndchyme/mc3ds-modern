@@ -1,0 +1,6 @@
+{
+    "name": "MODLIST",
+    "description": "Lists the Installed LunaCore Mods.",
+    "version": "1.0.0",
+    "dependencies": ["LunaCoreAPI"]
+}

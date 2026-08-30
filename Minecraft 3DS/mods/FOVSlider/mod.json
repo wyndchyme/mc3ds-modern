@@ -1,0 +1,6 @@
+{
+    "name": "FOVSlider",
+    "description": "Makes the FOV Adapt to the 3D-Slider on the 3DS.",
+    "version": "1.0.0",
+    "dependencies": ["LunaCoreAPI"]
+}

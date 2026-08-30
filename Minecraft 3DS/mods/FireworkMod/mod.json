@@ -1,0 +1,6 @@
+{
+    "name": "FireworkMod",
+    "description": "A basic mod that adds firework elytra boosting!",
+    "version": "0.1.0",
+    "dependencies": ["LunaCoreAPI"]
+}

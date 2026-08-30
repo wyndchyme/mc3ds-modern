@@ -14,7 +14,7 @@ Aquatic Swimming| #b88d39
 MegaPack Game Configurations| #b88d39
 MegaPack Plugin| #b88d39
 | h20
-Damienne
+Damienne| #b88d39
 | h20
 CrafTR Cheat Console| #b88d39
 | h20

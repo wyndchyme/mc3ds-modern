@@ -4,7 +4,7 @@ local bit = CoreAPI.Utils.Bitop
 ---@class AtlasHandler
 local atlasHandler = CoreAPI.Utils.Classic:extend()
 
-local function calculateLinearPosition(x, y, w, h)
+local function calculateLinearPosition(x, y, w)
     return (bit.lshift(bit.rshift(y, 3) * bit.rshift(w, 3) + bit.rshift(x, 3), 6) +
         (bit.bor(bit.bor(bit.bor(bit.bor(bit.bor(bit.band(x, 1), bit.lshift(bit.band(y, 1), 1)), bit.lshift(bit.band(x, 2), 1)), bit.lshift(bit.band(y, 2), 2)), bit.lshift(bit.band(x, 4), 2)), bit.lshift(bit.band(y, 4), 3))))
 end
@@ -73,9 +73,9 @@ function atlasHandler:pasteTexture(textureData, ax, ay)
     local dataStart = 32
     for y = 0, th - 1 do
         for x = 0, tw - 1 do
-            local apos = calculateLinearPosition(ax + x, (ay + y - (self.full_h - 1)) * -1, self.full_w, self.full_h)
+            local apos = calculateLinearPosition(ax + x, (ay + y - (self.full_h - 1)) * -1, self.full_w)
             local apixelPos = dataStart + apos * 4
-            local tpos = calculateLinearPosition(x, (y - (tfull_h - 1)) * -1, tfull_w, tfull_h)
+            local tpos = calculateLinearPosition(x, (y - (tfull_h - 1)) * -1, tfull_w)
             local tpixelPos = dataStart + tpos * 4
             textureData:seek(tpixelPos, "set")
             local tpixelData = textureData:read(4)

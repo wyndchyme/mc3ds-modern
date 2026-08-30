@@ -1,7 +1,23 @@
 Modernization MegaPack 3.2.0 "Lanquorwine"| #db3535
 | h22
+- Game performance has been boosted using optimized shaders, thanks to Cracko298| h26
+- Added the Mace weapon, thanks to Cracko298| h26
+- Added the spear weapon type, thanks to Cracko298| h26
+- Added Suspicious Stew for all available flowers| h26
+- Added Firework Rockets for elytra boosting| h26
+- Added Dynamic Fog and Clouds, thanks to Cracko298| h26
+- FOV can now be adjusted using the 3D slider, thanks to Cracko298| h26
+- CrafTR Cheat Console moved to LunaCore menu, and many new features added| h26
+- Added Creative Mode pickblock, thanks to STBUniverse| h26
+- Updated Zexlo's swimming script for more accurate sprint swimming| h26
+- Fixed a vanilla bug where the sides of clouds would sometimes be randomly colored| h26
+- Fixed the ladder held item using the Candy texture when using the Classic texture pack| h26
+- Player cursor on map is now 1.5x larger| h26
+- Added a mod that lists the currently installed LunaCore mods, thanks to Cracko298| h26
 - Installed MegaPack version is now displayed on the top screen in the patch notes menu, thanks to Cracko298| h26
+- Updated to LunaCore 0.15.0| h26
 - In-game credits now reflect new additions in 3.1.0 "Petrichor"| h26
+- Manual installation has been made simpler| h26
 - Fixed a typo in 3.1.0 "Petrichor" patch notes| h26
 
 Modernization MegaPack 3.1.3 "Scramble"| #fff1a1

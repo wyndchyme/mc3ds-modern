@@ -1,0 +1,6 @@
+{
+    "name": "HMR",
+    "description": "Backports the Mace Weapon into Minecraft 3DS Edition.",
+    "version": "1.3.5",
+    "dependencies": ["LunaCoreAPI"]
+}
